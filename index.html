@@ -373,7 +373,17 @@
 #home .hero.gnx-hovering .hero-art,#home .hero.gnx-hovering .gnx-hover-art{display:none!important;opacity:0!important;visibility:hidden!important}
 #home .hero .shell{position:relative;z-index:2}
 @media(max-width:900px){.gnx-sidebar .gnx-v82-sidebar-image{display:none!important}}
-</style></head><body><aside class="gnx-sidebar" aria-label="メインメニュー"><a class="gnx-sidebrand" href="#/home" aria-label="GNX ホーム"><span>GN<span class="gnx-x">X</span></span><small>GAME NEXUS</small></a><div class="gnx-side-label">NAVIGATION</div><nav class="gnx-side-nav"><a href="#/home" class="active"><span class="gnx-side-icon">⌂</span>ホーム</a><a href="#/games"><span class="gnx-side-icon">▦</span>ゲーム一覧</a><a href="#/guides"><span class="gnx-side-icon">▤</span>攻略</a><a href="#/news"><span class="gnx-side-icon">◷</span>最新情報</a><a href="#/about"><span class="gnx-side-icon">◇</span>GNXとは</a></nav><div class="gnx-side-bottom"><span class="gnx-side-rule"></span><span class="gnx-side-note">GAME NEXUS</span><small>攻略を、もっと深く。</small><small class="gnx-version">GNX / Ver.8.4</small></div></aside><div class="gnx-main-layout"><header class="topbar"><div class="shell"><a class="brand" href="#/home" aria-label="GNX ホーム">GN<span>X</span><small>GAME NEXUS</small></a><nav class="nav"><a class="active" href="#/home">ホーム</a><a href="#/games">ゲーム一覧</a><a href="#/guides">攻略</a><a href="#/news">最新情報</a><a href="#/about">GNXとは</a></nav><div class="top-actions"><button class="outline" onclick="openModal('ログイン機能は今後実装予定です')">ログイン</button><button class="solid" onclick="openModal('会員登録機能は今後実装予定です')">無料で始める</button></div></div></header>
+</style><style id="gnx-v85-default-sidebar">
+/* GNX 8.5: At rest the sidebar uses the same original image as the main hero.
+   Dedicated portrait game artwork remains in charge during card hover. */
+.gnx-sidebar::after{display:none!important;opacity:0!important}
+.gnx-sidebar .gnx-v85-default-scene{position:absolute;inset:0;z-index:0;pointer-events:none;background-repeat:no-repeat;background-position:72% center;background-size:cover;opacity:1;transition:opacity .24s ease}
+.gnx-sidebar .gnx-v85-default-scene::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(5,13,17,.92) 0%,rgba(5,13,17,.78) 28%,rgba(5,13,17,.25) 58%,rgba(5,13,17,.18) 82%,rgba(5,13,17,.62) 100%)}
+.gnx-sidebar.gnx-game-hover .gnx-v85-default-scene{opacity:0}
+.gnx-sidebar .gnx-v82-sidebar-image{z-index:1!important}
+.gnx-sidebar .gnx-sidebrand,.gnx-sidebar .gnx-side-label,.gnx-sidebar .gnx-side-nav,.gnx-sidebar .gnx-side-bottom{z-index:3!important}
+@media(max-width:900px){.gnx-sidebar .gnx-v85-default-scene{display:none}}
+</style></head><body><aside class="gnx-sidebar" aria-label="メインメニュー"><a class="gnx-sidebrand" href="#/home" aria-label="GNX ホーム"><span>GN<span class="gnx-x">X</span></span><small>GAME NEXUS</small></a><div class="gnx-side-label">NAVIGATION</div><nav class="gnx-side-nav"><a href="#/home" class="active"><span class="gnx-side-icon">⌂</span>ホーム</a><a href="#/games"><span class="gnx-side-icon">▦</span>ゲーム一覧</a><a href="#/guides"><span class="gnx-side-icon">▤</span>攻略</a><a href="#/news"><span class="gnx-side-icon">◷</span>最新情報</a><a href="#/about"><span class="gnx-side-icon">◇</span>GNXとは</a></nav><div class="gnx-side-bottom"><span class="gnx-side-rule"></span><span class="gnx-side-note">GAME NEXUS</span><small>攻略を、もっと深く。</small><small class="gnx-version">GNX / Ver.8.5</small></div></aside><div class="gnx-main-layout"><header class="topbar"><div class="shell"><a class="brand" href="#/home" aria-label="GNX ホーム">GN<span>X</span><small>GAME NEXUS</small></a><nav class="nav"><a class="active" href="#/home">ホーム</a><a href="#/games">ゲーム一覧</a><a href="#/guides">攻略</a><a href="#/news">最新情報</a><a href="#/about">GNXとは</a></nav><div class="top-actions"><button class="outline" onclick="openModal('ログイン機能は今後実装予定です')">ログイン</button><button class="solid" onclick="openModal('会員登録機能は今後実装予定です')">無料で始める</button></div></div></header>
 <main id="home">
 <section class="hero"><div class="hero-art"></div><div class="shell"><div class="eyebrow">THE NEXT LEVEL OF GAME GUIDES</div><h1>攻略の、<br/><em>その先へ。</em></h1><p class="lead">迷った瞬間から、100%コンプリートまで。<br/>「情報が足りない」をなくす、ゲーム攻略の新しい拠点。</p><form class="searchbox" onsubmit="searchGame(event)"><input aria-label="ゲームタイトルを検索" id="search" placeholder="ゲームタイトルを検索"/><button type="submit">検索する →</button></form><div class="quick"><button onclick="quickSearch('エルデンリング')">エルデンリング</button><button onclick="quickSearch('モンハン')">モンハン</button><button onclick="quickSearch('APEX')">APEX</button></div></div></section>
 
@@ -545,5 +555,22 @@ document.querySelectorAll('#gnxAreaTabs [data-area]').forEach(b=>b.addEventListe
    card.addEventListener('mouseenter',()=>show(card));card.addEventListener('focusin',()=>show(card));
    card.addEventListener('mouseleave',clear);card.addEventListener('focusout',clear);
  });
+})();
+</script><script id="gnx-v85-default-scene-script">
+(function(){
+ const sidebar=document.querySelector('.gnx-sidebar');
+ const heroArt=document.querySelector('#home .hero .hero-art');
+ if(!sidebar||!heroArt)return;
+ // Reuse the exact original hero image, not a lower-resolution thumbnail.
+ const bg=getComputedStyle(heroArt).backgroundImage;
+ const matches=Array.from(bg.matchAll(/url\((?:"([^"]+)"|'([^']+)'|([^)]*))\)/g));
+ const last=matches[matches.length-1];
+ if(!last)return;
+ const url=last[1]||last[2]||last[3];
+ const scene=document.createElement('div');
+ scene.className='gnx-v85-default-scene';
+ scene.setAttribute('aria-hidden','true');
+ scene.style.backgroundImage='url("'+url+'")';
+ sidebar.insertBefore(scene,sidebar.firstChild);
 })();
 </script></body></html>
