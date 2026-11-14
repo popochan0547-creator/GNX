@@ -540,7 +540,54 @@
 #home .hero.gnx-hovering .gnx-v82-main-image{opacity:1!important}
 #home .hero.gnx-hovering .hero-art{opacity:0!important;display:block!important;visibility:visible!important}
 #home .hero .shell{position:relative;z-index:2}
-</style></head><body><aside class="gnx-sidebar" aria-label="メインメニュー"><a class="gnx-sidebrand" href="#/home" aria-label="GNX ホーム"><span>GN<span class="gnx-x">X</span></span><small>GAME NEXUS</small></a><div class="gnx-side-label">NAVIGATION</div><nav class="gnx-side-nav"><a href="#/home" class="active"><span class="gnx-side-icon">⌂</span>ホーム</a><a href="#/games"><span class="gnx-side-icon">▦</span>ゲーム一覧</a><a href="#/guides"><span class="gnx-side-icon">▤</span>攻略</a><a href="#/news"><span class="gnx-side-icon">◷</span>最新情報</a><a href="#/about"><span class="gnx-side-icon">◇</span>GNXとは</a></nav><div class="gnx-side-bottom"><span class="gnx-side-rule"></span><span class="gnx-side-note">GAME NEXUS</span><small>攻略を、もっと深く。</small><small class="gnx-version">GNX / Ver.9.6</small></div></aside><div class="gnx-main-layout"><header class="topbar"><div class="shell"><a class="brand" href="#/home" aria-label="GNX ホーム">GN<span>X</span><small>GAME NEXUS</small></a><nav class="nav"><a class="active" href="#/home">ホーム</a><a href="#/games">ゲーム一覧</a><a href="#/guides">攻略</a><a href="#/news">最新情報</a><a href="#/about">GNXとは</a></nav><div class="top-actions"><button class="outline" onclick="openModal('ログイン機能は今後実装予定です')">ログイン</button><button class="solid" onclick="openModal('会員登録機能は今後実装予定です')">無料で始める</button></div></div></header>
+</style><style>
+/* GNX Ver.9.8 — homepage card wordmarks and sidebar polish */
+.gnx-sidebar .gnx-sidebrand{
+  display:flex!important;flex-direction:column!important;align-items:center!important;
+  justify-content:center!important;gap:0!important;
+  width:100%!important;box-sizing:border-box!important;
+  margin-top:5px!important;margin-bottom:37px!important;
+}
+.gnx-sidebar .gnx-sidebrand > span{
+  display:block!important;text-align:center!important;
+  font-family:'Cinzel',Georgia,serif!important;font-style:italic!important;
+  font-size:42px!important;line-height:1!important;
+}
+.gnx-sidebar .gnx-sidebrand small{
+  display:block!important;text-align:center!important;
+  width:100%!important;box-sizing:border-box!important;
+  font-size:9px!important;letter-spacing:.18em!important;
+  margin:2px 0 0!important;padding:0!important;
+}
+/* Each title uses an independently styled, live text wordmark — no official logo assets. */
+#home #gamegrid .cover strong{font-size:clamp(18px,1.85vw,29px)!important;}
+#home #gamegrid .cover.elden strong{
+  font-family:'Cinzel',Georgia,'Times New Roman',serif!important;
+  font-weight:600!important;letter-spacing:.10em!important;
+  color:#e8dfca!important;text-transform:uppercase;
+  text-shadow:0 1px 0 #75694f,0 3px 11px #000,0 0 24px #000!important;
+}
+#home #gamegrid .cover.monster strong{
+  font-family:Georgia,'Times New Roman',serif!important;
+  font-weight:700!important;letter-spacing:.045em!important;
+  font-size:clamp(17px,1.7vw,26px)!important;
+  color:#e9e4d9!important;
+  text-shadow:0 2px 1px #3b403e,0 4px 12px #000!important;
+}
+#home #gamegrid .cover.apex strong{
+  font-family:Impact,'Arial Narrow','Franklin Gothic Condensed',sans-serif!important;
+  font-stretch:condensed;font-weight:800!important;letter-spacing:.055em!important;
+  font-size:clamp(19px,2.1vw,32px)!important;
+  color:#f4eee7!important;
+}
+#home #gamegrid .cover.valorant strong{
+  font-family:'Arial Black',Arial,sans-serif!important;
+  font-weight:900!important;letter-spacing:.12em!important;
+  font-size:clamp(18px,1.9vw,29px)!important;
+  color:#fff1ed!important;
+}
+@media(max-width:900px){.gnx-sidebar .gnx-sidebrand > span{font-size:36px!important}}
+</style></head><body><aside class="gnx-sidebar" aria-label="メインメニュー"><a class="gnx-sidebrand" href="#/home" aria-label="GNX ホーム"><span>GN<span class="gnx-x">X</span></span><small>GAME NEXUS</small></a><div class="gnx-side-label">NAVIGATION</div><nav class="gnx-side-nav"><a href="#/home" class="active"><span class="gnx-side-icon">⌂</span>ホーム</a><a href="#/games"><span class="gnx-side-icon">▦</span>ゲーム一覧</a><a href="#/guides"><span class="gnx-side-icon">▤</span>攻略</a><a href="#/news"><span class="gnx-side-icon">◷</span>最新情報</a><a href="#/about"><span class="gnx-side-icon">◇</span>GNXとは</a></nav></aside><div class="gnx-main-layout"><header class="topbar"><div class="shell"><a class="brand" href="#/home" aria-label="GNX ホーム">GN<span>X</span><small>GAME NEXUS</small></a><nav class="nav"><a class="active" href="#/home">ホーム</a><a href="#/games">ゲーム一覧</a><a href="#/guides">攻略</a><a href="#/news">最新情報</a><a href="#/about">GNXとは</a></nav><div class="top-actions"><button class="outline" onclick="openModal('ログイン機能は今後実装予定です')">ログイン</button><button class="solid" onclick="openModal('会員登録機能は今後実装予定です')">無料で始める</button></div></div></header>
 <main id="home">
 <section class="hero"><div class="hero-art"></div><div class="shell"><div class="eyebrow">THE NEXT LEVEL OF GAME GUIDES</div><h1>攻略の、<br/><em>その先へ。</em></h1><p class="lead">迷った瞬間から、100%コンプリートまで。<br/>「情報が足りない」をなくす、ゲーム攻略の新しい拠点。</p><form class="searchbox" onsubmit="searchGame(event)"><input aria-label="ゲームタイトルを検索" id="search" placeholder="ゲームタイトルを検索"/><button type="submit">検索する →</button></form><div class="quick"><button onclick="quickSearch('エルデンリング')">エルデンリング</button><button onclick="quickSearch('モンハン')">モンハン</button><button onclick="quickSearch('APEX')">APEX</button></div></div></section>
 
