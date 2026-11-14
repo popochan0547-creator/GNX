@@ -645,7 +645,13 @@ document.querySelectorAll('#gnxAreaTabs [data-area]').forEach(b=>b.addEventListe
    const urls=Array.from(bg.matchAll(/url\((?:"([^"]+)"|'([^']+)'|([^)]*))\)/g));
    const match=urls[urls.length-1];return match?(match[1]||match[2]||match[3]):'';
  }
+ let pendingClear=null;
+ const grid=document.querySelector('#home #gamegrid');
+ function cancelClear(){
+   if(pendingClear!==null){clearTimeout(pendingClear);pendingClear=null;}
+ }
  function show(card){
+   cancelClear();
    const index=cards.indexOf(card),image=imageFromCover(card);
    if(index<0||!image)return;
    mainLayer.style.backgroundImage='url("'+image+'")';
@@ -653,17 +659,28 @@ document.querySelectorAll('#gnxAreaTabs [data-area]').forEach(b=>b.addEventListe
    hero.classList.add('gnx-hovering');sidebar.classList.add('gnx-game-hover');
  }
  function clear(){
+   cancelClear();
    hero.classList.remove('gnx-hovering');sidebar.classList.remove('gnx-game-hover');
    mainLayer.style.backgroundImage='none';
-   // Keep the last portrait loaded while its opacity fades out.
-   // Clearing the image immediately causes a blank frame before the default scene returns.
-   // The next hover replaces this cached image.
-   // sideLayer.style.backgroundImage intentionally remains set.
+   // Preserve portrait during the opacity transition.
+ }
+ function scheduleClear(){
+   cancelClear();
+   // Bridge the narrow gaps between adjacent cards without flashing the GNX scene.
+   pendingClear=setTimeout(()=>{pendingClear=null;clear();},130);
  }
  cards.forEach(card=>{
-   card.addEventListener('mouseenter',()=>show(card));card.addEventListener('focusin',()=>show(card));
-   card.addEventListener('mouseleave',clear);card.addEventListener('focusout',clear);
+   card.addEventListener('mouseenter',()=>show(card));
+   card.addEventListener('focusin',()=>show(card));
+   card.addEventListener('mouseleave',scheduleClear);
+   card.addEventListener('focusout',e=>{
+     if(e.relatedTarget && card.contains(e.relatedTarget))return;
+     scheduleClear();
+   });
  });
+ // Leaving the entire game grid should still return to the GNX background.
+ if(grid){grid.addEventListener('mouseleave',clear);}
+
 })();
 </script><script id="gnx-v85-default-scene-script">
 (function(){
