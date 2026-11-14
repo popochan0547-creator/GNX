@@ -645,13 +645,11 @@ document.querySelectorAll('#gnxAreaTabs [data-area]').forEach(b=>b.addEventListe
    const urls=Array.from(bg.matchAll(/url\((?:"([^"]+)"|'([^']+)'|([^)]*))\)/g));
    const match=urls[urls.length-1];return match?(match[1]||match[2]||match[3]):'';
  }
- let pendingClear=null;
+ // GNX 9.4: The grid owns the hover state, including its card gaps.
+ // Never reset on an individual card's mouseleave: that event also fires
+ // while the pointer is crossing the empty space between two cards.
  const grid=document.querySelector('#home #gamegrid');
- function cancelClear(){
-   if(pendingClear!==null){clearTimeout(pendingClear);pendingClear=null;}
- }
  function show(card){
-   cancelClear();
    const index=cards.indexOf(card),image=imageFromCover(card);
    if(index<0||!image)return;
    mainLayer.style.backgroundImage='url("'+image+'")';
@@ -659,27 +657,22 @@ document.querySelectorAll('#gnxAreaTabs [data-area]').forEach(b=>b.addEventListe
    hero.classList.add('gnx-hovering');sidebar.classList.add('gnx-game-hover');
  }
  function clear(){
-   cancelClear();
    hero.classList.remove('gnx-hovering');sidebar.classList.remove('gnx-game-hover');
    mainLayer.style.backgroundImage='none';
-   // Preserve portrait during the opacity transition.
+   // Keep the portrait loaded for a smooth opacity transition.
  }
- function scheduleClear(){
-   cancelClear();
-   // Bridge the narrow gaps between adjacent cards without flashing the GNX scene.
-   pendingClear=setTimeout(()=>{pendingClear=null;clear();},130);
- }
+ // Moving between cards never exits the parent grid, even across its gaps.
  cards.forEach(card=>{
    card.addEventListener('mouseenter',()=>show(card));
    card.addEventListener('focusin',()=>show(card));
-   card.addEventListener('mouseleave',scheduleClear);
-   card.addEventListener('focusout',e=>{
-     if(e.relatedTarget && card.contains(e.relatedTarget))return;
-     scheduleClear();
-   });
  });
- // Leaving the entire game grid should still return to the GNX background.
- if(grid){grid.addEventListener('mouseleave',clear);}
+ if(grid){
+   grid.addEventListener('mouseleave',clear);
+   grid.addEventListener('focusout',e=>{
+     if(e.relatedTarget && grid.contains(e.relatedTarget))return;
+     clear();
+   });
+ }
 
 })();
 </script><script id="gnx-v85-default-scene-script">
