@@ -532,6 +532,14 @@
   .gnx-sidebar .gnx-v82-sidebar-image,
   #home .hero .gnx-v82-main-image{transition:none!important}
 }
+</style><style id="gnx-v97-main-hover-repair">
+/* Ensure the game layer actually sits above the original GNX hero art. */
+#home .hero{isolation:isolate}
+#home .hero .hero-art{z-index:0!important;display:block!important;visibility:visible!important;opacity:1!important;transition:opacity .32s ease!important}
+#home .hero .gnx-v82-main-image{z-index:1!important;display:block!important;visibility:visible!important;opacity:0!important;transition:opacity .32s ease!important;pointer-events:none!important}
+#home .hero.gnx-hovering .gnx-v82-main-image{opacity:1!important}
+#home .hero.gnx-hovering .hero-art{opacity:0!important;display:block!important;visibility:visible!important}
+#home .hero .shell{position:relative;z-index:2}
 </style></head><body><aside class="gnx-sidebar" aria-label="メインメニュー"><a class="gnx-sidebrand" href="#/home" aria-label="GNX ホーム"><span>GN<span class="gnx-x">X</span></span><small>GAME NEXUS</small></a><div class="gnx-side-label">NAVIGATION</div><nav class="gnx-side-nav"><a href="#/home" class="active"><span class="gnx-side-icon">⌂</span>ホーム</a><a href="#/games"><span class="gnx-side-icon">▦</span>ゲーム一覧</a><a href="#/guides"><span class="gnx-side-icon">▤</span>攻略</a><a href="#/news"><span class="gnx-side-icon">◷</span>最新情報</a><a href="#/about"><span class="gnx-side-icon">◇</span>GNXとは</a></nav><div class="gnx-side-bottom"><span class="gnx-side-rule"></span><span class="gnx-side-note">GAME NEXUS</span><small>攻略を、もっと深く。</small><small class="gnx-version">GNX / Ver.9.6</small></div></aside><div class="gnx-main-layout"><header class="topbar"><div class="shell"><a class="brand" href="#/home" aria-label="GNX ホーム">GN<span>X</span><small>GAME NEXUS</small></a><nav class="nav"><a class="active" href="#/home">ホーム</a><a href="#/games">ゲーム一覧</a><a href="#/guides">攻略</a><a href="#/news">最新情報</a><a href="#/about">GNXとは</a></nav><div class="top-actions"><button class="outline" onclick="openModal('ログイン機能は今後実装予定です')">ログイン</button><button class="solid" onclick="openModal('会員登録機能は今後実装予定です')">無料で始める</button></div></div></header>
 <main id="home">
 <section class="hero"><div class="hero-art"></div><div class="shell"><div class="eyebrow">THE NEXT LEVEL OF GAME GUIDES</div><h1>攻略の、<br/><em>その先へ。</em></h1><p class="lead">迷った瞬間から、100%コンプリートまで。<br/>「情報が足りない」をなくす、ゲーム攻略の新しい拠点。</p><form class="searchbox" onsubmit="searchGame(event)"><input aria-label="ゲームタイトルを検索" id="search" placeholder="ゲームタイトルを検索"/><button type="submit">検索する →</button></form><div class="quick"><button onclick="quickSearch('エルデンリング')">エルデンリング</button><button onclick="quickSearch('モンハン')">モンハン</button><button onclick="quickSearch('APEX')">APEX</button></div></div></section>
