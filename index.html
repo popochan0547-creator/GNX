@@ -601,7 +601,7 @@
 .gnx-sidebar .gnx-sidebrand{transform:translateX(-9px)!important;}
 /* Left-align the version label near the sidebar's inner edge. */
 .gnx-sidebar .gnx-version-stamp{left:14px!important;right:auto!important;text-align:left!important;}
-</style></head><body><aside class="gnx-sidebar" aria-label="メインメニュー"><a class="gnx-sidebrand" href="#/home" aria-label="GNX ホーム"><span>GN<span class="gnx-x">X</span></span><small>GAME NEXUS</small></a><div class="gnx-side-label">NAVIGATION</div><nav class="gnx-side-nav"><a href="#/home" class="active"><span class="gnx-side-icon">⌂</span>ホーム</a><a href="#/games"><span class="gnx-side-icon">▦</span>ゲーム一覧</a><a href="#/guides"><span class="gnx-side-icon">▤</span>攻略</a><a href="#/news"><span class="gnx-side-icon">◷</span>最新情報</a><a href="#/about"><span class="gnx-side-icon">◇</span>GNXとは</a></nav><div class="gnx-version-stamp">Ver.10.0</div></aside><div class="gnx-main-layout"><header class="topbar"><div class="shell"><a class="brand" href="#/home" aria-label="GNX ホーム">GN<span>X</span><small>GAME NEXUS</small></a><nav class="nav"><a class="active" href="#/home">ホーム</a><a href="#/games">ゲーム一覧</a><a href="#/guides">攻略</a><a href="#/news">最新情報</a><a href="#/about">GNXとは</a></nav><div class="top-actions"><button class="outline" onclick="openModal('ログイン機能は今後実装予定です')">ログイン</button><button class="solid" onclick="openModal('会員登録機能は今後実装予定です')">無料で始める</button></div></div></header>
+</style></head><body><aside class="gnx-sidebar" aria-label="メインメニュー"><a class="gnx-sidebrand" href="#/home" aria-label="GNX ホーム"><span>GN<span class="gnx-x">X</span></span><small>GAME NEXUS</small></a><div class="gnx-side-label">NAVIGATION</div><nav class="gnx-side-nav"><a href="#/home" class="active"><span class="gnx-side-icon">⌂</span>ホーム</a><a href="#/games"><span class="gnx-side-icon">▦</span>ゲーム一覧</a><a href="#/guides"><span class="gnx-side-icon">▤</span>攻略</a><a href="#/news"><span class="gnx-side-icon">◷</span>最新情報</a><a href="#/about"><span class="gnx-side-icon">◇</span>GNXとは</a></nav><div class="gnx-version-stamp">Ver.10.1</div></aside><div class="gnx-main-layout"><header class="topbar"><div class="shell"><a class="brand" href="#/home" aria-label="GNX ホーム">GN<span>X</span><small>GAME NEXUS</small></a><nav class="nav"><a class="active" href="#/home">ホーム</a><a href="#/games">ゲーム一覧</a><a href="#/guides">攻略</a><a href="#/news">最新情報</a><a href="#/about">GNXとは</a></nav><div class="top-actions"><button class="outline" onclick="openModal('ログイン機能は今後実装予定です')">ログイン</button><button class="solid" onclick="openModal('会員登録機能は今後実装予定です')">無料で始める</button></div></div></header>
 <main id="home">
 <section class="hero"><div class="hero-art"></div><div class="shell"><div class="eyebrow">THE NEXT LEVEL OF GAME GUIDES</div><h1>攻略の、<br/><em>その先へ。</em></h1><p class="lead">迷った瞬間から、100%コンプリートまで。<br/>「情報が足りない」をなくす、ゲーム攻略の新しい拠点。</p><form class="searchbox" onsubmit="searchGame(event)"><input aria-label="ゲームタイトルを検索" id="search" placeholder="ゲームタイトルを検索"/><button type="submit">検索する →</button></form><div class="quick"><button onclick="quickSearch('エルデンリング')">エルデンリング</button><button onclick="quickSearch('モンハン')">モンハン</button><button onclick="quickSearch('APEX')">APEX</button></div></div></section>
 
@@ -766,7 +766,14 @@ document.querySelectorAll('#gnxAreaTabs [data-area]').forEach(b=>b.addEventListe
    const index=cards.indexOf(card),image=imageFromCover(card);
    if(index<0||!image)return;
    mainLayer.style.backgroundImage='url("'+image+'")';
-   sideLayer.style.backgroundImage='url("'+portraits[index]+'")';
+   // Ver.10.1: Monster Hunter uses the same mountain/waterfall artwork
+   // as the main hero, rather than the separate portrait illustration.
+   sideLayer.style.backgroundImage='url("'+(index===1?image:portraits[index])+'")';
+   // Show more of the upper scenery for APEX and VALORANT.
+   // The other two hero backgrounds keep their original framing.
+   mainLayer.style.setProperty('background-position', (index===2||index===3)?'center 25%':'center center', 'important');
+   // Frame the mountain scenery in the narrow navigation column.
+   sideLayer.style.setProperty('background-position', index===1?'28% 38%':'center center', 'important');
    hero.classList.add('gnx-hovering');sidebar.classList.add('gnx-game-hover');
  }
  function clear(){
