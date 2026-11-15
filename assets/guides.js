@@ -34,4 +34,5 @@ const originalRoute=window.route;
 function routeHub(){root.hidden=true;const p=location.hash.replace(/^#\/?/,'').split('/');let name='';try{name=decodeURIComponent(p.slice(1).join('/'))}catch{}game=games.find(g=>g.name.toLowerCase()===name.toLowerCase()||g.id===name);if(['game','guide-game'].includes(p[0])&&game){document.querySelectorAll('.routepage').forEach(x=>x.classList.remove('on'));document.getElementById('home').classList.add('off');root.hidden=false;pendingImport=null;mount()}}
 window.route=function(){originalRoute();routeHub()};window.addEventListener('hashchange',routeHub);routeHub();
 window.addEventListener('storage',e=>{if(game&&e.key===key(game)&&!root.hidden){state=load();root.querySelector('#hub-note').value=state.note;checklist();message('別タブの保存内容を反映しました')}});
+window.addEventListener('gnx-cloud-progress',e=>{if(game&&e.detail&&e.detail.game===game.id&&!root.hidden){state=load();root.querySelector('#hub-note').value=state.note;checklist();message('クラウドの記録を反映しました')}});
 })();
