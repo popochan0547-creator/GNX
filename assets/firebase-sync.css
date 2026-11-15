@@ -8,3 +8,8 @@
  .gnx-mobile-account-button{display:block;margin-left:auto;flex-shrink:0;border:1px solid rgba(0,214,188,.65);background:#092526;color:#bafff3;border-radius:9px;padding:8px 12px;font-size:12px;font-weight:700;cursor:pointer;transition:transform .18s ease,box-shadow .18s ease}
  .gnx-mobile-account-button:hover{transform:translateY(-2px);box-shadow:0 5px 15px #00d6bc33}
 }
+
+/* GNX account unified in existing top-right header; sidebar duplicate removed. */
+.gnx-main-layout .topbar .top-actions{display:flex!important;align-items:center;justify-content:flex-end}
+#gnx-account-button{max-width:min(260px,55vw);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+@media(max-width:700px){.gnx-main-layout .topbar .top-actions{display:flex!important}#gnx-account-button{font-size:12px;padding:8px 12px;max-width:58vw}}
