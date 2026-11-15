@@ -29,7 +29,7 @@ let db2Timer=null,db2Revision=0;
 const db2Ref=()=>dbFns.doc(db,'users',user.uid,'progress',db2Doc);
 function write2(v){try{localStorage.setItem(db2Key,JSON.stringify(v));window.dispatchEvent(new CustomEvent('gnx-elden-cloud-update'))}catch{status('ELDEN RINGのローカル保存に失敗しました')}}
 function queue2(v){if(!user||!ready||!valid2(v))return;const captured=epoch,revision=++db2Revision;clearTimeout(db2Timer);db2Timer=setTimeout(async()=>{if(epoch!==captured||!user||!ready||revision!==db2Revision)return;try{await dbFns.setDoc(db2Ref(),{version:2,checks:v.checks,note:v.note,updatedAt:dbFns.serverTimestamp()});status('クラウドに保存しました')}catch(e){status('ELDEN RING DBのクラウド保存に失敗しました');console.warn('GNX DB sync:',e.code)}},650)}
-async function initial2(){const captured=epoch;const snapshot=await dbFns.getDoc(db2Ref());if(captured!==epoch||!user)return;const remote=snapshot.exists()?snapshot.data():null,local=local2();
+async function initial2(){const captured=epoch;const snapshot=await dbFns.getDoc(db2Ref());if(captured!==epoch||!user)return;const rawRemote=snapshot.exists()?snapshot.data():null,remote=rawRemote?{version:rawRemote.version,checks:rawRemote.checks,note:rawRemote.note}:null,local=local2();
  if(remote&&valid2(remote)){
   if(local&&JSON.stringify({checks:local.checks,note:local.note})!==JSON.stringify({checks:remote.checks,note:remote.note})){
    try{localStorage.setItem('gnx:backup:'+user.uid+':elden-db-v2:'+Date.now(),JSON.stringify(local))}catch{}
