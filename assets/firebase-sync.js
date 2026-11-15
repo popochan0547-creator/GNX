@@ -22,62 +22,51 @@ async function initialSync(){const captured=epoch;ready=false;status('クラウ�
 }else if(local){await dbFns.setDoc(ref(id),{...local,updatedAt:dbFns.serverTimestamp()})}
 }if(captured===epoch){ready=true;status('同期が有効です。保存した進捗は他の端末にも反映されます')}}catch(e){ready=false;status('同期できません。Firestoreのルールと接続を確認してください');console.warn('GNX initial sync:',e.code)}}
 
-// GNX Ver.13.0: separate Firestore document for Work DB schema v2.
-const valid2=v=>{try{return !!window.GNXEldenCore&&!!window.GNX_ELDEN_DB&&!!window.GNXEldenCore.validateState(v,window.GNX_ELDEN_DB)}catch{return false}};
-const local2=()=>{try{const raw=localStorage.getItem(db2Key);if(raw===null)return null;const obj=JSON.parse(raw);return valid2(obj)?obj:null}catch{return null}};
-let db2Timer=null,db2Revision=0,db2Unsubscribe=null,remoteApplying=false,db2Dirty=false;
+// GNX 14.0: retain the existing document; merge only local changes in a transaction.
+const S=window.GNXEldenSync;
+const valid2=v=>{try{return !!S&&S.state(v)&&!!window.GNXEldenCore.validateState(v,window.GNX_ELDEN_DB)}catch{return false}};
+const local2=()=>{try{const v=JSON.parse(localStorage.getItem(db2Key)||'null');return valid2(v)?v:null}catch{return null}};
+let db2Timer=null,db2Revision=0,db2Unsubscribe=null,remoteApplying=false,db2Dirty=false,db2Ready=false,db2Observed=null,db2Patch=null,db2Sending=false,db2InFlight=null,db2Conflict=false,db2Flight=0;
 const diag={auth:'未確認',firestore:'未確認',dataset:'未確認',remoteChecks:'-',localChecks:'-',ui:'未確認',lastError:'なし'};
 const count2=v=>v&&v.checks?Object.values(v.checks).filter(x=>x===true).length:0;
 function showDiag(){const e=document.getElementById('gnx-sync-diagnostics');if(e)e.textContent=['ログイン: '+diag.auth,'攻略データ: '+diag.dataset,'Firestore: '+diag.firestore,'クラウド達成数: '+diag.remoteChecks,'端末達成数: '+diag.localChecks,'画面更新: '+diag.ui,'直近エラー: '+diag.lastError].join('\n')}
 function recordDiag(k,v){diag[k]=String(v);showDiag()}
-
 const db2Ref=()=>dbFns.doc(db,'users',user.uid,'progress',db2Doc);
-function write2(v){try{remoteApplying=true;localStorage.setItem(db2Key,JSON.stringify(v));remoteApplying=false;recordDiag('localChecks',count2(v));window.dispatchEvent(new CustomEvent('gnx-elden-cloud-update'));recordDiag('ui','更新イベント送信済み')}catch(e){remoteApplying=false;recordDiag('lastError','端末保存: '+(e.code||e.message));status('ELDEN RINGのローカル保存に失敗しました')}}
-function queue2(v){if(remoteApplying||!user||!ready||!valid2(v))return;db2Dirty=true;recordDiag('localChecks',count2(v));const captured=epoch,revision=++db2Revision;clearTimeout(db2Timer);db2Timer=setTimeout(async()=>{if(epoch!==captured||!user||!ready||revision!==db2Revision)return;try{await dbFns.setDoc(db2Ref(),{version:2,checks:v.checks,note:v.note,updatedAt:dbFns.serverTimestamp()});db2Dirty=false;recordDiag('firestore','保存成功');recordDiag('remoteChecks',count2(v));status('クラウドに保存しました')}catch(e){recordDiag('lastError','保存: '+(e.code||e.message));status('ELDEN RING DBのクラウド保存に失敗しました');console.warn('GNX DB sync:',e.code)}},650)}
-async function initial2(){
- const captured=epoch;
- const datasetReady=!!window.GNXEldenCore&&!!window.GNX_ELDEN_DB;
- recordDiag('dataset',datasetReady?'読み込み済み':'未読み込み（データファイルを確認）');
- if(!datasetReady){recordDiag('lastError','攻略データのスクリプトが読み込まれていません');return;}
- const snapshot=await dbFns.getDoc(db2Ref());
- if(captured!==epoch||!user)return;
- const raw=snapshot.exists()?snapshot.data():null;
- const remote=raw?{version:raw.version,checks:raw.checks,note:raw.note}:null;
- const local=local2();
- recordDiag('firestore',snapshot.exists()?'elden-db-v2 取得成功':'elden-db-v2 未作成');
- recordDiag('remoteChecks',snapshot.exists()?count2(remote):'データなし');
- recordDiag('localChecks',count2(local));
- if(raw&&!valid2(remote)){
-   recordDiag('lastError','クラウドのデータ形式が不正です。上書きを停止しました');
-   status('攻略DBのデータ形式を確認してください。クラウドは上書きしていません');
-   return;
- }
- if(remote){
-   if(local&&JSON.stringify({checks:local.checks,note:local.note})!==JSON.stringify({checks:remote.checks,note:remote.note})){
-     try{localStorage.setItem('gnx:backup:'+user.uid+':elden-db-v2:'+Date.now(),JSON.stringify(local))}catch{}
-   }
-   write2(remote);
- }else if(local){
-   await dbFns.setDoc(db2Ref(),{version:2,checks:local.checks,note:local.note,updatedAt:dbFns.serverTimestamp()});
-   recordDiag('firestore','初回アップロード成功');recordDiag('remoteChecks',count2(local));
- }
- // Listen for changes on the other device; never echo a cloud update back to Firestore.
- if(db2Unsubscribe)db2Unsubscribe();
- db2Unsubscribe=dbFns.onSnapshot(db2Ref(),snap=>{
-   if(captured!==epoch||!user)return;
-   if(snap.metadata.hasPendingWrites||db2Dirty)return;
-   const raw=snap.exists()?snap.data():null;
-   if(!raw)return;
-   const value={version:raw.version,checks:raw.checks,note:raw.note};
-   if(!valid2(value)){recordDiag('lastError','受信したデータ形式が不正');return;}
-   recordDiag('firestore','リアルタイム受信成功');recordDiag('remoteChecks',count2(value));
-   const current=local2();
-   if(JSON.stringify(current)!==JSON.stringify(value)){
-     if(current)try{localStorage.setItem('gnx:backup:'+user.uid+':elden-db-v2:'+Date.now(),JSON.stringify(current))}catch{}
-     write2(value);
-   }
- },e=>{recordDiag('lastError','監視: '+(e.code||e.message));recordDiag('firestore','リアルタイム受信失敗')});
+const outboxKey=()=>user?'gnx:sync14:'+user.uid+':elden-db-v2:outbox':null;
+function protect(v,tag='snapshot'){if(!v)return true;try{originalSet.call(localStorage,'gnx:backup:'+(user?user.uid:'guest')+':elden-db-v2:'+Date.now()+':'+tag,JSON.stringify(v));return true}catch{recordDiag('lastError','バックアップを保存できません');return false}}
+function rememberPatch(){if(!user||!db2Patch)return;try{originalSet.call(localStorage,outboxKey(),JSON.stringify(db2InFlight?S.combine(db2InFlight,db2Patch):db2Patch))}catch{recordDiag('lastError','未送信変更を端末に保存できません。JSONを書き出してください')}}
+function readPatch(){try{const raw=JSON.parse(localStorage.getItem(outboxKey())||'null');return S.validPatch(raw)?raw:S.emptyPatch()}catch{return S.emptyPatch()}}
+function write2(v){try{remoteApplying=true;originalSet.call(localStorage,db2Key,JSON.stringify(v));db2Observed=S.copy(v);recordDiag('localChecks',count2(v));window.dispatchEvent(new CustomEvent('gnx-elden-cloud-update'));recordDiag('ui','更新イベント送信済み')}catch(e){recordDiag('lastError','端末保存: '+(e.code||e.message));status('ELDEN RINGのローカル保存に失敗しました')}finally{remoteApplying=false}}
+function queue2(v){if(remoteApplying||!S||!user||!valid2(v))return;const before=db2Observed||S.blank();db2Observed=S.copy(v);db2Patch=S.combine(db2Patch||S.emptyPatch(),S.diff(before,v));db2Dirty=S.hasChanges(db2Patch);recordDiag('localChecks',count2(v));rememberPatch();if(db2Ready&&ready&&!db2Conflict)schedule2();}
+function schedule2(){clearTimeout(db2Timer);const captured=epoch;db2Timer=setTimeout(()=>{if(captured===epoch)flush2()},650)}
+async function flush2(){if(!user||!ready||!db2Ready||db2Sending||db2Conflict||!S.hasChanges(db2Patch||S.emptyPatch()))return;
+ const captured=epoch,owner=user.uid,target=db2Ref(),flight=++db2Flight,patch=structuredClone(db2Patch);db2Patch=S.emptyPatch();db2InFlight=patch;db2Sending=true;
+ // Keep the in-flight patch in the durable outbox until the server acknowledges it.
+ let result;
+ try{result=await dbFns.runTransaction(db,async tx=>{const snap=await tx.get(target);if(captured!==epoch||!user||user.uid!==owner)throw Error('account-changed');const raw=snap.exists()?snap.data():null,remote=raw?{version:raw.version,checks:raw.checks,note:raw.note}:S.blank();if(!valid2(remote))throw Error('invalid-cloud-state');const merged=S.merge(remote,patch);if(merged.conflicts.length)return {conflict:true,remote};tx.set(target,{version:2,checks:merged.value.checks,note:merged.value.note,updatedAt:dbFns.serverTimestamp()},{merge:true});return {conflict:false,value:merged.value};});
+ if(captured!==epoch||!user||user.uid!==owner)return;
+ if(result.conflict){db2Patch=S.combine(patch,db2Patch);db2Conflict=true;protect(local2(),'local-conflict');protect(result.remote,'cloud-conflict');recordDiag('lastError','メモの同時編集が競合。クラウドは上書きしていません');status('メモが競合しました。JSONで記録を保管し、同期診断から解決してください');conflictUI(result.remote);}
+ else{db2Dirty=S.hasChanges(db2Patch);recordDiag('firestore','差分統合保存成功');recordDiag('remoteChecks',count2(result.value));if(!db2Dirty)write2(result.value);status('変更項目をクラウドへ統合しました');}
+ }catch(e){if(captured===epoch){db2Patch=S.combine(patch,db2Patch);db2Dirty=true;recordDiag('lastError','差分保存: '+(e.code||e.message));status('クラウドに未送信の変更があります。記録は端末に保持しています');}}
+ finally{if(captured===epoch&&flight===db2Flight){db2Sending=false;db2InFlight=null;rememberPatch();if(result&&!result.conflict&&S.hasChanges(db2Patch))schedule2();}}
 }
+function conflictUI(remote){let e=document.getElementById('gnx-sync-conflict');if(!e){e=document.createElement('div');e.id='gnx-sync-conflict';document.getElementById('gnx-account-dialog')?.appendChild(e)}e.replaceChildren();const p=document.createElement('p');p.textContent='同じメモが別端末で編集されました。両方の記録は端末にバックアップしています。';e.append(p);
+ async function resolve(useLocal,button){const captured=epoch,owner=user?.uid;if(!owner)return;button.disabled=true;try{const snap=await dbFns.getDoc(db2Ref());if(captured!==epoch||!user||user.uid!==owner)return;const raw=snap.exists()?snap.data():null,latest=raw?{version:raw.version,checks:raw.checks,note:raw.note}:null,current=local2();if(!valid2(latest)||!current)throw Error('invalid-state');if(!protect(current,'before-note-resolution-local')||!protect(latest,'before-note-resolution-cloud'))return;db2Patch.note=useLocal?{before:latest.note,value:current.note}:null;const merged=S.merge(latest,db2Patch);if(merged.conflicts.length)throw Error('note-conflict');write2(merged.value);db2Conflict=false;db2Dirty=S.hasChanges(db2Patch);e.remove();rememberPatch();schedule2();status('メモの選択を反映しました。変更がある場合はクラウドへ統合します');}catch(err){recordDiag('lastError','競合解決: '+(err.code||err.message));status('競合の解決に失敗しました。記録は保持しています');}finally{button.disabled=false}}
+ const useRemote=document.createElement('button');useRemote.type='button';useRemote.textContent='メモはクラウドの内容を使う';useRemote.onclick=()=>resolve(false,useRemote);e.append(useRemote);const useLocal=document.createElement('button');useLocal.type='button';useLocal.textContent='メモはこの端末の内容を使う';useLocal.onclick=()=>resolve(true,useLocal);e.append(useLocal);}
+async function initial2(){
+ const captured=epoch;db2Ready=false;recordDiag('dataset',S&&window.GNX_ELDEN_DB?'読み込み済み':'未読み込み');if(!S||!window.GNX_ELDEN_DB)return;
+ const storedRaw=localStorage.getItem(db2Key);if(storedRaw!==null&&!local2()){recordDiag('lastError','端末の保存形式が不正。元データを保持して同期停止');status('端末の元データを保護中です。JSON退避後に復元してください');return;}
+ db2Observed=local2()||S.blank();db2Patch=S.combine(readPatch(),db2Patch||S.emptyPatch());
+ const snapshot=await dbFns.getDoc(db2Ref());if(captured!==epoch||!user)return;const raw=snapshot.exists()?snapshot.data():null,remote=raw?{version:raw.version,checks:raw.checks,note:raw.note}:null,local=local2();
+ recordDiag('firestore',snapshot.exists()?'elden-db-v2 取得成功':'elden-db-v2 未作成');recordDiag('remoteChecks',count2(remote));recordDiag('localChecks',count2(local));
+ if(raw&&!valid2(remote)){recordDiag('lastError','クラウド形式が不正。上書きを停止');status('攻略DBのクラウドを保護しています。データ形式を確認してください');return;}
+ if(remote){if(local&&JSON.stringify(local)!==JSON.stringify(remote)&&!protect(local,'before-cloud-load')){status('バックアップ保存に失敗したためクラウド取り込みを停止しました');return;}const merged=S.merge(remote,db2Patch);if(merged.conflicts.length){db2Conflict=true;protect(remote,'cloud-conflict');conflictUI(remote);status('未送信メモとクラウドのメモが競合しています');}else write2(merged.value);}
+ else if(local){db2Patch=S.combine(S.diff(S.blank(),local),db2Patch);}
+ db2Ready=true;db2Dirty=S.hasChanges(db2Patch);rememberPatch();
+ if(db2Unsubscribe)db2Unsubscribe();db2Unsubscribe=dbFns.onSnapshot(db2Ref(),snap=>{if(captured!==epoch||!user||snap.metadata.hasPendingWrites||db2Sending||db2Conflict)return;const raw=snap.exists()?snap.data():null;if(!raw){recordDiag('firestore','クラウド文書なし。端末の記録は保持');return;}const value={version:raw.version,checks:raw.checks,note:raw.note};if(!valid2(value)){recordDiag('lastError','受信形式が不正。端末は保持');return;}recordDiag('remoteChecks',count2(value));const merged=S.merge(value,db2Patch);if(merged.conflicts.length){db2Conflict=true;protect(local2(),'local-conflict');protect(value,'cloud-conflict');conflictUI(value);status('メモが競合しました。同期診断で解決してください');return;}if(JSON.stringify(local2())!==JSON.stringify(merged.value)){if(!protect(local2(),'before-receive'))return;write2(merged.value)}recordDiag('firestore','リアルタイム受信成功');},e=>{recordDiag('lastError','監視: '+(e.code||e.message));status('同期監視が停止しました。端末の記録は保持しています')});
+ if(!db2Conflict&&db2Dirty)schedule2();
+}
+window.addEventListener('online',()=>{if(user&&db2Ready&&!db2Conflict)schedule2()});
 
 function render(){
  const b=document.getElementById('gnx-account-button');if(!b)return;
@@ -96,11 +85,11 @@ function ui(){
  button.onclick=()=>{if(!dialog.open)dialog.showModal()};
  dialog.querySelector('#gnx-account-login').onclick=async()=>{if(!auth){status('Firebaseの読み込みを待っています');return}try{await authFns.signInWithPopup(auth,new authFns.GoogleAuthProvider())}catch(e){status(e.code==='auth/popup-blocked'?'ポップアップがブロックされました。ブラウザの設定を確認してください':'ログインできませんでした：'+(e.code||'再試行してください'))}};
  dialog.querySelector('#gnx-account-logout').onclick=async()=>{try{await authFns.signOut(auth);dialog.close()}catch{status('ログアウトに失敗しました')}};
- dialog.querySelector('#gnx-sync-refresh').onclick=async()=>{if(!user||!db){status('ログインしてから実行してください');return}try{await initial2();status('攻略DBのクラウドを再確認しました')}catch(e){recordDiag('lastError','再取得: '+(e.code||e.message));status('再取得に失敗しました')}};render();showDiag();
+ dialog.querySelector('#gnx-sync-refresh').onclick=async()=>{if(!user||!db){status('ログインしてから実行してください');return}try{if(db2Dirty||db2Sending||db2Conflict){await flush2();status('未送信または競合中の記録を優先して保護しています')}else{await initial2();status('攻略DBのクラウドを再確認しました')}}catch(e){recordDiag('lastError','再取得: '+(e.code||e.message));status('再取得に失敗しました')}};render();showDiag();
 }
 
 const originalSet=Storage.prototype.setItem;
 Storage.prototype.setItem=function(k,v){const result=originalSet.call(this,k,v);if(this===localStorage&&typeof k==='string'&&k.startsWith(prefix)){const id=k.slice(prefix.length);if(gameIds.includes(id)){let data;try{data=JSON.parse(v)}catch{}if(valid(data))queue(id,data)}}if(this===localStorage&&k===db2Key){let data2;try{data2=JSON.parse(v)}catch{}if(valid2(data2))queue2(data2)}return result};
 window.GNXCloud={getUser:()=>user,enabled:()=>ready};
-window.addEventListener('DOMContentLoaded',async()=>{ui();try{const [appMod,authMod,dbMod]=await Promise.all([import('https://www.gstatic.com/firebasejs/11.10.0/firebase-app.js'),import('https://www.gstatic.com/firebasejs/11.10.0/firebase-auth.js'),import('https://www.gstatic.com/firebasejs/11.10.0/firebase-firestore.js')]);authFns=authMod;dbFns=dbMod;const app=appMod.initializeApp(config);auth=authMod.getAuth(app);db=dbMod.getFirestore(app);authMod.onAuthStateChanged(auth,async next=>{if(db2Unsubscribe){db2Unsubscribe();db2Unsubscribe=null}db2Dirty=false;epoch++;clearTimeout(db2Timer);db2Revision++;for(const t of timers.values())clearTimeout(t);timers.clear();pending.clear();ready=false;user=next;recordDiag('auth',user?'ログイン中':'未ログイン');render();if(user){await initialSync();try{await initial2()}catch(e){recordDiag('lastError','初回取得: '+(e.code||e.message));status('ELDEN RING DBの同期に失敗しました');console.warn('GNX DB initial sync:',e.code)}}else status('未ログイン：この端末に進捗を保存します')})}catch(e){recordDiag('lastError','Firebase: '+(e.code||e.message));status('Firebaseを読み込めません。ネット接続を確認してください');console.warn('GNX Firebase:',e)}});
+window.addEventListener('DOMContentLoaded',async()=>{ui();try{const [appMod,authMod,dbMod]=await Promise.all([import('https://www.gstatic.com/firebasejs/11.10.0/firebase-app.js'),import('https://www.gstatic.com/firebasejs/11.10.0/firebase-auth.js'),import('https://www.gstatic.com/firebasejs/11.10.0/firebase-firestore.js')]);authFns=authMod;dbFns=dbMod;const app=appMod.initializeApp(config);auth=authMod.getAuth(app);db=dbMod.getFirestore(app);authMod.onAuthStateChanged(auth,async next=>{if(db2Unsubscribe){db2Unsubscribe();db2Unsubscribe=null}db2Dirty=false;db2Ready=false;db2Conflict=false;db2Observed=null;db2Patch=null;db2Sending=false;db2InFlight=null;db2Flight++;document.getElementById('gnx-sync-conflict')?.remove();epoch++;clearTimeout(db2Timer);db2Revision++;for(const t of timers.values())clearTimeout(t);timers.clear();pending.clear();ready=false;user=next;recordDiag('auth',user?'ログイン中':'未ログイン');render();if(user){await initialSync();try{await initial2()}catch(e){recordDiag('lastError','初回取得: '+(e.code||e.message));status('ELDEN RING DBの同期に失敗しました');console.warn('GNX DB initial sync:',e.code)}}else status('未ログイン：この端末に進捗を保存します')})}catch(e){recordDiag('lastError','Firebase: '+(e.code||e.message));status('Firebaseを読み込めません。ネット接続を確認してください');console.warn('GNX Firebase:',e)}});
 })();

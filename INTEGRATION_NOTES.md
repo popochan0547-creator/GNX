@@ -1,12 +1,9 @@
-# GNX Ver.13.0 integration notes
+# GNX Ver.14.0 統合メモ
 
-- Base: GNX_account_header_unified.zip (right-top account login, Firebase v1 sync).
-- Work: GNX_Ver11_1_Elden_DB(1).zip (27 entries / 33 check items).
-- Home markup, CSS, background and animations were retained.
-- Work DB is served at `#/elden` and item pages at `#/elden/<entry-id>`.
-- Legacy guide checklists remain at `gnx:guides:v1:` and Firestore `/users/{uid}/progress/elden-ring`.
-- New DB progress stored at `gnx:elden:progress:v2` and Firestore `/users/{uid}/progress/elden-db-v2`.
-- On sign-in, existing cloud data is authoritative; divergent local data is backed up to `gnx:backup:<uid>:elden-db-v2:<timestamp>`.
-- Guest progress stays local. Cloud sync requires Google login and Firestore rules allowing the signed-in user to access their own progress documents.
-- Initial dataset is a limited selection, not a complete game walkthrough; sources should be independently checked before commercial publication.
-- No live browser/Firebase end-to-end test was performed. Test login, new DB check, mobile login and sync, legacy checks, and logout before rollout.
+詳細は docs/INTEGRATION_PLAN.md と docs/CHANGELOG.md を参照してください。
+
+ZIP直下のindex.html、assets/、data/、elden/、sitemap.xml、robots.txt、Google確認HTMLが実行用ファイル一式です。docs/、tests/、scripts/は報告・再生成・検証用です。以前の生成記事と混在させず一式で確認してください。GitHubへは反映していません。
+
+進捗データはこのZIPに含まれません。既存と同じブラウザ/公開元で開いたときのlocalStorage、または既存GoogleアカウントのFirestore文書を利用します。localhostや別ドメインには元ドメインのローカル保存は見えません。Googleログインには既存Firebaseの許可ドメインと実Firestoreルールが適用されます。今回その設定は変更していません。
+
+旧版へ戻す場合も、Ver.14追加項目を含むJSONを先に外部へ退避してください。旧クライアントは未知のIDを保持しない場合があり、全体上書きも行うため混在使用は避けてください。

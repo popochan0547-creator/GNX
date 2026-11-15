@@ -1,0 +1,35 @@
+Syntax OK: all 5 asset scripts + data bundle + 10 home inline scripts.
+✔ legacy 27 entries and 33 task IDs are deeply unchanged (7.150671ms)
+✔ all entry/task/source IDs and references, provenance, scope and dates are valid (5.748504ms)
+✔ JSON and browser data bundle have the same payload (16.985802ms)
+✔ combined search honors keyword, category, region, scope and status (7.656847ms)
+✔ NPC partial progress and all-task totals are counted correctly (1.117629ms)
+✔ old backup restores all legacy checks without dropping unknown current IDs (10.507202ms)
+✔ home and unrelated guides/account CSS remain byte-identical with allowed script additions normalized (741.498387ms)
+✔ Firebase config, SDK version, storage key and cloud document remain compatible (10.141882ms)
+✔ all static item pages expose unique titles, canonical links, source URLs and related URLs under /GNX/ (10.691858ms)
+✔ actual adapter retains legacy cloud state and merges independent clients plus unknown fields (19.438974ms)
+✔ actual adapter retains offline outbox, retries online and supports unchecking (4.855856ms)
+✔ actual adapter stops conflicting notes and keeps unsent conflict in the durable outbox (11.426176ms)
+✔ actual adapter preserves divergent pre-login local record in backup (2.49096ms)
+✔ actual adapter protects corrupt local and cloud state against automatic replacement (5.069705ms)
+✔ actual adapter does not write a queued edit after logout (4.147489ms)
+✔ actual adapter restores offline outbox after page reload (7.430696ms)
+✔ conflict resolution fetches latest cloud note before applying the explicit selection (9.121916ms)
+✔ an in-flight transaction cannot write into a newly selected account (6.690637ms)
+✔ two devices changing different checks preserve both, including unknown cloud IDs (3.088235ms)
+✔ uncheck is preserved without erasing unrelated achievements (0.531866ms)
+✔ concurrent notes require explicit resolution (0.575203ms)
+✔ in-flight delta combined with later edits survives retry (0.73579ms)
+✔ same value merges idempotently and toggle back cancels pending mutation (0.414437ms)
+✔ unknown task survives validation, JSON roundtrip, and reset; excluded from progress (3.179625ms)
+✔ invalid values and unsafe IDs are rejected before writes (0.570598ms)
+ℹ tests 25
+ℹ suites 0
+ℹ pass 25
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1076.933442
+Local links/resources: 1038 OK; structured JSON-LD OK; sitemap 107 URLs resolve.

@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "datasetVersion": "2026.11.15-r1",
+  "datasetVersion": "14.0.0",
   "title": "GNX ELDEN RING — 本編 序盤セレクション",
-  "checkedAt": "2026-11-15",
-  "scope": "本編の序盤からリエーニエを中心とした限定収録。DLC・全件網羅・最新パッチ実機検証は対象外。",
+  "checkedAt": "2026-11-16",
+  "scope": "本編とSHADOW OF THE ERDTREEの限定収録105項目。資料で確認した取得先・攻略要点を独自要約。NPCは各項目に明記した段階のみ。全収集・全分岐・現行パッチの実機検証は未完了。",
   "regions": [
     {
       "id": "limgrave",
@@ -32,6 +32,66 @@
     {
       "id": "roundtable",
       "name": "円卓"
+    },
+    {
+      "id": "altus",
+      "name": "アルター高原"
+    },
+    {
+      "id": "gelmir",
+      "name": "ゲルミア火山・火山館"
+    },
+    {
+      "id": "leyndell",
+      "name": "王都ローデイル"
+    },
+    {
+      "id": "ashen",
+      "name": "灰都ローデイル"
+    },
+    {
+      "id": "mountaintops",
+      "name": "巨人たちの山嶺"
+    },
+    {
+      "id": "snowfield",
+      "name": "聖別雪原"
+    },
+    {
+      "id": "nokron",
+      "name": "永遠の都ノクローン"
+    },
+    {
+      "id": "mohgwyn",
+      "name": "モーグウィン王朝"
+    },
+    {
+      "id": "farum",
+      "name": "崩れゆくファルムアズラ"
+    },
+    {
+      "id": "haligtree",
+      "name": "ミケラの聖樹・エブレフェール"
+    },
+    {
+      "id": "gravesite",
+      "name": "墓地平原（DLC）"
+    },
+    {
+      "id": "ensis",
+      "name": "エンシスの城砦（DLC）"
+    },
+    {
+      "id": "belurat",
+      "name": "塔の街、ベルラート（DLC）"
+    },
+    {
+      "id": "shadowkeep",
+      "name": "影の城（DLC）"
+    },
+    {
+      "id": "rauh",
+      "name": "ラウフ地方（DLC）"
     }
   ],
   "categories": [
@@ -304,6 +364,630 @@
       "url": "https://www.famitsu.com/news/202202/26252793.html",
       "kind": "secondary",
       "checkedAt": "2026-11-15"
+    },
+    {
+      "id": "v14-game8-441094",
+      "publisher": "Game8",
+      "title": "ラダゴンの赤狼：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/441094",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-game8-441117",
+      "publisher": "Game8",
+      "title": "満月の女王、レナラ：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/441117",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-game8-440934",
+      "publisher": "Game8",
+      "title": "獅子の混種（モーンの城）：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/440934",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-game8-441148",
+      "publisher": "Game8",
+      "title": "親衛騎士ローレッタ：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/441148",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-game8-441349",
+      "publisher": "Game8",
+      "title": "星砕きのラダーン：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/441349",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-game8-444741",
+      "publisher": "Game8",
+      "title": "写し身の雫（ノクローン）：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/444741",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-game8-443509",
+      "publisher": "Game8",
+      "title": "血の君主、モーグ：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/443509",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-game8-441633",
+      "publisher": "Game8",
+      "title": "最初の王、ゴッドフレイ（黄金の幻影）：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/441633",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-game8-441692",
+      "publisher": "Game8",
+      "title": "忌み王、モーゴット：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/441692",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-game8-442289",
+      "publisher": "Game8",
+      "title": "火の巨人：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/442289",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-game8-442321",
+      "publisher": "Game8",
+      "title": "神肌のふたり：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/442321",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-gamewith-322886",
+      "publisher": "GameWith",
+      "title": "黒き剣のマリケス：場所・入手方法・攻略",
+      "url": "https://gamewith.jp/eldenring/322886",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-game8-442480",
+      "publisher": "Game8",
+      "title": "百智卿、ギデオン＝オーフニール：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/442480",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-game8-442529",
+      "publisher": "Game8",
+      "title": "最初の王、ゴッドフレイ／戦士、ホーラ・ルー：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/442529",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-game8-619761",
+      "publisher": "Game8",
+      "title": "双月の騎士、レラーナ：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/619761",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-game8-619834",
+      "publisher": "Game8",
+      "title": "神獣獅子舞（ベルラート）：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/619834",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-game8-619987",
+      "publisher": "Game8",
+      "title": "串刺し公、メスメル：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/619987",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-game8-620159",
+      "publisher": "Game8",
+      "title": "蕾の聖女、ロミナ：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/620159",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-game8-440897",
+      "publisher": "Game8",
+      "title": "グレートソード：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/440897",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-game8-441034",
+      "publisher": "Game8",
+      "title": "名刀月隠：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/441034",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-gamewith-321769",
+      "publisher": "GameWith",
+      "title": "長牙：場所・入手方法・攻略",
+      "url": "https://gamewith.jp/eldenring/321769",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-game8-440918",
+      "publisher": "Game8",
+      "title": "レドゥビア：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/440918",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-game8-442094",
+      "publisher": "Game8",
+      "title": "ツインブレード：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/442094",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-game8-441687",
+      "publisher": "Game8",
+      "title": "夜と炎の剣：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/441687",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-game8-441033",
+      "publisher": "Game8",
+      "title": "剣接ぎの大剣：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/441033",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-game8-442733",
+      "publisher": "Game8",
+      "title": "遺跡の大剣：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/442733",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-game8-441686",
+      "publisher": "Game8",
+      "title": "グランサクスの雷：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/441686",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-gamewith-320185",
+      "publisher": "GameWith",
+      "title": "暗月の大剣：場所・入手方法・攻略",
+      "url": "https://gamewith.jp/eldenring/320185",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-gamewith-321393",
+      "publisher": "GameWith",
+      "title": "屍山血河：場所・入手方法・攻略",
+      "url": "https://gamewith.jp/eldenring/321393",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-gamewith-322273",
+      "publisher": "GameWith",
+      "title": "冒涜の聖剣：場所・入手方法・攻略",
+      "url": "https://gamewith.jp/eldenring/322273",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-game8-442747",
+      "publisher": "Game8",
+      "title": "翼の鎌：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/442747",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-game8-618798",
+      "publisher": "Game8",
+      "title": "DLC武器一覧と入手場所",
+      "url": "https://game8.jp/eldenring/618798",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-game8-619770",
+      "publisher": "Game8",
+      "title": "エンシスの城砦の攻略・入手アイテム",
+      "url": "https://game8.jp/eldenring/619770",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-game8-440675",
+      "publisher": "Game8",
+      "title": "放浪騎士シリーズ：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/440675",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-game8-440678",
+      "publisher": "Game8",
+      "title": "葦の地シリーズ：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/440678",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-game8-440679",
+      "publisher": "Game8",
+      "title": "星見シリーズ：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/440679",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-game8-448785",
+      "publisher": "Game8",
+      "title": "ラダーンシリーズ：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/448785",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-game8-442766",
+      "publisher": "Game8",
+      "title": "黒き刃シリーズ：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/442766",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-game8-442768",
+      "publisher": "Game8",
+      "title": "貴腐騎士シリーズ：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/442768",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-game8-620131",
+      "publisher": "Game8",
+      "title": "孤牢シリーズ：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/620131",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-game8-620797",
+      "publisher": "Game8",
+      "title": "誓約騎士シリーズ：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/620797",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-game8-441554",
+      "publisher": "Game8",
+      "title": "爪のタリスマン：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/441554",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-game8-441553",
+      "publisher": "Game8",
+      "title": "斧のタリスマン：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/441553",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-game8-441552",
+      "publisher": "Game8",
+      "title": "曲剣のタリスマン：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/441552",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-game8-441555",
+      "publisher": "Game8",
+      "title": "ラダゴンの肖像：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/441555",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-game8-443090",
+      "publisher": "Game8",
+      "title": "ラダゴンの爛れ刻印：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/443090",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-game8-441058",
+      "publisher": "Game8",
+      "title": "黄金樹の恩寵（通常版）：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/441058",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-game8-444290",
+      "publisher": "Game8",
+      "title": "捧闘の剣のタリスマン：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/444290",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-game8-441177",
+      "publisher": "Game8",
+      "title": "金のスカラベ：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/441177",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-game8-442313",
+      "publisher": "Game8",
+      "title": "竜印の大盾のタリスマン：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/442313",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-game8-443678",
+      "publisher": "Game8",
+      "title": "アレキサンダーの破片：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/443678",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-game8-620058",
+      "publisher": "Game8",
+      "title": "双頭亀のタリスマン：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/620058",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-game8-620217",
+      "publisher": "Game8",
+      "title": "両手剣のタリスマン：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/620217",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-game8-441157",
+      "publisher": "Game8",
+      "title": "ラニ：仕官まで：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/441157",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-game8-441109",
+      "publisher": "Game8",
+      "title": "ネフェリ・ルー：円卓の報酬まで：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/441109",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-game8-440982",
+      "publisher": "Game8",
+      "title": "魔術師セレン：師事まで：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/440982",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-game8-441771",
+      "publisher": "Game8",
+      "title": "魔術師トープス：学院での確認まで：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/441771",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-game8-441769",
+      "publisher": "Game8",
+      "title": "ラーヤ：火山館への案内まで：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/441769",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-gamewith-322187",
+      "publisher": "GameWith",
+      "title": "パッチ：降参を受け入れるまで：場所・入手方法・攻略",
+      "url": "https://gamewith.jp/eldenring/322187",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-game8-440671",
+      "publisher": "Game8",
+      "title": "霊薬の聖杯瓶：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/440671",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-game8-440950",
+      "publisher": "Game8",
+      "title": "砥石の小刀：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/440950",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-game8-440755",
+      "publisher": "Game8",
+      "title": "ローデリカのイベントと霊クラゲの遺灰",
+      "url": "https://game8.jp/eldenring/440755",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-game8-441569",
+      "publisher": "Game8",
+      "title": "鍛石掘りの鈴玉【2】：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/441569",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-game8-441137",
+      "publisher": "Game8",
+      "title": "喪色掘りの鈴玉【1】：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/441137",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-gamewith-320971",
+      "publisher": "GameWith",
+      "title": "デクタスの割符の入手場所と使い道",
+      "url": "https://gamewith.jp/eldenring/320971",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-game8-631566",
+      "publisher": "Game8",
+      "title": "影樹の破片：慰めの教会：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/631566",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-gamewith-320141",
+      "publisher": "GameWith",
+      "title": "ケイリッド：場所・入手方法・攻略",
+      "url": "https://gamewith.jp/eldenring/320141",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-gamewith-320140",
+      "publisher": "GameWith",
+      "title": "アルター高原：場所・入手方法・攻略",
+      "url": "https://gamewith.jp/eldenring/320140",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-gamewith-322447",
+      "publisher": "GameWith",
+      "title": "王都ローデイル（灰都化前）：場所・入手方法・攻略",
+      "url": "https://gamewith.jp/eldenring/322447",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-game8-441146",
+      "publisher": "Game8",
+      "title": "火山館：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/441146",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-game8-441319",
+      "publisher": "Game8",
+      "title": "永遠の都ノクローン：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/441319",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-game8-442291",
+      "publisher": "Game8",
+      "title": "崩れゆくファルムアズラ：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/442291",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-game8-442471",
+      "publisher": "Game8",
+      "title": "ミケラの聖樹：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/442471",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-game8-619121",
+      "publisher": "Game8",
+      "title": "墓地平原：DLCへの入口：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/619121",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-game8-620829",
+      "publisher": "Game8",
+      "title": "塔の街、ベルラート：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/620829",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "official-dlc-access-20240620",
+      "publisher": "FromSoftware",
+      "title": "DLC「SHADOW OF THE ERDTREE」プレイ開始に関するご案内",
+      "url": "https://www.eldenring.jp/newsdetail/news_detail_240620_2.html",
+      "kind": "primary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-gamewith-321351",
+      "publisher": "GameWith",
+      "title": "遺跡の大剣の入手方法",
+      "url": "https://gamewith.jp/eldenring/321351",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "v14-gamewith-322853",
+      "publisher": "GameWith",
+      "title": "アレキサンダーのイベントと分岐報酬",
+      "url": "https://gamewith.jp/eldenring/322853",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16"
     }
   ],
   "entries": [
@@ -1714,6 +2398,3703 @@
       "verifiedAt": "2026-11-15",
       "gameScope": "base-game",
       "patchVersion": null
+    },
+    {
+      "id": "boss-red-wolf",
+      "name": "ラダゴンの赤狼",
+      "category": "boss",
+      "regions": [
+        "academy"
+      ],
+      "location": "魔術学院レアルカリア・討論室",
+      "summary": "学院の討論室で戦うボス。剣の魔術と接近攻撃の両方を見る。",
+      "facts": [
+        {
+          "label": "報酬の一つ",
+          "value": "メモリ・ストーン"
+        }
+      ],
+      "steps": [
+        "学院内を進み討論室へ向かう。",
+        "浮遊する魔術の剣を意識し、噛みつきの連続攻撃が終わってから反撃する。"
+      ],
+      "tasks": [
+        {
+          "id": "boss-red-wolf:step-1",
+          "label": "ラダゴンの赤狼を撃破した"
+        }
+      ],
+      "related": [
+        "area-academy",
+        "boss-rennala"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-441094",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        }
+      ],
+      "caveats": [],
+      "coverage": "出現場所と戦い方の要点。全攻撃・耐性値は未収録。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "base-game",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      }
+    },
+    {
+      "id": "boss-rennala",
+      "name": "満月の女王、レナラ",
+      "category": "boss",
+      "regions": [
+        "academy"
+      ],
+      "location": "魔術学院レアルカリア・大書庫",
+      "summary": "前半の特殊な仕掛けと、後半の魔術戦を分けて考える。",
+      "facts": [
+        {
+          "label": "報酬",
+          "value": "満月の女王の追憶・産まれなき者の大ルーン"
+        }
+      ],
+      "steps": [
+        "前半は黄色い光をまとった生徒を探して攻撃し、女王を落下させる。",
+        "落下中に攻撃し、後半は魔術を避けて反撃の機会を選ぶ。"
+      ],
+      "tasks": [
+        {
+          "id": "boss-rennala:step-1",
+          "label": "満月の女王、レナラを撃破した"
+        }
+      ],
+      "related": [
+        "boss-red-wolf",
+        "area-academy"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-441117",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        }
+      ],
+      "caveats": [],
+      "coverage": "出現場所と戦い方の要点。全攻撃・耐性値は未収録。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "base-game",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      }
+    },
+    {
+      "id": "boss-leonine",
+      "name": "獅子の混種（モーンの城）",
+      "category": "boss",
+      "regions": [
+        "weeping"
+      ],
+      "location": "モーンの城の奥・海岸側のボス部屋",
+      "summary": "モーンの城の探索の先で挑戦できる混種。",
+      "facts": [
+        {
+          "label": "報酬",
+          "value": "剣接ぎの大剣"
+        }
+      ],
+      "steps": [
+        "城の裏手から下層へ進み、海岸側のボス部屋を探す。",
+        "大振りや跳躍攻撃の後に反撃し、連続攻撃中は距離を取る。"
+      ],
+      "tasks": [
+        {
+          "id": "boss-leonine:step-1",
+          "label": "獅子の混種（モーンの城）を撃破した"
+        }
+      ],
+      "related": [
+        "area-weeping",
+        "weapon-grafted"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-440934",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        }
+      ],
+      "caveats": [],
+      "coverage": "出現場所と戦い方の要点。全攻撃・耐性値は未収録。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "base-game",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      }
+    },
+    {
+      "id": "boss-loretta-manor",
+      "name": "親衛騎士ローレッタ",
+      "category": "boss",
+      "regions": [
+        "liurnia"
+      ],
+      "location": "カーリアの城館・王家の月見場",
+      "summary": "城館の先への通路を守る騎乗ボス。聖樹の同名人物の戦闘とは区別する。",
+      "facts": [
+        {
+          "label": "報酬",
+          "value": "ローレッタの斬撃・ローレッタの大弓"
+        }
+      ],
+      "steps": [
+        "カーリアの城館を上層まで進む。",
+        "近接の連続攻撃と魔術の発射を見分け、攻撃後の隙に反撃する。"
+      ],
+      "tasks": [
+        {
+          "id": "boss-loretta-manor:step-1",
+          "label": "親衛騎士ローレッタを撃破した"
+        }
+      ],
+      "related": [
+        "npc-ranni-intro",
+        "weapon-night-flame"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-441148",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        }
+      ],
+      "caveats": [],
+      "coverage": "出現場所と戦い方の要点。全攻撃・耐性値は未収録。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "base-game",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      }
+    },
+    {
+      "id": "boss-radahn",
+      "name": "星砕きのラダーン",
+      "category": "boss",
+      "regions": [
+        "caelid"
+      ],
+      "location": "赤獅子城の祭りから向かう慟哭砂丘",
+      "summary": "ラダーン祭りを通じて挑む戦闘。ノクローンへの探索とも関わる。",
+      "facts": [],
+      "steps": [
+        "ラダーン祭りが開催された赤獅子城から戦場へ向かう。",
+        "開始直後の遠距離攻撃を避け、戦場の召喚サインも利用する。"
+      ],
+      "tasks": [
+        {
+          "id": "boss-radahn:step-1",
+          "label": "星砕きのラダーンを撃破した"
+        }
+      ],
+      "related": [
+        "area-nokron",
+        "armor-radahn",
+        "area-gravesite"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-441349",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        },
+        {
+          "sourceId": "official-dlc-access-20240620",
+          "scope": "DLC開始には星砕きのラダーンと血の君主モーグの両方の撃破が必要。神人眠りの繭から移動。"
+        }
+      ],
+      "caveats": [
+        "祭りの全開催条件は未収録。DLCへの移動には血の君主モーグの撃破も必要。"
+      ],
+      "coverage": "出現場所と戦い方の要点。全攻撃・耐性値は未収録。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "base-game",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "公式案内と攻略メディアを照合（実機再現なし）"
+      }
+    },
+    {
+      "id": "boss-mimic",
+      "name": "写し身の雫（ノクローン）",
+      "category": "boss",
+      "regions": [
+        "nokron"
+      ],
+      "location": "永遠の都ノクローン",
+      "summary": "プレイヤーの装備を写すボス。別地域のはぐれ写し身とは区別する。",
+      "facts": [],
+      "steps": [
+        "ラダーン撃破後の落下地点からノクローンへ入る。",
+        "自身の装備を反映する相手として、出現後の攻撃手段を見て対応する。"
+      ],
+      "tasks": [
+        {
+          "id": "boss-mimic:step-1",
+          "label": "写し身の雫（ノクローン）を撃破した"
+        }
+      ],
+      "related": [
+        "area-nokron",
+        "boss-radahn"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-444741",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        }
+      ],
+      "caveats": [],
+      "coverage": "出現場所と戦い方の要点。全攻撃・耐性値は未収録。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "base-game",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      }
+    },
+    {
+      "id": "boss-mohg-lord",
+      "name": "血の君主、モーグ",
+      "category": "boss",
+      "regions": [
+        "mohgwyn"
+      ],
+      "location": "モーグウィン王朝・王朝廟",
+      "summary": "王朝廟のボス。王都地下の忌み子モーグとは別の戦闘。",
+      "facts": [],
+      "steps": [
+        "王朝廟を進みボスに挑む。",
+        "血の炎が残る場所を避け、呪いを伴う形態移行では回復の余裕を確保する。"
+      ],
+      "tasks": [
+        {
+          "id": "boss-mohg-lord:step-1",
+          "label": "血の君主、モーグを撃破した"
+        }
+      ],
+      "related": [
+        "boss-radahn",
+        "area-gravesite"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-443509",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        },
+        {
+          "sourceId": "official-dlc-access-20240620",
+          "scope": "DLC開始には星砕きのラダーンと血の君主モーグの両方の撃破が必要。神人眠りの繭から移動。"
+        }
+      ],
+      "caveats": [
+        "王朝廟への全到達ルート、浄血の結晶雫の入手手順は未収録。"
+      ],
+      "coverage": "出現場所と戦い方の要点。全攻撃・耐性値は未収録。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "base-game",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "公式案内と攻略メディアを照合（実機再現なし）"
+      }
+    },
+    {
+      "id": "boss-godfrey-shade",
+      "name": "最初の王、ゴッドフレイ（黄金の幻影）",
+      "category": "boss",
+      "regions": [
+        "leyndell"
+      ],
+      "location": "王都ローデイル・黄金樹の大聖堂",
+      "summary": "王都で戦う黄金の幻影。灰都のゴッドフレイとは別の記録。",
+      "facts": [],
+      "steps": [
+        "王都内を進み黄金樹の大聖堂へ向かう。",
+        "斧の連撃が終わるまで回避を優先し、隙を確認して攻撃する。"
+      ],
+      "tasks": [
+        {
+          "id": "boss-godfrey-shade:step-1",
+          "label": "最初の王、ゴッドフレイ（黄金の幻影）を撃破した"
+        }
+      ],
+      "related": [
+        "area-leyndell",
+        "boss-morgott",
+        "boss-hoarah"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-441633",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        }
+      ],
+      "caveats": [],
+      "coverage": "出現場所と戦い方の要点。全攻撃・耐性値は未収録。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "base-game",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      }
+    },
+    {
+      "id": "boss-morgott",
+      "name": "忌み王、モーゴット",
+      "category": "boss",
+      "regions": [
+        "leyndell"
+      ],
+      "location": "王都ローデイル・エルデの王座",
+      "summary": "王都の女王の閨の先で待つボス。",
+      "facts": [],
+      "steps": [
+        "黄金樹の大聖堂を越えて女王の閨から王座へ進む。",
+        "武器を切り替える連続攻撃の終わりを見て反撃する。"
+      ],
+      "tasks": [
+        {
+          "id": "boss-morgott:step-1",
+          "label": "忌み王、モーゴットを撃破した"
+        }
+      ],
+      "related": [
+        "boss-godfrey-shade",
+        "area-leyndell",
+        "boss-fire-giant"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-441692",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        }
+      ],
+      "caveats": [],
+      "coverage": "出現場所と戦い方の要点。全攻撃・耐性値は未収録。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "base-game",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      }
+    },
+    {
+      "id": "boss-fire-giant",
+      "name": "火の巨人",
+      "category": "boss",
+      "regions": [
+        "mountaintops"
+      ],
+      "location": "巨人たちの山嶺・巨人の火の釜の手前",
+      "summary": "巨体との戦闘。前半は足元の弱点を狙う。",
+      "facts": [],
+      "steps": [
+        "巨人たちの山嶺を進み、火の釜手前の戦場へ入る。",
+        "前半は左足を狙い、転がりや炎が来たら位置を変える。"
+      ],
+      "tasks": [
+        {
+          "id": "boss-fire-giant:step-1",
+          "label": "火の巨人を撃破した"
+        }
+      ],
+      "related": [
+        "boss-morgott",
+        "area-farum"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-442289",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        }
+      ],
+      "caveats": [
+        "後半の全行動・巨人の火の釜でのイベント分岐は未収録。"
+      ],
+      "coverage": "出現場所と戦い方の要点。全攻撃・耐性値は未収録。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "base-game",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      }
+    },
+    {
+      "id": "boss-godskin-duo",
+      "name": "神肌のふたり",
+      "category": "boss",
+      "regions": [
+        "farum"
+      ],
+      "location": "崩れゆくファルムアズラ",
+      "summary": "複数の神肌を相手にする戦闘。遮蔽物で同時攻撃を減らす。",
+      "facts": [],
+      "steps": [
+        "ファルムアズラを進み戦闘部屋へ向かう。",
+        "柱を挟んで距離を分け、一度に両方から攻撃される状況を避ける。"
+      ],
+      "tasks": [
+        {
+          "id": "boss-godskin-duo:step-1",
+          "label": "神肌のふたりを撃破した"
+        }
+      ],
+      "related": [
+        "area-farum",
+        "boss-maliketh"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-442321",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        }
+      ],
+      "caveats": [],
+      "coverage": "出現場所と戦い方の要点。全攻撃・耐性値は未収録。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "base-game",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      }
+    },
+    {
+      "id": "boss-maliketh",
+      "name": "黒き剣のマリケス",
+      "category": "boss",
+      "regions": [
+        "farum"
+      ],
+      "location": "崩れゆくファルムアズラ・大橋梁の先",
+      "summary": "獣の司祭との戦いから形態が変わる。",
+      "facts": [],
+      "steps": [
+        "大橋梁の脇から奥のボス部屋へ進む。",
+        "後半は最大HP低下と継続ダメージを伴う攻撃に注意し、柱を位置調整に使う。"
+      ],
+      "tasks": [
+        {
+          "id": "boss-maliketh:step-1",
+          "label": "黒き剣のマリケスを撃破した"
+        }
+      ],
+      "related": [
+        "area-farum",
+        "boss-gideon",
+        "weapon-gransax"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-gamewith-322886",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        }
+      ],
+      "caveats": [
+        "撃破後は王都が灰都へ変化する。王都限定の拾得物を先に確認する。"
+      ],
+      "coverage": "出現場所と戦い方の要点。全攻撃・耐性値は未収録。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "base-game",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      }
+    },
+    {
+      "id": "boss-gideon",
+      "name": "百智卿、ギデオン＝オーフニール",
+      "category": "boss",
+      "regions": [
+        "ashen"
+      ],
+      "location": "灰都ローデイル",
+      "summary": "灰都に移った後に戦うボス。円卓での会話イベントとは別項目。",
+      "facts": [],
+      "steps": [
+        "灰都の道を進み、屋内の戦闘場所へ向かう。",
+        "魔術や祈祷の射線から離れ、詠唱後の隙を狙う。"
+      ],
+      "tasks": [
+        {
+          "id": "boss-gideon:step-1",
+          "label": "百智卿、ギデオン＝オーフニールを撃破した"
+        }
+      ],
+      "related": [
+        "boss-maliketh",
+        "boss-hoarah"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-442480",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        }
+      ],
+      "caveats": [],
+      "coverage": "灰都でのボス戦の所在と基本方針。円卓での報告イベントは未収録。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "base-game",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      }
+    },
+    {
+      "id": "boss-hoarah",
+      "name": "最初の王、ゴッドフレイ／戦士、ホーラ・ルー",
+      "category": "boss",
+      "regions": [
+        "ashen"
+      ],
+      "location": "灰都ローデイル・エルデの王座",
+      "summary": "斧による戦闘の後、素手を使う形態へ移行する。",
+      "facts": [],
+      "steps": [
+        "灰都のギデオン戦を越えて王座へ向かう。",
+        "踏みつけの衝撃波と後半の掴み攻撃を見分け、攻撃の終わりに反撃する。"
+      ],
+      "tasks": [
+        {
+          "id": "boss-hoarah:step-1",
+          "label": "最初の王、ゴッドフレイ／戦士、ホーラ・ルーを撃破した"
+        }
+      ],
+      "related": [
+        "boss-gideon",
+        "boss-godfrey-shade"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-442529",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        }
+      ],
+      "caveats": [],
+      "coverage": "出現場所と戦い方の要点。全攻撃・耐性値は未収録。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "base-game",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      }
+    },
+    {
+      "id": "boss-rellana",
+      "name": "双月の騎士、レラーナ",
+      "category": "boss",
+      "regions": [
+        "ensis"
+      ],
+      "location": "エンシスの城砦・城主の間の先",
+      "summary": "二本の剣による連続攻撃を使うDLCのボス。",
+      "facts": [],
+      "steps": [
+        "エンシスの城砦を進み城主の間の祝福を開く。",
+        "連撃中の無理な差し込みを避け、動作が終わった隙に攻撃する。"
+      ],
+      "tasks": [
+        {
+          "id": "boss-rellana:step-1",
+          "label": "双月の騎士、レラーナを撃破した"
+        }
+      ],
+      "related": [
+        "area-ensis",
+        "weapon-milady"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-619761",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        }
+      ],
+      "caveats": [],
+      "coverage": "出現場所と戦い方の要点。全攻撃・耐性値は未収録。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "dlc",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      }
+    },
+    {
+      "id": "boss-dancing-lion",
+      "name": "神獣獅子舞（ベルラート）",
+      "category": "boss",
+      "regions": [
+        "belurat"
+      ],
+      "location": "塔の街、ベルラート",
+      "summary": "ベルラートの神獣獅子舞。ラウフの個体とは区別する。",
+      "facts": [],
+      "steps": [
+        "塔の街を上層まで探索して戦場へ向かう。",
+        "雷・冷気・風の変化を見て立ち位置を調整し、雷の残る地面を避ける。"
+      ],
+      "tasks": [
+        {
+          "id": "boss-dancing-lion:step-1",
+          "label": "神獣獅子舞（ベルラート）を撃破した"
+        }
+      ],
+      "related": [
+        "area-belurat"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-619834",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        }
+      ],
+      "caveats": [],
+      "coverage": "出現場所と戦い方の要点。全攻撃・耐性値は未収録。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "dlc",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      }
+    },
+    {
+      "id": "boss-messmer",
+      "name": "串刺し公、メスメル",
+      "category": "boss",
+      "regions": [
+        "shadowkeep"
+      ],
+      "location": "影の城",
+      "summary": "炎を用いるDLCのボス。大きな初動と連撃を見分ける。",
+      "facts": [],
+      "steps": [
+        "影の城を進みメスメルの戦場へ向かう。",
+        "炎への備えを用意し、飛び込み攻撃や連続攻撃の後に反撃する。"
+      ],
+      "tasks": [
+        {
+          "id": "boss-messmer:step-1",
+          "label": "串刺し公、メスメルを撃破した"
+        }
+      ],
+      "related": [
+        "boss-romina"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-619987",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        }
+      ],
+      "caveats": [],
+      "coverage": "出現場所と戦い方の要点。全攻撃・耐性値は未収録。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "dlc",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      }
+    },
+    {
+      "id": "boss-romina",
+      "name": "蕾の聖女、ロミナ",
+      "category": "boss",
+      "regions": [
+        "rauh"
+      ],
+      "location": "ラウフの古遺跡・蕾の教会",
+      "summary": "朱い腐敗に備えて挑むDLCのボス。",
+      "facts": [],
+      "steps": [
+        "ラウフの古遺跡を進み蕾の教会へ向かう。",
+        "腐敗への対処手段を用意し、大きな体の攻撃範囲から離れて反撃する。"
+      ],
+      "tasks": [
+        {
+          "id": "boss-romina:step-1",
+          "label": "蕾の聖女、ロミナを撃破した"
+        }
+      ],
+      "related": [
+        "boss-messmer"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-620159",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        }
+      ],
+      "caveats": [],
+      "coverage": "出現場所と戦い方の要点。全攻撃・耐性値は未収録。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "dlc",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      }
+    },
+    {
+      "id": "weapon-greatsword",
+      "name": "グレートソード",
+      "category": "weapon",
+      "regions": [
+        "caelid"
+      ],
+      "location": "ケイリッドの街道の荷車",
+      "summary": "グレートソードの入手先はケイリッドの街道の荷車。",
+      "facts": [],
+      "steps": [
+        "腐敗を臨む露台とキレムの廃墟の間の荷車で宝箱を確認する。",
+        "所持品で入手を確認してからチェックする。"
+      ],
+      "tasks": [
+        {
+          "id": "weapon-greatsword:step-1",
+          "label": "グレートソードを入手した"
+        }
+      ],
+      "related": [
+        "area-caelid"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-440897",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        }
+      ],
+      "caveats": [
+        "全派生・強化段階・必要能力値は未収録。"
+      ],
+      "coverage": "入手先と確認手順。性能数値・全ルートは未収録。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "base-game",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      }
+    },
+    {
+      "id": "weapon-moonveil",
+      "name": "名刀月隠",
+      "category": "weapon",
+      "regions": [
+        "caelid"
+      ],
+      "location": "ゲール坑道",
+      "summary": "名刀月隠の入手先はゲール坑道。",
+      "facts": [],
+      "steps": [
+        "ゲール坑道のボス、溶岩土竜を倒して入手する。",
+        "所持品で入手を確認してからチェックする。"
+      ],
+      "tasks": [
+        {
+          "id": "weapon-moonveil:step-1",
+          "label": "名刀月隠を入手した"
+        }
+      ],
+      "related": [
+        "area-caelid"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-441034",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        }
+      ],
+      "caveats": [
+        "全派生・強化段階・必要能力値は未収録。"
+      ],
+      "coverage": "入手先と確認手順。性能数値・全ルートは未収録。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "base-game",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      }
+    },
+    {
+      "id": "weapon-nagakiba",
+      "name": "長牙",
+      "category": "weapon",
+      "regions": [
+        "limgrave",
+        "altus"
+      ],
+      "location": "ユラのイベント",
+      "summary": "長牙の入手先はユラのイベント。",
+      "facts": [],
+      "steps": [
+        "ユラのイベントを進め、第二マリカ教会で入手するルートを確認する。",
+        "所持品で入手を確認してからチェックする。"
+      ],
+      "tasks": [
+        {
+          "id": "weapon-nagakiba:step-1",
+          "label": "長牙を入手した"
+        }
+      ],
+      "related": [
+        "weapon-reduvia"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-gamewith-321769",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        }
+      ],
+      "caveats": [
+        "全派生・強化段階・必要能力値は未収録。",
+        "ユラの進行状況で入手地点が変わる。NPC殺害ルートの手順は未収録。"
+      ],
+      "coverage": "入手先と確認手順。性能数値・全ルートは未収録。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "base-game",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      }
+    },
+    {
+      "id": "weapon-reduvia",
+      "name": "レドゥビア",
+      "category": "weapon",
+      "regions": [
+        "limgrave"
+      ],
+      "location": "曇り川の洞窟付近の侵入戦",
+      "summary": "レドゥビアの入手先は曇り川の洞窟付近の侵入戦。",
+      "facts": [],
+      "steps": [
+        "曇り川の洞窟付近で発生する侵入者との戦闘に勝つ。",
+        "所持品で入手を確認してからチェックする。"
+      ],
+      "tasks": [
+        {
+          "id": "weapon-reduvia:step-1",
+          "label": "レドゥビアを入手した"
+        }
+      ],
+      "related": [
+        "npc-patches-intro"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-440918",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        }
+      ],
+      "caveats": [
+        "全派生・強化段階・必要能力値は未収録。"
+      ],
+      "coverage": "入手先と確認手順。性能数値・全ルートは未収録。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "base-game",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      }
+    },
+    {
+      "id": "weapon-twinblade",
+      "name": "ツインブレード",
+      "category": "weapon",
+      "regions": [
+        "limgrave"
+      ],
+      "location": "竜に焼かれた廃墟の地下",
+      "summary": "ツインブレードの入手先は竜に焼かれた廃墟の地下。",
+      "facts": [],
+      "steps": [
+        "トレントで壁を越えられる区画の地下へ入り、宝箱を開ける。",
+        "所持品で入手を確認してからチェックする。"
+      ],
+      "tasks": [
+        {
+          "id": "weapon-twinblade:step-1",
+          "label": "ツインブレードを入手した"
+        }
+      ],
+      "related": [
+        "area-limgrave"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-442094",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        }
+      ],
+      "caveats": [
+        "全派生・強化段階・必要能力値は未収録。"
+      ],
+      "coverage": "入手先と確認手順。性能数値・全ルートは未収録。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "base-game",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      }
+    },
+    {
+      "id": "weapon-night-flame",
+      "name": "夜と炎の剣",
+      "category": "weapon",
+      "regions": [
+        "liurnia"
+      ],
+      "location": "カーリアの城館の宝箱",
+      "summary": "夜と炎の剣の入手先はカーリアの城館の宝箱。",
+      "facts": [],
+      "steps": [
+        "城館の屋根側から、閉じた部屋にある宝箱へ向かう。",
+        "所持品で入手を確認してからチェックする。"
+      ],
+      "tasks": [
+        {
+          "id": "weapon-night-flame:step-1",
+          "label": "夜と炎の剣を入手した"
+        }
+      ],
+      "related": [
+        "boss-loretta-manor"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-441687",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        }
+      ],
+      "caveats": [
+        "全派生・強化段階・必要能力値は未収録。"
+      ],
+      "coverage": "入手先と確認手順。性能数値・全ルートは未収録。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "base-game",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      }
+    },
+    {
+      "id": "weapon-grafted",
+      "name": "剣接ぎの大剣",
+      "category": "weapon",
+      "regions": [
+        "weeping"
+      ],
+      "location": "モーンの城",
+      "summary": "剣接ぎの大剣の入手先はモーンの城。",
+      "facts": [],
+      "steps": [
+        "城の奥で獅子の混種を倒す。",
+        "所持品で入手を確認してからチェックする。"
+      ],
+      "tasks": [
+        {
+          "id": "weapon-grafted:step-1",
+          "label": "剣接ぎの大剣を入手した"
+        }
+      ],
+      "related": [
+        "boss-leonine"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-441033",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        }
+      ],
+      "caveats": [
+        "全派生・強化段階・必要能力値は未収録。"
+      ],
+      "coverage": "入手先と確認手順。性能数値・全ルートは未収録。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "base-game",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      }
+    },
+    {
+      "id": "weapon-ruins",
+      "name": "遺跡の大剣",
+      "category": "weapon",
+      "regions": [
+        "caelid"
+      ],
+      "location": "赤獅子城",
+      "summary": "遺跡の大剣の入手先は赤獅子城。",
+      "facts": [],
+      "steps": [
+        "祭り終了後のルートでは、城でジェーレンと話してから再訪し、混種の戦士と坩堝の騎士の戦闘に勝つ。",
+        "所持品で入手を確認してからチェックする。"
+      ],
+      "tasks": [
+        {
+          "id": "weapon-ruins:step-1",
+          "label": "遺跡の大剣を入手した"
+        }
+      ],
+      "related": [
+        "boss-radahn"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-442733",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        },
+        {
+          "sourceId": "v14-gamewith-321351",
+          "scope": "祭り以前にも入手できる。先にラダーンを倒した場合は会話・再読み込みで通常状態に戻す。"
+        }
+      ],
+      "caveats": [
+        "全派生・強化段階・必要能力値は未収録。",
+        "祭り開催前にも戦える場合がある。ここでは祭り終了後のルートのみを扱う。"
+      ],
+      "coverage": "入手先と確認手順。性能数値・全ルートは未収録。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "base-game",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      }
+    },
+    {
+      "id": "weapon-gransax",
+      "name": "グランサクスの雷",
+      "category": "weapon",
+      "regions": [
+        "leyndell"
+      ],
+      "location": "王都ローデイル・巨大な槍の上",
+      "summary": "グランサクスの雷の入手先は王都ローデイル・巨大な槍の上。",
+      "facts": [],
+      "steps": [
+        "黄金樹の大聖堂からリフトで下り、王都に突き刺さる大きな槍へ移って拾う。",
+        "所持品で入手を確認してからチェックする。"
+      ],
+      "tasks": [
+        {
+          "id": "weapon-gransax:step-1",
+          "label": "グランサクスの雷を入手した"
+        }
+      ],
+      "related": [
+        "area-leyndell",
+        "boss-maliketh"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-441686",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        }
+      ],
+      "caveats": [
+        "全派生・強化段階・必要能力値は未収録。",
+        "王都が灰都に変化すると、この周回では通常の拾得ができなくなる。"
+      ],
+      "coverage": "入手先と確認手順。性能数値・全ルートは未収録。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "base-game",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      }
+    },
+    {
+      "id": "weapon-dark-moon",
+      "name": "暗月の大剣",
+      "category": "weapon",
+      "regions": [
+        "liurnia"
+      ],
+      "location": "マヌス・セリスの大教会",
+      "summary": "暗月の大剣の入手先はマヌス・セリスの大教会。",
+      "facts": [],
+      "steps": [
+        "ラニのイベント終盤に大教会の地下で指輪をはめ、会話後に拾う。",
+        "所持品で入手を確認してからチェックする。"
+      ],
+      "tasks": [
+        {
+          "id": "weapon-dark-moon:step-1",
+          "label": "暗月の大剣を入手した"
+        }
+      ],
+      "related": [
+        "npc-ranni-intro"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-gamewith-320185",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        }
+      ],
+      "caveats": [
+        "全派生・強化段階・必要能力値は未収録。"
+      ],
+      "coverage": "入手先と確認手順。性能数値・全ルートは未収録。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "base-game",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      }
+    },
+    {
+      "id": "weapon-rivers-blood",
+      "name": "屍山血河",
+      "category": "weapon",
+      "regions": [
+        "mountaintops"
+      ],
+      "location": "安息教会の侵入戦",
+      "summary": "屍山血河の入手先は安息教会の侵入戦。",
+      "facts": [],
+      "steps": [
+        "安息教会付近で侵入する翁を倒す。",
+        "所持品で入手を確認してからチェックする。"
+      ],
+      "tasks": [
+        {
+          "id": "weapon-rivers-blood:step-1",
+          "label": "屍山血河を入手した"
+        }
+      ],
+      "related": [
+        "boss-fire-giant"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-gamewith-321393",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        }
+      ],
+      "caveats": [
+        "全派生・強化段階・必要能力値は未収録。",
+        "火の巨人撃破による旧版の出現制限は、この版の掲載条件に採用していない。現行パッチでの再現は未検証。"
+      ],
+      "coverage": "入手先と確認手順。性能数値・全ルートは未収録。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "base-game",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      }
+    },
+    {
+      "id": "weapon-blasphemous",
+      "name": "冒涜の聖剣",
+      "category": "weapon",
+      "regions": [
+        "gelmir",
+        "roundtable"
+      ],
+      "location": "ライカードの追憶交換",
+      "summary": "冒涜の聖剣の入手先はライカードの追憶交換。",
+      "facts": [],
+      "steps": [
+        "ライカードから得た冒涜の君主の追憶を円卓のエンヤに渡し、この武器を選ぶ。",
+        "所持品で入手を確認してからチェックする。"
+      ],
+      "tasks": [
+        {
+          "id": "weapon-blasphemous:step-1",
+          "label": "冒涜の聖剣を入手した"
+        }
+      ],
+      "related": [
+        "area-volcano"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-gamewith-322273",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        }
+      ],
+      "caveats": [
+        "全派生・強化段階・必要能力値は未収録。"
+      ],
+      "coverage": "入手先と確認手順。性能数値・全ルートは未収録。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "base-game",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      }
+    },
+    {
+      "id": "weapon-winged-scythe",
+      "name": "翼の鎌",
+      "category": "weapon",
+      "regions": [
+        "weeping"
+      ],
+      "location": "霊廟ヶ原の廃墟",
+      "summary": "翼の鎌の入手先は霊廟ヶ原の廃墟。",
+      "facts": [],
+      "steps": [
+        "霊廟ヶ原の廃墟で地下の宝箱を確認する。",
+        "所持品で入手を確認してからチェックする。"
+      ],
+      "tasks": [
+        {
+          "id": "weapon-winged-scythe:step-1",
+          "label": "翼の鎌を入手した"
+        }
+      ],
+      "related": [
+        "area-weeping"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-442747",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        }
+      ],
+      "caveats": [
+        "全派生・強化段階・必要能力値は未収録。"
+      ],
+      "coverage": "入手先と確認手順。性能数値・全ルートは未収録。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "base-game",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      }
+    },
+    {
+      "id": "weapon-backhand",
+      "name": "逆手剣",
+      "category": "weapon",
+      "regions": [
+        "gravesite"
+      ],
+      "location": "三叉路の十字の東側付近",
+      "summary": "逆手剣の入手先は三叉路の十字の東側付近。",
+      "facts": [],
+      "steps": [
+        "墓地平原を探索し、三叉路の十字の東側にある祭壇の拾得物を確認する。",
+        "所持品で入手を確認してからチェックする。"
+      ],
+      "tasks": [
+        {
+          "id": "weapon-backhand:step-1",
+          "label": "逆手剣を入手した"
+        }
+      ],
+      "related": [
+        "area-gravesite"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-618798",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        }
+      ],
+      "caveats": [
+        "全派生・強化段階・必要能力値は未収録。"
+      ],
+      "coverage": "入手先と確認手順。性能数値・全ルートは未収録。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "dlc",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      }
+    },
+    {
+      "id": "weapon-milady",
+      "name": "レディソード",
+      "category": "weapon",
+      "regions": [
+        "ensis"
+      ],
+      "location": "エンシスの城砦・塔の上",
+      "summary": "レディソードの入手先はエンシスの城砦・塔の上。",
+      "facts": [],
+      "steps": [
+        "城砦の入口側にある塔を梯子で登り、上の宝箱を開ける。",
+        "所持品で入手を確認してからチェックする。"
+      ],
+      "tasks": [
+        {
+          "id": "weapon-milady:step-1",
+          "label": "レディソードを入手した"
+        }
+      ],
+      "related": [
+        "area-ensis"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-619770",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        }
+      ],
+      "caveats": [
+        "全派生・強化段階・必要能力値は未収録。"
+      ],
+      "coverage": "入手先と確認手順。性能数値・全ルートは未収録。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "dlc",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      }
+    },
+    {
+      "id": "weapon-great-katana",
+      "name": "大刀",
+      "category": "weapon",
+      "regions": [
+        "gravesite"
+      ],
+      "location": "大橋の北の西側の湖",
+      "summary": "大刀の入手先は大橋の北の西側の湖。",
+      "facts": [],
+      "steps": [
+        "祝福「大橋の北」から西の湖へ向かい、霊炎竜の近くの遺体で拾う。",
+        "所持品で入手を確認してからチェックする。"
+      ],
+      "tasks": [
+        {
+          "id": "weapon-great-katana:step-1",
+          "label": "大刀を入手した"
+        }
+      ],
+      "related": [
+        "area-gravesite"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-618798",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        }
+      ],
+      "caveats": [
+        "全派生・強化段階・必要能力値は未収録。"
+      ],
+      "coverage": "入手先と確認手順。性能数値・全ルートは未収録。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "dlc",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      }
+    },
+    {
+      "id": "armor-vagabond",
+      "name": "放浪騎士シリーズ",
+      "category": "armor",
+      "regions": [
+        "mountaintops"
+      ],
+      "location": "初期装備／古遺跡の雪谷の商人",
+      "summary": "放浪騎士シリーズの入手経路：初期装備／古遺跡の雪谷の商人。",
+      "facts": [],
+      "steps": [
+        "素性「放浪騎士」の初期装備。別の素性なら古遺跡の雪谷の商人の品揃えを確認する。",
+        "各部位が揃ったことを所持品で確認する。"
+      ],
+      "tasks": [
+        {
+          "id": "armor-vagabond:step-1",
+          "label": "放浪騎士シリーズの一式を揃えた"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-440675",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        }
+      ],
+      "caveats": [
+        "1チェックは一式の自己確認。部位別のチェックやドロップ率は未収録。"
+      ],
+      "coverage": "入手先と確認手順。性能数値・全ルートは未収録。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "base-game",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      }
+    },
+    {
+      "id": "armor-reeds",
+      "name": "葦の地シリーズ",
+      "category": "armor",
+      "regions": [
+        "caelid"
+      ],
+      "location": "初期装備／隠遁商人のボロ家",
+      "summary": "葦の地シリーズの入手経路：初期装備／隠遁商人のボロ家。",
+      "facts": [],
+      "steps": [
+        "素性「侍」の初期装備。購入する場合はケイリッドの隠遁商人のボロ家へ向かう。",
+        "各部位が揃ったことを所持品で確認する。"
+      ],
+      "tasks": [
+        {
+          "id": "armor-reeds:step-1",
+          "label": "葦の地シリーズの一式を揃えた"
+        }
+      ],
+      "related": [
+        "area-caelid"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-440678",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        }
+      ],
+      "caveats": [
+        "1チェックは一式の自己確認。部位別のチェックやドロップ率は未収録。"
+      ],
+      "coverage": "入手先と確認手順。性能数値・全ルートは未収録。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "base-game",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      }
+    },
+    {
+      "id": "armor-astrologer",
+      "name": "星見シリーズ",
+      "category": "armor",
+      "regions": [
+        "liurnia"
+      ],
+      "location": "初期装備／リエーニエ湖の岸辺の商人",
+      "summary": "星見シリーズの入手経路：初期装備／リエーニエ湖の岸辺の商人。",
+      "facts": [],
+      "steps": [
+        "素性「星見」の初期装備。購入する場合はリエーニエ湖の岸辺の商人を訪ねる。",
+        "各部位が揃ったことを所持品で確認する。"
+      ],
+      "tasks": [
+        {
+          "id": "armor-astrologer:step-1",
+          "label": "星見シリーズの一式を揃えた"
+        }
+      ],
+      "related": [
+        "area-liurnia"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-440679",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        }
+      ],
+      "caveats": [
+        "1チェックは一式の自己確認。部位別のチェックやドロップ率は未収録。"
+      ],
+      "coverage": "入手先と確認手順。性能数値・全ルートは未収録。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "base-game",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      }
+    },
+    {
+      "id": "armor-radahn",
+      "name": "ラダーンシリーズ",
+      "category": "armor",
+      "regions": [
+        "roundtable"
+      ],
+      "location": "ラダーン撃破後のエンヤの販売",
+      "summary": "ラダーンシリーズの入手経路：ラダーン撃破後のエンヤの販売。",
+      "facts": [],
+      "steps": [
+        "星砕きのラダーンを倒し、円卓のエンヤの販売品を確認する。",
+        "各部位が揃ったことを所持品で確認する。"
+      ],
+      "tasks": [
+        {
+          "id": "armor-radahn:step-1",
+          "label": "ラダーンシリーズの一式を揃えた"
+        }
+      ],
+      "related": [
+        "boss-radahn"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-448785",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        }
+      ],
+      "caveats": [
+        "1チェックは一式の自己確認。部位別のチェックやドロップ率は未収録。"
+      ],
+      "coverage": "入手先と確認手順。性能数値・全ルートは未収録。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "base-game",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      }
+    },
+    {
+      "id": "armor-black-knife",
+      "name": "黒き刃シリーズ",
+      "category": "armor",
+      "regions": [
+        "snowfield"
+      ],
+      "location": "典礼街オルディナ・階段の下",
+      "summary": "黒き刃シリーズの入手経路：典礼街オルディナ・階段の下。",
+      "facts": [],
+      "steps": [
+        "典礼街オルディナで大階段の下側にある遺体を確認する。",
+        "各部位が揃ったことを所持品で確認する。"
+      ],
+      "tasks": [
+        {
+          "id": "armor-black-knife:step-1",
+          "label": "黒き刃シリーズの一式を揃えた"
+        }
+      ],
+      "related": [
+        "area-haligtree"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-442766",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        }
+      ],
+      "caveats": [
+        "1チェックは一式の自己確認。部位別のチェックやドロップ率は未収録。"
+      ],
+      "coverage": "入手先と確認手順。性能数値・全ルートは未収録。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "base-game",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      }
+    },
+    {
+      "id": "armor-cleanrot",
+      "name": "貴腐騎士シリーズ",
+      "category": "armor",
+      "regions": [
+        "caelid"
+      ],
+      "location": "エオニアの沼の貴腐騎士",
+      "summary": "貴腐騎士シリーズの入手経路：エオニアの沼の貴腐騎士。",
+      "facts": [],
+      "steps": [
+        "エオニアの沼の貴腐騎士からのドロップを集める。",
+        "各部位が揃ったことを所持品で確認する。"
+      ],
+      "tasks": [
+        {
+          "id": "armor-cleanrot:step-1",
+          "label": "貴腐騎士シリーズの一式を揃えた"
+        }
+      ],
+      "related": [
+        "area-caelid"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-442768",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        }
+      ],
+      "caveats": [
+        "1チェックは一式の自己確認。部位別のチェックやドロップ率は未収録。"
+      ],
+      "coverage": "入手先と確認手順。性能数値・全ルートは未収録。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "base-game",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      }
+    },
+    {
+      "id": "armor-solitude",
+      "name": "孤牢シリーズ",
+      "category": "armor",
+      "regions": [
+        "gravesite"
+      ],
+      "location": "西の無名霊廟",
+      "summary": "孤牢シリーズの入手経路：西の無名霊廟。",
+      "facts": [],
+      "steps": [
+        "西の無名霊廟の孤牢の騎士に勝つ。",
+        "各部位が揃ったことを所持品で確認する。"
+      ],
+      "tasks": [
+        {
+          "id": "armor-solitude:step-1",
+          "label": "孤牢シリーズの一式を揃えた"
+        }
+      ],
+      "related": [
+        "area-gravesite"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-620131",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        }
+      ],
+      "caveats": [
+        "1チェックは一式の自己確認。部位別のチェックやドロップ率は未収録。"
+      ],
+      "coverage": "入手先と確認手順。性能数値・全ルートは未収録。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "dlc",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      }
+    },
+    {
+      "id": "armor-oathseeker",
+      "name": "誓約騎士シリーズ",
+      "category": "armor",
+      "regions": [
+        "gravesite"
+      ],
+      "location": "祝福の教会の入口",
+      "summary": "誓約騎士シリーズの入手経路：祝福の教会の入口。",
+      "facts": [],
+      "steps": [
+        "墓地平原の祝福の教会の入口にある遺体を確認する。",
+        "各部位が揃ったことを所持品で確認する。"
+      ],
+      "tasks": [
+        {
+          "id": "armor-oathseeker:step-1",
+          "label": "誓約騎士シリーズの一式を揃えた"
+        }
+      ],
+      "related": [
+        "area-gravesite"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-620797",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        }
+      ],
+      "caveats": [
+        "1チェックは一式の自己確認。部位別のチェックやドロップ率は未収録。"
+      ],
+      "coverage": "入手先と確認手順。性能数値・全ルートは未収録。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "dlc",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      }
+    },
+    {
+      "id": "talisman-claw",
+      "name": "爪のタリスマン",
+      "category": "talisman",
+      "regions": [
+        "stormveil"
+      ],
+      "location": "ストームヴィル城・屋上",
+      "summary": "ジャンプ攻撃を強化。入手先はストームヴィル城・屋上。",
+      "facts": [
+        {
+          "label": "効果の概要",
+          "value": "ジャンプ攻撃を強化"
+        }
+      ],
+      "steps": [
+        "屋根上を進み、梯子のある塔の上の遺体を探す。",
+        "所持品で名称を確認して記録する。"
+      ],
+      "tasks": [
+        {
+          "id": "talisman-claw:step-1",
+          "label": "爪のタリスマンを入手した"
+        }
+      ],
+      "related": [
+        "area-stormveil"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-441554",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        }
+      ],
+      "caveats": [
+        "効果の数値、対人時の補正、重複可否の全条件は未検証。"
+      ],
+      "coverage": "入手先と確認手順。性能数値・全ルートは未収録。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "base-game",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      }
+    },
+    {
+      "id": "talisman-axe",
+      "name": "斧のタリスマン",
+      "category": "talisman",
+      "regions": [
+        "limgrave"
+      ],
+      "location": "霧の森の廃墟・地下",
+      "summary": "タメ攻撃を強化。入手先は霧の森の廃墟・地下。",
+      "facts": [
+        {
+          "label": "効果の概要",
+          "value": "タメ攻撃を強化"
+        }
+      ],
+      "steps": [
+        "霧の森の廃墟で地下の宝箱を開ける。",
+        "所持品で名称を確認して記録する。"
+      ],
+      "tasks": [
+        {
+          "id": "talisman-axe:step-1",
+          "label": "斧のタリスマンを入手した"
+        }
+      ],
+      "related": [
+        "area-limgrave"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-441553",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        }
+      ],
+      "caveats": [
+        "効果の数値、対人時の補正、重複可否の全条件は未検証。"
+      ],
+      "coverage": "入手先と確認手順。性能数値・全ルートは未収録。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "base-game",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      }
+    },
+    {
+      "id": "talisman-curved",
+      "name": "曲剣のタリスマン",
+      "category": "talisman",
+      "regions": [
+        "stormveil"
+      ],
+      "location": "ストームヴィル城・錆びた鍵のある部屋",
+      "summary": "ガードカウンターを強化。入手先はストームヴィル城・錆びた鍵のある部屋。",
+      "facts": [
+        {
+          "label": "効果の概要",
+          "value": "ガードカウンターを強化"
+        }
+      ],
+      "steps": [
+        "城の錆びた鍵を拾う部屋で宝箱も確認する。",
+        "所持品で名称を確認して記録する。"
+      ],
+      "tasks": [
+        {
+          "id": "talisman-curved:step-1",
+          "label": "曲剣のタリスマンを入手した"
+        }
+      ],
+      "related": [
+        "area-stormveil"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-441552",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        }
+      ],
+      "caveats": [
+        "効果の数値、対人時の補正、重複可否の全条件は未検証。"
+      ],
+      "coverage": "入手先と確認手順。性能数値・全ルートは未収録。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "base-game",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      }
+    },
+    {
+      "id": "talisman-radagon-icon",
+      "name": "ラダゴンの肖像",
+      "category": "talisman",
+      "regions": [
+        "academy"
+      ],
+      "location": "討論室から向かう宝箱",
+      "summary": "魔術・祈祷の詠唱時間を短縮。入手先は討論室から向かう宝箱。",
+      "facts": [
+        {
+          "label": "効果の概要",
+          "value": "魔術・祈祷の詠唱時間を短縮"
+        }
+      ],
+      "steps": [
+        "討論室から外へ出て右手の経路と梯子を使い、上層の宝箱へ向かう。",
+        "所持品で名称を確認して記録する。"
+      ],
+      "tasks": [
+        {
+          "id": "talisman-radagon-icon:step-1",
+          "label": "ラダゴンの肖像を入手した"
+        }
+      ],
+      "related": [
+        "boss-red-wolf"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-441555",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        }
+      ],
+      "caveats": [
+        "効果の数値、対人時の補正、重複可否の全条件は未検証。"
+      ],
+      "coverage": "入手先と確認手順。性能数値・全ルートは未収録。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "base-game",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      }
+    },
+    {
+      "id": "talisman-soreseal",
+      "name": "ラダゴンの爛れ刻印",
+      "category": "talisman",
+      "regions": [
+        "caelid"
+      ],
+      "location": "ファロス砦",
+      "summary": "能力値を高める一方で被ダメージも増加。入手先はファロス砦。",
+      "facts": [
+        {
+          "label": "効果の概要",
+          "value": "能力値を高める一方で被ダメージも増加"
+        }
+      ],
+      "steps": [
+        "ファロス砦の上階から下の区画へ降り、遺体を探す。",
+        "所持品で名称を確認して記録する。"
+      ],
+      "tasks": [
+        {
+          "id": "talisman-soreseal:step-1",
+          "label": "ラダゴンの爛れ刻印を入手した"
+        }
+      ],
+      "related": [
+        "collect-dectus-right"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-443090",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        }
+      ],
+      "caveats": [
+        "効果の数値、対人時の補正、重複可否の全条件は未検証。"
+      ],
+      "coverage": "入手先と確認手順。性能数値・全ルートは未収録。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "base-game",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      }
+    },
+    {
+      "id": "talisman-erdtree",
+      "name": "黄金樹の恩寵（通常版）",
+      "category": "talisman",
+      "regions": [
+        "limgrave"
+      ],
+      "location": "辺境の英雄墓",
+      "summary": "HP・スタミナ・装備重量上限を上昇。入手先は辺境の英雄墓。",
+      "facts": [
+        {
+          "label": "効果の概要",
+          "value": "HP・スタミナ・装備重量上限を上昇"
+        }
+      ],
+      "steps": [
+        "漂着墓地のインプ像の封印から辺境の英雄墓へ入り、奥を探索する。",
+        "所持品で名称を確認して記録する。"
+      ],
+      "tasks": [
+        {
+          "id": "talisman-erdtree:step-1",
+          "label": "黄金樹の恩寵（通常版）を入手した"
+        }
+      ],
+      "related": [
+        "area-limgrave"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-441058",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        }
+      ],
+      "caveats": [
+        "効果の数値、対人時の補正、重複可否の全条件は未検証。",
+        "＋1・＋2とは別の通常版。英雄墓の罠と石剣の鍵の消費に注意。"
+      ],
+      "coverage": "入手先と確認手順。性能数値・全ルートは未収録。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "base-game",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      }
+    },
+    {
+      "id": "talisman-ritual-sword",
+      "name": "捧闘の剣のタリスマン",
+      "category": "talisman",
+      "regions": [
+        "altus"
+      ],
+      "location": "ルクスの廃墟・地下",
+      "summary": "HP最大時の攻撃力を上昇。入手先はルクスの廃墟・地下。",
+      "facts": [
+        {
+          "label": "効果の概要",
+          "value": "HP最大時の攻撃力を上昇"
+        }
+      ],
+      "steps": [
+        "ルクスの廃墟の亜人の女王ギリカを倒し、奥の宝箱を開ける。",
+        "所持品で名称を確認して記録する。"
+      ],
+      "tasks": [
+        {
+          "id": "talisman-ritual-sword:step-1",
+          "label": "捧闘の剣のタリスマンを入手した"
+        }
+      ],
+      "related": [
+        "area-altus"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-444290",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        }
+      ],
+      "caveats": [
+        "効果の数値、対人時の補正、重複可否の全条件は未検証。"
+      ],
+      "coverage": "入手先と確認手順。性能数値・全ルートは未収録。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "base-game",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      }
+    },
+    {
+      "id": "talisman-gold-scarab",
+      "name": "金のスカラベ",
+      "category": "talisman",
+      "regions": [
+        "caelid"
+      ],
+      "location": "廃棄洞窟",
+      "summary": "獲得ルーンを増加。入手先は廃棄洞窟。",
+      "facts": [
+        {
+          "label": "効果の概要",
+          "value": "獲得ルーンを増加"
+        }
+      ],
+      "steps": [
+        "ケイリッドの廃棄洞窟を進み、ボス戦に勝つ。",
+        "所持品で名称を確認して記録する。"
+      ],
+      "tasks": [
+        {
+          "id": "talisman-gold-scarab:step-1",
+          "label": "金のスカラベを入手した"
+        }
+      ],
+      "related": [
+        "area-caelid"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-441177",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        }
+      ],
+      "caveats": [
+        "効果の数値、対人時の補正、重複可否の全条件は未検証。"
+      ],
+      "coverage": "入手先と確認手順。性能数値・全ルートは未収録。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "base-game",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      }
+    },
+    {
+      "id": "talisman-dragoncrest",
+      "name": "竜印の大盾のタリスマン",
+      "category": "talisman",
+      "regions": [
+        "haligtree"
+      ],
+      "location": "エブレフェール・排水路から屋根上へ",
+      "summary": "物理ダメージを軽減。入手先はエブレフェール・排水路から屋根上へ。",
+      "facts": [
+        {
+          "label": "効果の概要",
+          "value": "物理ダメージを軽減"
+        }
+      ],
+      "steps": [
+        "排水路から枝と屋根を渡り、屋根の穴から入る建物内の宝箱を確認する。",
+        "所持品で名称を確認して記録する。"
+      ],
+      "tasks": [
+        {
+          "id": "talisman-dragoncrest:step-1",
+          "label": "竜印の大盾のタリスマンを入手した"
+        }
+      ],
+      "related": [
+        "area-haligtree"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-442313",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        }
+      ],
+      "caveats": [
+        "効果の数値、対人時の補正、重複可否の全条件は未検証。"
+      ],
+      "coverage": "入手先と確認手順。性能数値・全ルートは未収録。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "base-game",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      }
+    },
+    {
+      "id": "talisman-alexander",
+      "name": "アレキサンダーの破片",
+      "category": "talisman",
+      "regions": [
+        "farum"
+      ],
+      "location": "アレキサンダーのイベント終盤",
+      "summary": "戦技を強化。入手先はアレキサンダーのイベント終盤。",
+      "facts": [
+        {
+          "label": "効果の概要",
+          "value": "戦技を強化"
+        }
+      ],
+      "steps": [
+        "イベントを終盤まで進め、ファルムアズラで本人との決闘に勝つ。",
+        "所持品で名称を確認して記録する。"
+      ],
+      "tasks": [
+        {
+          "id": "talisman-alexander:step-1",
+          "label": "アレキサンダーの破片を入手した"
+        }
+      ],
+      "related": [
+        "npc-alexander",
+        "area-farum"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-443678",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        },
+        {
+          "sourceId": "v14-gamewith-322853",
+          "scope": "序盤殺害の報酬と、終盤のアレキサンダーの破片は別。"
+        }
+      ],
+      "caveats": [
+        "効果の数値、対人時の補正、重複可否の全条件は未検証。",
+        "序盤で本人を殺害するルートとは報酬が異なる。最初の救出だけでは入手できない。"
+      ],
+      "coverage": "入手先と確認手順。性能数値・全ルートは未収録。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "base-game",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      }
+    },
+    {
+      "id": "talisman-two-turtle",
+      "name": "双頭亀のタリスマン",
+      "category": "talisman",
+      "regions": [
+        "gravesite"
+      ],
+      "location": "エラク川の洞窟から北の滝の裏",
+      "summary": "スタミナ回復速度を上昇。入手先はエラク川の洞窟から北の滝の裏。",
+      "facts": [
+        {
+          "label": "効果の概要",
+          "value": "スタミナ回復速度を上昇"
+        }
+      ],
+      "steps": [
+        "エラク川の洞窟から川沿いを北へ探索し、滝の裏の洞窟の遺体を確認する。",
+        "所持品で名称を確認して記録する。"
+      ],
+      "tasks": [
+        {
+          "id": "talisman-two-turtle:step-1",
+          "label": "双頭亀のタリスマンを入手した"
+        }
+      ],
+      "related": [
+        "talisman-turtle",
+        "area-gravesite"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-620058",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        }
+      ],
+      "caveats": [
+        "効果の数値、対人時の補正、重複可否の全条件は未検証。"
+      ],
+      "coverage": "入手先と確認手順。性能数値・全ルートは未収録。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "dlc",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      }
+    },
+    {
+      "id": "talisman-two-handed",
+      "name": "両手剣のタリスマン",
+      "category": "talisman",
+      "regions": [
+        "rauh"
+      ],
+      "location": "神殿街の廃墟",
+      "summary": "武器の両手持ちによる攻撃を強化。入手先は神殿街の廃墟。",
+      "facts": [
+        {
+          "label": "効果の概要",
+          "value": "武器の両手持ちによる攻撃を強化"
+        }
+      ],
+      "steps": [
+        "外壁の隙間から神殿街の廃墟へ入り、上層の宝箱を確認する。",
+        "所持品で名称を確認して記録する。"
+      ],
+      "tasks": [
+        {
+          "id": "talisman-two-handed:step-1",
+          "label": "両手剣のタリスマンを入手した"
+        }
+      ],
+      "related": [
+        "area-gravesite"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-620217",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        }
+      ],
+      "caveats": [
+        "効果の数値、対人時の補正、重複可否の全条件は未検証。"
+      ],
+      "coverage": "入手先と確認手順。性能数値・全ルートは未収録。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "dlc",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      }
+    },
+    {
+      "id": "npc-ranni-intro",
+      "name": "ラニ：仕官まで",
+      "category": "npc",
+      "regions": [
+        "liurnia"
+      ],
+      "location": "ラニの魔術師塔",
+      "summary": "城館を越えた先でラニの依頼を受ける導入。",
+      "facts": [],
+      "steps": [
+        "親衛騎士ローレッタを倒して、ラニの魔術師塔へ向かう。",
+        "ラニに話しかけて仕官する。ロジェールの依頼中は会話の進行を確認する。"
+      ],
+      "tasks": [
+        {
+          "id": "npc-ranni-intro:step-1",
+          "label": "ラニの魔術師塔を訪れた"
+        },
+        {
+          "id": "npc-ranni-intro:step-2",
+          "label": "ラニへの仕官を確認した"
+        }
+      ],
+      "related": [
+        "boss-loretta-manor",
+        "weapon-dark-moon",
+        "area-nokron"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-441157",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        }
+      ],
+      "caveats": [
+        "指殺しの刃を渡す段階はセルブス側のイベントに影響する。渡す前に寄り道を確認する。",
+        "暗月の大剣までの全手順はこのNPC項目には未収録。"
+      ],
+      "coverage": "導入〜仕官の2段階。後半は関連武器の入手先概要のみ。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "base-game",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "branches": [
+        {
+          "label": "ロジェールの依頼中",
+          "condition": "ラニとの会話が仕官に進まない場合",
+          "action": "ロジェールとの会話進行を確認して再訪する。",
+          "coverage": "導入の会話差分のみ。"
+        }
+      ]
+    },
+    {
+      "id": "npc-nepheli-early",
+      "name": "ネフェリ・ルー：円卓の報酬まで",
+      "category": "npc",
+      "regions": [
+        "stormveil",
+        "roundtable"
+      ],
+      "location": "ストームヴィル城／円卓",
+      "summary": "ゴドリック戦前の会話と円卓での報酬を確認する。",
+      "facts": [],
+      "steps": [
+        "城内の昇降機側の部屋にいるネフェリと話す。",
+        "ゴドリック撃破後、円卓でネフェリと話して報酬を確認する。"
+      ],
+      "tasks": [
+        {
+          "id": "npc-nepheli-early:step-1",
+          "label": "城内でネフェリと話した"
+        },
+        {
+          "id": "npc-nepheli-early:step-2",
+          "label": "円卓で報酬を確認した"
+        }
+      ],
+      "related": [
+        "boss-godrick",
+        "talisman-arsenal"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-441109",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        }
+      ],
+      "caveats": [
+        "後半の新王・傀儡に関する分岐手順は未収録。アイテムを渡す前に別途確認する。"
+      ],
+      "coverage": "序盤2段階のみ。後半の分岐は掲載外。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "base-game",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      }
+    },
+    {
+      "id": "npc-sellen-intro",
+      "name": "魔術師セレン：師事まで",
+      "category": "npc",
+      "regions": [
+        "limgrave"
+      ],
+      "location": "宿場跡の地下",
+      "summary": "地下のボスを越えてセレンに師事する導入。",
+      "facts": [],
+      "steps": [
+        "宿場跡の地下を探索し、奥のボスを倒す。",
+        "セレンと会話し、魔術を学ぶ意思を伝える。"
+      ],
+      "tasks": [
+        {
+          "id": "npc-sellen-intro:step-1",
+          "label": "宿場跡地下でセレンに会った"
+        },
+        {
+          "id": "npc-sellen-intro:step-2",
+          "label": "セレンへの師事を確認した"
+        }
+      ],
+      "related": [
+        "area-limgrave"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-440982",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        }
+      ],
+      "caveats": [
+        "後半の協力・敵対の選択と報酬差は未収録。このチェックはイベント完了を意味しない。"
+      ],
+      "coverage": "出会い〜師事の2段階のみ。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "base-game",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      }
+    },
+    {
+      "id": "npc-thops",
+      "name": "魔術師トープス：学院での確認まで",
+      "category": "npc",
+      "regions": [
+        "liurnia",
+        "academy"
+      ],
+      "location": "イリス教会／学院の学び舎の一室付近",
+      "summary": "教会で会う魔術師に、余分な学院の鍵を渡す。",
+      "facts": [],
+      "steps": [
+        "イリス教会でトープスに話す。",
+        "学院内の2本目の輝石鍵を入手して、トープスへ渡す。",
+        "移動後は学院の学び舎の一室の外側で本人と拾得物を確認する。"
+      ],
+      "tasks": [
+        {
+          "id": "npc-thops:step-1",
+          "label": "イリス教会で話した"
+        },
+        {
+          "id": "npc-thops:step-2",
+          "label": "2本目の学院の輝石鍵を渡した"
+        },
+        {
+          "id": "npc-thops:step-3",
+          "label": "学院へ移動した後の結末を確認した"
+        }
+      ],
+      "related": [
+        "collect-academy-key",
+        "area-academy"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-441771",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        }
+      ],
+      "caveats": [
+        "学院の入場に使う1本目の鍵を渡す手順ではない。鍵を渡すと本人は移動し、結末が進む。"
+      ],
+      "coverage": "鍵を渡して学院で確認するまでの3段階。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "base-game",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      }
+    },
+    {
+      "id": "npc-rya",
+      "name": "ラーヤ：火山館への案内まで",
+      "category": "npc",
+      "regions": [
+        "liurnia",
+        "altus",
+        "gelmir"
+      ],
+      "location": "湖のリエーニエ／アルター高原",
+      "summary": "首飾りの依頼を解決し、火山館へ案内される導入。",
+      "facts": [],
+      "steps": [
+        "湖でラーヤから首飾りの依頼を聞く。",
+        "エビ茹でのボロ家のならず者から首飾りを買い戻し、ラーヤへ返す。",
+        "アルター高原でラーヤと再会し、火山館への案内を受ける。"
+      ],
+      "tasks": [
+        {
+          "id": "npc-rya:step-1",
+          "label": "首飾りの依頼を聞いた"
+        },
+        {
+          "id": "npc-rya:step-2",
+          "label": "首飾りを返した"
+        },
+        {
+          "id": "npc-rya:step-3",
+          "label": "火山館への案内を受けた"
+        }
+      ],
+      "related": [
+        "area-altus",
+        "area-volcano"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-441769",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        }
+      ],
+      "caveats": [
+        "火山館到着後の正体・秘薬・結末の分岐は未収録。"
+      ],
+      "coverage": "依頼〜火山館への案内の3段階。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "base-game",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "branches": [
+        {
+          "label": "大昇降機から到着",
+          "condition": "デクタスの大昇降機経由",
+          "action": "大昇降機側で再会地点を確認する。",
+          "coverage": "再会地点の差分"
+        },
+        {
+          "label": "古遺跡断崖から到着",
+          "condition": "昇降機を使わずアルターへ進んだ場合",
+          "action": "ルクスの廃墟付近で再会地点を確認する。",
+          "coverage": "再会地点の差分"
+        }
+      ]
+    },
+    {
+      "id": "npc-patches-intro",
+      "name": "パッチ：降参を受け入れるまで",
+      "category": "npc",
+      "regions": [
+        "limgrave"
+      ],
+      "location": "曇り川の洞窟",
+      "summary": "敵対戦から降参を受け入れる導入を記録する。",
+      "facts": [],
+      "steps": [
+        "洞窟奥でパッチとの戦闘を始める。",
+        "本人が降参したら攻撃を止め、生存を確認する。"
+      ],
+      "tasks": [
+        {
+          "id": "npc-patches-intro:step-1",
+          "label": "洞窟でパッチに会った"
+        },
+        {
+          "id": "npc-patches-intro:step-2",
+          "label": "降参を受け入れて生存を確認した"
+        }
+      ],
+      "related": [
+        "weapon-reduvia"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-gamewith-322187",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        }
+      ],
+      "caveats": [
+        "殺害した場合は生存ルートに戻らない。火山館での依頼など後半は未収録。"
+      ],
+      "coverage": "初対面〜生存確認の2段階。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "base-game",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "branches": [
+        {
+          "label": "生存ルート",
+          "condition": "降参を受け入れる",
+          "action": "攻撃を止め、次の会話を確認する。",
+          "coverage": "この項目の収録対象"
+        },
+        {
+          "label": "殺害した場合",
+          "condition": "降参後も攻撃して倒した",
+          "action": "この項目の生存チェックは付けない。",
+          "coverage": "後半の生存ルートは対象外"
+        }
+      ]
+    },
+    {
+      "id": "collect-physick",
+      "name": "霊薬の聖杯瓶",
+      "category": "collectible",
+      "regions": [
+        "limgrave"
+      ],
+      "location": "第三マリカ教会",
+      "summary": "霊薬の聖杯瓶を第三マリカ教会で確認する。",
+      "facts": [],
+      "steps": [
+        "第三マリカ教会で聖杯瓶を拾う。",
+        "祝福で霊薬の配合を確認する。"
+      ],
+      "tasks": [
+        {
+          "id": "collect-physick:step-1",
+          "label": "霊薬の聖杯瓶を入手した"
+        }
+      ],
+      "related": [
+        "collect-tear-marika"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-440671",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        }
+      ],
+      "caveats": [
+        "この項目のチェックは入手の自己確認。NPC進行や他項目は自動達成にならない。"
+      ],
+      "coverage": "指定の道具・地点1件。世界中の同種アイテムの全収集ではない。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "base-game",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      }
+    },
+    {
+      "id": "collect-whetstone",
+      "name": "砥石の小刀",
+      "category": "collectible",
+      "regions": [
+        "limgrave"
+      ],
+      "location": "関門前の廃墟・地下",
+      "summary": "砥石の小刀を関門前の廃墟・地下で確認する。",
+      "facts": [],
+      "steps": [
+        "関門前の廃墟の地下の宝箱を開ける。"
+      ],
+      "tasks": [
+        {
+          "id": "collect-whetstone:step-1",
+          "label": "砥石の小刀を入手した"
+        }
+      ],
+      "related": [
+        "area-limgrave"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-440950",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        }
+      ],
+      "caveats": [
+        "この項目のチェックは入手の自己確認。NPC進行や他項目は自動達成にならない。"
+      ],
+      "coverage": "指定の道具・地点1件。世界中の同種アイテムの全収集ではない。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "base-game",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      }
+    },
+    {
+      "id": "collect-jellyfish",
+      "name": "霊クラゲの遺灰",
+      "category": "collectible",
+      "regions": [
+        "limgrave",
+        "roundtable"
+      ],
+      "location": "嵐丘のボロ家のローデリカ",
+      "summary": "霊クラゲの遺灰を嵐丘のボロ家のローデリカで確認する。",
+      "facts": [],
+      "steps": [
+        "嵐丘のボロ家でローデリカに繰り返し話しかける。",
+        "既に円卓へ移った場合は本人の会話を確認する。"
+      ],
+      "tasks": [
+        {
+          "id": "collect-jellyfish:step-1",
+          "label": "霊クラゲの遺灰を入手した"
+        }
+      ],
+      "related": [
+        "npc-roderika"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-440755",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        }
+      ],
+      "caveats": [
+        "この項目のチェックは入手の自己確認。NPC進行や他項目は自動達成にならない。"
+      ],
+      "coverage": "指定の道具・地点1件。世界中の同種アイテムの全収集ではない。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "base-game",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      }
+    },
+    {
+      "id": "collect-bearing-2",
+      "name": "鍛石掘りの鈴玉【2】",
+      "category": "collectible",
+      "regions": [
+        "altus",
+        "roundtable"
+      ],
+      "location": "封印された坑道",
+      "summary": "鍛石掘りの鈴玉【2】を封印された坑道で確認する。",
+      "facts": [],
+      "steps": [
+        "封印された坑道の最初の隠し壁の先で宝箱を探す。",
+        "円卓の双子の老婆へ渡して販売品を確認する。"
+      ],
+      "tasks": [
+        {
+          "id": "collect-bearing-2:step-1",
+          "label": "鍛石掘りの鈴玉【2】を入手した"
+        }
+      ],
+      "related": [
+        "collect-bearing-1",
+        "area-altus"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-441569",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        }
+      ],
+      "caveats": [
+        "この項目のチェックは入手の自己確認。NPC進行や他項目は自動達成にならない。"
+      ],
+      "coverage": "指定の道具・地点1件。世界中の同種アイテムの全収集ではない。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "base-game",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      }
+    },
+    {
+      "id": "collect-somber-1",
+      "name": "喪色掘りの鈴玉【1】",
+      "category": "collectible",
+      "regions": [
+        "caelid",
+        "roundtable"
+      ],
+      "location": "サリアの結晶坑道",
+      "summary": "喪色掘りの鈴玉【1】をサリアの結晶坑道で確認する。",
+      "facts": [],
+      "steps": [
+        "サリアの結晶坑道の降る星の獣に勝つ。",
+        "円卓の双子の老婆へ渡して販売品を確認する。"
+      ],
+      "tasks": [
+        {
+          "id": "collect-somber-1:step-1",
+          "label": "喪色掘りの鈴玉【1】を入手した"
+        }
+      ],
+      "related": [
+        "area-caelid"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-441137",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        }
+      ],
+      "caveats": [
+        "この項目のチェックは入手の自己確認。NPC進行や他項目は自動達成にならない。"
+      ],
+      "coverage": "指定の道具・地点1件。世界中の同種アイテムの全収集ではない。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "base-game",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      }
+    },
+    {
+      "id": "collect-dectus-left",
+      "name": "デクタスの割符（左）",
+      "category": "collectible",
+      "regions": [
+        "limgrave"
+      ],
+      "location": "ハイト砦の塔",
+      "summary": "デクタスの割符（左）をハイト砦の塔で確認する。",
+      "facts": [],
+      "steps": [
+        "ハイト砦で塔の梯子を登り、宝箱を開ける。"
+      ],
+      "tasks": [
+        {
+          "id": "collect-dectus-left:step-1",
+          "label": "デクタスの割符（左）を入手した"
+        }
+      ],
+      "related": [
+        "collect-dectus-right",
+        "area-altus"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-gamewith-320971",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        }
+      ],
+      "caveats": [
+        "この項目のチェックは入手の自己確認。NPC進行や他項目は自動達成にならない。"
+      ],
+      "coverage": "指定の道具・地点1件。世界中の同種アイテムの全収集ではない。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "base-game",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      }
+    },
+    {
+      "id": "collect-dectus-right",
+      "name": "デクタスの割符（右）",
+      "category": "collectible",
+      "regions": [
+        "caelid"
+      ],
+      "location": "ファロス砦の塔",
+      "summary": "デクタスの割符（右）をファロス砦の塔で確認する。",
+      "facts": [],
+      "steps": [
+        "ファロス砦で塔の梯子を登り、宝箱を開ける。"
+      ],
+      "tasks": [
+        {
+          "id": "collect-dectus-right:step-1",
+          "label": "デクタスの割符（右）を入手した"
+        }
+      ],
+      "related": [
+        "collect-dectus-left",
+        "area-altus"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-gamewith-320971",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        }
+      ],
+      "caveats": [
+        "この項目のチェックは入手の自己確認。NPC進行や他項目は自動達成にならない。"
+      ],
+      "coverage": "指定の道具・地点1件。世界中の同種アイテムの全収集ではない。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "base-game",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      }
+    },
+    {
+      "id": "collect-scadutree-consolation",
+      "name": "影樹の破片：慰めの教会",
+      "category": "collectible",
+      "regions": [
+        "gravesite"
+      ],
+      "location": "墓地平原東部・慰めの教会",
+      "summary": "影樹の破片：慰めの教会を墓地平原東部・慰めの教会で確認する。",
+      "facts": [],
+      "steps": [
+        "慰めの教会へ向かい、像の前の影樹の破片を拾う。"
+      ],
+      "tasks": [
+        {
+          "id": "collect-scadutree-consolation:step-1",
+          "label": "影樹の破片：慰めの教会を入手した"
+        }
+      ],
+      "related": [
+        "area-gravesite"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-631566",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        }
+      ],
+      "caveats": [
+        "この項目のチェックは入手の自己確認。NPC進行や他項目は自動達成にならない。"
+      ],
+      "coverage": "指定の道具・地点1件。世界中の同種アイテムの全収集ではない。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "dlc",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      }
+    },
+    {
+      "id": "area-caelid",
+      "name": "ケイリッド",
+      "category": "area",
+      "regions": [
+        "caelid"
+      ],
+      "location": "リムグレイブ東側",
+      "summary": "探索先を選ぶための到達経路と関連項目。",
+      "facts": [],
+      "steps": [
+        "リムグレイブの東側から街道を進み、ケイリッドの祝福を開く。",
+        "腐敗地帯に備え、廃棄洞窟や赤獅子城など目的地を選ぶ。"
+      ],
+      "tasks": [
+        {
+          "id": "area-caelid:step-1",
+          "label": "ケイリッドに到達し祝福を開いた"
+        }
+      ],
+      "related": [
+        "boss-radahn",
+        "talisman-gold-scarab",
+        "weapon-greatsword"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-gamewith-320141",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        }
+      ],
+      "caveats": [
+        "この地域の全祝福・地図・全アイテムの一覧は未収録。"
+      ],
+      "coverage": "入口・到達経路の概要。地域全体の探索完了を意味しない。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "base-game",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      }
+    },
+    {
+      "id": "area-altus",
+      "name": "アルター高原",
+      "category": "area",
+      "regions": [
+        "altus"
+      ],
+      "location": "リエーニエの北",
+      "summary": "探索先を選ぶための到達経路と関連項目。",
+      "facts": [],
+      "steps": [
+        "デクタスの割符を左右揃えて大昇降機を使う方法、または古遺跡断崖のルートで到達する。",
+        "到達後に祝福を開き、王都や火山館方面の探索先を選ぶ。"
+      ],
+      "tasks": [
+        {
+          "id": "area-altus:step-1",
+          "label": "アルター高原に到達し祝福を開いた"
+        }
+      ],
+      "related": [
+        "collect-dectus-left",
+        "collect-dectus-right",
+        "area-leyndell",
+        "area-volcano"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-gamewith-320140",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        }
+      ],
+      "caveats": [
+        "この地域の全祝福・地図・全アイテムの一覧は未収録。"
+      ],
+      "coverage": "入口・到達経路の概要。地域全体の探索完了を意味しない。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "base-game",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      }
+    },
+    {
+      "id": "area-leyndell",
+      "name": "王都ローデイル（灰都化前）",
+      "category": "area",
+      "regions": [
+        "leyndell"
+      ],
+      "location": "アルター高原の王都",
+      "summary": "探索先を選ぶための到達経路と関連項目。",
+      "facts": [],
+      "steps": [
+        "通常の入口では竜のツリーガードを越え、大ルーンなどの入場条件を確認する。",
+        "王都内部の祝福を開き、黄金樹の大聖堂方面へ探索する。"
+      ],
+      "tasks": [
+        {
+          "id": "area-leyndell:step-1",
+          "label": "王都ローデイル（灰都化前）に到達し祝福を開いた"
+        }
+      ],
+      "related": [
+        "boss-godfrey-shade",
+        "boss-morgott",
+        "weapon-gransax"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-gamewith-322447",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        }
+      ],
+      "caveats": [
+        "この地域の全祝福・地図・全アイテムの一覧は未収録。",
+        "終盤に灰都へ変化し、通常の王都でしか拾えない品がある。入場条件の全例外ルートは未収録。"
+      ],
+      "coverage": "入口・到達経路の概要。地域全体の探索完了を意味しない。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "base-game",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      }
+    },
+    {
+      "id": "area-volcano",
+      "name": "火山館",
+      "category": "area",
+      "regions": [
+        "gelmir"
+      ],
+      "location": "ゲルミア火山",
+      "summary": "探索先を選ぶための到達経路と関連項目。",
+      "facts": [],
+      "steps": [
+        "アルター高原からゲルミア火山を進むか、ラーヤの案内などで火山館に到達する。",
+        "館の会話と依頼内容を確認してから進行先を選ぶ。"
+      ],
+      "tasks": [
+        {
+          "id": "area-volcano:step-1",
+          "label": "火山館に到達し祝福を開いた"
+        }
+      ],
+      "related": [
+        "npc-rya",
+        "weapon-blasphemous"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-441146",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        }
+      ],
+      "caveats": [
+        "この地域の全祝福・地図・全アイテムの一覧は未収録。",
+        "ライカードの撃破で館の依頼進行に影響するため、未完了の依頼は先に確認する。"
+      ],
+      "coverage": "入口・到達経路の概要。地域全体の探索完了を意味しない。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "base-game",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      }
+    },
+    {
+      "id": "area-nokron",
+      "name": "永遠の都ノクローン",
+      "category": "area",
+      "regions": [
+        "nokron"
+      ],
+      "location": "ラダーン撃破後の落下地点",
+      "summary": "探索先を選ぶための到達経路と関連項目。",
+      "facts": [],
+      "steps": [
+        "星砕きのラダーンを倒した後、ハイト砦の西の祝福付近から落下地点へ向かう。",
+        "足場を伝って地下へ進み、ノクローンの祝福を開く。"
+      ],
+      "tasks": [
+        {
+          "id": "area-nokron:step-1",
+          "label": "永遠の都ノクローンに到達し祝福を開いた"
+        }
+      ],
+      "related": [
+        "boss-radahn",
+        "boss-mimic",
+        "npc-ranni-intro"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-441319",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        }
+      ],
+      "caveats": [
+        "この地域の全祝福・地図・全アイテムの一覧は未収録。"
+      ],
+      "coverage": "入口・到達経路の概要。地域全体の探索完了を意味しない。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "base-game",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      }
+    },
+    {
+      "id": "area-farum",
+      "name": "崩れゆくファルムアズラ",
+      "category": "area",
+      "regions": [
+        "farum"
+      ],
+      "location": "巨人の火の釜の進行後",
+      "summary": "探索先を選ぶための到達経路と関連項目。",
+      "facts": [],
+      "steps": [
+        "巨人の火の釜のイベント進行後に、ファルムアズラの探索を始める。",
+        "祝福を開き、神肌のふたりとマリケスへ続く道を確認する。"
+      ],
+      "tasks": [
+        {
+          "id": "area-farum:step-1",
+          "label": "崩れゆくファルムアズラに到達し祝福を開いた"
+        }
+      ],
+      "related": [
+        "boss-fire-giant",
+        "boss-godskin-duo",
+        "boss-maliketh"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-442291",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        }
+      ],
+      "caveats": [
+        "この地域の全祝福・地図・全アイテムの一覧は未収録。",
+        "マリケス撃破後の王都変化に注意。"
+      ],
+      "coverage": "入口・到達経路の概要。地域全体の探索完了を意味しない。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "base-game",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      }
+    },
+    {
+      "id": "area-haligtree",
+      "name": "ミケラの聖樹",
+      "category": "area",
+      "regions": [
+        "haligtree",
+        "snowfield"
+      ],
+      "location": "典礼街オルディナの転送装置から",
+      "summary": "探索先を選ぶための到達経路と関連項目。",
+      "facts": [],
+      "steps": [
+        "聖樹の秘割符を揃えて聖別雪原へ向かう。",
+        "典礼街オルディナの封印を解除し、転送装置で聖樹に入る。"
+      ],
+      "tasks": [
+        {
+          "id": "area-haligtree:step-1",
+          "label": "ミケラの聖樹に到達し祝福を開いた"
+        }
+      ],
+      "related": [
+        "armor-black-knife",
+        "talisman-dragoncrest"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-442471",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        }
+      ],
+      "caveats": [
+        "この地域の全祝福・地図・全アイテムの一覧は未収録。"
+      ],
+      "coverage": "入口・到達経路の概要。地域全体の探索完了を意味しない。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "base-game",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      }
+    },
+    {
+      "id": "area-gravesite",
+      "name": "墓地平原：DLCへの入口",
+      "category": "area",
+      "regions": [
+        "gravesite"
+      ],
+      "location": "影の地・最初の地域",
+      "summary": "探索先を選ぶための到達経路と関連項目。",
+      "facts": [],
+      "steps": [
+        "本編で星砕きのラダーンと血の君主モーグの両方を倒す。",
+        "DLCを導入した状態で神人眠りの繭の側から影の地へ移動し、最初の祝福を開く。"
+      ],
+      "tasks": [
+        {
+          "id": "area-gravesite:step-1",
+          "label": "墓地平原：DLCへの入口に到達し祝福を開いた"
+        }
+      ],
+      "related": [
+        "boss-radahn",
+        "boss-mohg-lord",
+        "area-belurat",
+        "area-ensis"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-619121",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        },
+        {
+          "sourceId": "official-dlc-access-20240620",
+          "scope": "DLC開始には星砕きのラダーンと血の君主モーグの両方の撃破が必要。神人眠りの繭から移動。"
+        }
+      ],
+      "caveats": [
+        "この地域の全祝福・地図・全アイテムの一覧は未収録。"
+      ],
+      "coverage": "入口・到達経路の概要。地域全体の探索完了を意味しない。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "dlc",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "公式案内と攻略メディアを照合（実機再現なし）"
+      }
+    },
+    {
+      "id": "area-belurat",
+      "name": "塔の街、ベルラート",
+      "category": "area",
+      "regions": [
+        "belurat"
+      ],
+      "location": "墓地平原の北西",
+      "summary": "探索先を選ぶための到達経路と関連項目。",
+      "facts": [],
+      "steps": [
+        "墓地平原から三叉路の十字を経て、正門前の十字へ進む。",
+        "街の中の祝福を開いて上層へ向かう。"
+      ],
+      "tasks": [
+        {
+          "id": "area-belurat:step-1",
+          "label": "塔の街、ベルラートに到達し祝福を開いた"
+        }
+      ],
+      "related": [
+        "area-gravesite",
+        "boss-dancing-lion"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-620829",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        }
+      ],
+      "caveats": [
+        "この地域の全祝福・地図・全アイテムの一覧は未収録。"
+      ],
+      "coverage": "入口・到達経路の概要。地域全体の探索完了を意味しない。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "dlc",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      }
+    },
+    {
+      "id": "area-ensis",
+      "name": "エンシスの城砦",
+      "category": "area",
+      "regions": [
+        "ensis"
+      ],
+      "location": "墓地平原の北東",
+      "summary": "探索先を選ぶための到達経路と関連項目。",
+      "facts": [],
+      "steps": [
+        "エラクの大橋を渡り、城砦正面の祝福へ向かう。",
+        "城砦を進み、関所の門を裏側から開けて城主の間を目指す。"
+      ],
+      "tasks": [
+        {
+          "id": "area-ensis:step-1",
+          "label": "エンシスの城砦に到達し祝福を開いた"
+        }
+      ],
+      "related": [
+        "area-gravesite",
+        "boss-rellana",
+        "weapon-milady"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-619770",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        }
+      ],
+      "caveats": [
+        "この地域の全祝福・地図・全アイテムの一覧は未収録。"
+      ],
+      "coverage": "入口・到達経路の概要。地域全体の探索完了を意味しない。",
+      "aliases": [],
+      "verifiedAt": "2026-11-16",
+      "gameScope": "dlc",
+      "patchVersion": null,
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      }
     }
-  ]
+  ],
+  "legacyVerification": {
+    "boss-margit": {
+      "status": "inherited-reviewed",
+      "checkedAt": "2026-11-15",
+      "note": "Ver.13.0.2から本文・IDを無変更継承。今回の実機再検証は未実施。"
+    },
+    "boss-godrick": {
+      "status": "inherited-reviewed",
+      "checkedAt": "2026-11-15",
+      "note": "Ver.13.0.2から本文・IDを無変更継承。今回の実機再検証は未実施。"
+    },
+    "boss-darriwil": {
+      "status": "inherited-reviewed",
+      "checkedAt": "2026-11-15",
+      "note": "Ver.13.0.2から本文・IDを無変更継承。今回の実機再検証は未実施。"
+    },
+    "boss-tree-limgrave": {
+      "status": "inherited-reviewed",
+      "checkedAt": "2026-11-15",
+      "note": "Ver.13.0.2から本文・IDを無変更継承。今回の実機再検証は未実施。"
+    },
+    "weapon-uchigatana": {
+      "status": "inherited-reviewed",
+      "checkedAt": "2026-11-15",
+      "note": "Ver.13.0.2から本文・IDを無変更継承。今回の実機再検証は未実施。"
+    },
+    "weapon-fang": {
+      "status": "inherited-reviewed",
+      "checkedAt": "2026-11-15",
+      "note": "Ver.13.0.2から本文・IDを無変更継承。今回の実機再検証は未実施。"
+    },
+    "weapon-meteorite": {
+      "status": "inherited-reviewed",
+      "checkedAt": "2026-11-15",
+      "note": "Ver.13.0.2から本文・IDを無変更継承。今回の実機再検証は未実施。"
+    },
+    "weapon-claymore": {
+      "status": "inherited-reviewed",
+      "checkedAt": "2026-11-15",
+      "note": "Ver.13.0.2から本文・IDを無変更継承。今回の実機再検証は未実施。"
+    },
+    "armor-chain": {
+      "status": "inherited-reviewed",
+      "checkedAt": "2026-11-15",
+      "note": "Ver.13.0.2から本文・IDを無変更継承。今回の実機再検証は未実施。"
+    },
+    "armor-knight": {
+      "status": "inherited-reviewed",
+      "checkedAt": "2026-11-15",
+      "note": "Ver.13.0.2から本文・IDを無変更継承。今回の実機再検証は未実施。"
+    },
+    "armor-carian": {
+      "status": "inherited-reviewed",
+      "checkedAt": "2026-11-15",
+      "note": "Ver.13.0.2から本文・IDを無変更継承。今回の実機再検証は未実施。"
+    },
+    "talisman-turtle": {
+      "status": "inherited-reviewed",
+      "checkedAt": "2026-11-15",
+      "note": "Ver.13.0.2から本文・IDを無変更継承。今回の実機再検証は未実施。"
+    },
+    "talisman-amber": {
+      "status": "inherited-reviewed",
+      "checkedAt": "2026-11-15",
+      "note": "Ver.13.0.2から本文・IDを無変更継承。今回の実機再検証は未実施。"
+    },
+    "talisman-arsenal": {
+      "status": "inherited-reviewed",
+      "checkedAt": "2026-11-15",
+      "note": "Ver.13.0.2から本文・IDを無変更継承。今回の実機再検証は未実施。"
+    },
+    "npc-roderika": {
+      "status": "inherited-reviewed",
+      "checkedAt": "2026-11-15",
+      "note": "Ver.13.0.2から本文・IDを無変更継承。今回の実機再検証は未実施。"
+    },
+    "npc-alexander": {
+      "status": "inherited-reviewed",
+      "checkedAt": "2026-11-15",
+      "note": "Ver.13.0.2から本文・IDを無変更継承。今回の実機再検証は未実施。"
+    },
+    "npc-blaidd": {
+      "status": "inherited-reviewed",
+      "checkedAt": "2026-11-15",
+      "note": "Ver.13.0.2から本文・IDを無変更継承。今回の実機再検証は未実施。"
+    },
+    "collect-seed-stormhill": {
+      "status": "inherited-reviewed",
+      "checkedAt": "2026-11-15",
+      "note": "Ver.13.0.2から本文・IDを無変更継承。今回の実機再検証は未実施。"
+    },
+    "collect-tear-marika": {
+      "status": "inherited-reviewed",
+      "checkedAt": "2026-11-15",
+      "note": "Ver.13.0.2から本文・IDを無変更継承。今回の実機再検証は未実施。"
+    },
+    "collect-bearing-1": {
+      "status": "inherited-reviewed",
+      "checkedAt": "2026-11-15",
+      "note": "Ver.13.0.2から本文・IDを無変更継承。今回の実機再検証は未実施。"
+    },
+    "collect-spirit-bell": {
+      "status": "inherited-reviewed",
+      "checkedAt": "2026-11-15",
+      "note": "Ver.13.0.2から本文・IDを無変更継承。今回の実機再検証は未実施。"
+    },
+    "collect-academy-key": {
+      "status": "inherited-reviewed",
+      "checkedAt": "2026-11-15",
+      "note": "Ver.13.0.2から本文・IDを無変更継承。今回の実機再検証は未実施。"
+    },
+    "area-limgrave": {
+      "status": "inherited-reviewed",
+      "checkedAt": "2026-11-15",
+      "note": "Ver.13.0.2から本文・IDを無変更継承。今回の実機再検証は未実施。"
+    },
+    "area-weeping": {
+      "status": "inherited-reviewed",
+      "checkedAt": "2026-11-15",
+      "note": "Ver.13.0.2から本文・IDを無変更継承。今回の実機再検証は未実施。"
+    },
+    "area-stormveil": {
+      "status": "inherited-reviewed",
+      "checkedAt": "2026-11-15",
+      "note": "Ver.13.0.2から本文・IDを無変更継承。今回の実機再検証は未実施。"
+    },
+    "area-liurnia": {
+      "status": "inherited-reviewed",
+      "checkedAt": "2026-11-15",
+      "note": "Ver.13.0.2から本文・IDを無変更継承。今回の実機再検証は未実施。"
+    },
+    "area-academy": {
+      "status": "inherited-reviewed",
+      "checkedAt": "2026-11-15",
+      "note": "Ver.13.0.2から本文・IDを無変更継承。今回の実機再検証は未実施。"
+    }
+  },
+  "verificationPolicy": "source-reviewedは公開資料の記述確認を意味し、ゲーム内再現や全出典一致を保証しない。旧27項目は別のlegacyVerificationで継承状態を明示。"
 }

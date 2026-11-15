@@ -1,0 +1,5 @@
+// Local checks only: no Firebase SDK is loaded and no cloud writes occur.
+const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm'),{spawnSync}=require('node:child_process');const root=path.resolve(__dirname,'..');
+for(const f of [...fs.readdirSync(path.join(root,'assets')).filter(x=>x.endsWith('.js')).map(x=>'assets/'+x),'data/elden-data.js']){const r=spawnSync(process.execPath,['--check',path.join(root,f)],{encoding:'utf8'});if(r.status!==0){process.stderr.write(r.stderr);process.exit(1)}}
+let inline=0;for(const m of fs.readFileSync(path.join(root,'index.html'),'utf8').matchAll(/<script\b([^>]*)>([\s\S]*?)<\/script>/gi)){if(/\bsrc=|application\/ld\+json/.test(m[1]))continue;new vm.Script(m[2],{filename:'index-inline-'+(++inline)+'.js'})}console.log('Syntax OK: all 5 asset scripts + data bundle + '+inline+' home inline scripts.');
+const tests=fs.readdirSync(path.join(root,'tests')).filter(x=>x.endsWith('.test.cjs')).map(x=>path.join(root,'tests',x));const r=spawnSync(process.execPath,['--test',...tests],{encoding:'utf8'});process.stdout.write(r.stdout);process.stderr.write(r.stderr);if(r.status!==0)process.exit(r.status||1);

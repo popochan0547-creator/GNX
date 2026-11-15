@@ -1,0 +1,29 @@
+"""Generate GitHub Pages /GNX/ reference URLs from the canonical JSON."""
+import json,pathlib,html,xml.etree.ElementTree as ET
+R=pathlib.Path(__file__).resolve().parents[1];db=json.loads((R/'data/elden.json').read_text());H=lambda x:html.escape(str(x),quote=True)
+BASE='https://popochan0547-creator.github.io/GNX/'
+entries={e['id']:e for e in db['entries']};sources={s['id']:s for s in db['sources']};cats={c['id']:c['name'] for c in db['categories']};regions={r['id']:r['name'] for r in db['regions']}
+url=lambda e:BASE+'elden/'+e['id']+'/'
+sc=lambda e:'DLC · SHADOW OF THE ERDTREE' if e['gameScope']=='dlc' else '本編'
+def page(title,description,canonical,body,ld):
+    return f'''<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{H(title)}</title><meta name="description" content="{H(description)}"><meta name="theme-color" content="#090e12"><link rel="canonical" href="{H(canonical)}"><meta property="og:type" content="article"><meta property="og:title" content="{H(title)}"><meta property="og:description" content="{H(description)}"><meta property="og:url" content="{H(canonical)}"><meta property="og:site_name" content="GNX | GAME NEXUS"><meta name="twitter:card" content="summary"><link rel="stylesheet" href="{'../../' if canonical!=BASE+'elden/' else '../'}assets/reference.css"><script type="application/ld+json">{json.dumps(ld,ensure_ascii=False).replace('<','\\u003c')}</script></head><body><header><a class="brand" href="{'../../' if canonical!=BASE+'elden/' else '../'}">GN<span>X</span><small>GAME NEXUS</small></a><nav aria-label="サイトナビゲーション"><a href="{'../' if canonical!=BASE+'elden/' else './'}">ELDEN RING攻略一覧</a><a href="{'../../' if canonical!=BASE+'elden/' else '../'}#/elden">検索・進捗管理へ →</a></nav></header><main>{body}</main><footer>GNX Ver.14.0 · 非公式ファン制作。本文は独自要約。画像・地図の転載なし。<br>資料確認は実機検証ではありません。最新パッチでの再現は未確認。</footer></body></html>'''
+for e in db['entries']:
+    inherited='旧版から継承。今回の実機再検証なし。' if 'verification' not in e else '資料確認済み・実機未検証'
+    body=f'<nav class="crumb" aria-label="パンくず"><a href="../../">ホーム</a><span> / </span><a href="../">ELDEN RING</a><span> / {H(cats[e["category"]])}</span></nav><article><p class="kicker">{H(sc(e))} / {H(cats[e["category"]])}</p><h1>{H(e["name"])}</h1><p class="lead">{H(e["summary"])}</p><div class="tags"><span>{H(sc(e))}</span><span>資料確認 {H(e["verifiedAt"])}</span></div><p class="muted">{H(inherited)}</p><a class="button" href="../../#/elden/{e["id"]}">この項目の攻略チェックを開く →</a><p class="muted">記録・ログイン・クラウド同期は既存の進捗画面で行います。</p><section><h2>場所と掲載範囲</h2><dl><dt>地域</dt><dd>{H(" / ".join(regions[r] for r in e["regions"]))}</dd><dt>場所・入手先</dt><dd>{H(e["location"])}</dd><dt>掲載範囲</dt><dd>{H(e["coverage"])}</dd>'+''.join(f'<dt>{H(f["label"])}</dt><dd>{H(f["value"])}</dd>' for f in e['facts'])+'</dl></section><section><h2>攻略・入手の確認ポイント</h2><ol>'+''.join('<li>'+H(t)+'</li>' for t in e['steps'])+'</ol></section>'
+    if e.get('branches'):body+='<section><h2>進行条件と分岐</h2>'+''.join(f'<div class="branch"><h3>{H(b["label"])}</h3><p>条件：{H(b["condition"])}</p><p>{H(b["action"])}</p><p class="muted">収録範囲：{H(b["coverage"])}</p></div>' for b in e['branches'])+'</section>'
+    if e['caveats']:body+='<aside class="warning"><h2>進行前の注意</h2>'+''.join('<p>'+H(c)+'</p>' for c in e['caveats'])+'</aside>'
+    body+='<section><h2>達成チェックの対象</h2><ul>'+''.join('<li>'+H(t['label'])+'</li>' for t in e['tasks'])+'</ul></section><section><h2>関連する攻略</h2><div class="related">'+''.join(f'<a href="../{H(id)}/">{H(entries[id]["name"])} →</a>' for id in e['related'])+'</div></section><section><h2>出典と確認範囲</h2>'
+    for ev in e['evidence']:
+        s=sources[ev['sourceId']];body+=f'<div class="source"><p>{H(s["publisher"])} · {"公式資料" if s["kind"]=="primary" else "攻略メディア"}</p><a href="{H(s["url"])}" rel="noopener noreferrer" target="_blank">{H(s["title"])} ↗</a><p>{H(ev["scope"])}</p><p class="muted">GNX資料確認日：{H(s["checkedAt"])}<br>{H(s["url"])}</p></div>'
+    body+='</section></article>'
+    ld={'@context':'https://schema.org','@type':'Article','headline':e['name'],'description':e['summary'],'url':url(e),'inLanguage':'ja-JP','author':{'@type':'Organization','name':'GNX'},'citation':[sources[x['sourceId']]['url'] for x in e['evidence']]}
+    out=R/'elden'/e['id'];out.mkdir(parents=True,exist_ok=True);(out/'index.html').write_text(page(e['name']+' | ELDEN RING攻略 | GNX',e['summary']+' '+e['coverage'],url(e),body,ld))
+body=f'<p class="kicker">GNX GUIDE DATABASE / VER.14.0</p><h1>ELDEN RING 攻略データベース</h1><p class="lead">{len(entries)}項目の場所・入手先と関連する攻略を探す。</p><p>{H(db["scope"])}</p><a class="button" href="../#/elden">カテゴリ・地域・達成状態で検索 →</a><p class="muted">攻略チェック・JSONバックアップ・Googleログインによる同期は進捗画面へ。</p><nav class="categories" aria-label="カテゴリ">'+''.join(f'<a href="#{c["id"]}">{H(c["name"])}</a>' for c in db['categories'])+'</nav>'
+for c in db['categories']:
+    body+=f'<section id="{c["id"]}"><h2>{H(c["name"])}</h2><div class="grid">'+''.join(f'<a class="card" href="{e["id"]}/"><span class="kicker">{H(sc(e))}</span><h3>{H(e["name"])}</h3><p>{H(e["location"])}</p><span>詳細 →</span></a>' for e in db['entries'] if e['category']==c['id'])+'</div></section>'
+(R/'elden/index.html').write_text(page('ELDEN RING攻略一覧・本編とDLC | GNX',db['scope'],BASE+'elden/',body,{'@context':'https://schema.org','@type':'CollectionPage','name':'ELDEN RING攻略一覧','url':BASE+'elden/','inLanguage':'ja-JP'}))
+ET.register_namespace('', 'http://www.sitemaps.org/schemas/sitemap/0.9');ns='{http://www.sitemaps.org/schemas/sitemap/0.9}';root=ET.Element(ns+'urlset')
+for u in [BASE,BASE+'elden/']+[url(e) for e in db['entries']]:
+    el=ET.SubElement(root,ns+'url');ET.SubElement(el,ns+'loc').text=u
+ET.indent(root);ET.ElementTree(root).write(R/'sitemap.xml',encoding='utf-8',xml_declaration=True)
+print('Generated 106 reference pages and sitemap (107 URLs).')
