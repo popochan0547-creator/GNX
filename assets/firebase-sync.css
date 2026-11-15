@@ -13,3 +13,9 @@
 .gnx-main-layout .topbar .top-actions{display:flex!important;align-items:center;justify-content:flex-end}
 #gnx-account-button{max-width:min(260px,55vw);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 @media(max-width:700px){.gnx-main-layout .topbar .top-actions{display:flex!important}#gnx-account-button{font-size:12px;padding:8px 12px;max-width:58vw}}
+
+/* Account-only diagnostic UI. Does not alter the home or guide design. */
+#gnx-account-dialog .gnx-sync-details{margin:12px 0;border:1px solid #2b5d5a;border-radius:8px;padding:10px;font-size:12px}
+#gnx-account-dialog .gnx-sync-details summary{cursor:pointer;font-weight:700}
+#gnx-sync-diagnostics{white-space:pre-wrap;overflow-wrap:anywhere;font:12px/1.8 monospace;color:#b7e7dd}
+#gnx-sync-refresh{border:1px solid #4c9a90;border-radius:7px;padding:9px 12px;color:#e9fffb;background:#12332f;cursor:pointer}
