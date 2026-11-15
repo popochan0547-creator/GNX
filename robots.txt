@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /GNX/
+Sitemap: https://popochan0547-creator.github.io/GNX/sitemap.xml
