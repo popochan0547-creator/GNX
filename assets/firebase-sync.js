@@ -2,6 +2,8 @@
 (()=>{'use strict';
 const config={apiKey:'AIzaSyBOo_fJ-oD7J95mzkV7oMDuksg5jSZ4Kes',authDomain:'gnx-game-nexus.firebaseapp.com',projectId:'gnx-game-nexus',storageBucket:'gnx-game-nexus.firebasestorage.app',messagingSenderId:'273909954850',appId:'1:273909954850:web:cfd790f5bf584b22608d7b',measurementId:'G-W1BV60F8N2'};
 const prefix='gnx:guides:v1:';
+const db2Key='gnx:elden:progress:v2',db2Doc='elden-db-v2';
+
 const gameIds=['elden-ring','monster-hunter-wilds','apex-legends','valorant'];
 let auth,db,authFns,dbFns,user=null,ready=false,epoch=0;
 const pending=new Map(),timers=new Map();
@@ -19,6 +21,22 @@ async function initialSync(){const captured=epoch;ready=false;status('クラウ�
  setLocal(id,{version:1,checks:remote.checks,note:remote.note});
 }else if(local){await dbFns.setDoc(ref(id),{...local,updatedAt:dbFns.serverTimestamp()})}
 }if(captured===epoch){ready=true;status('同期が有効です。保存した進捗は他の端末にも反映されます')}}catch(e){ready=false;status('同期できません。Firestoreのルールと接続を確認してください');console.warn('GNX initial sync:',e.code)}}
+
+// GNX Ver.13.0: separate Firestore document for Work DB schema v2.
+const valid2=v=>{try{return !!window.GNXEldenCore&&!!window.GNX_ELDEN_DB&&!!window.GNXEldenCore.validateState(v,window.GNX_ELDEN_DB)}catch{return false}};
+const local2=()=>{try{const raw=localStorage.getItem(db2Key);if(raw===null)return null;const obj=JSON.parse(raw);return valid2(obj)?obj:null}catch{return null}};
+let db2Timer=null,db2Revision=0;
+const db2Ref=()=>dbFns.doc(db,'users',user.uid,'progress',db2Doc);
+function write2(v){try{localStorage.setItem(db2Key,JSON.stringify(v));window.dispatchEvent(new CustomEvent('gnx-elden-cloud-update'))}catch{status('ELDEN RINGのローカル保存に失敗しました')}}
+function queue2(v){if(!user||!ready||!valid2(v))return;const captured=epoch,revision=++db2Revision;clearTimeout(db2Timer);db2Timer=setTimeout(async()=>{if(epoch!==captured||!user||!ready||revision!==db2Revision)return;try{await dbFns.setDoc(db2Ref(),{version:2,checks:v.checks,note:v.note,updatedAt:dbFns.serverTimestamp()});status('クラウドに保存しました')}catch(e){status('ELDEN RING DBのクラウド保存に失敗しました');console.warn('GNX DB sync:',e.code)}},650)}
+async function initial2(){const captured=epoch;const snapshot=await dbFns.getDoc(db2Ref());if(captured!==epoch||!user)return;const remote=snapshot.exists()?snapshot.data():null,local=local2();
+ if(remote&&valid2(remote)){
+  if(local&&JSON.stringify({checks:local.checks,note:local.note})!==JSON.stringify({checks:remote.checks,note:remote.note})){
+   try{localStorage.setItem('gnx:backup:'+user.uid+':elden-db-v2:'+Date.now(),JSON.stringify(local))}catch{}
+  }
+  write2({version:2,checks:remote.checks,note:remote.note});
+ }else if(local){await dbFns.setDoc(db2Ref(),{version:2,checks:local.checks,note:local.note,updatedAt:dbFns.serverTimestamp()})}
+}
 function render(){
  const b=document.getElementById('gnx-account-button');if(!b)return;
  const label=user?(user.displayName||user.email||'ログイン中')+' ▾':'ログイン';
@@ -40,7 +58,7 @@ function ui(){
 }
 
 const originalSet=Storage.prototype.setItem;
-Storage.prototype.setItem=function(k,v){const result=originalSet.call(this,k,v);if(this===localStorage&&typeof k==='string'&&k.startsWith(prefix)){const id=k.slice(prefix.length);if(gameIds.includes(id)){let data;try{data=JSON.parse(v)}catch{}if(valid(data))queue(id,data)}}return result};
+Storage.prototype.setItem=function(k,v){const result=originalSet.call(this,k,v);if(this===localStorage&&typeof k==='string'&&k.startsWith(prefix)){const id=k.slice(prefix.length);if(gameIds.includes(id)){let data;try{data=JSON.parse(v)}catch{}if(valid(data))queue(id,data)}}if(this===localStorage&&k===db2Key){let data2;try{data2=JSON.parse(v)}catch{}if(valid2(data2))queue2(data2)}return result};
 window.GNXCloud={getUser:()=>user,enabled:()=>ready};
-window.addEventListener('DOMContentLoaded',async()=>{ui();try{const [appMod,authMod,dbMod]=await Promise.all([import('https://www.gstatic.com/firebasejs/11.10.0/firebase-app.js'),import('https://www.gstatic.com/firebasejs/11.10.0/firebase-auth.js'),import('https://www.gstatic.com/firebasejs/11.10.0/firebase-firestore.js')]);authFns=authMod;dbFns=dbMod;const app=appMod.initializeApp(config);auth=authMod.getAuth(app);db=dbMod.getFirestore(app);authMod.onAuthStateChanged(auth,async next=>{epoch++;for(const t of timers.values())clearTimeout(t);timers.clear();pending.clear();ready=false;user=next;render();if(user)await initialSync();else status('未ログイン：この端末に進捗を保存します')})}catch(e){status('Firebaseを読み込めません。ネット接続を確認してください');console.warn('GNX Firebase:',e)}});
+window.addEventListener('DOMContentLoaded',async()=>{ui();try{const [appMod,authMod,dbMod]=await Promise.all([import('https://www.gstatic.com/firebasejs/11.10.0/firebase-app.js'),import('https://www.gstatic.com/firebasejs/11.10.0/firebase-auth.js'),import('https://www.gstatic.com/firebasejs/11.10.0/firebase-firestore.js')]);authFns=authMod;dbFns=dbMod;const app=appMod.initializeApp(config);auth=authMod.getAuth(app);db=dbMod.getFirestore(app);authMod.onAuthStateChanged(auth,async next=>{epoch++;clearTimeout(db2Timer);db2Revision++;for(const t of timers.values())clearTimeout(t);timers.clear();pending.clear();ready=false;user=next;render();if(user){await initialSync();try{await initial2()}catch(e){status('ELDEN RING DBの同期に失敗しました');console.warn('GNX DB initial sync:',e.code)}}else status('未ログイン：この端末に進捗を保存します')})}catch(e){status('Firebaseを読み込めません。ネット接続を確認してください');console.warn('GNX Firebase:',e)}});
 })();
