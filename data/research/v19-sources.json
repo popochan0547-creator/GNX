@@ -1,0 +1,162 @@
+[
+  {
+    "id": "v19-shield",
+    "url": "https://www.gameoronline.com/eldenring/data/weapon.html",
+    "publisher": "GameOrOnline",
+    "title": "盾の種類と代表入手先（GNX資料ラベル）",
+    "kind": "secondary",
+    "checkedAt": "2026-11-16"
+  },
+  {
+    "id": "v19-shield-types",
+    "url": "https://gamewith.jp/eldenring/320525",
+    "publisher": "GameWith",
+    "title": "小盾・中盾・大盾の分類（GNX資料ラベル）",
+    "kind": "secondary",
+    "checkedAt": "2026-11-16"
+  },
+  {
+    "id": "v19-buckler",
+    "url": "https://appmedia.jp/eldenring/75245544",
+    "publisher": "AppMedia",
+    "title": "バックラー購入先（GNX資料ラベル）",
+    "kind": "secondary",
+    "checkedAt": "2026-11-16"
+  },
+  {
+    "id": "v19-small",
+    "url": "https://kamigame.jp/eldenring/page/200788246286849319.html",
+    "publisher": "神ゲー攻略",
+    "title": "小盾と取得先（GNX資料ラベル）",
+    "kind": "secondary",
+    "checkedAt": "2026-11-16"
+  },
+  {
+    "id": "v19-jelly",
+    "url": "https://game8.jp/eldenring/442742",
+    "publisher": "Game8",
+    "title": "クラゲの盾と荷車（GNX資料ラベル）",
+    "kind": "secondary",
+    "checkedAt": "2026-11-16"
+  },
+  {
+    "id": "v19-fingerprint",
+    "url": "https://game8.jp/eldenring/445013",
+    "publisher": "Game8",
+    "title": "指紋石の盾と地下大聖堂（GNX資料ラベル）",
+    "kind": "secondary",
+    "checkedAt": "2026-11-16"
+  },
+  {
+    "id": "v19-erdtree",
+    "url": "https://game8.jp/eldenring/443578",
+    "publisher": "Game8",
+    "title": "黄金樹の大盾と高原の門（GNX資料ラベル）",
+    "kind": "secondary",
+    "checkedAt": "2026-11-16"
+  },
+  {
+    "id": "v19-visage",
+    "url": "https://game8.jp/eldenring/445053",
+    "publisher": "Game8",
+    "title": "キレムの廃墟とガンメンの盾（GNX資料ラベル）",
+    "kind": "secondary",
+    "checkedAt": "2026-11-16"
+  },
+  {
+    "id": "v19-tears",
+    "url": "https://www.gameoronline.com/eldenring/data/crystaltear.html",
+    "publisher": "GameOrOnline",
+    "title": "結晶雫の代表入手先・複数地点（GNX資料ラベル）",
+    "kind": "secondary",
+    "checkedAt": "2026-11-16"
+  },
+  {
+    "id": "v19-tears-g8",
+    "url": "https://game8.jp/eldenring/441437",
+    "publisher": "Game8",
+    "title": "本編/DLC区分と代表入手先（GNX資料ラベル）",
+    "kind": "secondary",
+    "checkedAt": "2026-11-16"
+  },
+  {
+    "id": "v19-tears-gw",
+    "url": "https://gamewith.jp/eldenring/323981",
+    "publisher": "GameWith",
+    "title": "本編の雫と取得地点（GNX資料ラベル）",
+    "kind": "secondary",
+    "checkedAt": "2026-11-16"
+  },
+  {
+    "id": "v19-books",
+    "url": "https://game8.jp/eldenring/446793",
+    "publisher": "Game8",
+    "title": "製法書の名称・入手先（GNX資料ラベル）",
+    "kind": "secondary",
+    "checkedAt": "2026-11-16"
+  },
+  {
+    "id": "v19-books-go",
+    "url": "https://www.gameoronline.com/eldenring/data/cookbook.html",
+    "publisher": "GameOrOnline",
+    "title": "製法書の位置照合（GNX資料ラベル）",
+    "kind": "secondary",
+    "checkedAt": "2026-11-16"
+  },
+  {
+    "id": "v19-books-gw",
+    "url": "https://gamewith.jp/eldenring/326993",
+    "publisher": "GameWith",
+    "title": "製法書分類の照合（GNX資料ラベル）",
+    "kind": "secondary",
+    "checkedAt": "2026-11-16"
+  },
+  {
+    "id": "v19-sorcery",
+    "url": "https://www.gameoronline.com/eldenring/data/sorcery.html",
+    "publisher": "GameOrOnline",
+    "title": "本編魔術の取得先（GNX資料ラベル）",
+    "kind": "secondary",
+    "checkedAt": "2026-11-16"
+  },
+  {
+    "id": "v19-sorcery-g8",
+    "url": "https://game8.jp/eldenring/440430",
+    "publisher": "Game8",
+    "title": "本編/DLCを分けた魔術リスト（GNX資料ラベル）",
+    "kind": "secondary",
+    "checkedAt": "2026-11-16"
+  },
+  {
+    "id": "v19-night",
+    "url": "https://game8.jp/eldenring/441810",
+    "publisher": "Game8",
+    "title": "夜の彗星の封印解除（GNX資料ラベル）",
+    "kind": "secondary",
+    "checkedAt": "2026-11-16"
+  },
+  {
+    "id": "v19-prayer",
+    "url": "https://game8.jp/eldenring/440644",
+    "publisher": "Game8",
+    "title": "本編祈祷の名称・取得先・条件（GNX資料ラベル）",
+    "kind": "secondary",
+    "checkedAt": "2026-11-16"
+  },
+  {
+    "id": "v19-regression",
+    "url": "https://gamewith.jp/eldenring/322343",
+    "publisher": "GameWith",
+    "title": "回帰性原理の購入条件（GNX資料ラベル）",
+    "kind": "secondary",
+    "checkedAt": "2026-11-16"
+  },
+  {
+    "id": "v19-winged-en",
+    "url": "https://eldenring.wiki.gg/wiki/Winged_Crystal_Tear",
+    "publisher": "Eldenpedia",
+    "title": "羽の結晶雫の英語名（名称対応のみ確認）",
+    "kind": "secondary",
+    "checkedAt": "2026-11-16"
+  }
+]

@@ -1,0 +1,620 @@
+{
+  "v20-ash-quickstep": {
+    "status": "verified",
+    "checkedAt": "2026-11-16",
+    "sourceIds": [
+      "r-ash-quickstep"
+    ],
+    "verifiedFields": [
+      "defaultAffinity",
+      "compatibleWeapons"
+    ],
+    "defaultAffinity": "鋭利",
+    "compatibleWeapons": "全ての近接武器",
+    "reason": "戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+    "notes": [
+      "基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。",
+      "対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。",
+      "入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。"
+    ],
+    "gameplayTested": false
+  },
+  "v20-ash-spinning": {
+    "status": "verified",
+    "checkedAt": "2026-11-16",
+    "sourceIds": [
+      "r-ash-spinning"
+    ],
+    "verifiedFields": [
+      "defaultAffinity",
+      "compatibleWeapons"
+    ],
+    "defaultAffinity": "鋭利",
+    "compatibleWeapons": "剣・斧・長柄武器（特大を除く）",
+    "reason": "戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+    "notes": [
+      "基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。",
+      "対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。",
+      "入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。"
+    ],
+    "gameplayTested": false
+  },
+  "v20-ash-stamp-up": {
+    "status": "verified",
+    "checkedAt": "2026-11-16",
+    "sourceIds": [
+      "r-ash-stamp-up"
+    ],
+    "verifiedFields": [
+      "defaultAffinity",
+      "compatibleWeapons"
+    ],
+    "defaultAffinity": "重厚",
+    "compatibleWeapons": "剣・槌・斧（小型・中型の剣を除く）",
+    "reason": "戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+    "notes": [
+      "基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。",
+      "対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。",
+      "入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。"
+    ],
+    "gameplayTested": false
+  },
+  "v20-ash-kick": {
+    "status": "verified",
+    "checkedAt": "2026-11-16",
+    "sourceIds": [
+      "r-ash-kick"
+    ],
+    "verifiedFields": [
+      "defaultAffinity",
+      "compatibleWeapons"
+    ],
+    "defaultAffinity": "重厚",
+    "compatibleWeapons": "全ての近接武器",
+    "reason": "戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+    "notes": [
+      "基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。",
+      "対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。",
+      "入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。"
+    ],
+    "gameplayTested": false
+  },
+  "v20-ash-endure": {
+    "status": "verified",
+    "checkedAt": "2026-11-16",
+    "sourceIds": [
+      "r-ash-endure"
+    ],
+    "verifiedFields": [
+      "defaultAffinity",
+      "compatibleWeapons"
+    ],
+    "defaultAffinity": "重厚",
+    "compatibleWeapons": "全ての近接武器",
+    "reason": "戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+    "notes": [
+      "基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。",
+      "対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。",
+      "入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。"
+    ],
+    "gameplayTested": false
+  },
+  "v20-ash-warcry": {
+    "status": "verified",
+    "checkedAt": "2026-11-16",
+    "sourceIds": [
+      "r-ash-warcry"
+    ],
+    "verifiedFields": [
+      "defaultAffinity",
+      "compatibleWeapons"
+    ],
+    "defaultAffinity": "重厚",
+    "compatibleWeapons": "近接武器（短剣・刺剣・鞭を除く）",
+    "reason": "戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+    "notes": [
+      "基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。",
+      "対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。",
+      "入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。"
+    ],
+    "gameplayTested": false
+  },
+  "v20-ash-piercing": {
+    "status": "verified",
+    "checkedAt": "2026-11-16",
+    "sourceIds": [
+      "r-ash-piercing"
+    ],
+    "verifiedFields": [
+      "defaultAffinity",
+      "compatibleWeapons"
+    ],
+    "defaultAffinity": "鋭利",
+    "compatibleWeapons": "刺突可能な武器（特大を除く）",
+    "reason": "戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+    "notes": [
+      "基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。",
+      "対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。",
+      "入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。"
+    ],
+    "gameplayTested": false
+  },
+  "v20-ash-no-skill": {
+    "status": "verified",
+    "checkedAt": "2026-11-16",
+    "sourceIds": [
+      "r-ash-no-skill"
+    ],
+    "verifiedFields": [
+      "defaultAffinity",
+      "compatibleWeapons"
+    ],
+    "defaultAffinity": "標準",
+    "compatibleWeapons": "松明・盾",
+    "reason": "戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+    "notes": [
+      "基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。",
+      "対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。",
+      "入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。"
+    ],
+    "gameplayTested": false
+  },
+  "v20-ash-stamp-sweep": {
+    "status": "verified",
+    "checkedAt": "2026-11-16",
+    "sourceIds": [
+      "r-ash-stamp-sweep"
+    ],
+    "verifiedFields": [
+      "defaultAffinity",
+      "compatibleWeapons"
+    ],
+    "defaultAffinity": "重厚",
+    "compatibleWeapons": "剣・槌・斧（小型・中型の剣を除く）",
+    "reason": "戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+    "notes": [
+      "基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。",
+      "対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。",
+      "入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。"
+    ],
+    "gameplayTested": false
+  },
+  "v20-ash-wild-strikes": {
+    "status": "verified",
+    "checkedAt": "2026-11-16",
+    "sourceIds": [
+      "r-ash-wild-strikes"
+    ],
+    "verifiedFields": [
+      "defaultAffinity",
+      "compatibleWeapons"
+    ],
+    "defaultAffinity": "重厚",
+    "compatibleWeapons": "斧・槌・曲剣・大剣（特大を除く）",
+    "reason": "戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+    "notes": [
+      "基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。",
+      "対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。",
+      "入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。"
+    ],
+    "gameplayTested": false
+  },
+  "v20-ash-lion": {
+    "status": "verified",
+    "checkedAt": "2026-11-16",
+    "sourceIds": [
+      "r-ash-lion"
+    ],
+    "verifiedFields": [
+      "defaultAffinity",
+      "compatibleWeapons"
+    ],
+    "defaultAffinity": "重厚",
+    "compatibleWeapons": "剣・槌・斧（小型武器・刺剣を除く）",
+    "reason": "戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+    "notes": [
+      "基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。",
+      "対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。",
+      "入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。"
+    ],
+    "gameplayTested": false
+  },
+  "v20-ash-cragblade": {
+    "status": "verified",
+    "checkedAt": "2026-11-16",
+    "sourceIds": [
+      "r-ash-cragblade"
+    ],
+    "verifiedFields": [
+      "defaultAffinity",
+      "compatibleWeapons"
+    ],
+    "defaultAffinity": "重厚",
+    "compatibleWeapons": "近接武器（鞭を除く）",
+    "reason": "戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+    "notes": [
+      "基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。",
+      "対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。",
+      "入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。"
+    ],
+    "gameplayTested": false
+  },
+  "v20-ash-slam": {
+    "status": "verified",
+    "checkedAt": "2026-11-16",
+    "sourceIds": [
+      "r-ash-slam"
+    ],
+    "verifiedFields": [
+      "defaultAffinity",
+      "compatibleWeapons"
+    ],
+    "defaultAffinity": "重厚",
+    "compatibleWeapons": "全ての近接武器",
+    "reason": "戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+    "notes": [
+      "基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。",
+      "対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。",
+      "入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。"
+    ],
+    "gameplayTested": false
+  },
+  "v20-ash-barbaric": {
+    "status": "verified",
+    "checkedAt": "2026-11-16",
+    "sourceIds": [
+      "r-ash-barbaric"
+    ],
+    "verifiedFields": [
+      "defaultAffinity",
+      "compatibleWeapons"
+    ],
+    "defaultAffinity": "重厚",
+    "compatibleWeapons": "近接武器（短剣・刺剣・鞭を除く）",
+    "reason": "戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+    "notes": [
+      "基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。",
+      "対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。",
+      "入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。"
+    ],
+    "gameplayTested": false
+  },
+  "v20-ash-repeating": {
+    "status": "review",
+    "checkedAt": "2026-11-16",
+    "sourceIds": [
+      "r-ash-repeating",
+      "r-ash-repeating-gw"
+    ],
+    "verifiedFields": [
+      "defaultAffinity",
+      "compatibleWeapons",
+      "acquisition",
+      "location（方角を限定しない範囲）"
+    ],
+    "defaultAffinity": "鋭利",
+    "compatibleWeapons": "刺突可能な武器（特大を除く）",
+    "reason": "入手敵・夜限定条件・洞窟南の橋は2資料で一致。祝福からの正確な方角は資料差が残るため要再検証。",
+    "notes": [
+      "基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。",
+      "対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。",
+      "入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。"
+    ],
+    "gameplayTested": false,
+    "location": "リムグレイブ、曇り川の洞窟より南の橋",
+    "acquisition": "夜に橋付近へ出現する夜の騎兵を倒す。",
+    "conditions": "夜に出現する対象の夜の騎兵を撃破。",
+    "sourceDifference": "Game8の同一ページ内に「曇り川の洞窟の南の橋」と「祝福アギール湖北から北西」の二つの案内がある。GameWithは曇り川の洞窟の南の橋とする。方角の矛盾を含むため、既存の祝福基準の東という表現も本監査では確定しない。"
+  },
+  "v20-ash-double": {
+    "status": "verified",
+    "checkedAt": "2026-11-16",
+    "sourceIds": [
+      "r-ash-double"
+    ],
+    "verifiedFields": [
+      "defaultAffinity",
+      "compatibleWeapons"
+    ],
+    "defaultAffinity": "鋭利",
+    "compatibleWeapons": "斬撃可能な剣・長柄武器（特大を除く）",
+    "reason": "戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+    "notes": [
+      "基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。",
+      "対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。",
+      "入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。"
+    ],
+    "gameplayTested": false
+  },
+  "v20-ash-dance": {
+    "status": "verified",
+    "checkedAt": "2026-11-16",
+    "sourceIds": [
+      "r-ash-dance"
+    ],
+    "verifiedFields": [
+      "defaultAffinity",
+      "compatibleWeapons"
+    ],
+    "defaultAffinity": "鋭利",
+    "compatibleWeapons": "斬撃可能な剣・斧・長柄武器（特大・大槌を除く）",
+    "reason": "戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+    "notes": [
+      "基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。",
+      "対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。",
+      "入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。"
+    ],
+    "gameplayTested": false
+  },
+  "v20-ash-square": {
+    "status": "verified",
+    "checkedAt": "2026-11-16",
+    "sourceIds": [
+      "r-ash-square"
+    ],
+    "verifiedFields": [
+      "defaultAffinity",
+      "compatibleWeapons"
+    ],
+    "defaultAffinity": "上質",
+    "compatibleWeapons": "直剣",
+    "reason": "戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+    "notes": [
+      "基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。",
+      "対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。",
+      "入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。"
+    ],
+    "gameplayTested": false
+  },
+  "v20-ash-charge": {
+    "status": "verified",
+    "checkedAt": "2026-11-16",
+    "sourceIds": [
+      "r-ash-charge"
+    ],
+    "verifiedFields": [
+      "defaultAffinity",
+      "compatibleWeapons"
+    ],
+    "defaultAffinity": "上質",
+    "compatibleWeapons": "刺突可能な長柄武器・重刺剣・両刃剣",
+    "reason": "戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+    "notes": [
+      "基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。",
+      "対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。",
+      "入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。"
+    ],
+    "gameplayTested": false
+  },
+  "v20-ash-raptors": {
+    "status": "verified",
+    "checkedAt": "2026-11-16",
+    "sourceIds": [
+      "r-ash-raptors"
+    ],
+    "verifiedFields": [
+      "defaultAffinity",
+      "compatibleWeapons"
+    ],
+    "defaultAffinity": "鋭利",
+    "compatibleWeapons": "全ての近接武器",
+    "reason": "戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+    "notes": [
+      "基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。",
+      "対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。",
+      "入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。"
+    ],
+    "gameplayTested": false
+  },
+  "v20-ash-beast": {
+    "status": "verified",
+    "checkedAt": "2026-11-16",
+    "sourceIds": [
+      "r-ash-beast"
+    ],
+    "verifiedFields": [
+      "defaultAffinity",
+      "compatibleWeapons"
+    ],
+    "defaultAffinity": "鋭利",
+    "compatibleWeapons": "全ての近接武器",
+    "reason": "戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+    "notes": [
+      "基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。",
+      "対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。",
+      "入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。"
+    ],
+    "gameplayTested": false
+  },
+  "v20-ash-determination": {
+    "status": "verified",
+    "checkedAt": "2026-11-16",
+    "sourceIds": [
+      "r-ash-determination"
+    ],
+    "verifiedFields": [
+      "defaultAffinity",
+      "compatibleWeapons"
+    ],
+    "defaultAffinity": "上質",
+    "compatibleWeapons": "全ての近接武器",
+    "reason": "戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+    "notes": [
+      "基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。",
+      "対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。",
+      "入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。"
+    ],
+    "gameplayTested": false
+  },
+  "v20-ash-storm-stomp": {
+    "status": "verified",
+    "checkedAt": "2026-11-16",
+    "sourceIds": [
+      "r-ash-storm-stomp"
+    ],
+    "verifiedFields": [
+      "defaultAffinity",
+      "compatibleWeapons"
+    ],
+    "defaultAffinity": "上質",
+    "compatibleWeapons": "全ての近接武器",
+    "reason": "戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+    "notes": [
+      "基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。",
+      "対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。",
+      "入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。"
+    ],
+    "gameplayTested": false
+  },
+  "v20-ash-storm-assault": {
+    "status": "verified",
+    "checkedAt": "2026-11-16",
+    "sourceIds": [
+      "r-ash-storm-assault"
+    ],
+    "verifiedFields": [
+      "defaultAffinity",
+      "compatibleWeapons"
+    ],
+    "defaultAffinity": "上質",
+    "compatibleWeapons": "刺突可能な長柄武器・重刺剣・両刃剣",
+    "reason": "戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+    "notes": [
+      "基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。",
+      "対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。",
+      "入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。"
+    ],
+    "gameplayTested": false
+  },
+  "v20-ash-ice-spear": {
+    "status": "verified",
+    "checkedAt": "2026-11-16",
+    "sourceIds": [
+      "r-ash-ice-spear"
+    ],
+    "verifiedFields": [
+      "defaultAffinity",
+      "compatibleWeapons"
+    ],
+    "defaultAffinity": "冷気",
+    "compatibleWeapons": "刺突可能な長柄武器・両刃剣",
+    "reason": "戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+    "notes": [
+      "基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。",
+      "対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。",
+      "入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。"
+    ],
+    "gameplayTested": false
+  },
+  "v20-ash-seppuku": {
+    "status": "verified",
+    "checkedAt": "2026-11-16",
+    "sourceIds": [
+      "r-ash-seppuku"
+    ],
+    "verifiedFields": [
+      "defaultAffinity",
+      "compatibleWeapons"
+    ],
+    "defaultAffinity": "血",
+    "compatibleWeapons": "剣・刺突可能な長柄武器（特大を除く）",
+    "reason": "戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+    "notes": [
+      "基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。",
+      "対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。",
+      "入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。"
+    ],
+    "gameplayTested": false
+  },
+  "v20-ash-bloody": {
+    "status": "verified",
+    "checkedAt": "2026-11-16",
+    "sourceIds": [
+      "r-ash-bloody"
+    ],
+    "verifiedFields": [
+      "defaultAffinity",
+      "compatibleWeapons"
+    ],
+    "defaultAffinity": "血",
+    "compatibleWeapons": "剣（特大を除く）",
+    "reason": "戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+    "notes": [
+      "基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。",
+      "対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。",
+      "入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。"
+    ],
+    "gameplayTested": false
+  },
+  "v20-ash-unsheathe": {
+    "status": "review",
+    "checkedAt": "2026-11-16",
+    "sourceIds": [
+      "r-ash-unsheathe",
+      "r-ash-unsheathe-gw"
+    ],
+    "verifiedFields": [
+      "defaultAffinity",
+      "compatibleWeapons",
+      "location（祝福基準の限定表現）",
+      "acquisition"
+    ],
+    "defaultAffinity": "鋭利",
+    "compatibleWeapons": "刀",
+    "reason": "祝福を起点とする表現は照合できたが、資料内の湖基準表現に矛盾が残る。位置の説明を祝福基準へ限定し、要再検証を継続。",
+    "notes": [
+      "基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。",
+      "対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。",
+      "入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。"
+    ],
+    "gameplayTested": false,
+    "location": "祝福「アギール湖南」の北西側、近くの湖",
+    "acquisition": "湖付近のスカラベを倒して取得する。",
+    "sourceDifference": "GameWithは祝福「アギール湖南」の北西、Game8の入手方法箇条書きも同じ祝福基準。一方Game8の小見出しは湖そのものの北西と読める。湖全体の北西と祝福基準の北西は同義として扱わない。"
+  },
+  "v19-book-glintstone-6": {
+    "status": "review",
+    "checkedAt": "2026-11-16",
+    "sourceIds": [
+      "r-book-glintstone-6-gw",
+      "r-book-glintstone-6-mudauchi",
+      "r-book-glintstone-6-go"
+    ],
+    "verifiedFields": [
+      "location（範囲限定）",
+      "acquisition"
+    ],
+    "location": "カーリアの城館。正門から城内へ入って右側、階段の先にある部屋",
+    "acquisition": "部屋内の遺体を調べて入手する。",
+    "sourceDifference": "GameWithは城館正門から入って右側へ進み階段先の部屋、ムダウチは正門から右手の小部屋。GameOrOnlineは正門の祝福から南の部屋と記述。正確な方位と経路表現の相違を実機では解消していない。",
+    "reason": "遺体からの入手と城館正門近くは一致。2資料で一致する入口基準の経路へ限定し、南という方位とは未統合のため要再検証を維持。",
+    "notes": [
+      "【7】のピディからの購入と混同しない。",
+      "地図や画像の転載なし。現行パッチ・周回の実機確認なし。"
+    ],
+    "gameplayTested": false
+  },
+  "weapon-rivers-blood": {
+    "status": "review",
+    "checkedAt": "2026-11-16",
+    "sourceIds": [
+      "r-rivers-g8-weapon",
+      "r-rivers-g8-okina",
+      "r-rivers-g8-church",
+      "r-rivers-gw"
+    ],
+    "verifiedFields": [
+      "location",
+      "acquisition"
+    ],
+    "location": "巨人たちの山嶺、安息教会付近",
+    "acquisition": "安息教会付近へ侵入する血の指、翁を倒す。",
+    "sourceDifference": "Game8の武器個別ページは火の巨人撃破後に翁が出現しなくなると記載。一方、同媒体の翁・安息教会ページは旧来の出現しないという記述と、Ver1.0.4で修正されたという記述が同居する。GameWithの武器個別ページは安息教会の翁撃破による入手を案内し、火の巨人前必須という条件は記載しない。資料の更新時点・版による相違を実機では解消していない。",
+    "reason": "安息教会の翁からの入手は資料で確認。火の巨人撃破との関係は旧情報が混在するため、現行版で撃破前必須と断定せず、現在の説明を維持する方針。",
+    "notes": [
+      "既存ID・チェックID・進捗対応は維持する。",
+      "火の巨人前必須という断定的な取り逃し条件へ変更しない。現行パッチでの再現および全取得条件は未検証。"
+    ],
+    "gameplayTested": false
+  }
+}

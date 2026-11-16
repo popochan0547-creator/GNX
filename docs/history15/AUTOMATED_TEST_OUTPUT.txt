@@ -1,0 +1,37 @@
+Syntax OK: all 5 asset scripts + data bundle + 10 home inline scripts.
+✔ legacy 27 entries and 33 task IDs are deeply unchanged (4.854489ms)
+✔ all entry/task/source IDs and references, provenance, scope and dates are valid (1.326071ms)
+✔ JSON and browser data bundle have the same payload (7.182393ms)
+✔ combined search honors keyword, category, region, scope and status (6.461017ms)
+✔ NPC partial progress and all-task totals are counted correctly (0.444341ms)
+✔ old backup restores all legacy checks without dropping unknown current IDs (2.695006ms)
+✔ home and unrelated guides/account CSS remain byte-identical with allowed script additions normalized (237.166609ms)
+✔ Firebase config, SDK version, storage key and cloud document remain compatible (0.511042ms)
+✔ all static item pages expose unique titles, canonical links, source URLs and related URLs under /GNX/ (6.626451ms)
+✔ all 105 baseline records and 119 tasks remain unchanged; sync and home files unchanged from V14 (116.208011ms)
+✔ story chapters link to existing progress IDs without duplicate tasks (0.784477ms)
+✔ actual adapter retains legacy cloud state and merges independent clients plus unknown fields (21.92927ms)
+✔ actual adapter retains offline outbox, retries online and supports unchecking (8.888006ms)
+✔ actual adapter stops conflicting notes and keeps unsent conflict in the durable outbox (5.069334ms)
+✔ actual adapter preserves divergent pre-login local record in backup (2.302034ms)
+✔ actual adapter protects corrupt local and cloud state against automatic replacement (4.042681ms)
+✔ actual adapter does not write a queued edit after logout (2.57498ms)
+✔ actual adapter restores offline outbox after page reload (4.279064ms)
+✔ conflict resolution fetches latest cloud note before applying the explicit selection (5.102163ms)
+✔ an in-flight transaction cannot write into a newly selected account (3.906741ms)
+✔ two devices changing different checks preserve both, including unknown cloud IDs (2.837115ms)
+✔ uncheck is preserved without erasing unrelated achievements (0.38374ms)
+✔ concurrent notes require explicit resolution (0.339398ms)
+✔ in-flight delta combined with later edits survives retry (0.708095ms)
+✔ same value merges idempotently and toggle back cancels pending mutation (0.399593ms)
+✔ unknown task survives validation, JSON roundtrip, and reset; excluded from progress (2.199456ms)
+✔ invalid values and unsafe IDs are rejected before writes (0.972277ms)
+ℹ tests 27
+ℹ suites 0
+ℹ pass 27
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 643.062459
+Local links/resources: 1287 OK; structured JSON-LD OK; sitemap URLs resolve.

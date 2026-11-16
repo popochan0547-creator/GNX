@@ -1,0 +1,206 @@
+[
+  {
+    "id": "v20-ash-list",
+    "title": "戦技・戦灰一覧（取得可能な戦灰だけを採用）",
+    "url": "https://game8.jp/eldenring/440996",
+    "publisher": "ゲームエイト",
+    "accessedAt": "2026-11-16",
+    "checkedAt": "2026-11-16",
+    "kind": "secondary"
+  },
+  {
+    "id": "v20-ash-routes",
+    "title": "戦灰の入手先（固有戦技欄は収集対象外）",
+    "url": "https://www.gameoronline.com/eldenring/data/ashesofwar.html",
+    "publisher": "GameOrOnline",
+    "accessedAt": "2026-11-16",
+    "checkedAt": "2026-11-16",
+    "kind": "secondary"
+  },
+  {
+    "id": "v20-spirits",
+    "title": "召喚用遺灰の取得先（本編欄）",
+    "url": "https://game8.jp/eldenring/440912",
+    "publisher": "ゲームエイト",
+    "accessedAt": "2026-11-16",
+    "checkedAt": "2026-11-16",
+    "kind": "secondary"
+  },
+  {
+    "id": "v20-talismans",
+    "title": "本編タリスマンの代表取得先",
+    "url": "https://www.gameoronline.com/eldenring/data/talisman.html",
+    "publisher": "GameOrOnline",
+    "accessedAt": "2026-11-16",
+    "checkedAt": "2026-11-16",
+    "kind": "secondary"
+  },
+  {
+    "id": "v20-weapons",
+    "title": "武器の代表取得先",
+    "url": "https://www.gameoronline.com/eldenring/data/weapon.html",
+    "publisher": "GameOrOnline",
+    "accessedAt": "2026-11-16",
+    "checkedAt": "2026-11-16",
+    "kind": "secondary"
+  },
+  {
+    "id": "v20-bells",
+    "title": "鈴玉の取得先と購入解放品",
+    "url": "https://game8.jp/eldenring/442318",
+    "publisher": "ゲームエイト",
+    "accessedAt": "2026-11-16",
+    "checkedAt": "2026-11-16",
+    "kind": "secondary"
+  },
+  {
+    "id": "v20-seppuku",
+    "title": "切腹の入手と分類",
+    "url": "https://game8.jp/eldenring/447847",
+    "publisher": "ゲームエイト",
+    "accessedAt": "2026-11-16",
+    "checkedAt": "2026-11-16",
+    "kind": "secondary"
+  },
+  {
+    "id": "v20-bloodhound",
+    "title": "猟犬のステップの入手と分類",
+    "url": "https://game8.jp/eldenring/443540",
+    "publisher": "ゲームエイト",
+    "accessedAt": "2026-11-16",
+    "checkedAt": "2026-11-16",
+    "kind": "secondary"
+  },
+  {
+    "id": "v20-redmane",
+    "title": "赤獅子の炎の入手と分類",
+    "url": "https://game8.jp/eldenring/441726",
+    "publisher": "ゲームエイト",
+    "accessedAt": "2026-11-16",
+    "checkedAt": "2026-11-16",
+    "kind": "secondary"
+  },
+  {
+    "id": "v20-barricade",
+    "title": "鉄壁の盾の入手と分類",
+    "url": "https://game8.jp/eldenring/444403",
+    "publisher": "ゲームエイト",
+    "accessedAt": "2026-11-16",
+    "checkedAt": "2026-11-16",
+    "kind": "secondary"
+  },
+  {
+    "id": "v20-unsheathe",
+    "title": "居合の入手と分類",
+    "url": "https://game8.jp/eldenring/441718",
+    "publisher": "ゲームエイト",
+    "accessedAt": "2026-11-16",
+    "checkedAt": "2026-11-16",
+    "kind": "secondary"
+  },
+  {
+    "id": "v20-bloody",
+    "title": "血の斬撃の入手と分類",
+    "url": "https://game8.jp/eldenring/441738",
+    "publisher": "ゲームエイト",
+    "accessedAt": "2026-11-16",
+    "checkedAt": "2026-11-16",
+    "kind": "secondary"
+  },
+  {
+    "id": "v20-vow",
+    "title": "黄金樹に誓って（戦灰）の入手と分類",
+    "url": "https://game8.jp/eldenring/444432",
+    "publisher": "ゲームエイト",
+    "accessedAt": "2026-11-16",
+    "checkedAt": "2026-11-16",
+    "kind": "secondary"
+  },
+  {
+    "id": "v20-tornado",
+    "title": "黒炎の渦の入手と分類",
+    "url": "https://game8.jp/eldenring/444469",
+    "publisher": "ゲームエイト",
+    "accessedAt": "2026-11-16",
+    "checkedAt": "2026-11-16",
+    "kind": "secondary"
+  },
+  {
+    "id": "v20-ingvall",
+    "title": "失地騎士イングヴァルの入手と分類",
+    "url": "https://game8.jp/eldenring/448860",
+    "publisher": "ゲームエイト",
+    "accessedAt": "2026-11-16",
+    "checkedAt": "2026-11-16",
+    "kind": "secondary"
+  },
+  {
+    "id": "v20-veteran",
+    "title": "宿将シリーズの入手と分類",
+    "url": "https://game8.jp/eldenring/442769",
+    "publisher": "ゲームエイト",
+    "accessedAt": "2026-11-16",
+    "checkedAt": "2026-11-16",
+    "kind": "secondary"
+  },
+  {
+    "id": "v20-blaidd",
+    "title": "ブライヴシリーズの入手と分類",
+    "url": "https://game8.jp/eldenring/441645",
+    "publisher": "ゲームエイト",
+    "accessedAt": "2026-11-16",
+    "checkedAt": "2026-11-16",
+    "kind": "secondary"
+  },
+  {
+    "id": "v20-wolfmask",
+    "title": "黒狼の仮面の入手と分類",
+    "url": "https://game8.jp/eldenring/442262",
+    "publisher": "ゲームエイト",
+    "accessedAt": "2026-11-16",
+    "checkedAt": "2026-11-16",
+    "kind": "secondary"
+  },
+  {
+    "id": "v20-banished",
+    "title": "失地騎士：部位と軽装・通常の取得先",
+    "url": "https://gamewith.jp/eldenring/322753",
+    "publisher": "GameWith",
+    "accessedAt": "2026-11-16",
+    "checkedAt": "2026-11-16",
+    "kind": "secondary"
+  },
+  {
+    "id": "v20-serpent",
+    "title": "大蛇狩り（武器）の入手方法",
+    "url": "https://gamewith.jp/eldenring/321525",
+    "publisher": "GameWith",
+    "accessedAt": "2026-11-16",
+    "checkedAt": "2026-11-16",
+    "kind": "secondary"
+  },
+  {
+    "id": "v20-bell-night",
+    "title": "鈴玉狩りの地域別ドロップ・夜の出現",
+    "url": "https://gamewith.jp/eldenring/321840",
+    "publisher": "GameWith",
+    "kind": "secondary",
+    "checkedAt": "2026-11-16"
+  },
+  {
+    "id": "v20-thops-stock",
+    "title": "トープスのイベント・販売品",
+    "url": "https://game8.jp/eldenring/441771",
+    "publisher": "ゲームエイト",
+    "kind": "secondary",
+    "checkedAt": "2026-11-16"
+  },
+  {
+    "id": "v20-yura",
+    "title": "ユラの共闘・霧の猛禽と山嶺到達による終了",
+    "url": "https://gamewith.jp/eldenring/321770",
+    "publisher": "GameWith",
+    "kind": "secondary",
+    "checkedAt": "2026-11-16"
+  }
+]

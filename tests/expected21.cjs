@@ -1,0 +1,1 @@
+const patches=require('../data/research/v21-approved-changes.json');module.exports=raw=>{const b=JSON.parse(JSON.stringify(raw));for(const e of b.entries)if(patches[e.id])Object.assign(e,patches[e.id].entryPatch);for(const i of b.collections?.items||[])if(patches[i.entryId])Object.assign(i,patches[i.entryId].collectionPatch);return b};

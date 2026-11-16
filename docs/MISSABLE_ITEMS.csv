@@ -1,0 +1,3 @@
+﻿entryId,name,gameScope,regions,missableNote,relatedEntryIds,sourceIds,checkIds,sourceURLs
+weapon-gransax,グランサクスの雷,base-game,leyndell,マリケス撃破による灰都化の前に回収。,area-leyndell;boss-maliketh,v14-game8-441686;v18-weapons,weapon-gransax:step-1,https://game8.jp/eldenring/441686;https://game8.jp/eldenring/442699
+v20-ash-raptors,霧の猛禽,base-game,liurnia,取得前のユラの死亡・イベント終了に注意。資料では巨人たちの山嶺への到達でイベントが終了するため、先に学院正門前の共闘を終える。共闘中の霊体ユラの敗北と本人の死亡は区別する。,area-liurnia;weapon-nagakiba,v20-ash-routes;v20-yura;v21-r-ash-raptors,v20-ash-raptors:acquire,https://www.gameoronline.com/eldenring/data/ashesofwar.html;https://gamewith.jp/eldenring/321770;https://game8.jp/eldenring/441699

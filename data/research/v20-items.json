@@ -1,0 +1,3069 @@
+[
+  {
+    "id": "v20-ash-seppuku",
+    "name": "切腹",
+    "category": "ash-war",
+    "subCategory": "戦灰：血",
+    "regions": [
+      "mountaintops"
+    ],
+    "location": "氷結湖の東、木の周囲を巡る透明スカラベ",
+    "acquisition": "足跡の通り道で待ち、透明スカラベを倒して戦灰を拾う。",
+    "conditions": "対象のスカラベまたは敵を確認する。",
+    "sourceIds": [
+      "seppuku"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "defaultAffinity": "血",
+    "compatibleWeapons": "剣・刺突可能な長柄武器（特大を除く）。個々の装備可否の全照合は未実施。",
+    "skillKind": "ash-of-war",
+    "relatedIds": []
+  },
+  {
+    "id": "v20-ash-bloodhound",
+    "name": "猟犬のステップ",
+    "category": "ash-war",
+    "subCategory": "戦灰：鋭利",
+    "regions": [
+      "caelid"
+    ],
+    "location": "竜塚・レンの魔術師塔北の橋",
+    "acquisition": "橋の夜の騎兵を倒して戦灰を得る。",
+    "conditions": "夜に訪問する。",
+    "sourceIds": [
+      "bloodhound",
+      "ash-routes"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "defaultAffinity": "鋭利",
+    "compatibleWeapons": "近接武器全般",
+    "skillKind": "ash-of-war",
+    "relatedIds": []
+  },
+  {
+    "id": "v20-ash-redmane",
+    "name": "赤獅子の炎",
+    "category": "ash-war",
+    "subCategory": "戦灰：炎",
+    "regions": [
+      "caelid"
+    ],
+    "location": "祝福「ゲール砦の北」付近",
+    "acquisition": "透明スカラベの足跡を追って倒す。",
+    "conditions": "対象のスカラベまたは敵を確認する。",
+    "sourceIds": [
+      "redmane"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "defaultAffinity": "炎",
+    "compatibleWeapons": "近接武器全般",
+    "skillKind": "ash-of-war",
+    "relatedIds": []
+  },
+  {
+    "id": "v20-ash-barricade",
+    "name": "鉄壁の盾",
+    "category": "ash-war",
+    "subCategory": "戦灰：標準",
+    "regions": [
+      "weeping"
+    ],
+    "location": "祝福「モーンの城壁前」付近",
+    "acquisition": "半島の夜の騎兵を倒す。",
+    "conditions": "夜に出現する。竜塚の夜の騎兵とは別個体。",
+    "sourceIds": [
+      "barricade"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "defaultAffinity": "標準",
+    "compatibleWeapons": "盾全般",
+    "skillKind": "ash-of-war",
+    "relatedIds": []
+  },
+  {
+    "id": "v20-ash-unsheathe",
+    "name": "居合",
+    "category": "ash-war",
+    "subCategory": "戦灰：鋭利",
+    "regions": [
+      "limgrave"
+    ],
+    "location": "祝福「アギール湖南」の北西、水辺",
+    "acquisition": "スカラベを倒し、付け替え用の戦灰を得る。",
+    "conditions": "打刀の初期戦技を持っていても、戦灰の取得チェックは別。",
+    "sourceIds": [
+      "unsheathe",
+      "ash-routes"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "needs-review",
+    "verificationLevel": "review",
+    "defaultAffinity": "鋭利",
+    "compatibleWeapons": "刀",
+    "skillKind": "ash-of-war",
+    "relatedNames": [
+      "打刀"
+    ],
+    "sourceDifference": "ゲームエイトの小見出しは「湖の北西」だが、同ページの箇条書きと別資料は「祝福アギール湖南の北西」。祝福基準で掲載。",
+    "relatedIds": []
+  },
+  {
+    "id": "v20-ash-bloody",
+    "name": "血の斬撃",
+    "category": "ash-war",
+    "subCategory": "戦灰：血",
+    "regions": [
+      "limgrave"
+    ],
+    "location": "ハイト砦の騎士",
+    "acquisition": "砦の騎士を倒して戦灰を回収する。",
+    "conditions": "対象のスカラベまたは敵を確認する。",
+    "sourceIds": [
+      "bloody"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "defaultAffinity": "血",
+    "compatibleWeapons": "特大を除く剣。個別例外の全照合は未実施。",
+    "skillKind": "ash-of-war",
+    "relatedIds": []
+  },
+  {
+    "id": "v20-ash-vow",
+    "name": "黄金樹に誓って（戦灰）",
+    "category": "ash-war",
+    "subCategory": "戦灰：神聖",
+    "regions": [
+      "limgrave"
+    ],
+    "location": "死に触れた地下墓付近の騎乗した敵",
+    "acquisition": "周辺を巡る騎乗敵を倒す。",
+    "conditions": "同名の祈祷や黄金のハルバードの所持とは別の取得。",
+    "sourceIds": [
+      "vow"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "defaultAffinity": "神聖",
+    "compatibleWeapons": "近接武器全般",
+    "skillKind": "ash-of-war",
+    "formalName": "黄金樹に誓って",
+    "aliases": [
+      "黄金樹に誓って 戦灰"
+    ],
+    "relatedIds": []
+  },
+  {
+    "id": "v20-ash-tornado",
+    "name": "黒炎の渦",
+    "category": "ash-war",
+    "subCategory": "戦灰：炎術",
+    "regions": [
+      "farum"
+    ],
+    "location": "崩れゆくファルム・アズラ、神肌のふたり",
+    "acquisition": "神肌のふたりの撃破報酬を受け取る。",
+    "conditions": "対象のスカラベまたは敵を確認する。",
+    "sourceIds": [
+      "tornado"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "defaultAffinity": "炎術",
+    "compatibleWeapons": "長柄武器・両刃剣",
+    "skillKind": "ash-of-war",
+    "relatedNames": [
+      "神肌のふたり"
+    ],
+    "relatedIds": [
+      "boss-godskin-duo"
+    ]
+  },
+  {
+    "id": "v20-ash-quickstep",
+    "name": "クイックステップ",
+    "category": "ash-war",
+    "subCategory": "戦灰：属性未照合",
+    "regions": [
+      "limgrave"
+    ],
+    "location": "戦学びのボロ家・騎士ベルナール",
+    "acquisition": "ベルナールの販売一覧から戦灰を購入する。",
+    "conditions": "早期に訪問する。NPC移動後の全販売経路は未照合。",
+    "sourceIds": [
+      "ash-routes"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "defaultAffinity": null,
+    "compatibleWeapons": null,
+    "skillKind": "ash-of-war",
+    "unknownFields": [
+      "defaultAffinity",
+      "compatibleWeapons"
+    ],
+    "relatedIds": []
+  },
+  {
+    "id": "v20-ash-spinning",
+    "name": "回転斬り",
+    "category": "ash-war",
+    "subCategory": "戦灰：属性未照合",
+    "regions": [
+      "limgrave"
+    ],
+    "location": "戦学びのボロ家・騎士ベルナール",
+    "acquisition": "ベルナールの販売一覧から戦灰を購入する。",
+    "conditions": "早期に訪問する。NPC移動後の全販売経路は未照合。",
+    "sourceIds": [
+      "ash-routes"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "defaultAffinity": null,
+    "compatibleWeapons": null,
+    "skillKind": "ash-of-war",
+    "unknownFields": [
+      "defaultAffinity",
+      "compatibleWeapons"
+    ],
+    "relatedIds": []
+  },
+  {
+    "id": "v20-ash-stamp-up",
+    "name": "踏み込み（斬り上げ）",
+    "category": "ash-war",
+    "subCategory": "戦灰：属性未照合",
+    "regions": [
+      "limgrave"
+    ],
+    "location": "戦学びのボロ家・騎士ベルナール",
+    "acquisition": "ベルナールの販売一覧から戦灰を購入する。",
+    "conditions": "早期に訪問する。NPC移動後の全販売経路は未照合。",
+    "sourceIds": [
+      "ash-routes"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "defaultAffinity": null,
+    "compatibleWeapons": null,
+    "skillKind": "ash-of-war",
+    "unknownFields": [
+      "defaultAffinity",
+      "compatibleWeapons"
+    ],
+    "relatedIds": []
+  },
+  {
+    "id": "v20-ash-kick",
+    "name": "キック",
+    "category": "ash-war",
+    "subCategory": "戦灰：属性未照合",
+    "regions": [
+      "limgrave"
+    ],
+    "location": "戦学びのボロ家・騎士ベルナール",
+    "acquisition": "ベルナールの販売一覧から戦灰を購入する。",
+    "conditions": "早期に訪問する。NPC移動後の全販売経路は未照合。",
+    "sourceIds": [
+      "ash-routes"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "defaultAffinity": null,
+    "compatibleWeapons": null,
+    "skillKind": "ash-of-war",
+    "unknownFields": [
+      "defaultAffinity",
+      "compatibleWeapons"
+    ],
+    "relatedIds": []
+  },
+  {
+    "id": "v20-ash-endure",
+    "name": "我慢",
+    "category": "ash-war",
+    "subCategory": "戦灰：属性未照合",
+    "regions": [
+      "limgrave"
+    ],
+    "location": "戦学びのボロ家・騎士ベルナール",
+    "acquisition": "ベルナールの販売一覧から戦灰を購入する。",
+    "conditions": "早期に訪問する。NPC移動後の全販売経路は未照合。",
+    "sourceIds": [
+      "ash-routes"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "defaultAffinity": null,
+    "compatibleWeapons": null,
+    "skillKind": "ash-of-war",
+    "unknownFields": [
+      "defaultAffinity",
+      "compatibleWeapons"
+    ],
+    "relatedIds": []
+  },
+  {
+    "id": "v20-ash-warcry",
+    "name": "ウォークライ",
+    "category": "ash-war",
+    "subCategory": "戦灰：属性未照合",
+    "regions": [
+      "limgrave"
+    ],
+    "location": "戦学びのボロ家・騎士ベルナール",
+    "acquisition": "ベルナールの販売一覧から戦灰を購入する。",
+    "conditions": "早期に訪問する。NPC移動後の全販売経路は未照合。",
+    "sourceIds": [
+      "ash-routes"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "defaultAffinity": null,
+    "compatibleWeapons": null,
+    "skillKind": "ash-of-war",
+    "unknownFields": [
+      "defaultAffinity",
+      "compatibleWeapons"
+    ],
+    "relatedIds": []
+  },
+  {
+    "id": "v20-ash-piercing",
+    "name": "貫通突き",
+    "category": "ash-war",
+    "subCategory": "戦灰：属性未照合",
+    "regions": [
+      "limgrave"
+    ],
+    "location": "戦学びのボロ家・騎士ベルナール",
+    "acquisition": "ベルナールの販売一覧から戦灰を購入する。",
+    "conditions": "早期に訪問する。NPC移動後の全販売経路は未照合。",
+    "sourceIds": [
+      "ash-routes"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "defaultAffinity": null,
+    "compatibleWeapons": null,
+    "skillKind": "ash-of-war",
+    "unknownFields": [
+      "defaultAffinity",
+      "compatibleWeapons"
+    ],
+    "relatedIds": []
+  },
+  {
+    "id": "v20-ash-no-skill",
+    "name": "戦技なし",
+    "category": "ash-war",
+    "subCategory": "戦灰：属性未照合",
+    "regions": [
+      "limgrave"
+    ],
+    "location": "戦学びのボロ家・騎士ベルナール",
+    "acquisition": "ベルナールの販売一覧から戦灰を購入する。",
+    "conditions": "早期に訪問する。NPC移動後の全販売経路は未照合。",
+    "sourceIds": [
+      "ash-routes"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "defaultAffinity": null,
+    "compatibleWeapons": null,
+    "skillKind": "ash-of-war",
+    "unknownFields": [
+      "defaultAffinity",
+      "compatibleWeapons"
+    ],
+    "relatedIds": []
+  },
+  {
+    "id": "v20-ash-stamp-sweep",
+    "name": "踏み込み（回転薙ぎ）",
+    "category": "ash-war",
+    "subCategory": "戦灰：属性未照合",
+    "regions": [
+      "limgrave"
+    ],
+    "location": "エレの教会から北西側の砂浜",
+    "acquisition": "海岸の透明スカラベを倒す。",
+    "conditions": "記載地点への到達が必要。",
+    "sourceIds": [
+      "ash-routes"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "defaultAffinity": null,
+    "compatibleWeapons": null,
+    "skillKind": "ash-of-war",
+    "unknownFields": [
+      "defaultAffinity",
+      "compatibleWeapons"
+    ],
+    "relatedIds": []
+  },
+  {
+    "id": "v20-ash-wild-strikes",
+    "name": "乱撃",
+    "category": "ash-war",
+    "subCategory": "戦灰：属性未照合",
+    "regions": [
+      "limgrave"
+    ],
+    "location": "嵐丘のボロ家から城に向かう隧道へ続く街道",
+    "acquisition": "街道沿いのスカラベを倒す。",
+    "conditions": "記載地点への到達が必要。",
+    "sourceIds": [
+      "ash-routes"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "defaultAffinity": null,
+    "compatibleWeapons": null,
+    "skillKind": "ash-of-war",
+    "unknownFields": [
+      "defaultAffinity",
+      "compatibleWeapons"
+    ],
+    "relatedIds": []
+  },
+  {
+    "id": "v20-ash-lion",
+    "name": "獅子斬り",
+    "category": "ash-war",
+    "subCategory": "戦灰：属性未照合",
+    "regions": [
+      "caelid"
+    ],
+    "location": "ゲール砦内の獅子",
+    "acquisition": "砦の獅子を倒して取得する。",
+    "conditions": "記載地点への到達が必要。",
+    "sourceIds": [
+      "ash-routes"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "defaultAffinity": null,
+    "compatibleWeapons": null,
+    "skillKind": "ash-of-war",
+    "unknownFields": [
+      "defaultAffinity",
+      "compatibleWeapons"
+    ],
+    "relatedIds": []
+  },
+  {
+    "id": "v20-ash-cragblade",
+    "name": "岩石剣",
+    "category": "ash-war",
+    "subCategory": "戦灰：属性未照合",
+    "regions": [
+      "caelid"
+    ],
+    "location": "祝福「不落の大橋」の西",
+    "acquisition": "西側のスカラベを倒す。",
+    "conditions": "記載地点への到達が必要。",
+    "sourceIds": [
+      "ash-routes"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "defaultAffinity": null,
+    "compatibleWeapons": null,
+    "skillKind": "ash-of-war",
+    "unknownFields": [
+      "defaultAffinity",
+      "compatibleWeapons"
+    ],
+    "relatedIds": []
+  },
+  {
+    "id": "v20-ash-slam",
+    "name": "ヒップドロップ",
+    "category": "ash-war",
+    "subCategory": "戦灰：属性未照合",
+    "regions": [
+      "limgrave"
+    ],
+    "location": "霧の森の小黄金樹の西",
+    "acquisition": "近くのスカラベから回収する。",
+    "conditions": "記載地点への到達が必要。",
+    "sourceIds": [
+      "ash-routes"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "defaultAffinity": null,
+    "compatibleWeapons": null,
+    "skillKind": "ash-of-war",
+    "unknownFields": [
+      "defaultAffinity",
+      "compatibleWeapons"
+    ],
+    "relatedIds": []
+  },
+  {
+    "id": "v20-ash-barbaric",
+    "name": "野蛮な咆哮",
+    "category": "ash-war",
+    "subCategory": "戦灰：属性未照合",
+    "regions": [
+      "liurnia"
+    ],
+    "location": "祝福「谷底の隠し村」の北",
+    "acquisition": "谷底を北へ進み、スカラベを倒す。",
+    "conditions": "記載地点への到達が必要。",
+    "sourceIds": [
+      "ash-routes"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "defaultAffinity": null,
+    "compatibleWeapons": null,
+    "skillKind": "ash-of-war",
+    "unknownFields": [
+      "defaultAffinity",
+      "compatibleWeapons"
+    ],
+    "relatedIds": []
+  },
+  {
+    "id": "v20-ash-repeating",
+    "name": "連続突き",
+    "category": "ash-war",
+    "subCategory": "戦灰：属性未照合",
+    "regions": [
+      "limgrave"
+    ],
+    "location": "アギール湖北から東の橋",
+    "acquisition": "夜の騎兵を倒す。",
+    "conditions": "夜の騎兵は夜に訪問。NPC関連はイベントの進行条件を先に確認する。",
+    "sourceIds": [
+      "ash-routes"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "defaultAffinity": null,
+    "compatibleWeapons": null,
+    "skillKind": "ash-of-war",
+    "unknownFields": [
+      "defaultAffinity",
+      "compatibleWeapons"
+    ],
+    "relatedIds": []
+  },
+  {
+    "id": "v20-ash-double",
+    "name": "二連斬り",
+    "category": "ash-war",
+    "subCategory": "戦灰：属性未照合",
+    "regions": [
+      "caelid"
+    ],
+    "location": "魔術街サリア、屋根から近づく木",
+    "acquisition": "屋根を経由し、木上のスカラベを倒す。",
+    "conditions": "記載地点への到達が必要。",
+    "sourceIds": [
+      "ash-routes"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "defaultAffinity": null,
+    "compatibleWeapons": null,
+    "skillKind": "ash-of-war",
+    "unknownFields": [
+      "defaultAffinity",
+      "compatibleWeapons"
+    ],
+    "relatedIds": []
+  },
+  {
+    "id": "v20-ash-dance",
+    "name": "剣舞",
+    "category": "ash-war",
+    "subCategory": "戦灰：属性未照合",
+    "regions": [
+      "liurnia"
+    ],
+    "location": "西部の小黄金樹の北西、行き止まりの地下墓近くの崖下",
+    "acquisition": "崖下のスカラベを倒す。",
+    "conditions": "記載地点への到達が必要。",
+    "sourceIds": [
+      "ash-routes"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "defaultAffinity": null,
+    "compatibleWeapons": null,
+    "skillKind": "ash-of-war",
+    "unknownFields": [
+      "defaultAffinity",
+      "compatibleWeapons"
+    ],
+    "relatedIds": []
+  },
+  {
+    "id": "v20-ash-square",
+    "name": "構え",
+    "category": "ash-war",
+    "subCategory": "戦灰：属性未照合",
+    "regions": [
+      "siofra"
+    ],
+    "location": "信奉者の森の北",
+    "acquisition": "北側のスカラベを倒す。",
+    "conditions": "記載地点への到達が必要。",
+    "sourceIds": [
+      "ash-routes"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "defaultAffinity": null,
+    "compatibleWeapons": null,
+    "skillKind": "ash-of-war",
+    "unknownFields": [
+      "defaultAffinity",
+      "compatibleWeapons"
+    ],
+    "relatedIds": []
+  },
+  {
+    "id": "v20-ash-charge",
+    "name": "突撃",
+    "category": "ash-war",
+    "subCategory": "戦灰：属性未照合",
+    "regions": [
+      "liurnia"
+    ],
+    "location": "祝福「湖の落下遺跡」の北にある橋",
+    "acquisition": "橋のアーチ側のスカラベを倒す。",
+    "conditions": "記載地点への到達が必要。",
+    "sourceIds": [
+      "ash-routes"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "defaultAffinity": null,
+    "compatibleWeapons": null,
+    "skillKind": "ash-of-war",
+    "unknownFields": [
+      "defaultAffinity",
+      "compatibleWeapons"
+    ],
+    "relatedIds": []
+  },
+  {
+    "id": "v20-ash-raptors",
+    "name": "霧の猛禽",
+    "category": "ash-war",
+    "subCategory": "戦灰：属性未照合",
+    "regions": [
+      "liurnia"
+    ],
+    "location": "学院正門前、ユラの共闘イベント",
+    "acquisition": "ユラ側でカラス山の凶手との戦闘を終える。",
+    "conditions": "ユラのイベントを学院正門前の共闘まで進める。学院へ入る方向と逆、北東の橋の赤サインから協力する。",
+    "sourceIds": [
+      "ash-routes",
+      "yura"
+    ],
+    "englishName": null,
+    "missable": true,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "defaultAffinity": null,
+    "compatibleWeapons": null,
+    "skillKind": "ash-of-war",
+    "unknownFields": [
+      "defaultAffinity",
+      "compatibleWeapons"
+    ],
+    "relatedIds": [
+      "weapon-nagakiba"
+    ],
+    "missableNote": "取得前のユラの死亡・イベント終了に注意。資料では巨人たちの山嶺への到達でイベントが終了するため、先に学院正門前の共闘を終える。共闘中の霊体ユラの敗北と本人の死亡は区別する。"
+  },
+  {
+    "id": "v20-ash-beast",
+    "name": "獣の咆哮",
+    "category": "ash-war",
+    "subCategory": "戦灰：属性未照合",
+    "regions": [
+      "caelid"
+    ],
+    "location": "獣の神殿・グラング",
+    "acquisition": "死の根を累計4個渡し、報酬を受け取る。",
+    "conditions": "記載地点への到達が必要。",
+    "sourceIds": [
+      "ash-routes"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "defaultAffinity": null,
+    "compatibleWeapons": null,
+    "skillKind": "ash-of-war",
+    "unknownFields": [
+      "defaultAffinity",
+      "compatibleWeapons"
+    ],
+    "relatedIds": []
+  },
+  {
+    "id": "v20-ash-determination",
+    "name": "デターミネーション",
+    "category": "ash-war",
+    "subCategory": "戦灰：属性未照合",
+    "regions": [
+      "limgrave"
+    ],
+    "location": "曇り川の洞窟より南側の橋周辺",
+    "acquisition": "スカラベを倒す。",
+    "conditions": "記載地点へ到達する。",
+    "sourceIds": [
+      "ash-list"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "defaultAffinity": null,
+    "compatibleWeapons": null,
+    "skillKind": "ash-of-war",
+    "unknownFields": [
+      "defaultAffinity",
+      "compatibleWeapons"
+    ],
+    "relatedIds": []
+  },
+  {
+    "id": "v20-ash-storm-stomp",
+    "name": "嵐脚",
+    "category": "ash-war",
+    "subCategory": "戦灰：属性未照合",
+    "regions": [
+      "limgrave"
+    ],
+    "location": "関門前の廃墟、地下の宝箱",
+    "acquisition": "地下室に入り宝箱を調べる。",
+    "conditions": "記載地点へ到達する。",
+    "sourceIds": [
+      "ash-list"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "defaultAffinity": null,
+    "compatibleWeapons": null,
+    "skillKind": "ash-of-war",
+    "unknownFields": [
+      "defaultAffinity",
+      "compatibleWeapons"
+    ],
+    "relatedIds": []
+  },
+  {
+    "id": "v20-ash-storm-assault",
+    "name": "嵐の襲撃",
+    "category": "ash-war",
+    "subCategory": "戦灰：属性未照合",
+    "regions": [
+      "stormveil"
+    ],
+    "location": "ストームヴィル城内",
+    "acquisition": "城内のスカラベから得る。詳細な曲がり角は未照合。",
+    "conditions": "記載地点へ到達する。",
+    "sourceIds": [
+      "ash-list"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "defaultAffinity": null,
+    "compatibleWeapons": null,
+    "skillKind": "ash-of-war",
+    "unknownFields": [
+      "defaultAffinity",
+      "compatibleWeapons"
+    ],
+    "relatedIds": []
+  },
+  {
+    "id": "v20-ash-ice-spear",
+    "name": "氷槍",
+    "category": "ash-war",
+    "subCategory": "戦灰：属性未照合",
+    "regions": [
+      "liurnia"
+    ],
+    "location": "祝福「門前町の橋」の東側の林",
+    "acquisition": "夜の騎兵を倒す。",
+    "conditions": "夜の騎兵は夜に訪問する。",
+    "sourceIds": [
+      "ash-list"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "defaultAffinity": null,
+    "compatibleWeapons": null,
+    "skillKind": "ash-of-war",
+    "unknownFields": [
+      "defaultAffinity",
+      "compatibleWeapons"
+    ],
+    "relatedIds": []
+  },
+  {
+    "id": "v20-spirit-imps",
+    "name": "牙鬼インプの遺灰",
+    "category": "spirit",
+    "subCategory": "召喚用遺灰・傀儡",
+    "regions": [
+      "limgrave"
+    ],
+    "location": "キャラクター作成の形見選択",
+    "acquisition": "形見で選択して受け取る。",
+    "conditions": "新規キャラクター作成時の経路。既存キャラクター用の販売経路は未照合。",
+    "sourceIds": [
+      "spirits"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "summonKind": "spirit-ash",
+    "relatedIds": []
+  },
+  {
+    "id": "v20-spirit-wolves",
+    "name": "はぐれ狼の遺灰",
+    "category": "spirit",
+    "subCategory": "召喚用遺灰・傀儡",
+    "regions": [
+      "limgrave"
+    ],
+    "location": "エレの教会・魔女レナ",
+    "acquisition": "レナとの会話で受け取る。",
+    "conditions": "レナに会える進行状態。未遭遇時の代替入手先は今回未照合。",
+    "sourceIds": [
+      "spirits"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "summonKind": "spirit-ash",
+    "relatedIds": []
+  },
+  {
+    "id": "v20-spirit-militia",
+    "name": "民兵スケルトンの遺灰",
+    "category": "spirit",
+    "subCategory": "召喚用遺灰・傀儡",
+    "regions": [
+      "limgrave"
+    ],
+    "location": "呼び水の村",
+    "acquisition": "ティビアの呼び舟を撃破する。",
+    "conditions": "村のボス戦を完了する。",
+    "sourceIds": [
+      "spirits"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "summonKind": "spirit-ash",
+    "relatedIds": []
+  },
+  {
+    "id": "v20-spirit-nobles",
+    "name": "さまよえる貴人の遺灰",
+    "category": "spirit",
+    "subCategory": "召喚用遺灰・傀儡",
+    "regions": [
+      "limgrave"
+    ],
+    "location": "嵐の麓の地下墓内",
+    "acquisition": "墓内で拾う。",
+    "conditions": "地下墓への到達。ボス報酬の遺灰とは別。",
+    "sourceIds": [
+      "spirits"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "summonKind": "spirit-ash",
+    "relatedIds": []
+  },
+  {
+    "id": "v20-spirit-noble-sorcerer",
+    "name": "貴人の魔術師の遺灰",
+    "category": "spirit",
+    "subCategory": "召喚用遺灰・傀儡",
+    "regions": [
+      "limgrave"
+    ],
+    "location": "嵐の麓の地下墓",
+    "acquisition": "還樹の番犬を倒す。",
+    "conditions": "ボス部屋まで進む。",
+    "sourceIds": [
+      "spirits"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "summonKind": "spirit-ash",
+    "relatedIds": []
+  },
+  {
+    "id": "v20-spirit-oleg",
+    "name": "失地騎士、オレグ",
+    "category": "spirit",
+    "subCategory": "召喚用遺灰・傀儡",
+    "regions": [
+      "limgrave"
+    ],
+    "location": "辺境の英雄墓",
+    "acquisition": "爛れた樹霊を倒し、報酬を回収する。",
+    "conditions": "漂着墓地側の石剣の鍵の封印を開ける。",
+    "sourceIds": [
+      "spirits"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "summonKind": "spirit-ash",
+    "aliases": [
+      "失地騎士オレグ"
+    ],
+    "relatedIds": []
+  },
+  {
+    "id": "v20-spirit-deenh",
+    "name": "嵐の鷹、ディーネ",
+    "category": "spirit",
+    "subCategory": "召喚用遺灰・傀儡",
+    "regions": [
+      "liurnia"
+    ],
+    "location": "四鐘楼から転送する王を待つ礼拝堂方面",
+    "acquisition": "転送先を探索して召喚用遺灰を回収する。",
+    "conditions": "四鐘楼の転送門を使用。嵐鷹の古王は別のイベント品。",
+    "sourceIds": [
+      "spirits"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "summonKind": "spirit-ash",
+    "aliases": [
+      "嵐の鷹ディーネ"
+    ],
+    "relatedIds": [
+      "npc17-nepheli"
+    ]
+  },
+  {
+    "id": "v20-spirit-latenna",
+    "name": "しろがねのラティナ",
+    "category": "spirit",
+    "subCategory": "召喚用遺灰・傀儡",
+    "regions": [
+      "liurnia"
+    ],
+    "location": "狼のボロ家",
+    "acquisition": "ラティナとの会話を進め、遺灰を受け取る。",
+    "conditions": "聖樹の秘割符（右）を持って会う。全進行不能条件は未照合。",
+    "sourceIds": [
+      "spirits"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "summonKind": "spirit-ash",
+    "relatedIds": []
+  },
+  {
+    "id": "v20-spirit-putrid",
+    "name": "腐った亡者の遺灰",
+    "category": "spirit",
+    "subCategory": "召喚用遺灰・傀儡",
+    "regions": [
+      "caelid"
+    ],
+    "location": "牢獄洞窟",
+    "acquisition": "洞窟のボスを倒す。",
+    "conditions": "ボスへの通路を開通する。",
+    "sourceIds": [
+      "spirits"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "summonKind": "spirit-ash",
+    "relatedIds": []
+  },
+  {
+    "id": "v20-spirit-demihuman",
+    "name": "亜人団の遺灰",
+    "category": "spirit",
+    "subCategory": "召喚用遺灰・傀儡",
+    "regions": [
+      "weeping"
+    ],
+    "location": "串刺しの地下墓",
+    "acquisition": "還樹の番犬を倒す。",
+    "conditions": "地下墓のボスへ到達する。",
+    "sourceIds": [
+      "spirits"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "summonKind": "spirit-ash",
+    "relatedIds": []
+  },
+  {
+    "id": "v20-spirit-claymen",
+    "name": "泥人の遺灰",
+    "category": "spirit",
+    "subCategory": "召喚用遺灰・傀儡",
+    "regions": [
+      "ainsel"
+    ],
+    "location": "エインセル河本流、南側の遺体",
+    "acquisition": "遺体のアイテムを調べる。",
+    "conditions": "本流側へ到達する。",
+    "sourceIds": [
+      "spirits"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "summonKind": "spirit-ash",
+    "relatedIds": []
+  },
+  {
+    "id": "v20-spirit-stray",
+    "name": "腐った野犬の遺灰",
+    "category": "spirit",
+    "subCategory": "召喚用遺灰・傀儡",
+    "regions": [
+      "caelid"
+    ],
+    "location": "祝福「サリアの街、階段下」の北",
+    "acquisition": "北側の遺体を調べる。",
+    "conditions": "サリア方面へ到達する。",
+    "sourceIds": [
+      "spirits"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "summonKind": "spirit-ash",
+    "relatedIds": []
+  },
+  {
+    "id": "v20-spirit-rats",
+    "name": "大ネズミの遺灰",
+    "category": "spirit",
+    "subCategory": "召喚用遺灰・傀儡",
+    "regions": [
+      "altus"
+    ],
+    "location": "西の風車牧場の小屋",
+    "acquisition": "小屋のアイテムを回収する。",
+    "conditions": "アルター高原への到達。",
+    "sourceIds": [
+      "spirits"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "summonKind": "spirit-ash",
+    "relatedIds": []
+  },
+  {
+    "id": "v20-spirit-squirts",
+    "name": "陸ほやの遺灰",
+    "category": "spirit",
+    "subCategory": "召喚用遺灰・傀儡",
+    "regions": [
+      "liurnia"
+    ],
+    "location": "学院の門前町の東、陸ほやの群れ付近",
+    "acquisition": "周囲の遺体を調べる。",
+    "conditions": "東の水辺を探索する。",
+    "sourceIds": [
+      "spirits"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "summonKind": "spirit-ash",
+    "relatedIds": []
+  },
+  {
+    "id": "v20-spirit-miranda",
+    "name": "小ミランダの遺灰",
+    "category": "spirit",
+    "subCategory": "召喚用遺灰・傀儡",
+    "regions": [
+      "caelid"
+    ],
+    "location": "ケイリッドの地下墓内",
+    "acquisition": "墓内のアイテムを回収する。",
+    "conditions": "ボスの墓所影が落とす遺灰とは別。",
+    "sourceIds": [
+      "spirits"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "summonKind": "spirit-ash",
+    "relatedIds": []
+  },
+  {
+    "id": "v20-spirit-archers",
+    "name": "弓兵の遺灰",
+    "category": "spirit",
+    "subCategory": "召喚用遺灰・傀儡",
+    "regions": [
+      "ainsel"
+    ],
+    "location": "永遠の都ノクステラ、階段で進む建物内",
+    "acquisition": "建物内を探索し取得する。",
+    "conditions": "ノクステラへの到達。",
+    "sourceIds": [
+      "spirits"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "summonKind": "spirit-ash",
+    "relatedIds": []
+  },
+  {
+    "id": "v20-spirit-avian",
+    "name": "鳥人形兵の遺灰",
+    "category": "spirit",
+    "subCategory": "召喚用遺灰・傀儡",
+    "regions": [
+      "academy"
+    ],
+    "location": "学び舎の一室から下方、鳥人形兵付近の遺体",
+    "acquisition": "下方の足場をたどり遺体を調べる。",
+    "conditions": "学院への入場。",
+    "sourceIds": [
+      "spirits"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "summonKind": "spirit-ash",
+    "relatedIds": []
+  },
+  {
+    "id": "v20-spirit-kaiden",
+    "name": "カイデンの傭兵の遺灰",
+    "category": "spirit",
+    "subCategory": "召喚用遺灰・傀儡",
+    "regions": [
+      "liurnia"
+    ],
+    "location": "断崖下の地下墓",
+    "acquisition": "還樹の番犬を倒す。",
+    "conditions": "地下墓のボスまで進む。",
+    "sourceIds": [
+      "spirits"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "summonKind": "spirit-ash",
+    "relatedIds": []
+  },
+  {
+    "id": "v20-spirit-pumpkin",
+    "name": "かぼちゃの狂兵の遺灰",
+    "category": "spirit",
+    "subCategory": "召喚用遺灰・傀儡",
+    "regions": [
+      "caelid"
+    ],
+    "location": "小黄金樹の地下墓",
+    "acquisition": "墓の還樹の番犬とのボス戦を終える。",
+    "conditions": "ボスへの到達。",
+    "sourceIds": [
+      "spirits"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "summonKind": "spirit-ash",
+    "relatedIds": []
+  },
+  {
+    "id": "v20-spirit-ancestral",
+    "name": "祖霊の民の遺灰",
+    "category": "spirit",
+    "subCategory": "召喚用遺灰・傀儡",
+    "regions": [
+      "siofra"
+    ],
+    "location": "角骸の霊場",
+    "acquisition": "祖霊を倒し報酬を得る。",
+    "conditions": "角骸の霊場のボス戦を解放する。",
+    "sourceIds": [
+      "spirits"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "summonKind": "spirit-ash",
+    "relatedIds": []
+  },
+  {
+    "id": "v20-spirit-rot",
+    "name": "腐敗の眷属の遺灰",
+    "category": "spirit",
+    "subCategory": "召喚用遺灰・傀儡",
+    "regions": [
+      "caelid"
+    ],
+    "location": "ケイリッドの地下墓",
+    "acquisition": "墓所影を倒す。",
+    "conditions": "墓のボスまで進む。",
+    "sourceIds": [
+      "spirits"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "summonKind": "spirit-ash",
+    "relatedIds": []
+  },
+  {
+    "id": "v20-spirit-glintstone",
+    "name": "輝石魔術師の遺灰",
+    "category": "spirit",
+    "subCategory": "召喚用遺灰・傀儡",
+    "regions": [
+      "liurnia"
+    ],
+    "location": "行き止まりの地下墓",
+    "acquisition": "霊喚びつむりを倒す。",
+    "conditions": "ボス部屋への隠し通路を探す。",
+    "sourceIds": [
+      "spirits"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "summonKind": "spirit-ash",
+    "relatedIds": []
+  },
+  {
+    "id": "v20-spirit-twinsage",
+    "name": "双賢魔術師の遺灰",
+    "category": "spirit",
+    "subCategory": "召喚用遺灰・傀儡",
+    "regions": [
+      "liurnia"
+    ],
+    "location": "黒き刃の地下墓",
+    "acquisition": "墓所影を倒す。",
+    "conditions": "地下墓の該当ボスへ到達する。",
+    "sourceIds": [
+      "spirits"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "summonKind": "spirit-ash",
+    "relatedIds": []
+  },
+  {
+    "id": "v20-spirit-raya",
+    "name": "レアルカリア兵の遺灰",
+    "category": "spirit",
+    "subCategory": "召喚用遺灰・傀儡",
+    "regions": [
+      "liurnia"
+    ],
+    "location": "行き止まりの地下墓内",
+    "acquisition": "墓内のアイテムを回収する。",
+    "conditions": "霊喚びつむりの報酬とは別。",
+    "sourceIds": [
+      "spirits"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "summonKind": "spirit-ash",
+    "relatedIds": []
+  },
+  {
+    "id": "v20-spirit-radahn",
+    "name": "ラダーン兵の遺灰",
+    "category": "spirit",
+    "subCategory": "召喚用遺灰・傀儡",
+    "regions": [
+      "caelid"
+    ],
+    "location": "英雄たちの地下墓内",
+    "acquisition": "墓内を探索して取得する。",
+    "conditions": "ラダーン撃破後に進める地下墓。",
+    "sourceIds": [
+      "spirits"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "summonKind": "spirit-ash",
+    "relatedIds": [
+      "boss-radahn"
+    ]
+  },
+  {
+    "id": "v20-spirit-rollo",
+    "name": "忌み潰しのロロ",
+    "category": "spirit",
+    "subCategory": "召喚用遺灰・傀儡",
+    "regions": [
+      "altus"
+    ],
+    "location": "東アルター神授塔へ向かう道",
+    "acquisition": "忌み双子を倒す。",
+    "conditions": "神授塔方面の道を開通する。",
+    "sourceIds": [
+      "spirits"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "summonKind": "spirit-ash",
+    "relatedIds": []
+  },
+  {
+    "id": "v20-spirit-nightmaiden",
+    "name": "夜巫女と剣士の傀儡",
+    "category": "spirit",
+    "subCategory": "召喚用遺灰・傀儡",
+    "regions": [
+      "ainsel"
+    ],
+    "location": "ノクステラ、インプ像で封印された小部屋",
+    "acquisition": "封印を解き部屋を調べる。",
+    "conditions": "石剣の鍵の封印。",
+    "sourceIds": [
+      "spirits"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "summonKind": "spirit-ash",
+    "relatedIds": []
+  },
+  {
+    "id": "v20-spirit-ingvall",
+    "name": "失地騎士、イングヴァル",
+    "category": "spirit",
+    "subCategory": "召喚用遺灰・傀儡",
+    "regions": [
+      "limgrave"
+    ],
+    "location": "曇り川の地下墓",
+    "acquisition": "墓守闘士を倒して遺灰を得る。",
+    "conditions": "地下墓のボスへ到達する。",
+    "sourceIds": [
+      "ingvall"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "summonKind": "spirit-ash",
+    "aliases": [
+      "失地騎士イングヴァル"
+    ],
+    "relatedIds": []
+  },
+  {
+    "id": "v20-talisman-crimson1",
+    "name": "緋琥珀のメダリオン+1",
+    "category": "talisman",
+    "subCategory": "通常・強化版（別収集単位）",
+    "regions": [
+      "gelmir"
+    ],
+    "location": "火山館、牢街教会の先の封印部屋",
+    "acquisition": "石剣の鍵の部屋の奥で拾う。",
+    "conditions": "石剣の鍵が必要。",
+    "sourceIds": [
+      "talismans"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "relatedIds": []
+  },
+  {
+    "id": "v20-talisman-crimson2",
+    "name": "緋琥珀のメダリオン+2",
+    "category": "talisman",
+    "subCategory": "通常・強化版（別収集単位）",
+    "regions": [
+      "ashen"
+    ],
+    "location": "灰都から忌み捨ての地下へ降りる途中の梁",
+    "acquisition": "梁上の遺体を調べる。",
+    "conditions": "王都が灰都になった後の経路。",
+    "sourceIds": [
+      "talismans"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "relatedIds": []
+  },
+  {
+    "id": "v20-talisman-crimson-seed",
+    "name": "緋色種子のタリスマン",
+    "category": "talisman",
+    "subCategory": "通常・強化版（別収集単位）",
+    "regions": [
+      "altus"
+    ],
+    "location": "貴き者たちの英雄墓の封印",
+    "acquisition": "鍵で封印を解いて探索する。",
+    "conditions": "石剣の鍵が必要。",
+    "sourceIds": [
+      "talismans"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "relatedIds": []
+  },
+  {
+    "id": "v20-talisman-dew",
+    "name": "恵みの雫のタリスマン",
+    "category": "talisman",
+    "subCategory": "通常・強化版（別収集単位）",
+    "regions": [
+      "leyndell"
+    ],
+    "location": "神授橋、転送先の宝箱",
+    "acquisition": "舞い戻りの塔の罠転送先で宝箱を開ける。",
+    "conditions": "啜り泣きの半島の塔から移動できる。",
+    "sourceIds": [
+      "talismans"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "relatedIds": []
+  },
+  {
+    "id": "v20-talisman-cerulean",
+    "name": "青琥珀のメダリオン",
+    "category": "talisman",
+    "subCategory": "通常・強化版（別収集単位）",
+    "regions": [
+      "liurnia"
+    ],
+    "location": "湖脇の結晶洞窟",
+    "acquisition": "猟犬騎士を倒す。",
+    "conditions": "洞窟のボスまで進む。",
+    "sourceIds": [
+      "talismans"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "relatedIds": []
+  },
+  {
+    "id": "v20-talisman-cerulean1",
+    "name": "青琥珀のメダリオン+1",
+    "category": "talisman",
+    "subCategory": "通常・強化版（別収集単位）",
+    "regions": [
+      "mountaintops"
+    ],
+    "location": "ソールの城砦、日蝕教会の南を抜けた先",
+    "acquisition": "はしごの先の遺体を調べる。",
+    "conditions": "城内の探索。",
+    "sourceIds": [
+      "talismans"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "relatedIds": []
+  },
+  {
+    "id": "v20-talisman-cerulean2",
+    "name": "青琥珀のメダリオン+2",
+    "category": "talisman",
+    "subCategory": "通常・強化版（別収集単位）",
+    "regions": [
+      "moonlight"
+    ],
+    "location": "月の貴族の廃墟、隠し地下室の宝箱",
+    "acquisition": "封印された地下室を開ける。",
+    "conditions": "月光の祭壇方面への到達と封印解除。",
+    "sourceIds": [
+      "talismans"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "relatedIds": []
+  },
+  {
+    "id": "v20-talisman-cerulean-seed",
+    "name": "青色種子のタリスマン",
+    "category": "talisman",
+    "subCategory": "通常・強化版（別収集単位）",
+    "regions": [
+      "liurnia"
+    ],
+    "location": "カーリアの書院、上層のはしごの先",
+    "acquisition": "天井側の足場を探索する。",
+    "conditions": "書院の探索経路を確保する。",
+    "sourceIds": [
+      "talismans"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "relatedIds": []
+  },
+  {
+    "id": "v20-talisman-viridian",
+    "name": "緑琥珀のメダリオン",
+    "category": "talisman",
+    "subCategory": "通常・強化版（別収集単位）",
+    "regions": [
+      "weeping"
+    ],
+    "location": "霊廟ヶ原の洞窟",
+    "acquisition": "病み花ミランダを倒す。",
+    "conditions": "洞窟のボスまで進む。",
+    "sourceIds": [
+      "talismans"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "relatedIds": []
+  },
+  {
+    "id": "v20-talisman-viridian1",
+    "name": "緑琥珀のメダリオン+1",
+    "category": "talisman",
+    "subCategory": "通常・強化版（別収集単位）",
+    "regions": [
+      "altus"
+    ],
+    "location": "外廓の戦場跡付近",
+    "acquisition": "姿を現すマルギットを倒す。",
+    "conditions": "外廓の該当遭遇。",
+    "sourceIds": [
+      "talismans"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "relatedIds": []
+  },
+  {
+    "id": "v20-talisman-viridian2",
+    "name": "緑琥珀のメダリオン+2",
+    "category": "talisman",
+    "subCategory": "通常・強化版（別収集単位）",
+    "regions": [
+      "haligtree"
+    ],
+    "location": "聖樹街、広場の先の建物",
+    "acquisition": "建物内の取得物を調べる。",
+    "conditions": "ミケラの聖樹への到達。",
+    "sourceIds": [
+      "talismans"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "relatedIds": []
+  },
+  {
+    "id": "v20-talisman-arsenal1",
+    "name": "武具塊のお守り+1",
+    "category": "talisman",
+    "subCategory": "通常・強化版（別収集単位）",
+    "regions": [
+      "altus"
+    ],
+    "location": "アルター坑道内の遺体",
+    "acquisition": "坑道内で遺体を調べる。",
+    "conditions": "坑道の探索。",
+    "sourceIds": [
+      "talismans"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "relatedIds": []
+  },
+  {
+    "id": "v20-talisman-greatjar",
+    "name": "大壺の武具塊",
+    "category": "talisman",
+    "subCategory": "通常・強化版（別収集単位）",
+    "regions": [
+      "caelid"
+    ],
+    "location": "竜塚、西側の大壺",
+    "acquisition": "大壺の騎士の赤サイン3体に勝ち、大壺に話しかける。",
+    "conditions": "シーフラ河側の昇降機経由で大壺へ向かう。",
+    "sourceIds": [
+      "talismans"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "relatedIds": []
+  },
+  {
+    "id": "v20-talisman-erdtree1",
+    "name": "黄金樹の恩寵+1",
+    "category": "talisman",
+    "subCategory": "通常・強化版（別収集単位）",
+    "regions": [
+      "leyndell"
+    ],
+    "location": "忌み捨ての地下、忌み子モーグの部屋",
+    "acquisition": "ボス部屋の宝箱を開ける。",
+    "conditions": "地下のボス部屋へ到達。",
+    "sourceIds": [
+      "talismans"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "relatedIds": []
+  },
+  {
+    "id": "v20-talisman-radagon",
+    "name": "ラダゴンの刻印",
+    "category": "talisman",
+    "subCategory": "通常・強化版（別収集単位）",
+    "regions": [
+      "weeping"
+    ],
+    "location": "啜り泣きの封牢",
+    "acquisition": "ザミェルの古英雄を倒す。",
+    "conditions": "石剣の鍵で封牢を解放。",
+    "sourceIds": [
+      "talismans"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "relatedIds": []
+  },
+  {
+    "id": "v20-talisman-marika",
+    "name": "マリカの刻印",
+    "category": "talisman",
+    "subCategory": "通常・強化版（別収集単位）",
+    "regions": [
+      "nokron"
+    ],
+    "location": "祖霊の森の北、滝側の遺体",
+    "acquisition": "滝の内側の遺体を調べる。",
+    "conditions": "ノクローンへの到達。",
+    "sourceIds": [
+      "talismans"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "relatedIds": []
+  },
+  {
+    "id": "v20-weapon-dagger",
+    "name": "ダガー",
+    "category": "weapon",
+    "subCategory": "短剣",
+    "regions": [
+      "roundtable"
+    ],
+    "location": "円卓・双子の老婆",
+    "acquisition": "販売一覧から購入する。",
+    "conditions": "円卓へ到達。",
+    "sourceIds": [
+      "weapons"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "relatedIds": []
+  },
+  {
+    "id": "v20-weapon-cinquedea",
+    "name": "チンクエディア",
+    "category": "weapon",
+    "subCategory": "短剣",
+    "regions": [
+      "caelid"
+    ],
+    "location": "獣の神殿から外へ出て右側の崖下",
+    "acquisition": "崖下の取得物を回収する。",
+    "conditions": "落下を避けて下層へ降りる。",
+    "sourceIds": [
+      "weapons"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "relatedIds": []
+  },
+  {
+    "id": "v20-weapon-parrying",
+    "name": "パリングダガー",
+    "category": "weapon",
+    "subCategory": "短剣",
+    "regions": [
+      "limgrave"
+    ],
+    "location": "曇り川の洞窟・パッチ",
+    "acquisition": "パッチの店で購入する。",
+    "conditions": "店が利用できるNPC進行状態。",
+    "sourceIds": [
+      "weapons"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "relatedIds": []
+  },
+  {
+    "id": "v20-weapon-misericorde",
+    "name": "慈悲の短剣",
+    "category": "weapon",
+    "subCategory": "短剣",
+    "regions": [
+      "stormveil"
+    ],
+    "location": "ストームヴィル城の鍵で封じられた部屋",
+    "acquisition": "石剣の鍵を使い部屋の取得物を回収する。",
+    "conditions": "石剣の鍵が必要。",
+    "sourceIds": [
+      "weapons"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "relatedIds": []
+  },
+  {
+    "id": "v20-weapon-crystal-knife",
+    "name": "結晶ナイフ",
+    "category": "weapon",
+    "subCategory": "短剣",
+    "regions": [
+      "liurnia"
+    ],
+    "location": "レアルカリア結晶坑道の宝箱",
+    "acquisition": "坑道内の宝箱を開ける。",
+    "conditions": "坑道を探索する。",
+    "sourceIds": [
+      "weapons"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "relatedIds": []
+  },
+  {
+    "id": "v20-weapon-wakizashi",
+    "name": "脇差",
+    "category": "weapon",
+    "subCategory": "短剣",
+    "regions": [
+      "caelid"
+    ],
+    "location": "牢獄洞窟内の遺体",
+    "acquisition": "洞窟内の遺体を調べる。",
+    "conditions": "洞窟への到達。",
+    "sourceIds": [
+      "weapons"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "relatedIds": []
+  },
+  {
+    "id": "v20-weapon-ivory",
+    "name": "象牙の手鎌",
+    "category": "weapon",
+    "subCategory": "短剣",
+    "regions": [
+      "liurnia"
+    ],
+    "location": "しろがね村、アルバスの近くの棺",
+    "acquisition": "奥の棺付近で回収する。",
+    "conditions": "村を探索する。",
+    "sourceIds": [
+      "weapons"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "relatedIds": []
+  },
+  {
+    "id": "v20-weapon-black-knife",
+    "name": "黒き刃",
+    "category": "weapon",
+    "subCategory": "短剣",
+    "regions": [
+      "altus"
+    ],
+    "location": "貴き者たちの英雄墓の入口",
+    "acquisition": "入口の黒き刃の刺客を倒す。",
+    "conditions": "墓の入口へ到達。",
+    "sourceIds": [
+      "weapons"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "relatedIds": []
+  },
+  {
+    "id": "v20-weapon-eochaid",
+    "name": "エオヒドの宝剣",
+    "category": "weapon",
+    "subCategory": "直剣",
+    "regions": [
+      "caelid"
+    ],
+    "location": "牢獄洞窟のボスの先の墓前",
+    "acquisition": "ボスを倒し、洞窟の先で回収する。",
+    "conditions": "牢獄洞窟の正規通路を探索する。ショートカットは本記事の対象外。",
+    "sourceIds": [
+      "weapons"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "relatedIds": []
+  },
+  {
+    "id": "v20-weapon-carian",
+    "name": "カーリアの騎士剣",
+    "category": "weapon",
+    "subCategory": "直剣",
+    "regions": [
+      "liurnia"
+    ],
+    "location": "四鐘楼付近を移動する巨人の馬車",
+    "acquisition": "馬車の宝箱を調べる。",
+    "conditions": "四鐘楼付近へ到達。",
+    "sourceIds": [
+      "weapons"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "relatedIds": []
+  },
+  {
+    "id": "v20-weapon-trina",
+    "name": "トリーナの剣",
+    "category": "weapon",
+    "subCategory": "直剣",
+    "regions": [
+      "caelid"
+    ],
+    "location": "見捨てられた廃墟の地下室",
+    "acquisition": "石剣の鍵で封印を解いて宝箱を開ける。",
+    "conditions": "石剣の鍵が必要。",
+    "sourceIds": [
+      "weapons"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "relatedIds": []
+  },
+  {
+    "id": "v20-weapon-broadsword",
+    "name": "ブロードソード",
+    "category": "weapon",
+    "subCategory": "直剣",
+    "regions": [
+      "limgrave"
+    ],
+    "location": "海岸の洞窟付近の放浪商人",
+    "acquisition": "商人から購入する。",
+    "conditions": "海岸側の商人に会う。",
+    "sourceIds": [
+      "weapons"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "relatedIds": []
+  },
+  {
+    "id": "v20-weapon-longsword",
+    "name": "ロングソード",
+    "category": "weapon",
+    "subCategory": "直剣",
+    "regions": [
+      "roundtable"
+    ],
+    "location": "円卓・双子の老婆",
+    "acquisition": "販売一覧から購入する。",
+    "conditions": "円卓への到達。",
+    "sourceIds": [
+      "weapons"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "relatedIds": []
+  },
+  {
+    "id": "v20-weapon-ornamental",
+    "name": "儀仗の直剣",
+    "category": "weapon",
+    "subCategory": "直剣",
+    "regions": [
+      "limgrave"
+    ],
+    "location": "王を待つ礼拝堂",
+    "acquisition": "接ぎ木の貴公子を倒す。",
+    "conditions": "初回遭遇または礼拝堂への再訪。",
+    "sourceIds": [
+      "weapons"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "relatedIds": []
+  },
+  {
+    "id": "v20-weapon-crystal-sword",
+    "name": "結晶剣",
+    "category": "weapon",
+    "subCategory": "直剣",
+    "regions": [
+      "liurnia"
+    ],
+    "location": "しろがね村、吊り橋の先の遺体",
+    "acquisition": "橋の先の遺体を調べる。",
+    "conditions": "しろがね村を探索。",
+    "sourceIds": [
+      "weapons"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "relatedIds": []
+  },
+  {
+    "id": "v20-weapon-morningstar",
+    "name": "モーニングスター",
+    "category": "weapon",
+    "subCategory": "槌",
+    "regions": [
+      "weeping"
+    ],
+    "location": "贄送りの大橋からモーンの城壁前へ向かう街道の馬車",
+    "acquisition": "馬車の宝箱を開ける。",
+    "conditions": "街道を探索する。",
+    "sourceIds": [
+      "weapons"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "relatedIds": []
+  },
+  {
+    "id": "v20-weapon-mace",
+    "name": "メイス",
+    "category": "weapon",
+    "subCategory": "槌",
+    "regions": [
+      "roundtable"
+    ],
+    "location": "円卓・双子の老婆",
+    "acquisition": "店の販売品から購入する。",
+    "conditions": "円卓へ到達。",
+    "sourceIds": [
+      "weapons"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "relatedIds": []
+  },
+  {
+    "id": "v20-weapon-greatstars",
+    "name": "グレートスターズ",
+    "category": "weapon",
+    "subCategory": "大槌",
+    "regions": [
+      "altus"
+    ],
+    "location": "罪人送りの道、小脇付近の馬車",
+    "acquisition": "馬車の宝箱から回収する。",
+    "conditions": "代表経路のみ。追加取得経路と一周の総数は未照合。",
+    "sourceIds": [
+      "weapons"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "relatedIds": []
+  },
+  {
+    "id": "v20-weapon-pike",
+    "name": "パイク",
+    "category": "weapon",
+    "subCategory": "槍",
+    "regions": [
+      "stormveil"
+    ],
+    "location": "ストームヴィル城の広場の遺体",
+    "acquisition": "広場の遺体を調べる。",
+    "conditions": "広場へ到達する。",
+    "sourceIds": [
+      "weapons"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "relatedIds": []
+  },
+  {
+    "id": "v20-weapon-cross-naginata",
+    "name": "十文字薙刀",
+    "category": "weapon",
+    "subCategory": "槍",
+    "regions": [
+      "caelid"
+    ],
+    "location": "ゲール坑道、祝福より先の遺体",
+    "acquisition": "坑道内の遺体から回収する。",
+    "conditions": "ゲール坑道を探索する。",
+    "sourceIds": [
+      "weapons"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "relatedIds": []
+  },
+  {
+    "id": "v20-weapon-finger-seal",
+    "name": "指の聖印",
+    "category": "weapon",
+    "subCategory": "聖印",
+    "regions": [
+      "roundtable"
+    ],
+    "location": "円卓・双子の老婆",
+    "acquisition": "販売品から聖印を購入する。",
+    "conditions": "円卓へ到達。",
+    "sourceIds": [
+      "weapons"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "relatedIds": []
+  },
+  {
+    "id": "v20-weapon-clawmark",
+    "name": "爪痕の聖印",
+    "category": "weapon",
+    "subCategory": "聖印",
+    "regions": [
+      "caelid"
+    ],
+    "location": "獣の神殿・グラング",
+    "acquisition": "死の根を初めて渡し、報酬を受け取る。",
+    "conditions": "死の根を1個用意。",
+    "sourceIds": [
+      "weapons"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "relatedIds": []
+  },
+  {
+    "id": "v20-weapon-godslayer",
+    "name": "神狩りの聖印",
+    "category": "weapon",
+    "subCategory": "聖印",
+    "regions": [
+      "stormveil"
+    ],
+    "location": "ストームヴィル城、広場脇の封印された小部屋",
+    "acquisition": "石剣の鍵の部屋に入り回収する。",
+    "conditions": "石剣の鍵が必要。",
+    "sourceIds": [
+      "weapons"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "relatedIds": []
+  },
+  {
+    "id": "v20-weapon-serpent",
+    "name": "大蛇狩り",
+    "category": "weapon",
+    "subCategory": "大槍",
+    "regions": [
+      "gelmir"
+    ],
+    "location": "火山館、ライカードの戦闘エリア入口側",
+    "acquisition": "戦闘エリアへ入り、入口近く左側の遺体を調べる。",
+    "conditions": "ライカードの戦闘エリアへの到達。取得可能な戦灰ではなく武器。",
+    "sourceIds": [
+      "serpent",
+      "weapons"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "relatedNames": [
+      "冒涜の君主、ライカード"
+    ],
+    "relatedIds": [
+      "boss-rykard"
+    ]
+  },
+  {
+    "id": "v20-armor-veteran",
+    "name": "宿将シリーズ",
+    "category": "armor",
+    "subCategory": "シリーズ（通常4部位）",
+    "regions": [
+      "roundtable",
+      "mountaintops"
+    ],
+    "location": "ソールの城砦のニアール撃破後、円卓エンヤ",
+    "acquisition": "ニアールを倒してから、エンヤの防具販売で4部位を購入する。",
+    "conditions": "ニアール撃破。鎧の軽装は別形態で、この単位の必須構成には含めない。",
+    "sourceIds": [
+      "veteran"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "unit": "set",
+    "components": [
+      "宿将の兜",
+      "宿将の鎧",
+      "宿将の手甲",
+      "宿将の足甲"
+    ],
+    "relatedIds": []
+  },
+  {
+    "id": "v20-armor-banished",
+    "name": "失地騎士シリーズ",
+    "category": "armor",
+    "subCategory": "シリーズ（軽装4部位）",
+    "regions": [
+      "stormveil"
+    ],
+    "location": "ストームヴィル城、城壁の塔近くの失地騎士",
+    "acquisition": "失地騎士を倒し、軽装の兜・鎧と手甲・足甲を揃える。",
+    "conditions": "対象の装備構成でドロップが異なる。通常兜は大竜餐教会側、通常鎧はソールの城砦側が別経路。",
+    "sourceIds": [
+      "banished"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "unit": "set",
+    "components": [
+      "失地騎士の兜（軽装）",
+      "失地騎士の鎧（軽装）",
+      "失地騎士の手甲",
+      "失地騎士の足甲"
+    ],
+    "relatedIds": []
+  },
+  {
+    "id": "v20-armor-blaidd",
+    "name": "ブライヴシリーズ",
+    "category": "armor",
+    "subCategory": "シリーズ（胴・腕・脚3部位）",
+    "regions": [
+      "liurnia"
+    ],
+    "location": "ラニの魔術師塔の前",
+    "acquisition": "ラニのイベントを進め、塔前で敵対したブライヴを倒して3部位を得る。",
+    "conditions": "黒狼の仮面は別入手・別収集単位。鎧の軽装は必須構成に含めない。",
+    "sourceIds": [
+      "blaidd"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "unit": "set",
+    "components": [
+      "ブライヴの鎧",
+      "ブライヴの手甲",
+      "ブライヴの足甲"
+    ],
+    "relatedNames": [
+      "黒狼の仮面"
+    ],
+    "relatedIds": [
+      "npc-ranni-late"
+    ]
+  },
+  {
+    "id": "v20-armor-wolfmask",
+    "name": "黒狼の仮面",
+    "category": "armor",
+    "subCategory": "頭防具（単品）",
+    "regions": [
+      "liurnia"
+    ],
+    "location": "セルブスの魔術師塔の外壁上",
+    "acquisition": "塔の外壁の足場を登り、仮面を回収する。",
+    "conditions": "カーリアの城館の先へ到達。ブライヴ撃破品と混同しない。",
+    "sourceIds": [
+      "wolfmask"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "aliases": [
+      "黒狼シリーズ"
+    ],
+    "relatedNames": [
+      "ブライヴシリーズ"
+    ],
+    "relatedIds": []
+  },
+  {
+    "id": "v20-bell-smith3",
+    "name": "鍛石掘りの鈴玉【3】",
+    "category": "bell-bearing",
+    "subCategory": "鍛石",
+    "regions": [
+      "mountaintops"
+    ],
+    "location": "ザミェルの廃墟の地下室",
+    "acquisition": "地下の宝箱を開ける。",
+    "conditions": "巨人たちの山嶺へ到達。 入手後は円卓の双子の老婆に渡す。",
+    "sourceIds": [
+      "bells"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "unlocks": [
+      "鍛石【5】",
+      "鍛石【6】"
+    ],
+    "relatedIds": []
+  },
+  {
+    "id": "v20-bell-smith4",
+    "name": "鍛石掘りの鈴玉【4】",
+    "category": "bell-bearing",
+    "subCategory": "鍛石",
+    "regions": [
+      "farum"
+    ],
+    "location": "ファルム・アズラ",
+    "acquisition": "神肌のふたりを倒す。",
+    "conditions": "ボス戦の完了。 入手後は円卓の双子の老婆に渡す。",
+    "sourceIds": [
+      "bells"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "unlocks": [
+      "鍛石【7】",
+      "鍛石【8】"
+    ],
+    "relatedIds": [
+      "boss-godskin-duo"
+    ]
+  },
+  {
+    "id": "v20-bell-somber2",
+    "name": "喪色掘りの鈴玉【2】",
+    "category": "bell-bearing",
+    "subCategory": "喪色鍛石",
+    "regions": [
+      "altus"
+    ],
+    "location": "アルター坑道",
+    "acquisition": "結晶人2体のボス戦を終える。",
+    "conditions": "坑道のボスへ到達。 入手後は円卓の双子の老婆に渡す。",
+    "sourceIds": [
+      "bells"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "unlocks": [
+      "喪色の鍛石【3】",
+      "喪色の鍛石【4】"
+    ],
+    "relatedIds": []
+  },
+  {
+    "id": "v20-bell-somber3",
+    "name": "喪色掘りの鈴玉【3】",
+    "category": "bell-bearing",
+    "subCategory": "喪色鍛石",
+    "regions": [
+      "mountaintops"
+    ],
+    "location": "第一マリカ教会付近",
+    "acquisition": "教会付近の取得物を回収する。",
+    "conditions": "山嶺を探索。 入手後は円卓の双子の老婆に渡す。",
+    "sourceIds": [
+      "bells"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "unlocks": [
+      "喪色の鍛石【5】",
+      "喪色の鍛石【6】"
+    ],
+    "relatedIds": []
+  },
+  {
+    "id": "v20-bell-somber4",
+    "name": "喪色掘りの鈴玉【4】",
+    "category": "bell-bearing",
+    "subCategory": "喪色鍛石",
+    "regions": [
+      "farum"
+    ],
+    "location": "祝福「竜巻を臨む露台」付近の遺体",
+    "acquisition": "露台の遺体を調べる。",
+    "conditions": "ファルム・アズラへ到達。 入手後は円卓の双子の老婆に渡す。",
+    "sourceIds": [
+      "bells"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "unlocks": [
+      "喪色の鍛石【7】",
+      "喪色の鍛石【8】"
+    ],
+    "relatedIds": []
+  },
+  {
+    "id": "v20-bell-somber5",
+    "name": "喪色掘りの鈴玉【5】",
+    "category": "bell-bearing",
+    "subCategory": "喪色鍛石",
+    "regions": [
+      "farum"
+    ],
+    "location": "竜の聖堂、屋根上から古竜の先の建物",
+    "acquisition": "古竜の先の建物で回収する。",
+    "conditions": "屋根からの経路を進む。 入手後は円卓の双子の老婆に渡す。",
+    "sourceIds": [
+      "bells"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "unlocks": [
+      "喪色の鍛石【9】"
+    ],
+    "relatedIds": []
+  },
+  {
+    "id": "v20-bell-grave1",
+    "name": "すずらん摘みの鈴玉【1】",
+    "category": "bell-bearing",
+    "subCategory": "墓すずらん",
+    "regions": [
+      "altus"
+    ],
+    "location": "ウィンダムの地下墓",
+    "acquisition": "還樹の番犬を倒す。",
+    "conditions": "墓のボスへ到達。 入手後は円卓の双子の老婆に渡す。",
+    "sourceIds": [
+      "bells"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "unlocks": [
+      "墓すずらん【1】",
+      "墓すずらん【2】",
+      "墓すずらん【3】"
+    ],
+    "relatedIds": []
+  },
+  {
+    "id": "v20-bell-grave2",
+    "name": "すずらん摘みの鈴玉【2】",
+    "category": "bell-bearing",
+    "subCategory": "墓すずらん",
+    "regions": [
+      "mountaintops"
+    ],
+    "location": "巨人山嶺の地下墓",
+    "acquisition": "爛れた樹霊を倒す。",
+    "conditions": "墓のボスへ到達。 入手後は円卓の双子の老婆に渡す。",
+    "sourceIds": [
+      "bells"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "unlocks": [
+      "墓すずらん【4】",
+      "墓すずらん【5】",
+      "墓すずらん【6】"
+    ],
+    "relatedIds": []
+  },
+  {
+    "id": "v20-bell-grave3",
+    "name": "すずらん摘みの鈴玉【3】",
+    "category": "bell-bearing",
+    "subCategory": "墓すずらん",
+    "regions": [
+      "farum"
+    ],
+    "location": "竜巻を臨む露台の昇降機を下った先",
+    "acquisition": "昇降機の下から奥を探索して回収する。",
+    "conditions": "露台から下方の経路を進む。 入手後は円卓の双子の老婆に渡す。",
+    "sourceIds": [
+      "bells"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "unlocks": [
+      "墓すずらん【7】",
+      "墓すずらん【8】",
+      "墓すずらん【9】"
+    ],
+    "relatedIds": []
+  },
+  {
+    "id": "v20-bell-ghost1",
+    "name": "霊姿摘みの鈴玉【1】",
+    "category": "bell-bearing",
+    "subCategory": "霊姿すずらん",
+    "regions": [
+      "nokron"
+    ],
+    "location": "永遠の都ノクローン、祝福から外へ出た先の遺体",
+    "acquisition": "祝福前方の遺体を調べる。",
+    "conditions": "ノクローンへ到達。 入手後は円卓の双子の老婆に渡す。",
+    "sourceIds": [
+      "bells"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "unlocks": [
+      "霊姿の墓すずらん【1】",
+      "霊姿の墓すずらん【2】",
+      "霊姿の墓すずらん【3】"
+    ],
+    "relatedIds": []
+  },
+  {
+    "id": "v20-bell-ghost2",
+    "name": "霊姿摘みの鈴玉【2】",
+    "category": "bell-bearing",
+    "subCategory": "霊姿すずらん",
+    "regions": [
+      "ainsel"
+    ],
+    "location": "永遠の都ノクステラ、スライムのいる小部屋の宝箱",
+    "acquisition": "建物内の宝箱を開ける。",
+    "conditions": "ノクステラへ到達。 入手後は円卓の双子の老婆に渡す。",
+    "sourceIds": [
+      "bells"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "unlocks": [
+      "霊姿の墓すずらん【4】",
+      "霊姿の墓すずらん【5】",
+      "霊姿の墓すずらん【6】"
+    ],
+    "relatedIds": []
+  },
+  {
+    "id": "v20-bell-ghost3",
+    "name": "霊姿摘みの鈴玉【3】",
+    "category": "bell-bearing",
+    "subCategory": "霊姿すずらん",
+    "regions": [
+      "haligtree"
+    ],
+    "location": "聖樹最下層から昇降機で上がった先、腐敗の眷属の墓場",
+    "acquisition": "建物から外へ出て左の墓場を探索する。",
+    "conditions": "エブレフェールへ到達。 入手後は円卓の双子の老婆に渡す。",
+    "sourceIds": [
+      "bells"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "unlocks": [
+      "霊姿の墓すずらん【7】",
+      "霊姿の墓すずらん【8】",
+      "霊姿の墓すずらん【9】"
+    ],
+    "relatedIds": []
+  },
+  {
+    "id": "v20-bell-bones",
+    "name": "骨売りの鈴玉",
+    "category": "bell-bearing",
+    "subCategory": "鈴玉狩り",
+    "regions": [
+      "limgrave"
+    ],
+    "location": "戦学びのボロ家",
+    "acquisition": "鈴玉狩りを倒す。",
+    "conditions": "夜の鈴玉狩りとの遭遇。 入手後は円卓の双子の老婆に渡す。",
+    "sourceIds": [
+      "bells",
+      "bell-night"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "unlocks": [
+      "細い獣骨",
+      "太い獣骨"
+    ],
+    "relatedIds": []
+  },
+  {
+    "id": "v20-bell-meat",
+    "name": "肉売りの鈴玉",
+    "category": "bell-bearing",
+    "subCategory": "鈴玉狩り",
+    "regions": [
+      "liurnia"
+    ],
+    "location": "結びの教会",
+    "acquisition": "鈴玉狩りを倒す。",
+    "conditions": "夜の鈴玉狩りとの遭遇。 入手後は円卓の双子の老婆に渡す。",
+    "sourceIds": [
+      "bells",
+      "bell-night"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "unlocks": [
+      "そぎ肉",
+      "獣肉の塊",
+      "亀の首肉"
+    ],
+    "relatedIds": []
+  },
+  {
+    "id": "v20-bell-gravity",
+    "name": "重力売りの鈴玉",
+    "category": "bell-bearing",
+    "subCategory": "鈴玉狩り",
+    "regions": [
+      "caelid"
+    ],
+    "location": "竜塚の隠遁商人のボロ家",
+    "acquisition": "鈴玉狩りを倒す。",
+    "conditions": "夜の鈴玉狩りとの遭遇。 入手後は円卓の双子の老婆に渡す。",
+    "sourceIds": [
+      "bells",
+      "bell-night"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "unlocks": [
+      "扇の重力石",
+      "塊の重力石"
+    ],
+    "relatedIds": []
+  },
+  {
+    "id": "v20-bell-medicine",
+    "name": "薬売りの鈴玉",
+    "category": "bell-bearing",
+    "subCategory": "鈴玉狩り",
+    "regions": [
+      "altus"
+    ],
+    "location": "世捨て商人のボロ家",
+    "acquisition": "鈴玉狩りを倒す。",
+    "conditions": "夜の鈴玉狩りとの遭遇。 入手後は円卓の双子の老婆に渡す。",
+    "sourceIds": [
+      "bells",
+      "bell-night"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "unlocks": [
+      "毒の苔薬",
+      "出血の苔薬",
+      "冷気の苔薬",
+      "睡眠の苔薬"
+    ],
+    "relatedIds": []
+  },
+  {
+    "id": "v20-bell-thops",
+    "name": "トープスの鈴玉",
+    "category": "bell-bearing",
+    "subCategory": "NPC",
+    "regions": [
+      "academy"
+    ],
+    "location": "学び舎の一室の外、トープスの遺体",
+    "acquisition": "余分な学院の輝石鍵を渡して移動したトープスを訪ねる。",
+    "conditions": "学院内の余分な輝石鍵を渡した後、学び舎の一室の外へ訪ねる。入手後は円卓の双子の老婆に渡す。",
+    "sourceIds": [
+      "bells",
+      "thops-stock"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "unlocks": [
+      "輝石のつぶて",
+      "輝石のアーク",
+      "星灯り"
+    ],
+    "relatedIds": [
+      "npc-thops"
+    ]
+  }
+]

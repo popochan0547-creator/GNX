@@ -1,0 +1,2242 @@
+[
+  {
+    "id": "collection:collect-seed-stormhill",
+    "entryId": "collect-seed-stormhill",
+    "name": "黄金の種子：嵐の関門の先",
+    "aliases": [
+      "Golden Seed",
+      "回復回数"
+    ],
+    "category": "golden-seed",
+    "subCategory": "golden-seed",
+    "gameScope": "base-game",
+    "regions": [
+      "limgrave"
+    ],
+    "location": "嵐の関門を抜けた坂の上の光る木",
+    "acquisition": "既存攻略の入手手順を参照。今回の再検証は下記の状態を確認。",
+    "conditions": null,
+    "missable": null,
+    "missableNote": "取り逃し条件の全照合は未完了。注意なしを意味しない。",
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "unit": "location",
+    "itemFamily": "golden-seed",
+    "occurrences": [
+      {
+        "id": "collect-seed-stormhill:location-1",
+        "location": "嵐の関門を抜けた坂の上の光る木",
+        "quantity": null,
+        "verification": "inherited-needs-review"
+      }
+    ],
+    "checkIds": [
+      "collect-seed-stormhill:acquire"
+    ],
+    "legacyMeaning": null,
+    "legendaryGroup": null,
+    "trophyRelated": false,
+    "relatedEntryIds": [
+      "area-limgrave",
+      "boss-margit"
+    ],
+    "chartChapter": 1,
+    "sourceIds": [
+      "gw-seed",
+      "official-grace"
+    ],
+    "checkedAt": "2026-11-16",
+    "verification": "needs-review",
+    "verificationScope": "今回の資料再照合フィールド：。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+    "unknownFields": [],
+    "verificationLevel": "review",
+    "detailFacts": [
+      {
+        "label": "用途",
+        "value": "祝福の聖杯瓶メニューで使用回数を増やす"
+      }
+    ]
+  },
+  {
+    "id": "collection:collect-tear-marika",
+    "entryId": "collect-tear-marika",
+    "name": "聖杯の雫：第三マリカ教会",
+    "aliases": [
+      "Sacred Tear",
+      "回復量"
+    ],
+    "category": "sacred-tear",
+    "subCategory": "sacred-tear",
+    "gameScope": "base-game",
+    "regions": [
+      "limgrave"
+    ],
+    "location": "第三マリカ教会の女神像の下",
+    "acquisition": "既存攻略の入手手順を参照。今回の再検証は下記の状態を確認。",
+    "conditions": null,
+    "missable": null,
+    "missableNote": "取り逃し条件の全照合は未完了。注意なしを意味しない。",
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "unit": "location",
+    "itemFamily": "sacred-tear",
+    "occurrences": [
+      {
+        "id": "collect-tear-marika:location-1",
+        "location": "第三マリカ教会の女神像の下",
+        "quantity": null,
+        "verification": "inherited-needs-review"
+      }
+    ],
+    "checkIds": [
+      "collect-tear-marika:acquire"
+    ],
+    "legacyMeaning": null,
+    "legendaryGroup": null,
+    "trophyRelated": false,
+    "relatedEntryIds": [
+      "area-limgrave",
+      "boss-margit"
+    ],
+    "chartChapter": 1,
+    "sourceIds": [
+      "gw-tear",
+      "official-grace"
+    ],
+    "checkedAt": "2026-11-16",
+    "verification": "needs-review",
+    "verificationScope": "今回の資料再照合フィールド：。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+    "unknownFields": [],
+    "verificationLevel": "review",
+    "detailFacts": [
+      {
+        "label": "用途",
+        "value": "祝福の聖杯瓶メニューで回復量を高める"
+      }
+    ]
+  },
+  {
+    "id": "collection:collect-scadutree-consolation",
+    "entryId": "collect-scadutree-consolation",
+    "name": "影樹の破片：慰めの教会",
+    "aliases": [],
+    "category": "material",
+    "subCategory": "material",
+    "gameScope": "dlc",
+    "regions": [
+      "gravesite"
+    ],
+    "location": "墓地平原東部・慰めの教会",
+    "acquisition": "既存攻略の入手手順を参照。今回の再検証は下記の状態を確認。",
+    "conditions": null,
+    "missable": null,
+    "missableNote": "取り逃し条件の全照合は未完了。注意なしを意味しない。",
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "unit": "location",
+    "itemFamily": "collect-scadutree-consolation",
+    "occurrences": [
+      {
+        "id": "collect-scadutree-consolation:location-1",
+        "location": "墓地平原東部・慰めの教会",
+        "quantity": null,
+        "verification": "inherited-needs-review"
+      }
+    ],
+    "checkIds": [
+      "collect-scadutree-consolation:step-1"
+    ],
+    "legacyMeaning": null,
+    "legendaryGroup": null,
+    "trophyRelated": false,
+    "relatedEntryIds": [
+      "area-gravesite"
+    ],
+    "chartChapter": null,
+    "sourceIds": [
+      "v14-game8-631566"
+    ],
+    "checkedAt": "2026-11-16",
+    "verification": "needs-review",
+    "verificationScope": "今回の資料再照合フィールド：。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+    "unknownFields": [],
+    "verificationLevel": "review",
+    "detailFacts": []
+  },
+  {
+    "id": "collection:collect-ancient-nepheli",
+    "entryId": "collect-ancient-nepheli",
+    "name": "古竜岩の鍛石：ネフェリ報酬",
+    "aliases": [],
+    "category": "material",
+    "subCategory": "material",
+    "gameScope": "base-game",
+    "regions": [
+      "stormveil"
+    ],
+    "location": "ストームヴィル城の玉座",
+    "acquisition": "既存攻略の入手手順を参照。今回の再検証は下記の状態を確認。",
+    "conditions": null,
+    "missable": null,
+    "missableNote": "取り逃し条件の全照合は未完了。注意なしを意味しない。",
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "unit": "location",
+    "itemFamily": "collect-ancient-nepheli",
+    "occurrences": [
+      {
+        "id": "collect-ancient-nepheli:location-1",
+        "location": "ストームヴィル城の玉座",
+        "quantity": null,
+        "verification": "inherited-needs-review"
+      }
+    ],
+    "checkIds": [
+      "collect-ancient-nepheli:step-1"
+    ],
+    "legacyMeaning": null,
+    "legendaryGroup": null,
+    "trophyRelated": false,
+    "relatedEntryIds": [
+      "npc-nepheli-early"
+    ],
+    "chartChapter": 2,
+    "sourceIds": [
+      "v15-g8-441109"
+    ],
+    "checkedAt": "2026-11-16",
+    "verification": "needs-review",
+    "verificationScope": "今回の資料再照合フィールド：。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+    "unknownFields": [],
+    "verificationLevel": "review",
+    "detailFacts": []
+  },
+  {
+    "id": "collection:v21-tear-pilgrimage",
+    "entryId": "v21-tear-pilgrimage",
+    "name": "聖杯の雫：巡礼教会",
+    "englishName": null,
+    "aliases": [],
+    "category": "sacred-tear",
+    "subCategory": "教会の取得地点",
+    "gameScope": "base-game",
+    "regions": [
+      "weeping"
+    ],
+    "location": "巡礼教会内の像前",
+    "acquisition": "半島の北部、丘を登って教会内を探す。 像前の取得物を回収する。",
+    "conditions": "記載の教会へ到達する。ボス撃破・侵入撃破を必須条件とは断定しない。",
+    "missable": null,
+    "missableNote": "全取り逃し条件は未確認。nullは取り逃しなしを意味しません。",
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "multipleNote": "全代替経路・周回・数量は未照合。",
+    "unit": "location",
+    "itemFamily": "sacred-tear",
+    "occurrences": [
+      {
+        "id": "v21-tear-pilgrimage:location-1",
+        "location": "巡礼教会内の像前",
+        "quantity": null,
+        "verification": "source-reviewed"
+      }
+    ],
+    "checkIds": [
+      "v21-tear-pilgrimage:acquire"
+    ],
+    "legacyMeaning": null,
+    "legendaryGroup": null,
+    "trophyRelated": false,
+    "relatedEntryIds": [
+      "area-weeping"
+    ],
+    "chartChapter": 1,
+    "sourceIds": [
+      "v21-m-tears"
+    ],
+    "checkedAt": "2026-11-16",
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "verificationScope": "掲載した名称・分類・代表取得先と条件の資料確認。実機、全経路、数量、周回は未検証。",
+    "sourceDifference": null,
+    "detailFacts": [
+      {
+        "label": "収集区分",
+        "value": "教会の取得地点"
+      },
+      {
+        "label": "必要条件",
+        "value": "記載の教会へ到達する。ボス撃破・侵入撃破を必須条件とは断定しない。"
+      },
+      {
+        "label": "周回・複数入手",
+        "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+      },
+      {
+        "label": "地点ごとの取得",
+        "value": "この掲載地点の取得だけを記録します。同名品の別地点・所持数・周回の記録へは波及しません。"
+      }
+    ],
+    "placeId": "sacred-tear:pilgrimage",
+    "locationKind": "pickup"
+  },
+  {
+    "id": "collection:v21-tear-marika4",
+    "entryId": "v21-tear-marika4",
+    "name": "聖杯の雫：第四マリカ教会",
+    "englishName": null,
+    "aliases": [],
+    "category": "sacred-tear",
+    "subCategory": "教会の取得地点",
+    "gameScope": "base-game",
+    "regions": [
+      "weeping"
+    ],
+    "location": "第四マリカ教会内の像前",
+    "acquisition": "半島の西側の丘にある教会内を調べる。 像前の取得物を回収する。",
+    "conditions": "記載の教会へ到達する。ボス撃破・侵入撃破を必須条件とは断定しない。",
+    "missable": null,
+    "missableNote": "全取り逃し条件は未確認。nullは取り逃しなしを意味しません。",
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "multipleNote": "全代替経路・周回・数量は未照合。",
+    "unit": "location",
+    "itemFamily": "sacred-tear",
+    "occurrences": [
+      {
+        "id": "v21-tear-marika4:location-1",
+        "location": "第四マリカ教会内の像前",
+        "quantity": null,
+        "verification": "source-reviewed"
+      }
+    ],
+    "checkIds": [
+      "v21-tear-marika4:acquire"
+    ],
+    "legacyMeaning": null,
+    "legendaryGroup": null,
+    "trophyRelated": false,
+    "relatedEntryIds": [
+      "area-weeping"
+    ],
+    "chartChapter": 1,
+    "sourceIds": [
+      "v21-m-tears"
+    ],
+    "checkedAt": "2026-11-16",
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "verificationScope": "掲載した名称・分類・代表取得先と条件の資料確認。実機、全経路、数量、周回は未検証。",
+    "sourceDifference": null,
+    "detailFacts": [
+      {
+        "label": "収集区分",
+        "value": "教会の取得地点"
+      },
+      {
+        "label": "必要条件",
+        "value": "記載の教会へ到達する。ボス撃破・侵入撃破を必須条件とは断定しない。"
+      },
+      {
+        "label": "周回・複数入手",
+        "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+      },
+      {
+        "label": "地点ごとの取得",
+        "value": "この掲載地点の取得だけを記録します。同名品の別地点・所持数・周回の記録へは波及しません。"
+      }
+    ],
+    "placeId": "sacred-tear:marika4",
+    "locationKind": "pickup"
+  },
+  {
+    "id": "collection:v21-tear-callu",
+    "entryId": "v21-tear-callu",
+    "name": "聖杯の雫：カルの洗礼教会",
+    "englishName": null,
+    "aliases": [],
+    "category": "sacred-tear",
+    "subCategory": "教会の取得地点",
+    "gameScope": "base-game",
+    "regions": [
+      "weeping"
+    ],
+    "location": "カルの洗礼教会内の像前",
+    "acquisition": "贄送りの大橋から南へ進み、丘を回り込んで教会へ向かう。 像前の取得物を回収する。",
+    "conditions": "記載の教会へ到達する。ボス撃破・侵入撃破を必須条件とは断定しない。",
+    "missable": null,
+    "missableNote": "全取り逃し条件は未確認。nullは取り逃しなしを意味しません。",
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "multipleNote": "全代替経路・周回・数量は未照合。",
+    "unit": "location",
+    "itemFamily": "sacred-tear",
+    "occurrences": [
+      {
+        "id": "v21-tear-callu:location-1",
+        "location": "カルの洗礼教会内の像前",
+        "quantity": null,
+        "verification": "source-reviewed"
+      }
+    ],
+    "checkIds": [
+      "v21-tear-callu:acquire"
+    ],
+    "legacyMeaning": null,
+    "legendaryGroup": null,
+    "trophyRelated": false,
+    "relatedEntryIds": [
+      "area-weeping"
+    ],
+    "chartChapter": 1,
+    "sourceIds": [
+      "v21-m-tears"
+    ],
+    "checkedAt": "2026-11-16",
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "verificationScope": "掲載した名称・分類・代表取得先と条件の資料確認。実機、全経路、数量、周回は未検証。",
+    "sourceDifference": null,
+    "detailFacts": [
+      {
+        "label": "収集区分",
+        "value": "教会の取得地点"
+      },
+      {
+        "label": "必要条件",
+        "value": "記載の教会へ到達する。ボス撃破・侵入撃破を必須条件とは断定しない。"
+      },
+      {
+        "label": "周回・複数入手",
+        "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+      },
+      {
+        "label": "地点ごとの取得",
+        "value": "この掲載地点の取得だけを記録します。同名品の別地点・所持数・周回の記録へは波及しません。"
+      }
+    ],
+    "placeId": "sacred-tear:callu",
+    "locationKind": "pickup"
+  },
+  {
+    "id": "collection:v21-tear-irith",
+    "entryId": "v21-tear-irith",
+    "name": "聖杯の雫：イリス教会",
+    "englishName": null,
+    "aliases": [],
+    "category": "sacred-tear",
+    "subCategory": "教会の取得地点",
+    "gameScope": "base-game",
+    "regions": [
+      "liurnia"
+    ],
+    "location": "イリス教会内の像前",
+    "acquisition": "湖を臨む断崖の近くの教会へ入る。 像前の取得物を回収する。",
+    "conditions": "記載の教会へ到達する。ボス撃破・侵入撃破を必須条件とは断定しない。",
+    "missable": null,
+    "missableNote": "全取り逃し条件は未確認。nullは取り逃しなしを意味しません。",
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "multipleNote": "全代替経路・周回・数量は未照合。",
+    "unit": "location",
+    "itemFamily": "sacred-tear",
+    "occurrences": [
+      {
+        "id": "v21-tear-irith:location-1",
+        "location": "イリス教会内の像前",
+        "quantity": null,
+        "verification": "source-reviewed"
+      }
+    ],
+    "checkIds": [
+      "v21-tear-irith:acquire"
+    ],
+    "legacyMeaning": null,
+    "legendaryGroup": null,
+    "trophyRelated": false,
+    "relatedEntryIds": [
+      "area-liurnia"
+    ],
+    "chartChapter": 3,
+    "sourceIds": [
+      "v21-m-tears"
+    ],
+    "checkedAt": "2026-11-16",
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "verificationScope": "掲載した名称・分類・代表取得先と条件の資料確認。実機、全経路、数量、周回は未検証。",
+    "sourceDifference": null,
+    "detailFacts": [
+      {
+        "label": "収集区分",
+        "value": "教会の取得地点"
+      },
+      {
+        "label": "必要条件",
+        "value": "記載の教会へ到達する。ボス撃破・侵入撃破を必須条件とは断定しない。"
+      },
+      {
+        "label": "周回・複数入手",
+        "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+      },
+      {
+        "label": "地点ごとの取得",
+        "value": "この掲載地点の取得だけを記録します。同名品の別地点・所持数・周回の記録へは波及しません。"
+      }
+    ],
+    "placeId": "sacred-tear:irith",
+    "locationKind": "pickup"
+  },
+  {
+    "id": "collection:v21-tear-bellum",
+    "entryId": "v21-tear-bellum",
+    "name": "聖杯の雫：ベイルム教会",
+    "englishName": null,
+    "aliases": [],
+    "category": "sacred-tear",
+    "subCategory": "教会の取得地点",
+    "gameScope": "base-game",
+    "regions": [
+      "liurnia"
+    ],
+    "location": "ベイルム教会内の像前",
+    "acquisition": "リエーニエ北東側、ベイルム街道の教会へ向かう。 像前の取得物を回収する。",
+    "conditions": "記載の教会へ到達する。ボス撃破・侵入撃破を必須条件とは断定しない。",
+    "missable": null,
+    "missableNote": "全取り逃し条件は未確認。nullは取り逃しなしを意味しません。",
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "multipleNote": "全代替経路・周回・数量は未照合。",
+    "unit": "location",
+    "itemFamily": "sacred-tear",
+    "occurrences": [
+      {
+        "id": "v21-tear-bellum:location-1",
+        "location": "ベイルム教会内の像前",
+        "quantity": null,
+        "verification": "source-reviewed"
+      }
+    ],
+    "checkIds": [
+      "v21-tear-bellum:acquire"
+    ],
+    "legacyMeaning": null,
+    "legendaryGroup": null,
+    "trophyRelated": false,
+    "relatedEntryIds": [
+      "area-liurnia"
+    ],
+    "chartChapter": 3,
+    "sourceIds": [
+      "v21-m-tears"
+    ],
+    "checkedAt": "2026-11-16",
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "verificationScope": "掲載した名称・分類・代表取得先と条件の資料確認。実機、全経路、数量、周回は未検証。",
+    "sourceDifference": null,
+    "detailFacts": [
+      {
+        "label": "収集区分",
+        "value": "教会の取得地点"
+      },
+      {
+        "label": "必要条件",
+        "value": "記載の教会へ到達する。ボス撃破・侵入撃破を必須条件とは断定しない。"
+      },
+      {
+        "label": "周回・複数入手",
+        "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+      },
+      {
+        "label": "地点ごとの取得",
+        "value": "この掲載地点の取得だけを記録します。同名品の別地点・所持数・周回の記録へは波及しません。"
+      }
+    ],
+    "placeId": "sacred-tear:bellum",
+    "locationKind": "pickup"
+  },
+  {
+    "id": "collection:v21-tear-inhibition",
+    "entryId": "v21-tear-inhibition",
+    "name": "聖杯の雫：鎮めの教会",
+    "englishName": null,
+    "aliases": [],
+    "category": "sacred-tear",
+    "subCategory": "教会の取得地点",
+    "gameScope": "base-game",
+    "regions": [
+      "liurnia"
+    ],
+    "location": "鎮めの教会内の像前",
+    "acquisition": "狂い火の影響を受ける丘側の経路を進み、教会内を調べる。 像前の取得物を回収する。",
+    "conditions": "記載の教会へ到達する。ボス撃破・侵入撃破を必須条件とは断定しない。",
+    "missable": null,
+    "missableNote": "全取り逃し条件は未確認。nullは取り逃しなしを意味しません。",
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "multipleNote": "全代替経路・周回・数量は未照合。",
+    "unit": "location",
+    "itemFamily": "sacred-tear",
+    "occurrences": [
+      {
+        "id": "v21-tear-inhibition:location-1",
+        "location": "鎮めの教会内の像前",
+        "quantity": null,
+        "verification": "source-reviewed"
+      }
+    ],
+    "checkIds": [
+      "v21-tear-inhibition:acquire"
+    ],
+    "legacyMeaning": null,
+    "legendaryGroup": null,
+    "trophyRelated": false,
+    "relatedEntryIds": [
+      "area-liurnia"
+    ],
+    "chartChapter": 3,
+    "sourceIds": [
+      "v21-m-tears"
+    ],
+    "checkedAt": "2026-11-16",
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "verificationScope": "掲載した名称・分類・代表取得先と条件の資料確認。実機、全経路、数量、周回は未検証。",
+    "sourceDifference": null,
+    "detailFacts": [
+      {
+        "label": "収集区分",
+        "value": "教会の取得地点"
+      },
+      {
+        "label": "必要条件",
+        "value": "記載の教会へ到達する。ボス撃破・侵入撃破を必須条件とは断定しない。"
+      },
+      {
+        "label": "周回・複数入手",
+        "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+      },
+      {
+        "label": "地点ごとの取得",
+        "value": "この掲載地点の取得だけを記録します。同名品の別地点・所持数・周回の記録へは波及しません。"
+      }
+    ],
+    "placeId": "sacred-tear:inhibition",
+    "locationKind": "pickup"
+  },
+  {
+    "id": "collection:v21-tear-plague",
+    "entryId": "v21-tear-plague",
+    "name": "聖杯の雫：腐れ病の教会",
+    "englishName": null,
+    "aliases": [],
+    "category": "sacred-tear",
+    "subCategory": "教会の取得地点",
+    "gameScope": "base-game",
+    "regions": [
+      "caelid"
+    ],
+    "location": "腐れ病の教会内の像前",
+    "acquisition": "サリア東側の高台にある教会へ向かう。 像前の取得物を回収する。",
+    "conditions": "記載の教会へ到達する。ボス撃破・侵入撃破を必須条件とは断定しない。",
+    "missable": null,
+    "missableNote": "全取り逃し条件は未確認。nullは取り逃しなしを意味しません。",
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "multipleNote": "全代替経路・周回・数量は未照合。",
+    "unit": "location",
+    "itemFamily": "sacred-tear",
+    "occurrences": [
+      {
+        "id": "v21-tear-plague:location-1",
+        "location": "腐れ病の教会内の像前",
+        "quantity": null,
+        "verification": "source-reviewed"
+      }
+    ],
+    "checkIds": [
+      "v21-tear-plague:acquire"
+    ],
+    "legacyMeaning": null,
+    "legendaryGroup": null,
+    "trophyRelated": false,
+    "relatedEntryIds": [
+      "area-caelid"
+    ],
+    "chartChapter": 8,
+    "sourceIds": [
+      "v21-m-tears"
+    ],
+    "checkedAt": "2026-11-16",
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "verificationScope": "掲載した名称・分類・代表取得先と条件の資料確認。実機、全経路、数量、周回は未検証。",
+    "sourceDifference": null,
+    "detailFacts": [
+      {
+        "label": "収集区分",
+        "value": "教会の取得地点"
+      },
+      {
+        "label": "必要条件",
+        "value": "記載の教会へ到達する。ボス撃破・侵入撃破を必須条件とは断定しない。"
+      },
+      {
+        "label": "周回・複数入手",
+        "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+      },
+      {
+        "label": "地点ごとの取得",
+        "value": "この掲載地点の取得だけを記録します。同名品の別地点・所持数・周回の記録へは波及しません。"
+      }
+    ],
+    "placeId": "sacred-tear:plague",
+    "locationKind": "pickup"
+  },
+  {
+    "id": "collection:v21-tear-marika2",
+    "entryId": "v21-tear-marika2",
+    "name": "聖杯の雫：第二マリカ教会",
+    "englishName": null,
+    "aliases": [],
+    "category": "sacred-tear",
+    "subCategory": "教会の取得地点",
+    "gameScope": "base-game",
+    "regions": [
+      "altus"
+    ],
+    "location": "第二マリカ教会内の像前",
+    "acquisition": "デクタスの大昇降機を出て、丘側の教会へ向かう。 像前の取得物を回収する。",
+    "conditions": "記載の教会へ到達する。ボス撃破・侵入撃破を必須条件とは断定しない。",
+    "missable": null,
+    "missableNote": "全取り逃し条件は未確認。nullは取り逃しなしを意味しません。",
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "multipleNote": "全代替経路・周回・数量は未照合。",
+    "unit": "location",
+    "itemFamily": "sacred-tear",
+    "occurrences": [
+      {
+        "id": "v21-tear-marika2:location-1",
+        "location": "第二マリカ教会内の像前",
+        "quantity": null,
+        "verification": "source-reviewed"
+      }
+    ],
+    "checkIds": [
+      "v21-tear-marika2:acquire"
+    ],
+    "legacyMeaning": null,
+    "legendaryGroup": null,
+    "trophyRelated": false,
+    "relatedEntryIds": [
+      "area-altus"
+    ],
+    "chartChapter": 4,
+    "sourceIds": [
+      "v21-m-tears"
+    ],
+    "checkedAt": "2026-11-16",
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "verificationScope": "掲載した名称・分類・代表取得先と条件の資料確認。実機、全経路、数量、周回は未検証。",
+    "sourceDifference": null,
+    "detailFacts": [
+      {
+        "label": "収集区分",
+        "value": "教会の取得地点"
+      },
+      {
+        "label": "必要条件",
+        "value": "記載の教会へ到達する。ボス撃破・侵入撃破を必須条件とは断定しない。"
+      },
+      {
+        "label": "周回・複数入手",
+        "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+      },
+      {
+        "label": "地点ごとの取得",
+        "value": "この掲載地点の取得だけを記録します。同名品の別地点・所持数・周回の記録へは波及しません。"
+      }
+    ],
+    "placeId": "sacred-tear:marika2",
+    "locationKind": "pickup"
+  },
+  {
+    "id": "collection:v21-tear-stormcaller",
+    "entryId": "v21-tear-stormcaller",
+    "name": "聖杯の雫：雷呼びの教会",
+    "englishName": null,
+    "aliases": [],
+    "category": "sacred-tear",
+    "subCategory": "教会の取得地点",
+    "gameScope": "base-game",
+    "regions": [
+      "altus"
+    ],
+    "location": "雷呼びの教会内の像前",
+    "acquisition": "森渡の大橋側の高台を回って教会に入る。 像前の取得物を回収する。",
+    "conditions": "記載の教会へ到達する。ボス撃破・侵入撃破を必須条件とは断定しない。",
+    "missable": null,
+    "missableNote": "全取り逃し条件は未確認。nullは取り逃しなしを意味しません。",
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "multipleNote": "全代替経路・周回・数量は未照合。",
+    "unit": "location",
+    "itemFamily": "sacred-tear",
+    "occurrences": [
+      {
+        "id": "v21-tear-stormcaller:location-1",
+        "location": "雷呼びの教会内の像前",
+        "quantity": null,
+        "verification": "source-reviewed"
+      }
+    ],
+    "checkIds": [
+      "v21-tear-stormcaller:acquire"
+    ],
+    "legacyMeaning": null,
+    "legendaryGroup": null,
+    "trophyRelated": false,
+    "relatedEntryIds": [
+      "area-altus"
+    ],
+    "chartChapter": 4,
+    "sourceIds": [
+      "v21-m-tears"
+    ],
+    "checkedAt": "2026-11-16",
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "verificationScope": "掲載した名称・分類・代表取得先と条件の資料確認。実機、全経路、数量、周回は未検証。",
+    "sourceDifference": null,
+    "detailFacts": [
+      {
+        "label": "収集区分",
+        "value": "教会の取得地点"
+      },
+      {
+        "label": "必要条件",
+        "value": "記載の教会へ到達する。ボス撃破・侵入撃破を必須条件とは断定しない。"
+      },
+      {
+        "label": "周回・複数入手",
+        "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+      },
+      {
+        "label": "地点ごとの取得",
+        "value": "この掲載地点の取得だけを記録します。同名品の別地点・所持数・周回の記録へは波及しません。"
+      }
+    ],
+    "placeId": "sacred-tear:stormcaller",
+    "locationKind": "pickup"
+  },
+  {
+    "id": "collection:v21-tear-marika1",
+    "entryId": "v21-tear-marika1",
+    "name": "聖杯の雫：第一マリカ教会",
+    "englishName": null,
+    "aliases": [],
+    "category": "sacred-tear",
+    "subCategory": "教会の取得地点",
+    "gameScope": "base-game",
+    "regions": [
+      "mountaintops"
+    ],
+    "location": "第一マリカ教会内の像前",
+    "acquisition": "凍った湖の周辺から教会へ進む。 像前の取得物を回収する。",
+    "conditions": "記載の教会へ到達する。ボス撃破・侵入撃破を必須条件とは断定しない。",
+    "missable": null,
+    "missableNote": "全取り逃し条件は未確認。nullは取り逃しなしを意味しません。",
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "multipleNote": "全代替経路・周回・数量は未照合。",
+    "unit": "location",
+    "itemFamily": "sacred-tear",
+    "occurrences": [
+      {
+        "id": "v21-tear-marika1:location-1",
+        "location": "第一マリカ教会内の像前",
+        "quantity": null,
+        "verification": "source-reviewed"
+      }
+    ],
+    "checkIds": [
+      "v21-tear-marika1:acquire"
+    ],
+    "legacyMeaning": null,
+    "legendaryGroup": null,
+    "trophyRelated": false,
+    "relatedEntryIds": [
+      "boss-fire-giant"
+    ],
+    "chartChapter": 5,
+    "sourceIds": [
+      "v21-m-tears"
+    ],
+    "checkedAt": "2026-11-16",
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "verificationScope": "掲載した名称・分類・代表取得先と条件の資料確認。実機、全経路、数量、周回は未検証。",
+    "sourceDifference": null,
+    "detailFacts": [
+      {
+        "label": "収集区分",
+        "value": "教会の取得地点"
+      },
+      {
+        "label": "必要条件",
+        "value": "記載の教会へ到達する。ボス撃破・侵入撃破を必須条件とは断定しない。"
+      },
+      {
+        "label": "周回・複数入手",
+        "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+      },
+      {
+        "label": "地点ごとの取得",
+        "value": "この掲載地点の取得だけを記録します。同名品の別地点・所持数・周回の記録へは波及しません。"
+      }
+    ],
+    "placeId": "sacred-tear:marika1",
+    "locationKind": "pickup"
+  },
+  {
+    "id": "collection:v21-tear-repose",
+    "entryId": "v21-tear-repose",
+    "name": "聖杯の雫：安息教会",
+    "englishName": null,
+    "aliases": [],
+    "category": "sacred-tear",
+    "subCategory": "教会の取得地点",
+    "gameScope": "base-game",
+    "regions": [
+      "mountaintops"
+    ],
+    "location": "安息教会内の像前",
+    "acquisition": "山嶺の南側の教会へ向かう。周辺の侵入に注意。 像前の取得物を回収する。",
+    "conditions": "記載の教会へ到達する。ボス撃破・侵入撃破を必須条件とは断定しない。",
+    "missable": null,
+    "missableNote": "全取り逃し条件は未確認。nullは取り逃しなしを意味しません。",
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "multipleNote": "全代替経路・周回・数量は未照合。",
+    "unit": "location",
+    "itemFamily": "sacred-tear",
+    "occurrences": [
+      {
+        "id": "v21-tear-repose:location-1",
+        "location": "安息教会内の像前",
+        "quantity": null,
+        "verification": "source-reviewed"
+      }
+    ],
+    "checkIds": [
+      "v21-tear-repose:acquire"
+    ],
+    "legacyMeaning": null,
+    "legendaryGroup": null,
+    "trophyRelated": false,
+    "relatedEntryIds": [
+      "boss-fire-giant"
+    ],
+    "chartChapter": 5,
+    "sourceIds": [
+      "v21-m-tears"
+    ],
+    "checkedAt": "2026-11-16",
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "verificationScope": "掲載した名称・分類・代表取得先と条件の資料確認。実機、全経路、数量、周回は未検証。",
+    "sourceDifference": null,
+    "detailFacts": [
+      {
+        "label": "収集区分",
+        "value": "教会の取得地点"
+      },
+      {
+        "label": "必要条件",
+        "value": "記載の教会へ到達する。ボス撃破・侵入撃破を必須条件とは断定しない。"
+      },
+      {
+        "label": "周回・複数入手",
+        "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+      },
+      {
+        "label": "地点ごとの取得",
+        "value": "この掲載地点の取得だけを記録します。同名品の別地点・所持数・周回の記録へは波及しません。"
+      }
+    ],
+    "placeId": "sacred-tear:repose",
+    "locationKind": "pickup"
+  },
+  {
+    "id": "collection:v21-seed-stormveil-court",
+    "entryId": "v21-seed-stormveil-court",
+    "name": "黄金の種子：ストームヴィル城、ゴドリック前の中庭",
+    "englishName": null,
+    "aliases": [],
+    "category": "golden-seed",
+    "subCategory": "掲載地点・報酬",
+    "gameScope": "base-game",
+    "regions": [
+      "stormveil"
+    ],
+    "location": "ストームヴィル城、ゴドリック前の中庭",
+    "acquisition": "中庭の金色の木の足元で回収する。",
+    "conditions": "城内の中庭へ到達。ゴドリック撃破前にも探索できる。",
+    "missable": null,
+    "missableNote": "全取り逃し条件は未確認。nullは取り逃しなしを意味しません。",
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "multipleNote": "全代替経路・周回・数量は未照合。",
+    "unit": "location",
+    "itemFamily": "golden-seed",
+    "occurrences": [
+      {
+        "id": "v21-seed-stormveil-court:location-1",
+        "location": "ストームヴィル城、ゴドリック前の中庭",
+        "quantity": null,
+        "verification": "source-reviewed"
+      }
+    ],
+    "checkIds": [
+      "v21-seed-stormveil-court:acquire"
+    ],
+    "legacyMeaning": null,
+    "legendaryGroup": null,
+    "trophyRelated": false,
+    "relatedEntryIds": [
+      "area-stormveil"
+    ],
+    "chartChapter": 2,
+    "sourceIds": [
+      "v21-m-seeds"
+    ],
+    "checkedAt": "2026-11-16",
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "verificationScope": "掲載した名称・分類・代表取得先と条件の資料確認。実機、全経路、数量、周回は未検証。",
+    "sourceDifference": null,
+    "detailFacts": [
+      {
+        "label": "収集区分",
+        "value": "掲載地点・報酬"
+      },
+      {
+        "label": "必要条件",
+        "value": "城内の中庭へ到達。ゴドリック撃破前にも探索できる。"
+      },
+      {
+        "label": "周回・複数入手",
+        "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+      },
+      {
+        "label": "地点ごとの取得",
+        "value": "この掲載地点の取得だけを記録します。同名品の別地点・所持数・周回の記録へは波及しません。"
+      }
+    ],
+    "placeId": "golden-seed:stormveil-court",
+    "locationKind": "pickup"
+  },
+  {
+    "id": "collection:v21-seed-stormveil-root",
+    "entryId": "v21-seed-stormveil-root",
+    "name": "黄金の種子：ストームヴィル城の地下、樹霊との戦闘地点",
+    "englishName": null,
+    "aliases": [],
+    "category": "golden-seed",
+    "subCategory": "掲載地点・報酬",
+    "gameScope": "base-game",
+    "regions": [
+      "stormveil"
+    ],
+    "location": "ストームヴィル城の地下、樹霊との戦闘地点",
+    "acquisition": "地下の爛れた樹霊を倒して報酬を得る。",
+    "conditions": "城の地下への経路を開通する。",
+    "missable": null,
+    "missableNote": "全取り逃し条件は未確認。nullは取り逃しなしを意味しません。",
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "multipleNote": "全代替経路・周回・数量は未照合。",
+    "unit": "location",
+    "itemFamily": "golden-seed",
+    "occurrences": [
+      {
+        "id": "v21-seed-stormveil-root:location-1",
+        "location": "ストームヴィル城の地下、樹霊との戦闘地点",
+        "quantity": null,
+        "verification": "source-reviewed"
+      }
+    ],
+    "checkIds": [
+      "v21-seed-stormveil-root:acquire"
+    ],
+    "legacyMeaning": null,
+    "legendaryGroup": null,
+    "trophyRelated": false,
+    "relatedEntryIds": [
+      "area-stormveil"
+    ],
+    "chartChapter": 2,
+    "sourceIds": [
+      "v21-m-seeds"
+    ],
+    "checkedAt": "2026-11-16",
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "verificationScope": "掲載した名称・分類・代表取得先と条件の資料確認。実機、全経路、数量、周回は未検証。",
+    "sourceDifference": null,
+    "detailFacts": [
+      {
+        "label": "収集区分",
+        "value": "掲載地点・報酬"
+      },
+      {
+        "label": "必要条件",
+        "value": "城の地下への経路を開通する。"
+      },
+      {
+        "label": "周回・複数入手",
+        "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+      },
+      {
+        "label": "地点ごとの取得",
+        "value": "この掲載地点の取得だけを記録します。同名品の別地点・所持数・周回の記録へは波及しません。"
+      }
+    ],
+    "placeId": "golden-seed:stormveil-root",
+    "locationKind": "boss-reward"
+  },
+  {
+    "id": "collection:v21-seed-fringefolk",
+    "entryId": "v21-seed-fringefolk",
+    "name": "黄金の種子：辺境の英雄墓の最奥",
+    "englishName": null,
+    "aliases": [],
+    "category": "golden-seed",
+    "subCategory": "掲載地点・報酬",
+    "gameScope": "base-game",
+    "regions": [
+      "limgrave"
+    ],
+    "location": "辺境の英雄墓の最奥",
+    "acquisition": "爛れた樹霊を倒して報酬を受け取る。",
+    "conditions": "漂着墓地の封印に石剣の鍵2本を使う。",
+    "missable": null,
+    "missableNote": "全取り逃し条件は未確認。nullは取り逃しなしを意味しません。",
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "multipleNote": "全代替経路・周回・数量は未照合。",
+    "unit": "location",
+    "itemFamily": "golden-seed",
+    "occurrences": [
+      {
+        "id": "v21-seed-fringefolk:location-1",
+        "location": "辺境の英雄墓の最奥",
+        "quantity": null,
+        "verification": "source-reviewed"
+      }
+    ],
+    "checkIds": [
+      "v21-seed-fringefolk:acquire"
+    ],
+    "legacyMeaning": null,
+    "legendaryGroup": null,
+    "trophyRelated": false,
+    "relatedEntryIds": [
+      "area-limgrave",
+      "v20-spirit-oleg"
+    ],
+    "chartChapter": 1,
+    "sourceIds": [
+      "v21-m-seeds"
+    ],
+    "checkedAt": "2026-11-16",
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "verificationScope": "掲載した名称・分類・代表取得先と条件の資料確認。実機、全経路、数量、周回は未検証。",
+    "sourceDifference": null,
+    "detailFacts": [
+      {
+        "label": "収集区分",
+        "value": "掲載地点・報酬"
+      },
+      {
+        "label": "必要条件",
+        "value": "漂着墓地の封印に石剣の鍵2本を使う。"
+      },
+      {
+        "label": "周回・複数入手",
+        "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+      },
+      {
+        "label": "地点ごとの取得",
+        "value": "この掲載地点の取得だけを記録します。同名品の別地点・所持数・周回の記録へは波及しません。"
+      }
+    ],
+    "placeId": "golden-seed:fringefolk",
+    "locationKind": "boss-reward"
+  },
+  {
+    "id": "collection:v21-seed-haight",
+    "entryId": "v21-seed-haight",
+    "name": "黄金の種子：ハイト砦前の金色の木",
+    "englishName": null,
+    "aliases": [],
+    "category": "golden-seed",
+    "subCategory": "掲載地点・報酬",
+    "gameScope": "base-game",
+    "regions": [
+      "limgrave"
+    ],
+    "location": "ハイト砦前の金色の木",
+    "acquisition": "砦入口側の木の根元を調べる。",
+    "conditions": "砦前へ到達する。ケネス・ハイトの報酬/殺害品とは別の地点。",
+    "missable": null,
+    "missableNote": "全取り逃し条件は未確認。nullは取り逃しなしを意味しません。",
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "multipleNote": "全代替経路・周回・数量は未照合。",
+    "unit": "location",
+    "itemFamily": "golden-seed",
+    "occurrences": [
+      {
+        "id": "v21-seed-haight:location-1",
+        "location": "ハイト砦前の金色の木",
+        "quantity": null,
+        "verification": "source-reviewed"
+      }
+    ],
+    "checkIds": [
+      "v21-seed-haight:acquire"
+    ],
+    "legacyMeaning": null,
+    "legendaryGroup": null,
+    "trophyRelated": false,
+    "relatedEntryIds": [
+      "area-limgrave"
+    ],
+    "chartChapter": 1,
+    "sourceIds": [
+      "v21-m-seeds"
+    ],
+    "checkedAt": "2026-11-16",
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "verificationScope": "掲載した名称・分類・代表取得先と条件の資料確認。実機、全経路、数量、周回は未検証。",
+    "sourceDifference": null,
+    "detailFacts": [
+      {
+        "label": "収集区分",
+        "value": "掲載地点・報酬"
+      },
+      {
+        "label": "必要条件",
+        "value": "砦前へ到達する。ケネス・ハイトの報酬/殺害品とは別の地点。"
+      },
+      {
+        "label": "周回・複数入手",
+        "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+      },
+      {
+        "label": "地点ごとの取得",
+        "value": "この掲載地点の取得だけを記録します。同名品の別地点・所持数・周回の記録へは波及しません。"
+      }
+    ],
+    "placeId": "golden-seed:haight",
+    "locationKind": "pickup"
+  },
+  {
+    "id": "collection:v21-seed-morne",
+    "entryId": "v21-seed-morne",
+    "name": "黄金の種子：モーンの城へ向かう道沿いの高台",
+    "englishName": null,
+    "aliases": [],
+    "category": "golden-seed",
+    "subCategory": "掲載地点・報酬",
+    "gameScope": "base-game",
+    "regions": [
+      "weeping"
+    ],
+    "location": "モーンの城へ向かう道沿いの高台",
+    "acquisition": "城の手前の高台の金色の木を調べる。",
+    "conditions": "半島の南側へ到達。",
+    "missable": null,
+    "missableNote": "全取り逃し条件は未確認。nullは取り逃しなしを意味しません。",
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "multipleNote": "全代替経路・周回・数量は未照合。",
+    "unit": "location",
+    "itemFamily": "golden-seed",
+    "occurrences": [
+      {
+        "id": "v21-seed-morne:location-1",
+        "location": "モーンの城へ向かう道沿いの高台",
+        "quantity": null,
+        "verification": "source-reviewed"
+      }
+    ],
+    "checkIds": [
+      "v21-seed-morne:acquire"
+    ],
+    "legacyMeaning": null,
+    "legendaryGroup": null,
+    "trophyRelated": false,
+    "relatedEntryIds": [
+      "area-weeping"
+    ],
+    "chartChapter": 1,
+    "sourceIds": [
+      "v21-m-seeds"
+    ],
+    "checkedAt": "2026-11-16",
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "verificationScope": "掲載した名称・分類・代表取得先と条件の資料確認。実機、全経路、数量、周回は未検証。",
+    "sourceDifference": null,
+    "detailFacts": [
+      {
+        "label": "収集区分",
+        "value": "掲載地点・報酬"
+      },
+      {
+        "label": "必要条件",
+        "value": "半島の南側へ到達。"
+      },
+      {
+        "label": "周回・複数入手",
+        "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+      },
+      {
+        "label": "地点ごとの取得",
+        "value": "この掲載地点の取得だけを記録します。同名品の別地点・所持数・周回の記録へは波及しません。"
+      }
+    ],
+    "placeId": "golden-seed:morne",
+    "locationKind": "pickup"
+  },
+  {
+    "id": "collection:v21-seed-town",
+    "entryId": "v21-seed-town",
+    "name": "黄金の種子：学院の門前町、中央の建物方向",
+    "englishName": null,
+    "aliases": [],
+    "category": "golden-seed",
+    "subCategory": "掲載地点・報酬",
+    "gameScope": "base-game",
+    "regions": [
+      "liurnia"
+    ],
+    "location": "学院の門前町、中央の建物方向",
+    "acquisition": "水没した町の金色の木の根元で回収する。",
+    "conditions": "学院の門前町へ到達。",
+    "missable": null,
+    "missableNote": "全取り逃し条件は未確認。nullは取り逃しなしを意味しません。",
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "multipleNote": "全代替経路・周回・数量は未照合。",
+    "unit": "location",
+    "itemFamily": "golden-seed",
+    "occurrences": [
+      {
+        "id": "v21-seed-town:location-1",
+        "location": "学院の門前町、中央の建物方向",
+        "quantity": null,
+        "verification": "source-reviewed"
+      }
+    ],
+    "checkIds": [
+      "v21-seed-town:acquire"
+    ],
+    "legacyMeaning": null,
+    "legendaryGroup": null,
+    "trophyRelated": false,
+    "relatedEntryIds": [
+      "area-liurnia"
+    ],
+    "chartChapter": 3,
+    "sourceIds": [
+      "v21-m-seeds"
+    ],
+    "checkedAt": "2026-11-16",
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "verificationScope": "掲載した名称・分類・代表取得先と条件の資料確認。実機、全経路、数量、周回は未検証。",
+    "sourceDifference": null,
+    "detailFacts": [
+      {
+        "label": "収集区分",
+        "value": "掲載地点・報酬"
+      },
+      {
+        "label": "必要条件",
+        "value": "学院の門前町へ到達。"
+      },
+      {
+        "label": "周回・複数入手",
+        "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+      },
+      {
+        "label": "地点ごとの取得",
+        "value": "この掲載地点の取得だけを記録します。同名品の別地点・所持数・周回の記録へは波及しません。"
+      }
+    ],
+    "placeId": "golden-seed:town",
+    "locationKind": "pickup"
+  },
+  {
+    "id": "collection:v21-seed-main-gate",
+    "entryId": "v21-seed-main-gate",
+    "name": "黄金の種子：学院正門前、封印を使わず進む橋側",
+    "englishName": null,
+    "aliases": [],
+    "category": "golden-seed",
+    "subCategory": "掲載地点・報酬",
+    "gameScope": "base-game",
+    "regions": [
+      "liurnia"
+    ],
+    "location": "学院正門前、封印を使わず進む橋側",
+    "acquisition": "学院正門前から封印に触れずに橋の先を探索する。",
+    "conditions": "学院の輝石鍵で南門側の封印を通る。ユラの戦灰報酬とは別。",
+    "missable": null,
+    "missableNote": "全取り逃し条件は未確認。nullは取り逃しなしを意味しません。",
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "multipleNote": "全代替経路・周回・数量は未照合。",
+    "unit": "location",
+    "itemFamily": "golden-seed",
+    "occurrences": [
+      {
+        "id": "v21-seed-main-gate:location-1",
+        "location": "学院正門前、封印を使わず進む橋側",
+        "quantity": null,
+        "verification": "source-reviewed"
+      }
+    ],
+    "checkIds": [
+      "v21-seed-main-gate:acquire"
+    ],
+    "legacyMeaning": null,
+    "legendaryGroup": null,
+    "trophyRelated": false,
+    "relatedEntryIds": [
+      "area-liurnia",
+      "collect-academy-key"
+    ],
+    "chartChapter": 3,
+    "sourceIds": [
+      "v21-m-seeds"
+    ],
+    "checkedAt": "2026-11-16",
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "verificationScope": "掲載した名称・分類・代表取得先と条件の資料確認。実機、全経路、数量、周回は未検証。",
+    "sourceDifference": null,
+    "detailFacts": [
+      {
+        "label": "収集区分",
+        "value": "掲載地点・報酬"
+      },
+      {
+        "label": "必要条件",
+        "value": "学院の輝石鍵で南門側の封印を通る。ユラの戦灰報酬とは別。"
+      },
+      {
+        "label": "周回・複数入手",
+        "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+      },
+      {
+        "label": "地点ごとの取得",
+        "value": "この掲載地点の取得だけを記録します。同名品の別地点・所持数・周回の記録へは波及しません。"
+      }
+    ],
+    "placeId": "golden-seed:main-gate",
+    "locationKind": "pickup"
+  },
+  {
+    "id": "collection:v21-seed-ravine",
+    "entryId": "v21-seed-ravine",
+    "name": "黄金の種子：谷底の隠し村の南西",
+    "englishName": null,
+    "aliases": [],
+    "category": "golden-seed",
+    "subCategory": "掲載地点・報酬",
+    "gameScope": "base-game",
+    "regions": [
+      "liurnia"
+    ],
+    "location": "谷底の隠し村の南西",
+    "acquisition": "谷底の該当する金色の木を探して回収する。",
+    "conditions": "リエーニエ北部の谷底へ到達。",
+    "missable": null,
+    "missableNote": "全取り逃し条件は未確認。nullは取り逃しなしを意味しません。",
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "multipleNote": "全代替経路・周回・数量は未照合。",
+    "unit": "location",
+    "itemFamily": "golden-seed",
+    "occurrences": [
+      {
+        "id": "v21-seed-ravine:location-1",
+        "location": "谷底の隠し村の南西",
+        "quantity": null,
+        "verification": "source-reviewed"
+      }
+    ],
+    "checkIds": [
+      "v21-seed-ravine:acquire"
+    ],
+    "legacyMeaning": null,
+    "legendaryGroup": null,
+    "trophyRelated": false,
+    "relatedEntryIds": [
+      "area-liurnia"
+    ],
+    "chartChapter": 3,
+    "sourceIds": [
+      "v21-m-seeds"
+    ],
+    "checkedAt": "2026-11-16",
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "verificationScope": "掲載した名称・分類・代表取得先と条件の資料確認。実機、全経路、数量、周回は未検証。",
+    "sourceDifference": null,
+    "detailFacts": [
+      {
+        "label": "収集区分",
+        "value": "掲載地点・報酬"
+      },
+      {
+        "label": "必要条件",
+        "value": "リエーニエ北部の谷底へ到達。"
+      },
+      {
+        "label": "周回・複数入手",
+        "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+      },
+      {
+        "label": "地点ごとの取得",
+        "value": "この掲載地点の取得だけを記録します。同名品の別地点・所持数・周回の記録へは波及しません。"
+      }
+    ],
+    "placeId": "golden-seed:ravine",
+    "locationKind": "pickup"
+  },
+  {
+    "id": "collection:v21-seed-south-caelid",
+    "entryId": "v21-seed-south-caelid",
+    "name": "黄金の種子：祝福「エオニア沼、南岸」の南",
+    "englishName": null,
+    "aliases": [],
+    "category": "golden-seed",
+    "subCategory": "掲載地点・報酬",
+    "gameScope": "base-game",
+    "regions": [
+      "caelid"
+    ],
+    "location": "祝福「エオニア沼、南岸」の南",
+    "acquisition": "ケイリッド街道の分岐を南側へ進み、木の足元を調べる。",
+    "conditions": "南側の街道へ到達。",
+    "missable": null,
+    "missableNote": "全取り逃し条件は未確認。nullは取り逃しなしを意味しません。",
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "multipleNote": "全代替経路・周回・数量は未照合。",
+    "unit": "location",
+    "itemFamily": "golden-seed",
+    "occurrences": [
+      {
+        "id": "v21-seed-south-caelid:location-1",
+        "location": "祝福「エオニア沼、南岸」の南",
+        "quantity": null,
+        "verification": "source-reviewed"
+      }
+    ],
+    "checkIds": [
+      "v21-seed-south-caelid:acquire"
+    ],
+    "legacyMeaning": null,
+    "legendaryGroup": null,
+    "trophyRelated": false,
+    "relatedEntryIds": [
+      "area-caelid"
+    ],
+    "chartChapter": 8,
+    "sourceIds": [
+      "v21-m-seeds"
+    ],
+    "checkedAt": "2026-11-16",
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "verificationScope": "掲載した名称・分類・代表取得先と条件の資料確認。実機、全経路、数量、周回は未検証。",
+    "sourceDifference": null,
+    "detailFacts": [
+      {
+        "label": "収集区分",
+        "value": "掲載地点・報酬"
+      },
+      {
+        "label": "必要条件",
+        "value": "南側の街道へ到達。"
+      },
+      {
+        "label": "周回・複数入手",
+        "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+      },
+      {
+        "label": "地点ごとの取得",
+        "value": "この掲載地点の取得だけを記録します。同名品の別地点・所持数・周回の記録へは波及しません。"
+      }
+    ],
+    "placeId": "golden-seed:south-caelid",
+    "locationKind": "pickup"
+  },
+  {
+    "id": "collection:v21-seed-sellia",
+    "entryId": "v21-seed-sellia",
+    "name": "黄金の種子：魔術街サリアの中腹",
+    "englishName": null,
+    "aliases": [],
+    "category": "golden-seed",
+    "subCategory": "掲載地点・報酬",
+    "gameScope": "base-game",
+    "regions": [
+      "caelid"
+    ],
+    "location": "魔術街サリアの中腹",
+    "acquisition": "街の高い段へ進み、金色の木の足元で取得する。",
+    "conditions": "サリアの該当する段へ到達。",
+    "missable": null,
+    "missableNote": "全取り逃し条件は未確認。nullは取り逃しなしを意味しません。",
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "multipleNote": "全代替経路・周回・数量は未照合。",
+    "unit": "location",
+    "itemFamily": "golden-seed",
+    "occurrences": [
+      {
+        "id": "v21-seed-sellia:location-1",
+        "location": "魔術街サリアの中腹",
+        "quantity": null,
+        "verification": "source-reviewed"
+      }
+    ],
+    "checkIds": [
+      "v21-seed-sellia:acquire"
+    ],
+    "legacyMeaning": null,
+    "legendaryGroup": null,
+    "trophyRelated": false,
+    "relatedEntryIds": [
+      "area-caelid"
+    ],
+    "chartChapter": 8,
+    "sourceIds": [
+      "v21-m-seeds"
+    ],
+    "checkedAt": "2026-11-16",
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "verificationScope": "掲載した名称・分類・代表取得先と条件の資料確認。実機、全経路、数量、周回は未検証。",
+    "sourceDifference": null,
+    "detailFacts": [
+      {
+        "label": "収集区分",
+        "value": "掲載地点・報酬"
+      },
+      {
+        "label": "必要条件",
+        "value": "サリアの該当する段へ到達。"
+      },
+      {
+        "label": "周回・複数入手",
+        "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+      },
+      {
+        "label": "地点ごとの取得",
+        "value": "この掲載地点の取得だけを記録します。同名品の別地点・所持数・周回の記録へは波及しません。"
+      }
+    ],
+    "placeId": "golden-seed:sellia",
+    "locationKind": "pickup"
+  },
+  {
+    "id": "collection:v21-seed-farm-bridge",
+    "entryId": "v21-seed-farm-bridge",
+    "name": "黄金の種子：ファルム大橋を北へ渡った先",
+    "englishName": null,
+    "aliases": [],
+    "category": "golden-seed",
+    "subCategory": "掲載地点・報酬",
+    "gameScope": "base-game",
+    "regions": [
+      "caelid"
+    ],
+    "location": "ファルム大橋を北へ渡った先",
+    "acquisition": "橋の北側の金色の木を探す。",
+    "conditions": "竜塚側の該当地点へ到達。橋の竜に注意。",
+    "missable": null,
+    "missableNote": "全取り逃し条件は未確認。nullは取り逃しなしを意味しません。",
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "multipleNote": "全代替経路・周回・数量は未照合。",
+    "unit": "location",
+    "itemFamily": "golden-seed",
+    "occurrences": [
+      {
+        "id": "v21-seed-farm-bridge:location-1",
+        "location": "ファルム大橋を北へ渡った先",
+        "quantity": null,
+        "verification": "source-reviewed"
+      }
+    ],
+    "checkIds": [
+      "v21-seed-farm-bridge:acquire"
+    ],
+    "legacyMeaning": null,
+    "legendaryGroup": null,
+    "trophyRelated": false,
+    "relatedEntryIds": [
+      "area-caelid"
+    ],
+    "chartChapter": 8,
+    "sourceIds": [
+      "v21-m-seeds"
+    ],
+    "checkedAt": "2026-11-16",
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "verificationScope": "掲載した名称・分類・代表取得先と条件の資料確認。実機、全経路、数量、周回は未検証。",
+    "sourceDifference": null,
+    "detailFacts": [
+      {
+        "label": "収集区分",
+        "value": "掲載地点・報酬"
+      },
+      {
+        "label": "必要条件",
+        "value": "竜塚側の該当地点へ到達。橋の竜に注意。"
+      },
+      {
+        "label": "周回・複数入手",
+        "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+      },
+      {
+        "label": "地点ごとの取得",
+        "value": "この掲載地点の取得だけを記録します。同名品の別地点・所持数・周回の記録へは波及しません。"
+      }
+    ],
+    "placeId": "golden-seed:farm-bridge",
+    "locationKind": "pickup"
+  },
+  {
+    "id": "collection:v21-seed-altus-junction",
+    "entryId": "v21-seed-altus-junction",
+    "name": "黄金の種子：祝福「アルター街道三叉路」から北側",
+    "englishName": null,
+    "aliases": [],
+    "category": "golden-seed",
+    "subCategory": "掲載地点・報酬",
+    "gameScope": "base-game",
+    "regions": [
+      "altus"
+    ],
+    "location": "祝福「アルター街道三叉路」から北側",
+    "acquisition": "分かれ道の北側の木を調べる。",
+    "conditions": "アルター高原へ到達。",
+    "missable": null,
+    "missableNote": "全取り逃し条件は未確認。nullは取り逃しなしを意味しません。",
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "multipleNote": "全代替経路・周回・数量は未照合。",
+    "unit": "location",
+    "itemFamily": "golden-seed",
+    "occurrences": [
+      {
+        "id": "v21-seed-altus-junction:location-1",
+        "location": "祝福「アルター街道三叉路」から北側",
+        "quantity": null,
+        "verification": "source-reviewed"
+      }
+    ],
+    "checkIds": [
+      "v21-seed-altus-junction:acquire"
+    ],
+    "legacyMeaning": null,
+    "legendaryGroup": null,
+    "trophyRelated": false,
+    "relatedEntryIds": [
+      "area-altus"
+    ],
+    "chartChapter": 4,
+    "sourceIds": [
+      "v21-m-seeds"
+    ],
+    "checkedAt": "2026-11-16",
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "verificationScope": "掲載した名称・分類・代表取得先と条件の資料確認。実機、全経路、数量、周回は未検証。",
+    "sourceDifference": null,
+    "detailFacts": [
+      {
+        "label": "収集区分",
+        "value": "掲載地点・報酬"
+      },
+      {
+        "label": "必要条件",
+        "value": "アルター高原へ到達。"
+      },
+      {
+        "label": "周回・複数入手",
+        "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+      },
+      {
+        "label": "地点ごとの取得",
+        "value": "この掲載地点の取得だけを記録します。同名品の別地点・所持数・周回の記録へは波及しません。"
+      }
+    ],
+    "placeId": "golden-seed:altus-junction",
+    "locationKind": "pickup"
+  },
+  {
+    "id": "collection:v21-seed-erdtree-hill",
+    "entryId": "v21-seed-erdtree-hill",
+    "name": "黄金の種子：祝福「黄金樹を臨む丘」の近く",
+    "englishName": null,
+    "aliases": [],
+    "category": "golden-seed",
+    "subCategory": "掲載地点・報酬",
+    "gameScope": "base-game",
+    "regions": [
+      "altus"
+    ],
+    "location": "祝福「黄金樹を臨む丘」の近く",
+    "acquisition": "丘の祝福周辺で金色の木を調べる。",
+    "conditions": "アルター高原へ到達。",
+    "missable": null,
+    "missableNote": "全取り逃し条件は未確認。nullは取り逃しなしを意味しません。",
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "multipleNote": "全代替経路・周回・数量は未照合。",
+    "unit": "location",
+    "itemFamily": "golden-seed",
+    "occurrences": [
+      {
+        "id": "v21-seed-erdtree-hill:location-1",
+        "location": "祝福「黄金樹を臨む丘」の近く",
+        "quantity": null,
+        "verification": "source-reviewed"
+      }
+    ],
+    "checkIds": [
+      "v21-seed-erdtree-hill:acquire"
+    ],
+    "legacyMeaning": null,
+    "legendaryGroup": null,
+    "trophyRelated": false,
+    "relatedEntryIds": [
+      "area-altus"
+    ],
+    "chartChapter": 4,
+    "sourceIds": [
+      "v21-m-seeds"
+    ],
+    "checkedAt": "2026-11-16",
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "verificationScope": "掲載した名称・分類・代表取得先と条件の資料確認。実機、全経路、数量、周回は未検証。",
+    "sourceDifference": null,
+    "detailFacts": [
+      {
+        "label": "収集区分",
+        "value": "掲載地点・報酬"
+      },
+      {
+        "label": "必要条件",
+        "value": "アルター高原へ到達。"
+      },
+      {
+        "label": "周回・複数入手",
+        "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+      },
+      {
+        "label": "地点ごとの取得",
+        "value": "この掲載地点の取得だけを記録します。同名品の別地点・所持数・周回の記録へは波及しません。"
+      }
+    ],
+    "placeId": "golden-seed:erdtree-hill",
+    "locationKind": "pickup"
+  },
+  {
+    "id": "collection:v21-key-stormhill",
+    "entryId": "v21-key-stormhill",
+    "name": "石剣の鍵：嵐丘のボロ家、小屋の段差の上",
+    "englishName": null,
+    "aliases": [],
+    "category": "stonesword-key",
+    "subCategory": "フィールドの取得地点",
+    "gameScope": "base-game",
+    "regions": [
+      "limgrave"
+    ],
+    "location": "嵐丘のボロ家、小屋の段差の上",
+    "acquisition": "小屋の段差に上がり、取得物を回収する。",
+    "conditions": "記載の地点に到達して拾う。封印に使ったことから取得済みを推定しない。",
+    "missable": null,
+    "missableNote": "全取り逃し条件は未確認。nullは取り逃しなしを意味しません。",
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "multipleNote": "全代替経路・周回・数量は未照合。",
+    "unit": "location",
+    "itemFamily": "stonesword-key",
+    "occurrences": [
+      {
+        "id": "v21-key-stormhill:location-1",
+        "location": "嵐丘のボロ家、小屋の段差の上",
+        "quantity": null,
+        "verification": "source-reviewed"
+      }
+    ],
+    "checkIds": [
+      "v21-key-stormhill:acquire"
+    ],
+    "legacyMeaning": null,
+    "legendaryGroup": null,
+    "trophyRelated": false,
+    "relatedEntryIds": [
+      "area-limgrave"
+    ],
+    "chartChapter": 1,
+    "sourceIds": [
+      "v21-m-keys"
+    ],
+    "checkedAt": "2026-11-16",
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "verificationScope": "掲載した名称・分類・代表取得先と条件の資料確認。実機、全経路、数量、周回は未検証。",
+    "sourceDifference": null,
+    "detailFacts": [
+      {
+        "label": "収集区分",
+        "value": "フィールドの取得地点"
+      },
+      {
+        "label": "必要条件",
+        "value": "記載の地点に到達して拾う。封印に使ったことから取得済みを推定しない。"
+      },
+      {
+        "label": "周回・複数入手",
+        "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+      },
+      {
+        "label": "地点ごとの取得",
+        "value": "この掲載地点の取得だけを記録します。同名品の別地点・所持数・周回の記録へは波及しません。"
+      }
+    ],
+    "placeId": "stonesword-key:stormhill",
+    "locationKind": "pickup"
+  },
+  {
+    "id": "collection:v21-key-dragon-ruins",
+    "entryId": "v21-key-dragon-ruins",
+    "name": "石剣の鍵：竜に焼かれた廃墟の一室",
+    "englishName": null,
+    "aliases": [],
+    "category": "stonesword-key",
+    "subCategory": "フィールドの取得地点",
+    "gameScope": "base-game",
+    "regions": [
+      "limgrave"
+    ],
+    "location": "竜に焼かれた廃墟の一室",
+    "acquisition": "廃墟の部屋を探索して鍵を拾う。転送罠の宝箱を取得地点と混同しない。",
+    "conditions": "記載の地点に到達して拾う。封印に使ったことから取得済みを推定しない。",
+    "missable": null,
+    "missableNote": "全取り逃し条件は未確認。nullは取り逃しなしを意味しません。",
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "multipleNote": "全代替経路・周回・数量は未照合。",
+    "unit": "location",
+    "itemFamily": "stonesword-key",
+    "occurrences": [
+      {
+        "id": "v21-key-dragon-ruins:location-1",
+        "location": "竜に焼かれた廃墟の一室",
+        "quantity": null,
+        "verification": "source-reviewed"
+      }
+    ],
+    "checkIds": [
+      "v21-key-dragon-ruins:acquire"
+    ],
+    "legacyMeaning": null,
+    "legendaryGroup": null,
+    "trophyRelated": false,
+    "relatedEntryIds": [
+      "area-limgrave"
+    ],
+    "chartChapter": 1,
+    "sourceIds": [
+      "v21-m-keys"
+    ],
+    "checkedAt": "2026-11-16",
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "verificationScope": "掲載した名称・分類・代表取得先と条件の資料確認。実機、全経路、数量、周回は未検証。",
+    "sourceDifference": null,
+    "detailFacts": [
+      {
+        "label": "収集区分",
+        "value": "フィールドの取得地点"
+      },
+      {
+        "label": "必要条件",
+        "value": "記載の地点に到達して拾う。封印に使ったことから取得済みを推定しない。"
+      },
+      {
+        "label": "周回・複数入手",
+        "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+      },
+      {
+        "label": "地点ごとの取得",
+        "value": "この掲載地点の取得だけを記録します。同名品の別地点・所持数・周回の記録へは波及しません。"
+      }
+    ],
+    "placeId": "stonesword-key:dragon-ruins",
+    "locationKind": "pickup"
+  },
+  {
+    "id": "collection:v21-key-siofra-south",
+    "entryId": "v21-key-siofra-south",
+    "name": "石剣の鍵：シーフラ河の南東、崩れた橋を渡った先",
+    "englishName": null,
+    "aliases": [],
+    "category": "stonesword-key",
+    "subCategory": "フィールドの取得地点",
+    "gameScope": "base-game",
+    "regions": [
+      "siofra"
+    ],
+    "location": "シーフラ河の南東、崩れた橋を渡った先",
+    "acquisition": "崩れた橋の先を探索する。",
+    "conditions": "記載の地点に到達して拾う。封印に使ったことから取得済みを推定しない。",
+    "missable": null,
+    "missableNote": "全取り逃し条件は未確認。nullは取り逃しなしを意味しません。",
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "multipleNote": "全代替経路・周回・数量は未照合。",
+    "unit": "location",
+    "itemFamily": "stonesword-key",
+    "occurrences": [
+      {
+        "id": "v21-key-siofra-south:location-1",
+        "location": "シーフラ河の南東、崩れた橋を渡った先",
+        "quantity": null,
+        "verification": "source-reviewed"
+      }
+    ],
+    "checkIds": [
+      "v21-key-siofra-south:acquire"
+    ],
+    "legacyMeaning": null,
+    "legendaryGroup": null,
+    "trophyRelated": false,
+    "relatedEntryIds": [],
+    "chartChapter": 8,
+    "sourceIds": [
+      "v21-m-keys"
+    ],
+    "checkedAt": "2026-11-16",
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "verificationScope": "掲載した名称・分類・代表取得先と条件の資料確認。実機、全経路、数量、周回は未検証。",
+    "sourceDifference": null,
+    "detailFacts": [
+      {
+        "label": "収集区分",
+        "value": "フィールドの取得地点"
+      },
+      {
+        "label": "必要条件",
+        "value": "記載の地点に到達して拾う。封印に使ったことから取得済みを推定しない。"
+      },
+      {
+        "label": "周回・複数入手",
+        "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+      },
+      {
+        "label": "地点ごとの取得",
+        "value": "この掲載地点の取得だけを記録します。同名品の別地点・所持数・周回の記録へは波及しません。"
+      }
+    ],
+    "placeId": "stonesword-key:siofra-south",
+    "locationKind": "pickup"
+  },
+  {
+    "id": "collection:v21-key-siofra-woods",
+    "entryId": "v21-key-siofra-woods",
+    "name": "石剣の鍵：信奉者の森、細い屋根を渡る塔の裏側",
+    "englishName": null,
+    "aliases": [],
+    "category": "stonesword-key",
+    "subCategory": "フィールドの取得地点",
+    "gameScope": "base-game",
+    "regions": [
+      "siofra"
+    ],
+    "location": "信奉者の森、細い屋根を渡る塔の裏側",
+    "acquisition": "塔の中腹を屋根伝いに進み、裏側を調べる。",
+    "conditions": "記載の地点に到達して拾う。封印に使ったことから取得済みを推定しない。",
+    "missable": null,
+    "missableNote": "全取り逃し条件は未確認。nullは取り逃しなしを意味しません。",
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "multipleNote": "全代替経路・周回・数量は未照合。",
+    "unit": "location",
+    "itemFamily": "stonesword-key",
+    "occurrences": [
+      {
+        "id": "v21-key-siofra-woods:location-1",
+        "location": "信奉者の森、細い屋根を渡る塔の裏側",
+        "quantity": null,
+        "verification": "source-reviewed"
+      }
+    ],
+    "checkIds": [
+      "v21-key-siofra-woods:acquire"
+    ],
+    "legacyMeaning": null,
+    "legendaryGroup": null,
+    "trophyRelated": false,
+    "relatedEntryIds": [],
+    "chartChapter": 8,
+    "sourceIds": [
+      "v21-m-keys"
+    ],
+    "checkedAt": "2026-11-16",
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "verificationScope": "掲載した名称・分類・代表取得先と条件の資料確認。実機、全経路、数量、周回は未検証。",
+    "sourceDifference": null,
+    "detailFacts": [
+      {
+        "label": "収集区分",
+        "value": "フィールドの取得地点"
+      },
+      {
+        "label": "必要条件",
+        "value": "記載の地点に到達して拾う。封印に使ったことから取得済みを推定しない。"
+      },
+      {
+        "label": "周回・複数入手",
+        "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+      },
+      {
+        "label": "地点ごとの取得",
+        "value": "この掲載地点の取得だけを記録します。同名品の別地点・所持数・周回の記録へは波及しません。"
+      }
+    ],
+    "placeId": "stonesword-key:siofra-woods",
+    "locationKind": "pickup"
+  },
+  {
+    "id": "collection:v21-key-stench-bridge",
+    "entryId": "v21-key-stench-bridge",
+    "name": "石剣の鍵：死体臭のボロ家から西側にある橋",
+    "englishName": null,
+    "aliases": [],
+    "category": "stonesword-key",
+    "subCategory": "フィールドの取得地点",
+    "gameScope": "base-game",
+    "regions": [
+      "gelmir"
+    ],
+    "location": "死体臭のボロ家から西側にある橋",
+    "acquisition": "橋上の遺体のアイテムを調べる。",
+    "conditions": "記載の地点に到達して拾う。封印に使ったことから取得済みを推定しない。",
+    "missable": null,
+    "missableNote": "全取り逃し条件は未確認。nullは取り逃しなしを意味しません。",
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "multipleNote": "全代替経路・周回・数量は未照合。",
+    "unit": "location",
+    "itemFamily": "stonesword-key",
+    "occurrences": [
+      {
+        "id": "v21-key-stench-bridge:location-1",
+        "location": "死体臭のボロ家から西側にある橋",
+        "quantity": null,
+        "verification": "source-reviewed"
+      }
+    ],
+    "checkIds": [
+      "v21-key-stench-bridge:acquire"
+    ],
+    "legacyMeaning": null,
+    "legendaryGroup": null,
+    "trophyRelated": false,
+    "relatedEntryIds": [
+      "area-volcano"
+    ],
+    "chartChapter": 4,
+    "sourceIds": [
+      "v21-m-keys"
+    ],
+    "checkedAt": "2026-11-16",
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "verificationScope": "掲載した名称・分類・代表取得先と条件の資料確認。実機、全経路、数量、周回は未検証。",
+    "sourceDifference": null,
+    "detailFacts": [
+      {
+        "label": "収集区分",
+        "value": "フィールドの取得地点"
+      },
+      {
+        "label": "必要条件",
+        "value": "記載の地点に到達して拾う。封印に使ったことから取得済みを推定しない。"
+      },
+      {
+        "label": "周回・複数入手",
+        "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+      },
+      {
+        "label": "地点ごとの取得",
+        "value": "この掲載地点の取得だけを記録します。同名品の別地点・所持数・周回の記録へは波及しません。"
+      }
+    ],
+    "placeId": "stonesword-key:stench-bridge",
+    "locationKind": "pickup"
+  }
+]

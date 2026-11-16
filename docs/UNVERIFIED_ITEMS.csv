@@ -1,0 +1,33 @@
+﻿id,name,category,scope,verificationLevel,sourceStatus,englishName,gameplayTested,missable,NGPlus,quantityPerCycle,reason,sourceURLs
+collection:armor-knight,騎士シリーズ,armor,base-game,review,needs-review,未確認,False,未確認,未確認,未確認,継承データ。今回の事実再照合は未実施。,https://game8.jp/eldenring/440752
+collection:armor-carian,カーリア騎士シリーズ,armor,base-game,review,needs-review,未確認,False,未確認,未確認,未確認,継承データ。今回の事実再照合は未実施。,https://game8.jp/eldenring/441605
+collection:talisman-arsenal,武具塊のお守り,talisman,base-game,review,needs-review,未確認,False,未確認,未確認,未確認,継承データ。今回の事実再照合は未実施。,https://game8.jp/eldenring/455104
+collection:collect-seed-stormhill,黄金の種子：嵐の関門の先,golden-seed,base-game,review,needs-review,未確認,False,未確認,未確認,未確認,継承データ。今回の事実再照合は未実施。,https://gamewith.jp/eldenring/320220;https://www.fromsoftware.jp/manual/eldenring/ps5/blessing.html
+collection:collect-tear-marika,聖杯の雫：第三マリカ教会,sacred-tear,base-game,review,needs-review,未確認,False,未確認,未確認,未確認,継承データ。今回の事実再照合は未実施。,https://gamewith.jp/eldenring/320236;https://www.fromsoftware.jp/manual/eldenring/ps5/blessing.html
+collection:collect-spirit-bell,霊喚びの鈴,key,base-game,review,needs-review,未確認,False,未確認,未確認,未確認,継承データ。今回の事実再照合は未実施。,https://www.famitsu.com/news/202202/26252793.html
+collection:weapon-nagakiba,長牙,weapon,base-game,review,needs-review,未確認,False,未確認,未確認,未確認,継承データ。今回の事実再照合は未実施。,https://gamewith.jp/eldenring/321769
+collection:weapon-rivers-blood,屍山血河,weapon,base-game,review,needs-review,未確認,False,未確認,未確認,未確認,Game8の武器個別ページは火の巨人撃破後に翁が出現しなくなると記載。一方、同媒体の翁・安息教会ページは旧来の出現しないという記述と、Ver1.0.4で修正されたという記述が同居する。GameWithの武器個別ページは安息教会の翁撃破による入手を案内し、火の巨人前必須という条件は記載しない。資料の更新時点・版による相違を実機では解消していない。,https://gamewith.jp/eldenring/321393;https://game8.jp/eldenring/442273;https://game8.jp/eldenring/443552;https://game8.jp/eldenring/444954;https://gamewith.jp/eldenring/321393
+collection:weapon-backhand,逆手剣,weapon,dlc,review,needs-review,未確認,False,未確認,未確認,未確認,継承データ。今回の事実再照合は未実施。,https://game8.jp/eldenring/618798
+collection:weapon-milady,レディソード,weapon,dlc,review,needs-review,未確認,False,未確認,未確認,未確認,継承データ。今回の事実再照合は未実施。,https://game8.jp/eldenring/619770
+collection:weapon-great-katana,大刀,weapon,dlc,review,needs-review,未確認,False,未確認,未確認,未確認,継承データ。今回の事実再照合は未実施。,https://game8.jp/eldenring/618798
+collection:armor-vagabond,放浪騎士シリーズ,armor,base-game,review,needs-review,未確認,False,未確認,未確認,未確認,継承データ。今回の事実再照合は未実施。,https://game8.jp/eldenring/440675
+collection:armor-astrologer,星見シリーズ,armor,base-game,review,needs-review,未確認,False,未確認,未確認,未確認,継承データ。今回の事実再照合は未実施。,https://game8.jp/eldenring/440679
+collection:armor-radahn,ラダーンシリーズ,armor,base-game,review,needs-review,未確認,False,未確認,未確認,未確認,継承データ。今回の事実再照合は未実施。,https://game8.jp/eldenring/448785
+collection:armor-cleanrot,貴腐騎士シリーズ,armor,base-game,review,needs-review,未確認,False,未確認,未確認,未確認,継承データ。今回の事実再照合は未実施。,https://game8.jp/eldenring/442768
+collection:armor-solitude,孤牢シリーズ,armor,dlc,review,needs-review,未確認,False,未確認,未確認,未確認,継承データ。今回の事実再照合は未実施。,https://game8.jp/eldenring/620131
+collection:armor-oathseeker,誓約騎士シリーズ,armor,dlc,review,needs-review,未確認,False,未確認,未確認,未確認,継承データ。今回の事実再照合は未実施。,https://game8.jp/eldenring/620797
+collection:talisman-two-turtle,双頭亀のタリスマン,talisman,dlc,review,needs-review,未確認,False,未確認,未確認,未確認,継承データ。今回の事実再照合は未実施。,https://game8.jp/eldenring/620058
+collection:talisman-two-handed,両手剣のタリスマン,talisman,dlc,review,needs-review,未確認,False,未確認,未確認,未確認,継承データ。今回の事実再照合は未実施。,https://game8.jp/eldenring/620217
+collection:collect-scadutree-consolation,影樹の破片：慰めの教会,material,dlc,review,needs-review,未確認,False,未確認,未確認,未確認,継承データ。今回の事実再照合は未実施。,https://game8.jp/eldenring/631566
+collection:collect-ancient-nepheli,古竜岩の鍛石：ネフェリ報酬,material,base-game,review,needs-review,未確認,False,未確認,未確認,未確認,継承データ。今回の事実再照合は未実施。,https://game8.jp/eldenring/441109
+collection:armor-azur,アズールシリーズ,armor,base-game,review,needs-review,未確認,False,未確認,未確認,未確認,継承データ。今回の事実再照合は未実施。,https://game8.jp/eldenring/440982
+collection:armor-lusat,ルーサットシリーズ,armor,base-game,review,needs-review,未確認,False,未確認,未確認,未確認,継承データ。今回の事実再照合は未実施。,https://game8.jp/eldenring/440982
+collection:ash-war-hoarfrost,霜踏み（戦灰）,ash-war,base-game,review,needs-review,未確認,False,未確認,未確認,未確認,継承データ。今回の事実再照合は未実施。,https://game8.jp/eldenring/441427
+collection:v19-book-glintstone-6,輝石職人の製法書【6】,cookbook,base-game,review,needs-review,未確認,False,未確認,未確認,未確認,GameWithは城館正門から入って右側へ進み階段先の部屋、ムダウチは正門から右手の小部屋。GameOrOnlineは正門の祝福から南の部屋と記述。正確な方位と経路表現の相違を実機では解消していない。,https://game8.jp/eldenring/446793;https://www.gameoronline.com/eldenring/data/cookbook.html;https://gamewith.jp/eldenring/322847;https://mudauchi.info/398243;https://www.gameoronline.com/eldenring/data/cookbook.html
+collection:v20-ash-unsheathe,居合,ash-war,base-game,review,needs-review,未確認,False,未確認,未確認,未確認,GameWithは祝福「アギール湖南」の北西、Game8の入手方法箇条書きも同じ祝福基準。一方Game8の小見出しは湖そのものの北西と読める。湖全体の北西と祝福基準の北西は同義として扱わない。,https://game8.jp/eldenring/441718;https://www.gameoronline.com/eldenring/data/ashesofwar.html;https://game8.jp/eldenring/441718;https://gamewith.jp/eldenring/321281
+collection:v20-ash-repeating,連続突き,ash-war,base-game,review,needs-review,未確認,False,未確認,未確認,未確認,Game8の同一ページ内に「曇り川の洞窟の南の橋」と「祝福アギール湖北から北西」の二つの案内がある。GameWithは曇り川の洞窟の南の橋とする。方角の矛盾を含むため、既存の祝福基準の東という表現も本監査では確定しない。,https://www.gameoronline.com/eldenring/data/ashesofwar.html;https://game8.jp/eldenring/441717;https://gamewith.jp/eldenring/321284
+collection:v21-ash-glintstone-pebble,輝石のつぶて（戦灰）,ash-war,base-game,review,needs-review,未確認,False,未確認,未確認,未確認,Game8の戦灰個別ページはセレン/トープス販売と記載するが、GameWithの戦灰個別・ロジェール記事ではロジェール販売。同名の魔術との混同が疑われるため、取得先をロジェールと明示し、資料差のある行として扱う。,https://gamewith.jp/eldenring/321262;https://gamewith.jp/eldenring/322352;https://game8.jp/eldenring/441731
+collection:v21-ash-thops-barrier,トープスの力場（戦灰）,ash-war,base-game,review,needs-review,未確認,False,未確認,未確認,未確認,一部旧資料はリエーニエ西側の小島を取得先とする。EldenpediaおよびGamer Guidesのデータベースは教会のイベント後のスカラベを掲載し、Gamer GuidesはPost-Patch 1.03と区別。今回は教会側の経路を掲載するが現行実機での再現は未確認。,https://game8.jp/eldenring/441741;https://eldenring.wiki.gg/wiki/Ash_of_War%3A_Thops%27s_Barrier;https://www.gamerguides.com/elden-ring/database/ashes-of-war/magic/ash-of-war-thopss-barrier
+collection:v21-spirit-greatshield,大盾兵の遺灰,spirit,base-game,review,needs-review,未確認,False,未確認,未確認,未確認,Game8本文にノクローンを「エインセル河」とする地理表現があるが、記事の取得先は永遠の都ノクローン。DB地域はノクローンとして管理し、別地域へ混在させない。,https://game8.jp/eldenring/442284
+collection:v21-armor-maliketh-chest-altered,マリケスの鎧（軽装）,armor,base-game,review,needs-review,未確認,False,未確認,未確認,未確認,Game8 456350は通常鎧を衣装調整（黄金の裁縫道具・黄金の縫い針）と記載。GameWith 323323/323307は軽装そのものをマリケス撃破後にエンヤから購入と記載。取得経路と必要道具の確定は保留。,https://game8.jp/eldenring/456350;https://gamewith.jp/eldenring/323323;https://gamewith.jp/eldenring/323307
+collection-pending:bell-bearing:46,パッチの鈴玉,bell-bearing,base-game,unconfirmed,unverified-candidate,未確認,False,未確認,未確認,未確認,調査候補。取得条件は攻略事実として未掲載。,

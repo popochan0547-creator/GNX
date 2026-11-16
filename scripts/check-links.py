@@ -25,4 +25,4 @@ for f in [R/'index.html',*sorted((R/'elden').rglob('*.html'))]:
   checked+=1
 for el in ET.parse(R/'sitemap.xml').getroot():
  url=el[0].text;assert url.startswith('https://popochan0547-creator.github.io/GNX/');p=urllib.parse.urlparse(url).path.removeprefix('/GNX/');assert (R/p/'index.html').exists()
-print('Local links/resources:',checked,'OK; structured JSON-LD OK; sitemap 107 URLs resolve.')
+print('Local links/resources:',checked,'OK; structured JSON-LD OK; sitemap URLs resolve.')

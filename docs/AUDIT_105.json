@@ -1,0 +1,754 @@
+{
+  "baseline": "GNX_Ver14_0.zip",
+  "entryCount": 105,
+  "taskCount": 119,
+  "duplicateEntryIds": [],
+  "duplicateTaskIds": [],
+  "contentOverlaps": [
+    "boss-leonine / weapon-grafted：撃破報酬と所持確認",
+    "boss-radahn / armor-radahn：撃破と購入は別",
+    "npc-roderika / collect-jellyfish：イベント進行と所持確認",
+    "npc-nepheli-early / talisman-arsenal：会話報酬と所持確認"
+  ],
+  "limitations": [
+    "全105件の構造・出典紐付けは監査したが、全文の実機再現・独立した資料再照合は未完了。",
+    "誤情報がないとの保証ではない。現行パッチの条件と性能数値は未検証。"
+  ],
+  "records": [
+    {
+      "id": "boss-margit",
+      "name": "忌み鬼、マルギット",
+      "category": "boss",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "掲載範囲内の基本情報"
+    },
+    {
+      "id": "boss-godrick",
+      "name": "接ぎ木のゴドリック",
+      "category": "boss",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "掲載範囲内の基本情報"
+    },
+    {
+      "id": "boss-darriwil",
+      "name": "猟犬騎士ダリウィル",
+      "category": "boss",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "掲載範囲内の基本情報"
+    },
+    {
+      "id": "boss-tree-limgrave",
+      "name": "ツリーガード（リムグレイブ）",
+      "category": "boss",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "掲載範囲内の基本情報"
+    },
+    {
+      "id": "weapon-uchigatana",
+      "name": "打刀",
+      "category": "weapon",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "掲載範囲内の基本情報"
+    },
+    {
+      "id": "weapon-fang",
+      "name": "猟犬の長牙",
+      "category": "weapon",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "掲載範囲内の基本情報"
+    },
+    {
+      "id": "weapon-meteorite",
+      "name": "隕石の杖",
+      "category": "weapon",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "掲載範囲内の基本情報"
+    },
+    {
+      "id": "weapon-claymore",
+      "name": "クレイモア",
+      "category": "weapon",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "掲載範囲内の基本情報"
+    },
+    {
+      "id": "armor-chain",
+      "name": "チェインシリーズ",
+      "category": "armor",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "掲載範囲内の基本情報"
+    },
+    {
+      "id": "armor-knight",
+      "name": "騎士シリーズ",
+      "category": "armor",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "掲載範囲内の基本情報"
+    },
+    {
+      "id": "armor-carian",
+      "name": "カーリア騎士シリーズ",
+      "category": "armor",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "掲載範囲内の基本情報"
+    },
+    {
+      "id": "talisman-turtle",
+      "name": "緑亀のタリスマン",
+      "category": "talisman",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "掲載範囲内の基本情報"
+    },
+    {
+      "id": "talisman-amber",
+      "name": "緋琥珀のメダリオン",
+      "category": "talisman",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "掲載範囲内の基本情報"
+    },
+    {
+      "id": "talisman-arsenal",
+      "name": "武具塊のお守り",
+      "category": "talisman",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "掲載範囲内の基本情報"
+    },
+    {
+      "id": "npc-roderika",
+      "name": "ローデリカ：調霊の解放まで",
+      "category": "npc",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "序盤の調霊解放まで。全イベントではない"
+    },
+    {
+      "id": "npc-alexander",
+      "name": "アレキサンダー：最初の救出",
+      "category": "npc",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "最初の救出のみ"
+    },
+    {
+      "id": "npc-blaidd",
+      "name": "半狼のブライヴ：ダリウィルまで",
+      "category": "npc",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "序盤の封牢イベントまで"
+    },
+    {
+      "id": "collect-seed-stormhill",
+      "name": "黄金の種子：嵐の関門の先",
+      "category": "collectible",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "掲載範囲内の基本情報"
+    },
+    {
+      "id": "collect-tear-marika",
+      "name": "聖杯の雫：第三マリカ教会",
+      "category": "collectible",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "掲載範囲内の基本情報"
+    },
+    {
+      "id": "collect-bearing-1",
+      "name": "鍛石掘りの鈴玉【1】",
+      "category": "collectible",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "掲載範囲内の基本情報"
+    },
+    {
+      "id": "collect-spirit-bell",
+      "name": "霊喚びの鈴",
+      "category": "collectible",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "掲載範囲内の基本情報"
+    },
+    {
+      "id": "collect-academy-key",
+      "name": "学院の輝石鍵：学院外の1本目",
+      "category": "collectible",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "掲載範囲内の基本情報"
+    },
+    {
+      "id": "area-limgrave",
+      "name": "リムグレイブ：序盤の探索",
+      "category": "area",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "序盤の拠点案内"
+    },
+    {
+      "id": "area-weeping",
+      "name": "啜り泣きの半島",
+      "category": "area",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "入口と主要目的地"
+    },
+    {
+      "id": "area-stormveil",
+      "name": "ストームヴィル城",
+      "category": "area",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "ボスとNPCへの基本導線"
+    },
+    {
+      "id": "area-liurnia",
+      "name": "湖のリエーニエ",
+      "category": "area",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "2つの入口と学院への案内"
+    },
+    {
+      "id": "area-academy",
+      "name": "魔術学院レアルカリア",
+      "category": "area",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "入場から主要な祝福への案内"
+    },
+    {
+      "id": "boss-red-wolf",
+      "name": "ラダゴンの赤狼",
+      "category": "boss",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "出現場所と戦い方の要点。全攻撃・耐性値は未収録。"
+    },
+    {
+      "id": "boss-rennala",
+      "name": "満月の女王、レナラ",
+      "category": "boss",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "出現場所と戦い方の要点。全攻撃・耐性値は未収録。"
+    },
+    {
+      "id": "boss-leonine",
+      "name": "獅子の混種（モーンの城）",
+      "category": "boss",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "出現場所と戦い方の要点。全攻撃・耐性値は未収録。"
+    },
+    {
+      "id": "boss-loretta-manor",
+      "name": "親衛騎士ローレッタ",
+      "category": "boss",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "出現場所と戦い方の要点。全攻撃・耐性値は未収録。"
+    },
+    {
+      "id": "boss-radahn",
+      "name": "星砕きのラダーン",
+      "category": "boss",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "出現場所と戦い方の要点。全攻撃・耐性値は未収録。"
+    },
+    {
+      "id": "boss-mimic",
+      "name": "写し身の雫（ノクローン）",
+      "category": "boss",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "出現場所と戦い方の要点。全攻撃・耐性値は未収録。"
+    },
+    {
+      "id": "boss-mohg-lord",
+      "name": "血の君主、モーグ",
+      "category": "boss",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "出現場所と戦い方の要点。全攻撃・耐性値は未収録。"
+    },
+    {
+      "id": "boss-godfrey-shade",
+      "name": "最初の王、ゴッドフレイ（黄金の幻影）",
+      "category": "boss",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "出現場所と戦い方の要点。全攻撃・耐性値は未収録。"
+    },
+    {
+      "id": "boss-morgott",
+      "name": "忌み王、モーゴット",
+      "category": "boss",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "出現場所と戦い方の要点。全攻撃・耐性値は未収録。"
+    },
+    {
+      "id": "boss-fire-giant",
+      "name": "火の巨人",
+      "category": "boss",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "出現場所と戦い方の要点。全攻撃・耐性値は未収録。"
+    },
+    {
+      "id": "boss-godskin-duo",
+      "name": "神肌のふたり",
+      "category": "boss",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "出現場所と戦い方の要点。全攻撃・耐性値は未収録。"
+    },
+    {
+      "id": "boss-maliketh",
+      "name": "黒き剣のマリケス",
+      "category": "boss",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "出現場所と戦い方の要点。全攻撃・耐性値は未収録。"
+    },
+    {
+      "id": "boss-gideon",
+      "name": "百智卿、ギデオン＝オーフニール",
+      "category": "boss",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "灰都でのボス戦の所在と基本方針。円卓での報告イベントは未収録。"
+    },
+    {
+      "id": "boss-hoarah",
+      "name": "最初の王、ゴッドフレイ／戦士、ホーラ・ルー",
+      "category": "boss",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "出現場所と戦い方の要点。全攻撃・耐性値は未収録。"
+    },
+    {
+      "id": "boss-rellana",
+      "name": "双月の騎士、レラーナ",
+      "category": "boss",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "出現場所と戦い方の要点。全攻撃・耐性値は未収録。"
+    },
+    {
+      "id": "boss-dancing-lion",
+      "name": "神獣獅子舞（ベルラート）",
+      "category": "boss",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "出現場所と戦い方の要点。全攻撃・耐性値は未収録。"
+    },
+    {
+      "id": "boss-messmer",
+      "name": "串刺し公、メスメル",
+      "category": "boss",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "出現場所と戦い方の要点。全攻撃・耐性値は未収録。"
+    },
+    {
+      "id": "boss-romina",
+      "name": "蕾の聖女、ロミナ",
+      "category": "boss",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "出現場所と戦い方の要点。全攻撃・耐性値は未収録。"
+    },
+    {
+      "id": "weapon-greatsword",
+      "name": "グレートソード",
+      "category": "weapon",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "入手先と確認手順。性能数値・全ルートは未収録。"
+    },
+    {
+      "id": "weapon-moonveil",
+      "name": "名刀月隠",
+      "category": "weapon",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "入手先と確認手順。性能数値・全ルートは未収録。"
+    },
+    {
+      "id": "weapon-nagakiba",
+      "name": "長牙",
+      "category": "weapon",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "入手先と確認手順。性能数値・全ルートは未収録。"
+    },
+    {
+      "id": "weapon-reduvia",
+      "name": "レドゥビア",
+      "category": "weapon",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "入手先と確認手順。性能数値・全ルートは未収録。"
+    },
+    {
+      "id": "weapon-twinblade",
+      "name": "ツインブレード",
+      "category": "weapon",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "入手先と確認手順。性能数値・全ルートは未収録。"
+    },
+    {
+      "id": "weapon-night-flame",
+      "name": "夜と炎の剣",
+      "category": "weapon",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "入手先と確認手順。性能数値・全ルートは未収録。"
+    },
+    {
+      "id": "weapon-grafted",
+      "name": "剣接ぎの大剣",
+      "category": "weapon",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "入手先と確認手順。性能数値・全ルートは未収録。"
+    },
+    {
+      "id": "weapon-ruins",
+      "name": "遺跡の大剣",
+      "category": "weapon",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "入手先と確認手順。性能数値・全ルートは未収録。"
+    },
+    {
+      "id": "weapon-gransax",
+      "name": "グランサクスの雷",
+      "category": "weapon",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "入手先と確認手順。性能数値・全ルートは未収録。"
+    },
+    {
+      "id": "weapon-dark-moon",
+      "name": "暗月の大剣",
+      "category": "weapon",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "入手先と確認手順。性能数値・全ルートは未収録。"
+    },
+    {
+      "id": "weapon-rivers-blood",
+      "name": "屍山血河",
+      "category": "weapon",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "入手先と確認手順。性能数値・全ルートは未収録。"
+    },
+    {
+      "id": "weapon-blasphemous",
+      "name": "冒涜の聖剣",
+      "category": "weapon",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "入手先と確認手順。性能数値・全ルートは未収録。"
+    },
+    {
+      "id": "weapon-winged-scythe",
+      "name": "翼の鎌",
+      "category": "weapon",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "入手先と確認手順。性能数値・全ルートは未収録。"
+    },
+    {
+      "id": "weapon-backhand",
+      "name": "逆手剣",
+      "category": "weapon",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "入手先と確認手順。性能数値・全ルートは未収録。"
+    },
+    {
+      "id": "weapon-milady",
+      "name": "レディソード",
+      "category": "weapon",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "入手先と確認手順。性能数値・全ルートは未収録。"
+    },
+    {
+      "id": "weapon-great-katana",
+      "name": "大刀",
+      "category": "weapon",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "入手先と確認手順。性能数値・全ルートは未収録。"
+    },
+    {
+      "id": "armor-vagabond",
+      "name": "放浪騎士シリーズ",
+      "category": "armor",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "入手先と確認手順。性能数値・全ルートは未収録。"
+    },
+    {
+      "id": "armor-reeds",
+      "name": "葦の地シリーズ",
+      "category": "armor",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "入手先と確認手順。性能数値・全ルートは未収録。"
+    },
+    {
+      "id": "armor-astrologer",
+      "name": "星見シリーズ",
+      "category": "armor",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "入手先と確認手順。性能数値・全ルートは未収録。"
+    },
+    {
+      "id": "armor-radahn",
+      "name": "ラダーンシリーズ",
+      "category": "armor",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "入手先と確認手順。性能数値・全ルートは未収録。"
+    },
+    {
+      "id": "armor-black-knife",
+      "name": "黒き刃シリーズ",
+      "category": "armor",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "入手先と確認手順。性能数値・全ルートは未収録。"
+    },
+    {
+      "id": "armor-cleanrot",
+      "name": "貴腐騎士シリーズ",
+      "category": "armor",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "入手先と確認手順。性能数値・全ルートは未収録。"
+    },
+    {
+      "id": "armor-solitude",
+      "name": "孤牢シリーズ",
+      "category": "armor",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "入手先と確認手順。性能数値・全ルートは未収録。"
+    },
+    {
+      "id": "armor-oathseeker",
+      "name": "誓約騎士シリーズ",
+      "category": "armor",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "入手先と確認手順。性能数値・全ルートは未収録。"
+    },
+    {
+      "id": "talisman-claw",
+      "name": "爪のタリスマン",
+      "category": "talisman",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "入手先と確認手順。性能数値・全ルートは未収録。"
+    },
+    {
+      "id": "talisman-axe",
+      "name": "斧のタリスマン",
+      "category": "talisman",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "入手先と確認手順。性能数値・全ルートは未収録。"
+    },
+    {
+      "id": "talisman-curved",
+      "name": "曲剣のタリスマン",
+      "category": "talisman",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "入手先と確認手順。性能数値・全ルートは未収録。"
+    },
+    {
+      "id": "talisman-radagon-icon",
+      "name": "ラダゴンの肖像",
+      "category": "talisman",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "入手先と確認手順。性能数値・全ルートは未収録。"
+    },
+    {
+      "id": "talisman-soreseal",
+      "name": "ラダゴンの爛れ刻印",
+      "category": "talisman",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "入手先と確認手順。性能数値・全ルートは未収録。"
+    },
+    {
+      "id": "talisman-erdtree",
+      "name": "黄金樹の恩寵（通常版）",
+      "category": "talisman",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "入手先と確認手順。性能数値・全ルートは未収録。"
+    },
+    {
+      "id": "talisman-ritual-sword",
+      "name": "捧闘の剣のタリスマン",
+      "category": "talisman",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "入手先と確認手順。性能数値・全ルートは未収録。"
+    },
+    {
+      "id": "talisman-gold-scarab",
+      "name": "金のスカラベ",
+      "category": "talisman",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "入手先と確認手順。性能数値・全ルートは未収録。"
+    },
+    {
+      "id": "talisman-dragoncrest",
+      "name": "竜印の大盾のタリスマン",
+      "category": "talisman",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "入手先と確認手順。性能数値・全ルートは未収録。"
+    },
+    {
+      "id": "talisman-alexander",
+      "name": "アレキサンダーの破片",
+      "category": "talisman",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "入手先と確認手順。性能数値・全ルートは未収録。"
+    },
+    {
+      "id": "talisman-two-turtle",
+      "name": "双頭亀のタリスマン",
+      "category": "talisman",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "入手先と確認手順。性能数値・全ルートは未収録。"
+    },
+    {
+      "id": "talisman-two-handed",
+      "name": "両手剣のタリスマン",
+      "category": "talisman",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "入手先と確認手順。性能数値・全ルートは未収録。"
+    },
+    {
+      "id": "npc-ranni-intro",
+      "name": "ラニ：仕官まで",
+      "category": "npc",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "導入〜仕官の2段階。後半は関連武器の入手先概要のみ。"
+    },
+    {
+      "id": "npc-nepheli-early",
+      "name": "ネフェリ・ルー：円卓の報酬まで",
+      "category": "npc",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "序盤2段階のみ。後半の分岐は掲載外。"
+    },
+    {
+      "id": "npc-sellen-intro",
+      "name": "魔術師セレン：師事まで",
+      "category": "npc",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "出会い〜師事の2段階のみ。"
+    },
+    {
+      "id": "npc-thops",
+      "name": "魔術師トープス：学院での確認まで",
+      "category": "npc",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "鍵を渡して学院で確認するまでの3段階。"
+    },
+    {
+      "id": "npc-rya",
+      "name": "ラーヤ：火山館への案内まで",
+      "category": "npc",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "依頼〜火山館への案内の3段階。"
+    },
+    {
+      "id": "npc-patches-intro",
+      "name": "パッチ：降参を受け入れるまで",
+      "category": "npc",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "初対面〜生存確認の2段階。"
+    },
+    {
+      "id": "collect-physick",
+      "name": "霊薬の聖杯瓶",
+      "category": "collectible",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "指定の道具・地点1件。世界中の同種アイテムの全収集ではない。"
+    },
+    {
+      "id": "collect-whetstone",
+      "name": "砥石の小刀",
+      "category": "collectible",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "指定の道具・地点1件。世界中の同種アイテムの全収集ではない。"
+    },
+    {
+      "id": "collect-jellyfish",
+      "name": "霊クラゲの遺灰",
+      "category": "collectible",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "指定の道具・地点1件。世界中の同種アイテムの全収集ではない。"
+    },
+    {
+      "id": "collect-bearing-2",
+      "name": "鍛石掘りの鈴玉【2】",
+      "category": "collectible",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "指定の道具・地点1件。世界中の同種アイテムの全収集ではない。"
+    },
+    {
+      "id": "collect-somber-1",
+      "name": "喪色掘りの鈴玉【1】",
+      "category": "collectible",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "指定の道具・地点1件。世界中の同種アイテムの全収集ではない。"
+    },
+    {
+      "id": "collect-dectus-left",
+      "name": "デクタスの割符（左）",
+      "category": "collectible",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "指定の道具・地点1件。世界中の同種アイテムの全収集ではない。"
+    },
+    {
+      "id": "collect-dectus-right",
+      "name": "デクタスの割符（右）",
+      "category": "collectible",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "指定の道具・地点1件。世界中の同種アイテムの全収集ではない。"
+    },
+    {
+      "id": "collect-scadutree-consolation",
+      "name": "影樹の破片：慰めの教会",
+      "category": "collectible",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "指定の道具・地点1件。世界中の同種アイテムの全収集ではない。"
+    },
+    {
+      "id": "area-caelid",
+      "name": "ケイリッド",
+      "category": "area",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "入口・到達経路の概要。地域全体の探索完了を意味しない。"
+    },
+    {
+      "id": "area-altus",
+      "name": "アルター高原",
+      "category": "area",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "入口・到達経路の概要。地域全体の探索完了を意味しない。"
+    },
+    {
+      "id": "area-leyndell",
+      "name": "王都ローデイル（灰都化前）",
+      "category": "area",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "入口・到達経路の概要。地域全体の探索完了を意味しない。"
+    },
+    {
+      "id": "area-volcano",
+      "name": "火山館",
+      "category": "area",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "入口・到達経路の概要。地域全体の探索完了を意味しない。"
+    },
+    {
+      "id": "area-nokron",
+      "name": "永遠の都ノクローン",
+      "category": "area",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "入口・到達経路の概要。地域全体の探索完了を意味しない。"
+    },
+    {
+      "id": "area-farum",
+      "name": "崩れゆくファルムアズラ",
+      "category": "area",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "入口・到達経路の概要。地域全体の探索完了を意味しない。"
+    },
+    {
+      "id": "area-haligtree",
+      "name": "ミケラの聖樹",
+      "category": "area",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "入口・到達経路の概要。地域全体の探索完了を意味しない。"
+    },
+    {
+      "id": "area-gravesite",
+      "name": "墓地平原：DLCへの入口",
+      "category": "area",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "入口・到達経路の概要。地域全体の探索完了を意味しない。"
+    },
+    {
+      "id": "area-belurat",
+      "name": "塔の街、ベルラート",
+      "category": "area",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "入口・到達経路の概要。地域全体の探索完了を意味しない。"
+    },
+    {
+      "id": "area-ensis",
+      "name": "エンシスの城砦",
+      "category": "area",
+      "status": "構造・参照監査済み／実機未検証",
+      "missing": "入口・到達経路の概要。地域全体の探索完了を意味しない。"
+    }
+  ]
+}

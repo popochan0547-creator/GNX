@@ -1,0 +1,18 @@
+{
+  "datasetVersion": "21.0.0",
+  "articles": 524,
+  "collections": 449,
+  "syntheticCount": 10000,
+  "syntheticDataClaim": false,
+  "guideIndexMs": 4.726489999999998,
+  "guideQueries100Ms": 7.391055000000009,
+  "syntheticIndexMs": 40.49275399999999,
+  "syntheticQueries100Ms": 64.89924400000001,
+  "maxDOMCards": 40,
+  "bootBytes": 1727409,
+  "fullDataBytes": 2436593,
+  "fullBackupCharacters": 19338,
+  "limitKeys": 4096,
+  "limitJSONCharacters": 200000,
+  "note": "Node内の索引/検索測定。実スマホの初期転送・全DOM描画性能は未検証。全索引は一括読込。"
+}

@@ -1,0 +1,3039 @@
+[
+  {
+    "id": "v19-shield-buckler",
+    "name": "バックラー",
+    "category": "shield",
+    "subCategory": "小盾",
+    "regions": [
+      "stormveil"
+    ],
+    "location": "ストームヴィル正門のゴストーク",
+    "acquisition": "販売品から購入する。",
+    "conditions": "ゴストークが商店を開く進行まで会話・探索",
+    "sourceIds": [
+      "shield",
+      "shield-types",
+      "buckler"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-shield-guilty",
+    "name": "咎人の盾",
+    "category": "shield",
+    "subCategory": "小盾",
+    "regions": [
+      "weeping"
+    ],
+    "location": "亜人森の廃墟の地下",
+    "acquisition": "地下の宝箱を開ける。",
+    "conditions": "廃墟の地下入口を見つける",
+    "sourceIds": [
+      "shield",
+      "shield-types",
+      "small"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-shield-ice",
+    "name": "氷紋の鉄盾",
+    "category": "shield",
+    "subCategory": "小盾",
+    "regions": [
+      "liurnia"
+    ],
+    "location": "カーリアの城館・入口から北東の岩場",
+    "acquisition": "岩場の取得物を調べる。",
+    "conditions": "城館へ入る",
+    "sourceIds": [
+      "shield",
+      "shield-types",
+      "small"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-shield-coil",
+    "name": "蜷局の盾",
+    "category": "shield",
+    "subCategory": "小盾",
+    "regions": [
+      "gelmir"
+    ],
+    "location": "火山の洞窟・入口の祝福から穴を経た先",
+    "acquisition": "洞窟内の遺体を調べる。",
+    "conditions": "足場の落下先を確認して探索",
+    "sourceIds": [
+      "shield",
+      "shield-types",
+      "small"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-shield-heater",
+    "name": "ヒーターシールド",
+    "category": "shield",
+    "subCategory": "中盾",
+    "regions": [
+      "roundtable"
+    ],
+    "location": "円卓の双子の老婆",
+    "acquisition": "販売品を確認して購入する。",
+    "conditions": "円卓へ到達",
+    "sourceIds": [
+      "shield",
+      "shield-types"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-shield-beastcrest",
+    "name": "獣紋のヒーターシールド",
+    "category": "shield",
+    "subCategory": "中盾",
+    "regions": [
+      "limgrave"
+    ],
+    "location": "戦学びのボロ家の北東の野営地",
+    "acquisition": "野営地の宝箱を開ける。",
+    "conditions": "周囲の敵を警戒して野営地を探索",
+    "sourceIds": [
+      "shield",
+      "shield-types"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-shield-brass",
+    "name": "真鍮の盾",
+    "category": "shield",
+    "subCategory": "中盾",
+    "regions": [
+      "limgrave"
+    ],
+    "location": "関門前などの盾を持つ君主軍兵士",
+    "acquisition": "真鍮の盾を持つ兵士からのドロップを狙う。",
+    "conditions": "確率入手。撃破だけで取得済みにしない",
+    "sourceIds": [
+      "shield",
+      "shield-types"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-shield-turtle",
+    "name": "大亀の甲羅",
+    "category": "shield",
+    "subCategory": "中盾",
+    "regions": [
+      "weeping"
+    ],
+    "location": "モーンの城壁前付近の塔上",
+    "acquisition": "霊気流で塔へ上がり、頂上を調べる。",
+    "conditions": "霊馬を利用し着地先を確認",
+    "sourceIds": [
+      "shield",
+      "shield-types"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-shield-carian",
+    "name": "カーリアの騎士盾",
+    "category": "shield",
+    "subCategory": "中盾",
+    "regions": [
+      "academy"
+    ],
+    "location": "魔術学院レアルカリアのムーングラム",
+    "acquisition": "カーリア騎士ムーングラムを倒して入手する。",
+    "conditions": "学院内の大書庫へ向かう経路を進む",
+    "sourceIds": [
+      "shield",
+      "shield-types"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-shield-bluegold",
+    "name": "青金のカイトシールド",
+    "category": "shield",
+    "subCategory": "中盾",
+    "regions": [
+      "limgrave"
+    ],
+    "location": "霧の森南東の放浪の民の商人",
+    "acquisition": "商人の販売品から購入する。",
+    "conditions": "霧の森を通る際は熊を警戒",
+    "sourceIds": [
+      "shield",
+      "shield-types"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-shield-jelly",
+    "name": "クラゲの盾",
+    "category": "shield",
+    "subCategory": "大盾",
+    "regions": [
+      "liurnia"
+    ],
+    "location": "四鐘楼の麓から北の壊れた荷車",
+    "acquisition": "荷車の取得物を調べる。",
+    "conditions": "四鐘楼の麓の道沿いを探索",
+    "sourceIds": [
+      "shield",
+      "shield-types",
+      "jelly"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-shield-fingerprint",
+    "name": "指紋石の盾",
+    "category": "shield",
+    "subCategory": "大盾",
+    "regions": [
+      "leyndell"
+    ],
+    "location": "忌み捨ての大聖堂の奥・縦穴の足場",
+    "acquisition": "奥の隠し経路から足場を降り、遺体を調べる。",
+    "conditions": "地下のボスを越え、落下経路を慎重に探索。狂い火受領とは別の取得",
+    "sourceIds": [
+      "shield",
+      "shield-types",
+      "fingerprint"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-shield-visage",
+    "name": "ガンメンの盾",
+    "category": "shield",
+    "subCategory": "大盾",
+    "regions": [
+      "caelid"
+    ],
+    "location": "キレムの廃墟の地下",
+    "acquisition": "かぼちゃ兜の狂兵を倒し、奥の宝箱を開ける。",
+    "conditions": "廃墟の地下ボスに挑む",
+    "sourceIds": [
+      "shield",
+      "shield-types",
+      "visage"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-shield-erdtree",
+    "name": "黄金樹の大盾",
+    "category": "shield",
+    "subCategory": "大盾",
+    "regions": [
+      "altus"
+    ],
+    "location": "アルター街道の三叉路から王都へ向かう門",
+    "acquisition": "門前のツリーガード2体を倒して報酬を確認する。",
+    "conditions": "高原へ到達。リムグレイブの1体とは別戦闘",
+    "sourceIds": [
+      "shield",
+      "shield-types",
+      "erdtree"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-shield-ant",
+    "name": "蟻の頭甲",
+    "category": "shield",
+    "subCategory": "大盾",
+    "regions": [
+      "ainsel"
+    ],
+    "location": "ノクステラの階段を上がった側の建物",
+    "acquisition": "建物の宝箱を調べる。",
+    "conditions": "永遠の都ノクステラへ到達",
+    "sourceIds": [
+      "shield",
+      "shield-types"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-shield-crossed",
+    "name": "交差樹のタワーシールド",
+    "category": "shield",
+    "subCategory": "大盾",
+    "regions": [
+      "altus"
+    ],
+    "location": "森渡の大橋の商人",
+    "acquisition": "商人の販売品から購入する。",
+    "conditions": "アルター高原へ到達",
+    "sourceIds": [
+      "shield",
+      "shield-types"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-tear-crimson",
+    "name": "緋色の結晶雫",
+    "category": "crystal-tear",
+    "subCategory": "結晶雫",
+    "regions": [
+      "limgrave",
+      "leyndell"
+    ],
+    "location": "第三マリカ教会／王都外廓の小黄金樹",
+    "acquisition": "掲載地点の石の器を調べる。",
+    "conditions": "同名の2地点を1種類として記録。数量は保存しない",
+    "sourceIds": [
+      "tears",
+      "tears-gw"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "occurrences": [
+      {
+        "id": "v19-tear-crimson:location-1",
+        "location": "第三マリカ教会",
+        "quantity": null,
+        "verification": "source-reviewed"
+      },
+      {
+        "id": "v19-tear-crimson:location-2",
+        "location": "王都外廓の小黄金樹",
+        "quantity": null,
+        "verification": "source-reviewed"
+      }
+    ],
+    "multipleNote": "資料で同名の2入手先を確認。1種類の取得を1チェックで記録し、2個とも所持したかは判定しない。周回再入手は未検証。"
+  },
+  {
+    "id": "v19-tear-crimsonspill",
+    "name": "緋溢れの結晶雫",
+    "category": "crystal-tear",
+    "subCategory": "結晶雫",
+    "regions": [
+      "altus"
+    ],
+    "location": "高原の小黄金樹",
+    "acquisition": "ミミズ顔を倒して取得物を確認する。",
+    "conditions": "小黄金樹のボスへ到達",
+    "sourceIds": [
+      "tears",
+      "tears-gw"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-tear-crimsonburst",
+    "name": "緋湧きの結晶雫",
+    "category": "crystal-tear",
+    "subCategory": "結晶雫",
+    "regions": [
+      "weeping"
+    ],
+    "location": "啜り泣きの半島の小黄金樹",
+    "acquisition": "黄金樹の化身を倒す。",
+    "conditions": "半島の小黄金樹を探索",
+    "sourceIds": [
+      "tears",
+      "tears-gw"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-tear-cerulean",
+    "name": "青色の結晶雫",
+    "category": "crystal-tear",
+    "subCategory": "結晶雫",
+    "regions": [
+      "liurnia",
+      "mountaintops"
+    ],
+    "location": "リエーニエ西部／山嶺東部の小黄金樹",
+    "acquisition": "各地の黄金樹の化身の報酬を確認する。",
+    "conditions": "2地点は同名品の入手候補。取得チェックは1種類",
+    "sourceIds": [
+      "tears",
+      "tears-gw"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "occurrences": [
+      {
+        "id": "v19-tear-cerulean:location-1",
+        "location": "リエーニエ西部",
+        "quantity": null,
+        "verification": "source-reviewed"
+      },
+      {
+        "id": "v19-tear-cerulean:location-2",
+        "location": "山嶺東部の小黄金樹",
+        "quantity": null,
+        "verification": "source-reviewed"
+      }
+    ],
+    "multipleNote": "資料で同名の2入手先を確認。1種類の取得を1チェックで記録し、2個とも所持したかは判定しない。周回再入手は未検証。"
+  },
+  {
+    "id": "v19-tear-greenspill",
+    "name": "緑溢れの結晶雫",
+    "category": "crystal-tear",
+    "subCategory": "結晶雫",
+    "regions": [
+      "limgrave"
+    ],
+    "location": "霧の森の小黄金樹の根元",
+    "acquisition": "根元の器を調べる。",
+    "conditions": "小黄金樹の周囲を探索",
+    "sourceIds": [
+      "tears",
+      "tears-gw"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-tear-greenburst",
+    "name": "緑湧きの結晶雫",
+    "category": "crystal-tear",
+    "subCategory": "結晶雫",
+    "regions": [
+      "caelid"
+    ],
+    "location": "ケイリッド北西の小黄金樹",
+    "acquisition": "黄金樹の化身を倒す。",
+    "conditions": "小黄金樹のボスへ到達",
+    "sourceIds": [
+      "tears",
+      "tears-gw"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-tear-strength",
+    "name": "筋力瘤の結晶雫",
+    "category": "crystal-tear",
+    "subCategory": "結晶雫",
+    "regions": [
+      "limgrave"
+    ],
+    "location": "嵐丘のボロ家から北東のトロル付近",
+    "acquisition": "器の取得物を調べる。",
+    "conditions": "嵐丘の野外を探索",
+    "sourceIds": [
+      "tears",
+      "tears-gw"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-tear-dexterity",
+    "name": "技量瘤の結晶雫",
+    "category": "crystal-tear",
+    "subCategory": "結晶雫",
+    "regions": [
+      "liurnia"
+    ],
+    "location": "見晴らし島から北西の小島",
+    "acquisition": "島の器を調べる。",
+    "conditions": "湖の小島へ移動",
+    "sourceIds": [
+      "tears",
+      "tears-gw"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-tear-intelligence",
+    "name": "知力瘤の結晶雫",
+    "category": "crystal-tear",
+    "subCategory": "結晶雫",
+    "regions": [
+      "liurnia"
+    ],
+    "location": "城館への道から北東側の崖下",
+    "acquisition": "崖下の器を見つけて調べる。",
+    "conditions": "崖上からの落下に注意",
+    "sourceIds": [
+      "tears",
+      "tears-gw"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-tear-faith",
+    "name": "信仰瘤の結晶雫",
+    "category": "crystal-tear",
+    "subCategory": "結晶雫",
+    "regions": [
+      "weeping"
+    ],
+    "location": "亜人森の廃墟の北の花付近",
+    "acquisition": "器の取得物を調べる。",
+    "conditions": "大きな花の敵に注意",
+    "sourceIds": [
+      "tears",
+      "tears-gw"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-tear-opaline-hard",
+    "name": "真珠色の硬雫",
+    "category": "crystal-tear",
+    "subCategory": "硬雫",
+    "regions": [
+      "caelid"
+    ],
+    "location": "グレイオールの竜塚の小黄金樹",
+    "acquisition": "腐敗した化身を倒す。",
+    "conditions": "竜塚側の小黄金樹へ到達",
+    "sourceIds": [
+      "tears",
+      "tears-gw"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-tear-speckled",
+    "name": "斑彩色の硬雫",
+    "category": "crystal-tear",
+    "subCategory": "硬雫",
+    "regions": [
+      "altus"
+    ],
+    "location": "高原の小黄金樹",
+    "acquisition": "ミミズ顔を倒す。",
+    "conditions": "小黄金樹のボスへ到達",
+    "sourceIds": [
+      "tears",
+      "tears-gw"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-tear-leaden",
+    "name": "鉛色の硬雫",
+    "category": "crystal-tear",
+    "subCategory": "硬雫",
+    "regions": [
+      "gelmir"
+    ],
+    "location": "ゲルミア火山の小黄金樹",
+    "acquisition": "爛れた樹霊を倒す。",
+    "conditions": "火山の小黄金樹へ到達",
+    "sourceIds": [
+      "tears",
+      "tears-gw"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-tear-magic",
+    "name": "魔力纏いの割れ雫",
+    "category": "crystal-tear",
+    "subCategory": "割れ雫",
+    "regions": [
+      "liurnia"
+    ],
+    "location": "リエーニエ東部の小黄金樹",
+    "acquisition": "黄金樹の化身を倒す。",
+    "conditions": "東部の小黄金樹へ到達",
+    "sourceIds": [
+      "tears",
+      "tears-gw"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-tear-flame",
+    "name": "炎纏いの割れ雫",
+    "category": "crystal-tear",
+    "subCategory": "割れ雫",
+    "regions": [
+      "caelid"
+    ],
+    "location": "ケイリッド北西の小黄金樹",
+    "acquisition": "黄金樹の化身を倒す。",
+    "conditions": "ケイリッド側の小黄金樹を探索",
+    "sourceIds": [
+      "tears",
+      "tears-gw"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-tear-lightning",
+    "name": "雷纏いの割れ雫",
+    "category": "crystal-tear",
+    "subCategory": "割れ雫",
+    "regions": [
+      "liurnia"
+    ],
+    "location": "リエーニエ東部の小黄金樹",
+    "acquisition": "黄金樹の化身を倒す。",
+    "conditions": "東部の小黄金樹へ到達",
+    "sourceIds": [
+      "tears",
+      "tears-gw"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-tear-holy",
+    "name": "聖纏いの割れ雫",
+    "category": "crystal-tear",
+    "subCategory": "割れ雫",
+    "regions": [
+      "liurnia"
+    ],
+    "location": "リエーニエ東部の小黄金樹",
+    "acquisition": "黄金樹の化身を倒す。",
+    "conditions": "東部の小黄金樹へ到達",
+    "sourceIds": [
+      "tears",
+      "tears-gw"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-tear-stonebarb",
+    "name": "岩棘の割れ雫",
+    "category": "crystal-tear",
+    "subCategory": "割れ雫",
+    "regions": [
+      "caelid"
+    ],
+    "location": "グレイオールの竜塚の小黄金樹",
+    "acquisition": "腐敗した化身を倒す。",
+    "conditions": "竜塚側の小黄金樹へ到達",
+    "sourceIds": [
+      "tears",
+      "tears-gw"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-tear-spiked",
+    "name": "大棘の割れ雫",
+    "category": "crystal-tear",
+    "subCategory": "割れ雫",
+    "regions": [
+      "limgrave"
+    ],
+    "location": "霧の森の小黄金樹の根元",
+    "acquisition": "根元の器を調べる。",
+    "conditions": "霧の森の野外を探索",
+    "sourceIds": [
+      "tears",
+      "tears-gw"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-tear-thorny",
+    "name": "連棘の割れ雫",
+    "category": "crystal-tear",
+    "subCategory": "割れ雫",
+    "regions": [
+      "snowfield"
+    ],
+    "location": "聖別雪原の小黄金樹",
+    "acquisition": "腐敗した化身を倒す。",
+    "conditions": "聖別雪原へ到達",
+    "sourceIds": [
+      "tears",
+      "tears-gw"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-tear-twiggy",
+    "name": "細枝の割れ雫",
+    "category": "crystal-tear",
+    "subCategory": "割れ雫",
+    "regions": [
+      "leyndell"
+    ],
+    "location": "王都外廓の小黄金樹の根元",
+    "acquisition": "器を調べて回収する。",
+    "conditions": "王都外廓を探索",
+    "sourceIds": [
+      "tears",
+      "tears-gw"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-tear-winged",
+    "name": "羽の結晶雫",
+    "category": "crystal-tear",
+    "subCategory": "結晶雫",
+    "regions": [
+      "leyndell"
+    ],
+    "location": "王都外廓・世捨て商人のボロ家の東側の器",
+    "acquisition": "広場の器を調べる。",
+    "conditions": "王都外廓を探索",
+    "sourceIds": [
+      "tears",
+      "tears-gw",
+      "winged-en"
+    ],
+    "englishName": "Winged Crystal Tear",
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-tear-windy",
+    "name": "風の結晶雫",
+    "category": "crystal-tear",
+    "subCategory": "結晶雫",
+    "regions": [
+      "caelid"
+    ],
+    "location": "エオニア沼、南岸から街道沿いの窪地",
+    "acquisition": "窪地の器を調べる。",
+    "conditions": "南岸から南側を探索",
+    "sourceIds": [
+      "tears",
+      "tears-gw"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-tear-crimsonbubble",
+    "name": "緋色の泡雫",
+    "category": "crystal-tear",
+    "subCategory": "泡雫",
+    "regions": [
+      "mountaintops"
+    ],
+    "location": "山嶺東部の小黄金樹",
+    "acquisition": "黄金樹の化身を倒す。",
+    "conditions": "巨人たちの山嶺へ到達",
+    "sourceIds": [
+      "tears",
+      "tears-gw"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-tear-crimsonwhorl",
+    "name": "緋色渦の泡雫",
+    "category": "crystal-tear",
+    "subCategory": "泡雫",
+    "regions": [
+      "mountaintops"
+    ],
+    "location": "火の釜の麓から北東側の崖沿い",
+    "acquisition": "崖沿いを西へ進み器を調べる。",
+    "conditions": "火の頂の崖上を探索",
+    "sourceIds": [
+      "tears",
+      "tears-gw"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-tear-opaline",
+    "name": "真珠色の泡雫",
+    "category": "crystal-tear",
+    "subCategory": "泡雫",
+    "regions": [
+      "weeping"
+    ],
+    "location": "啜り泣きの半島の小黄金樹",
+    "acquisition": "黄金樹の化身を倒す。",
+    "conditions": "半島の小黄金樹へ到達",
+    "sourceIds": [
+      "tears",
+      "tears-gw"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-tear-hidden",
+    "name": "青色の秘雫",
+    "category": "crystal-tear",
+    "subCategory": "秘雫",
+    "regions": [
+      "gelmir"
+    ],
+    "location": "ゲルミア火山の小黄金樹",
+    "acquisition": "爛れた樹霊を倒す。",
+    "conditions": "火山の小黄金樹へ到達",
+    "sourceIds": [
+      "tears",
+      "tears-gw"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-book-nomadic-1",
+    "name": "放浪戦士の製法書【1】",
+    "category": "cookbook",
+    "subCategory": "放浪戦士の製法書",
+    "regions": [
+      "limgrave"
+    ],
+    "location": "エレの教会のカーレ",
+    "acquisition": "商人から該当する番号の本を購入する。",
+    "conditions": "販売品を確認する",
+    "sourceIds": [
+      "books",
+      "books-go"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-book-nomadic-2",
+    "name": "放浪戦士の製法書【2】",
+    "category": "cookbook",
+    "subCategory": "放浪戦士の製法書",
+    "regions": [
+      "limgrave"
+    ],
+    "location": "エレの教会のカーレ",
+    "acquisition": "商人から該当する番号の本を購入する。",
+    "conditions": "販売品を確認する",
+    "sourceIds": [
+      "books",
+      "books-go"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-book-nomadic-3",
+    "name": "放浪戦士の製法書【3】",
+    "category": "cookbook",
+    "subCategory": "放浪戦士の製法書",
+    "regions": [
+      "limgrave"
+    ],
+    "location": "呼び水の村の西の商人",
+    "acquisition": "商人から該当する番号の本を購入する。",
+    "conditions": "販売品を確認する",
+    "sourceIds": [
+      "books",
+      "books-go"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-book-nomadic-4",
+    "name": "放浪戦士の製法書【4】",
+    "category": "cookbook",
+    "subCategory": "放浪戦士の製法書",
+    "regions": [
+      "limgrave"
+    ],
+    "location": "第三マリカ教会の南・熊のいる木付近",
+    "acquisition": "遺体を調べる。",
+    "conditions": "掲載した探索先へ到達",
+    "sourceIds": [
+      "books",
+      "books-go"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-book-nomadic-5",
+    "name": "放浪戦士の製法書【5】",
+    "category": "cookbook",
+    "subCategory": "放浪戦士の製法書",
+    "regions": [
+      "limgrave"
+    ],
+    "location": "霧の森の廃墟の南東の商人",
+    "acquisition": "商人から該当する番号の本を購入する。",
+    "conditions": "販売品を確認する",
+    "sourceIds": [
+      "books",
+      "books-go"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-book-nomadic-6",
+    "name": "放浪戦士の製法書【6】",
+    "category": "cookbook",
+    "subCategory": "放浪戦士の製法書",
+    "regions": [
+      "limgrave"
+    ],
+    "location": "ハイト砦",
+    "acquisition": "施設内の取得物を調べる（細かな道順は未収録）。",
+    "conditions": "掲載した探索先へ到達",
+    "sourceIds": [
+      "books",
+      "books-go"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-book-nomadic-7",
+    "name": "放浪戦士の製法書【7】",
+    "category": "cookbook",
+    "subCategory": "放浪戦士の製法書",
+    "regions": [
+      "limgrave"
+    ],
+    "location": "嵐丘のボロ家の北の壊れた橋",
+    "acquisition": "遺体を調べる。",
+    "conditions": "掲載した探索先へ到達",
+    "sourceIds": [
+      "books",
+      "books-go"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-book-nomadic-8",
+    "name": "放浪戦士の製法書【8】",
+    "category": "cookbook",
+    "subCategory": "放浪戦士の製法書",
+    "regions": [
+      "weeping"
+    ],
+    "location": "霊廟ヶ原の洞窟",
+    "acquisition": "施設内の取得物を調べる（細かな道順は未収録）。",
+    "conditions": "掲載した探索先へ到達",
+    "sourceIds": [
+      "books",
+      "books-go"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-book-nomadic-9",
+    "name": "放浪戦士の製法書【9】",
+    "category": "cookbook",
+    "subCategory": "放浪戦士の製法書",
+    "regions": [
+      "weeping"
+    ],
+    "location": "霊廟ヶ原の地下墓・インプ像の奥",
+    "acquisition": "封印の奥を調べる。",
+    "conditions": "石剣の鍵で封印を開ける",
+    "sourceIds": [
+      "books",
+      "books-go"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-book-nomadic-10",
+    "name": "放浪戦士の製法書【10】",
+    "category": "cookbook",
+    "subCategory": "放浪戦士の製法書",
+    "regions": [
+      "stormveil"
+    ],
+    "location": "城内の中庭",
+    "acquisition": "遺体を調べる。",
+    "conditions": "掲載した探索先へ到達",
+    "sourceIds": [
+      "books",
+      "books-go"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-book-nomadic-11",
+    "name": "放浪戦士の製法書【11】",
+    "category": "cookbook",
+    "subCategory": "放浪戦士の製法書",
+    "regions": [
+      "liurnia"
+    ],
+    "location": "リエーニエ湖の岸辺の商人",
+    "acquisition": "商人から該当する番号の本を購入する。",
+    "conditions": "販売品を確認する",
+    "sourceIds": [
+      "books",
+      "books-go"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-book-nomadic-12",
+    "name": "放浪戦士の製法書【12】",
+    "category": "cookbook",
+    "subCategory": "放浪戦士の製法書",
+    "regions": [
+      "liurnia"
+    ],
+    "location": "バラ教会の内部",
+    "acquisition": "遺体を調べる。",
+    "conditions": "掲載した探索先へ到達",
+    "sourceIds": [
+      "books",
+      "books-go"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-book-nomadic-13",
+    "name": "放浪戦士の製法書【13】",
+    "category": "cookbook",
+    "subCategory": "放浪戦士の製法書",
+    "regions": [
+      "liurnia"
+    ],
+    "location": "ベイルム教会の北の商人",
+    "acquisition": "商人から該当する番号の本を購入する。",
+    "conditions": "販売品を確認する",
+    "sourceIds": [
+      "books",
+      "books-go"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-book-nomadic-14",
+    "name": "放浪戦士の製法書【14】",
+    "category": "cookbook",
+    "subCategory": "放浪戦士の製法書",
+    "regions": [
+      "caelid"
+    ],
+    "location": "燻り教会",
+    "acquisition": "遺体を調べる。",
+    "conditions": "掲載した探索先へ到達",
+    "sourceIds": [
+      "books",
+      "books-go"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-book-nomadic-15",
+    "name": "放浪戦士の製法書【15】",
+    "category": "cookbook",
+    "subCategory": "放浪戦士の製法書",
+    "regions": [
+      "caelid"
+    ],
+    "location": "エオニア沼、南岸から南西の商人",
+    "acquisition": "商人から該当する番号の本を購入する。",
+    "conditions": "販売品を確認する",
+    "sourceIds": [
+      "books",
+      "books-go"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-book-nomadic-16",
+    "name": "放浪戦士の製法書【16】",
+    "category": "cookbook",
+    "subCategory": "放浪戦士の製法書",
+    "regions": [
+      "ainsel"
+    ],
+    "location": "ウルの王朝遺跡の奥の商人",
+    "acquisition": "商人から該当する番号の本を購入する。",
+    "conditions": "販売品を確認する",
+    "sourceIds": [
+      "books",
+      "books-go"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-book-nomadic-17",
+    "name": "放浪戦士の製法書【17】",
+    "category": "cookbook",
+    "subCategory": "放浪戦士の製法書",
+    "regions": [
+      "siofra"
+    ],
+    "location": "信奉者の森近くの商人",
+    "acquisition": "商人から該当する番号の本を購入する。",
+    "conditions": "販売品を確認する",
+    "sourceIds": [
+      "books",
+      "books-go"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-book-nomadic-18",
+    "name": "放浪戦士の製法書【18】",
+    "category": "cookbook",
+    "subCategory": "放浪戦士の製法書",
+    "regions": [
+      "siofra"
+    ],
+    "location": "信奉者の森近くの商人",
+    "acquisition": "商人から該当する番号の本を購入する。",
+    "conditions": "販売品を確認する",
+    "sourceIds": [
+      "books",
+      "books-go"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-book-nomadic-19",
+    "name": "放浪戦士の製法書【19】",
+    "category": "cookbook",
+    "subCategory": "放浪戦士の製法書",
+    "regions": [
+      "altus"
+    ],
+    "location": "森の民の廃墟",
+    "acquisition": "遺体を調べる。",
+    "conditions": "掲載した探索先へ到達",
+    "sourceIds": [
+      "books",
+      "books-go"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-book-nomadic-20",
+    "name": "放浪戦士の製法書【20】",
+    "category": "cookbook",
+    "subCategory": "放浪戦士の製法書",
+    "regions": [
+      "gelmir"
+    ],
+    "location": "九合目へ上がる途中の梯子の先の商人",
+    "acquisition": "商人から該当する番号の本を購入する。",
+    "conditions": "販売品を確認する",
+    "sourceIds": [
+      "books",
+      "books-go"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-book-nomadic-21",
+    "name": "放浪戦士の製法書【21】",
+    "category": "cookbook",
+    "subCategory": "放浪戦士の製法書",
+    "regions": [
+      "gelmir"
+    ],
+    "location": "火山館の客間から隠し通路の奥",
+    "acquisition": "遺体を調べる。",
+    "conditions": "掲載した探索先へ到達",
+    "sourceIds": [
+      "books",
+      "books-go"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-book-nomadic-22",
+    "name": "放浪戦士の製法書【22】",
+    "category": "cookbook",
+    "subCategory": "放浪戦士の製法書",
+    "regions": [
+      "ainsel"
+    ],
+    "location": "腐れ湖の大回廊・建物の外の西側",
+    "acquisition": "宝箱を開ける。",
+    "conditions": "掲載した探索先へ到達",
+    "sourceIds": [
+      "books",
+      "books-go"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-book-nomadic-23",
+    "name": "放浪戦士の製法書【23】",
+    "category": "cookbook",
+    "subCategory": "放浪戦士の製法書",
+    "regions": [
+      "snowfield"
+    ],
+    "location": "聖別雪原の祝福の付近",
+    "acquisition": "遺体を調べる。",
+    "conditions": "掲載した探索先へ到達",
+    "sourceIds": [
+      "books",
+      "books-go"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-book-nomadic-24",
+    "name": "放浪戦士の製法書【24】",
+    "category": "cookbook",
+    "subCategory": "放浪戦士の製法書",
+    "regions": [
+      "mohgwyn"
+    ],
+    "location": "王朝に至る崖路から北西",
+    "acquisition": "遺体を調べる。",
+    "conditions": "掲載した探索先へ到達",
+    "sourceIds": [
+      "books",
+      "books-go"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-book-armorer-1",
+    "name": "武具職人の製法書【1】",
+    "category": "cookbook",
+    "subCategory": "武具職人の製法書",
+    "regions": [
+      "limgrave"
+    ],
+    "location": "アギール湖北の北東の野営地",
+    "acquisition": "遺体を調べる。",
+    "conditions": "掲載した探索先へ到達",
+    "sourceIds": [
+      "books",
+      "books-go"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-book-armorer-2",
+    "name": "武具職人の製法書【2】",
+    "category": "cookbook",
+    "subCategory": "武具職人の製法書",
+    "regions": [
+      "limgrave"
+    ],
+    "location": "海岸の洞窟近くの商人",
+    "acquisition": "商人から該当する番号の本を購入する。",
+    "conditions": "販売品を確認する",
+    "sourceIds": [
+      "books",
+      "books-go"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-book-armorer-3",
+    "name": "武具職人の製法書【3】",
+    "category": "cookbook",
+    "subCategory": "武具職人の製法書",
+    "regions": [
+      "limgrave"
+    ],
+    "location": "霧の森南東の商人",
+    "acquisition": "商人から該当する番号の本を購入する。",
+    "conditions": "販売品を確認する",
+    "sourceIds": [
+      "books",
+      "books-go"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-book-armorer-4",
+    "name": "武具職人の製法書【4】",
+    "category": "cookbook",
+    "subCategory": "武具職人の製法書",
+    "regions": [
+      "caelid"
+    ],
+    "location": "赤獅子城",
+    "acquisition": "施設内の取得物を調べる（細かな道順は未収録）。",
+    "conditions": "掲載した探索先へ到達",
+    "sourceIds": [
+      "books",
+      "books-go"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-book-armorer-5",
+    "name": "武具職人の製法書【5】",
+    "category": "cookbook",
+    "subCategory": "武具職人の製法書",
+    "regions": [
+      "caelid"
+    ],
+    "location": "赤獅子城",
+    "acquisition": "施設内の取得物を調べる（細かな道順は未収録）。",
+    "conditions": "掲載した探索先へ到達",
+    "sourceIds": [
+      "books",
+      "books-go"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-book-armorer-6",
+    "name": "武具職人の製法書【6】",
+    "category": "cookbook",
+    "subCategory": "武具職人の製法書",
+    "regions": [
+      "siofra"
+    ],
+    "location": "シーフラ河、岸辺の左側の段差の上",
+    "acquisition": "遺体を調べる。",
+    "conditions": "掲載した探索先へ到達",
+    "sourceIds": [
+      "books",
+      "books-go"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-book-armorer-7",
+    "name": "武具職人の製法書【7】",
+    "category": "cookbook",
+    "subCategory": "武具職人の製法書",
+    "regions": [
+      "gelmir"
+    ],
+    "location": "ライード砦",
+    "acquisition": "施設内の取得物を調べる（細かな道順は未収録）。",
+    "conditions": "掲載した探索先へ到達",
+    "sourceIds": [
+      "books",
+      "books-go"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-book-glintstone-1",
+    "name": "輝石職人の製法書【1】",
+    "category": "cookbook",
+    "subCategory": "輝石職人の製法書",
+    "regions": [
+      "liurnia"
+    ],
+    "location": "湖を臨む断崖の北の兵士野営地",
+    "acquisition": "遺体を調べる。",
+    "conditions": "掲載した探索先へ到達",
+    "sourceIds": [
+      "books",
+      "books-go"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-book-glintstone-2",
+    "name": "輝石職人の製法書【2】",
+    "category": "cookbook",
+    "subCategory": "輝石職人の製法書",
+    "regions": [
+      "liurnia"
+    ],
+    "location": "ラスカーの廃墟の祝福の近く",
+    "acquisition": "遺体を調べる。",
+    "conditions": "掲載した探索先へ到達",
+    "sourceIds": [
+      "books",
+      "books-go"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-book-glintstone-3",
+    "name": "輝石職人の製法書【3】",
+    "category": "cookbook",
+    "subCategory": "輝石職人の製法書",
+    "regions": [
+      "liurnia"
+    ],
+    "location": "街道見張りの塔",
+    "acquisition": "宝箱を開ける。",
+    "conditions": "掲載した探索先へ到達",
+    "sourceIds": [
+      "books",
+      "books-go"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-book-glintstone-4",
+    "name": "輝石職人の製法書【4】",
+    "category": "cookbook",
+    "subCategory": "輝石職人の製法書",
+    "regions": [
+      "liurnia"
+    ],
+    "location": "学院の門前町の中央",
+    "acquisition": "宝箱を開ける。",
+    "conditions": "掲載した探索先へ到達",
+    "sourceIds": [
+      "books",
+      "books-go"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-book-glintstone-5",
+    "name": "輝石職人の製法書【5】",
+    "category": "cookbook",
+    "subCategory": "輝石職人の製法書",
+    "regions": [
+      "academy"
+    ],
+    "location": "学び舎の一室から左の部屋",
+    "acquisition": "宝箱を開ける。",
+    "conditions": "掲載した探索先へ到達",
+    "sourceIds": [
+      "books",
+      "books-go"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-book-glintstone-6",
+    "name": "輝石職人の製法書【6】",
+    "category": "cookbook",
+    "subCategory": "輝石職人の製法書",
+    "regions": [
+      "liurnia"
+    ],
+    "location": "カーリアの城館・入口付近",
+    "acquisition": "遺体を調べる。",
+    "conditions": "掲載した探索先へ到達",
+    "sourceIds": [
+      "books",
+      "books-go"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "needs-review",
+    "verificationLevel": "review",
+    "gameplayTested": false,
+    "sourceDifference": "城館内の向き・小部屋の説明に資料差があるため、入口付近という範囲に限定。詳細経路は要再検証。"
+  },
+  {
+    "id": "v19-book-glintstone-7",
+    "name": "輝石職人の製法書【7】",
+    "category": "cookbook",
+    "subCategory": "輝石職人の製法書",
+    "regions": [
+      "liurnia"
+    ],
+    "location": "カーリアの城館のピディ",
+    "acquisition": "商人から該当する番号の本を購入する。",
+    "conditions": "販売品を確認する",
+    "sourceIds": [
+      "books",
+      "books-go"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-book-glintstone-8",
+    "name": "輝石職人の製法書【8】",
+    "category": "cookbook",
+    "subCategory": "輝石職人の製法書",
+    "regions": [
+      "snowfield"
+    ],
+    "location": "しろがねの魔術師塔の南西の魔術師塊付近",
+    "acquisition": "遺体を調べる。",
+    "conditions": "掲載した探索先へ到達",
+    "sourceIds": [
+      "books",
+      "books-go"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-spell-pebble",
+    "name": "輝石のつぶて",
+    "category": "sorcery",
+    "subCategory": "商人から購入",
+    "regions": [
+      "limgrave"
+    ],
+    "location": "宿場跡の地下のセレン",
+    "acquisition": "セレンの販売品から購入する。",
+    "conditions": "宿場跡の地下ボスを越えて師事する",
+    "sourceIds": [
+      "sorcery",
+      "sorcery-g8"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-spell-swift",
+    "name": "輝石の速つぶて",
+    "category": "sorcery",
+    "subCategory": "スクロール購入",
+    "regions": [
+      "limgrave",
+      "liurnia"
+    ],
+    "location": "スクロールを渡せる魔術の師",
+    "acquisition": "学院のスクロールを渡して購入する。",
+    "conditions": "学院のスクロールを入手",
+    "sourceIds": [
+      "sorcery",
+      "sorcery-g8"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-spell-great",
+    "name": "輝石の大つぶて",
+    "category": "sorcery",
+    "subCategory": "スクロール購入",
+    "regions": [
+      "limgrave",
+      "liurnia"
+    ],
+    "location": "スクロールを渡せる魔術の師",
+    "acquisition": "学院のスクロールを渡して購入する。",
+    "conditions": "学院のスクロールを入手",
+    "sourceIds": [
+      "sorcery",
+      "sorcery-g8"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-spell-shard",
+    "name": "輝石の彗星",
+    "category": "sorcery",
+    "subCategory": "スクロール購入",
+    "regions": [
+      "limgrave",
+      "liurnia"
+    ],
+    "location": "スクロールを渡せる魔術の師",
+    "acquisition": "教室のスクロールを渡して購入する。",
+    "conditions": "教室のスクロールを入手",
+    "sourceIds": [
+      "sorcery",
+      "sorcery-g8"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-spell-stars",
+    "name": "輝石の流星",
+    "category": "sorcery",
+    "subCategory": "商人から購入",
+    "regions": [
+      "limgrave"
+    ],
+    "location": "宿場跡の地下のセレン",
+    "acquisition": "販売品から購入する。",
+    "conditions": "セレンへの師事",
+    "sourceIds": [
+      "sorcery",
+      "sorcery-g8"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-spell-shower",
+    "name": "流星群",
+    "category": "sorcery",
+    "subCategory": "スクロール購入",
+    "regions": [
+      "limgrave",
+      "liurnia"
+    ],
+    "location": "スクロールを渡せる魔術の師",
+    "acquisition": "教室のスクロールを渡して購入する。",
+    "conditions": "教室のスクロールを入手",
+    "sourceIds": [
+      "sorcery",
+      "sorcery-g8"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-spell-arc",
+    "name": "輝石のアーク",
+    "category": "sorcery",
+    "subCategory": "商人から購入",
+    "regions": [
+      "limgrave"
+    ],
+    "location": "宿場跡の地下のセレン",
+    "acquisition": "販売品から購入する。",
+    "conditions": "セレンへの師事",
+    "sourceIds": [
+      "sorcery",
+      "sorcery-g8"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-spell-barrage",
+    "name": "結晶連弾",
+    "category": "sorcery",
+    "subCategory": "商人から購入",
+    "regions": [
+      "limgrave"
+    ],
+    "location": "宿場跡の地下のセレン",
+    "acquisition": "販売品から購入する。",
+    "conditions": "セレンへの師事",
+    "sourceIds": [
+      "sorcery",
+      "sorcery-g8"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-spell-burst",
+    "name": "結晶散弾",
+    "category": "sorcery",
+    "subCategory": "撃破報酬",
+    "regions": [
+      "weeping"
+    ],
+    "location": "亜人森の廃墟",
+    "acquisition": "大型の亜人の魔術師を倒す。",
+    "conditions": "廃墟の魔術師へ到達",
+    "sourceIds": [
+      "sorcery",
+      "sorcery-g8"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-spell-rockblaster",
+    "name": "岩盤発破",
+    "category": "sorcery",
+    "subCategory": "探索で入手",
+    "regions": [
+      "caelid"
+    ],
+    "location": "サリアの結晶坑道",
+    "acquisition": "坑道内の宝箱を調べる。",
+    "conditions": "坑道内を探索",
+    "sourceIds": [
+      "sorcery",
+      "sorcery-g8"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-spell-starlight",
+    "name": "星灯り",
+    "category": "sorcery",
+    "subCategory": "商人から購入",
+    "regions": [
+      "liurnia"
+    ],
+    "location": "イリス教会のトープス",
+    "acquisition": "販売品から購入する。",
+    "conditions": "トープスに話す",
+    "sourceIds": [
+      "sorcery",
+      "sorcery-g8"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-spell-glintblade",
+    "name": "魔術の輝剣",
+    "category": "sorcery",
+    "subCategory": "商人から購入",
+    "regions": [
+      "liurnia"
+    ],
+    "location": "結びの教会のミリエル",
+    "acquisition": "販売品から購入する。",
+    "conditions": "結びの教会へ到達",
+    "sourceIds": [
+      "sorcery",
+      "sorcery-g8"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-spell-phalanx",
+    "name": "輝剣の円陣",
+    "category": "sorcery",
+    "subCategory": "スクロール購入",
+    "regions": [
+      "limgrave",
+      "liurnia"
+    ],
+    "location": "スクロールを渡せる魔術の師",
+    "acquisition": "王家のスクロールを渡して購入する。",
+    "conditions": "王家のスクロールを入手",
+    "sourceIds": [
+      "sorcery",
+      "sorcery-g8"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-spell-greatphalanx",
+    "name": "巨剣陣",
+    "category": "sorcery",
+    "subCategory": "撃破報酬",
+    "regions": [
+      "liurnia"
+    ],
+    "location": "カッコウの封牢",
+    "acquisition": "カーリア騎士ボルスを倒す。",
+    "conditions": "封牢へ到達",
+    "sourceIds": [
+      "sorcery",
+      "sorcery-g8"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-spell-fullmoon",
+    "name": "レナラの満月",
+    "category": "sorcery",
+    "subCategory": "追憶交換",
+    "regions": [
+      "roundtable"
+    ],
+    "location": "円卓の指読みエンヤ",
+    "acquisition": "満月の女王の追憶から交換する。",
+    "conditions": "レナラを倒して追憶を得る",
+    "sourceIds": [
+      "sorcery",
+      "sorcery-g8"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-spell-slicer",
+    "name": "カーリアの速剣",
+    "category": "sorcery",
+    "subCategory": "スクロール購入",
+    "regions": [
+      "limgrave",
+      "liurnia"
+    ],
+    "location": "スクロールを渡せる魔術の師",
+    "acquisition": "王家のスクロールを渡して購入する。",
+    "conditions": "王家のスクロールを入手",
+    "sourceIds": [
+      "sorcery",
+      "sorcery-g8"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-spell-greatsword",
+    "name": "カーリアの大剣",
+    "category": "sorcery",
+    "subCategory": "商人から購入",
+    "regions": [
+      "liurnia"
+    ],
+    "location": "結びの教会のミリエル",
+    "acquisition": "販売品から購入する。",
+    "conditions": "結びの教会へ到達",
+    "sourceIds": [
+      "sorcery",
+      "sorcery-g8"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-spell-piercer",
+    "name": "カーリアの貫き",
+    "category": "sorcery",
+    "subCategory": "スカラベ",
+    "regions": [
+      "liurnia"
+    ],
+    "location": "カーリアの城館正門から北東側",
+    "acquisition": "スカラベを見つけて倒す。",
+    "conditions": "城館内を探索",
+    "sourceIds": [
+      "sorcery",
+      "sorcery-g8"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-spell-adula",
+    "name": "アデューラの月の剣",
+    "category": "sorcery",
+    "subCategory": "撃破報酬",
+    "regions": [
+      "moonlight"
+    ],
+    "location": "マヌス・セリスの大教会付近",
+    "acquisition": "この場所の輝石竜アデューラを倒す。",
+    "conditions": "月光の祭壇への到達。序盤の城館付近の遭遇とは区別",
+    "sourceIds": [
+      "sorcery",
+      "sorcery-g8"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-spell-loretta",
+    "name": "ローレッタの大弓",
+    "category": "sorcery",
+    "subCategory": "撃破報酬",
+    "regions": [
+      "liurnia"
+    ],
+    "location": "カーリアの城館",
+    "acquisition": "親衛騎士ローレッタを倒す。",
+    "conditions": "城館のボスへ到達",
+    "sourceIds": [
+      "sorcery",
+      "sorcery-g8"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-spell-mastery",
+    "name": "ローレッタの絶技",
+    "category": "sorcery",
+    "subCategory": "撃破報酬",
+    "regions": [
+      "haligtree"
+    ],
+    "location": "ミケラの聖樹",
+    "acquisition": "聖樹の騎士ローレッタを倒す。",
+    "conditions": "聖樹のボスへ到達",
+    "sourceIds": [
+      "sorcery",
+      "sorcery-g8"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-spell-ambush",
+    "name": "奇襲のつぶて",
+    "category": "sorcery",
+    "subCategory": "探索で入手",
+    "regions": [
+      "weeping"
+    ],
+    "location": "魔女封じの廃墟",
+    "acquisition": "廃墟の遺体を調べる。",
+    "conditions": "地下の取得物を探索",
+    "sourceIds": [
+      "sorcery",
+      "sorcery-g8"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-spell-zamor",
+    "name": "ザミェルの氷嵐",
+    "category": "sorcery",
+    "subCategory": "探索で入手",
+    "regions": [
+      "mountaintops"
+    ],
+    "location": "ザミェルの廃墟",
+    "acquisition": "廃墟内の遺体を調べる。",
+    "conditions": "山嶺へ到達",
+    "sourceIds": [
+      "sorcery",
+      "sorcery-g8"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-spell-nightcomet",
+    "name": "夜の彗星",
+    "category": "sorcery",
+    "subCategory": "探索で入手",
+    "regions": [
+      "caelid"
+    ],
+    "location": "魔術街サリアの封印された宝箱",
+    "acquisition": "街の燭台を灯して宝箱の封印を解き回収する。",
+    "conditions": "サリアの封印解除",
+    "sourceIds": [
+      "night",
+      "sorcery"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-prayer-urgent",
+    "name": "性急な回復",
+    "category": "incantation",
+    "subCategory": "商人から購入",
+    "regions": [
+      "roundtable"
+    ],
+    "location": "円卓のコリン",
+    "acquisition": "コリンから購入する。",
+    "conditions": "円卓で販売品を確認",
+    "sourceIds": [
+      "prayer"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-prayer-cure",
+    "name": "毒の治癒",
+    "category": "incantation",
+    "subCategory": "商人から購入",
+    "regions": [
+      "roundtable"
+    ],
+    "location": "円卓のコリン",
+    "acquisition": "コリンから購入する。",
+    "conditions": "円卓で販売品を確認",
+    "sourceIds": [
+      "prayer"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-prayer-heal",
+    "name": "回復",
+    "category": "incantation",
+    "subCategory": "商人から購入",
+    "regions": [
+      "roundtable"
+    ],
+    "location": "円卓のコリン",
+    "acquisition": "コリンから購入する。",
+    "conditions": "円卓で販売品を確認",
+    "sourceIds": [
+      "prayer"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-prayer-magic",
+    "name": "魔力防護",
+    "category": "incantation",
+    "subCategory": "商人から購入",
+    "regions": [
+      "roundtable"
+    ],
+    "location": "円卓のコリン",
+    "acquisition": "コリンから購入する。",
+    "conditions": "円卓で販売品を確認",
+    "sourceIds": [
+      "prayer"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-prayer-flame",
+    "name": "炎防護",
+    "category": "incantation",
+    "subCategory": "商人から購入",
+    "regions": [
+      "roundtable"
+    ],
+    "location": "円卓のコリン",
+    "acquisition": "コリンから購入する。",
+    "conditions": "円卓で販売品を確認",
+    "sourceIds": [
+      "prayer"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-prayer-rejection",
+    "name": "拒絶",
+    "category": "incantation",
+    "subCategory": "商人から購入",
+    "regions": [
+      "roundtable"
+    ],
+    "location": "円卓のコリン",
+    "acquisition": "コリンから購入する。",
+    "conditions": "円卓で販売品を確認",
+    "sourceIds": [
+      "prayer"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-prayer-blessing",
+    "name": "恵みの祝福",
+    "category": "incantation",
+    "subCategory": "商人から購入",
+    "regions": [
+      "liurnia"
+    ],
+    "location": "結びの教会のミリエル",
+    "acquisition": "販売品から購入する。",
+    "conditions": "結びの教会へ到達",
+    "sourceIds": [
+      "prayer"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-prayer-lightningspear",
+    "name": "雷の槍",
+    "category": "incantation",
+    "subCategory": "祈祷書購入",
+    "regions": [
+      "liurnia"
+    ],
+    "location": "絵描きのボロ家の南の騎士→祈祷の師",
+    "acquisition": "騎士から竜信仰の祈祷書を得て、師へ渡して購入する。",
+    "conditions": "竜信仰の祈祷書",
+    "sourceIds": [
+      "prayer"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-prayer-honed",
+    "name": "狙いすます雷撃",
+    "category": "incantation",
+    "subCategory": "祈祷書購入",
+    "regions": [
+      "liurnia"
+    ],
+    "location": "絵描きのボロ家の南の騎士→祈祷の師",
+    "acquisition": "竜信仰の祈祷書を渡して購入する。",
+    "conditions": "祈祷書を落とす騎士を倒す",
+    "sourceIds": [
+      "prayer"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-prayer-electrify",
+    "name": "雷の武器",
+    "category": "incantation",
+    "subCategory": "祈祷書購入",
+    "regions": [
+      "liurnia"
+    ],
+    "location": "絵描きのボロ家の南の騎士→祈祷の師",
+    "acquisition": "竜信仰の祈祷書を渡して購入する。",
+    "conditions": "祈祷書を落とす騎士を倒す",
+    "sourceIds": [
+      "prayer"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-prayer-dragonbolt",
+    "name": "竜雷の加護",
+    "category": "incantation",
+    "subCategory": "探索で入手",
+    "regions": [
+      "altus"
+    ],
+    "location": "雷呼びの教会",
+    "acquisition": "教会内の取得物を調べる。",
+    "conditions": "アルター高原へ到達",
+    "sourceIds": [
+      "prayer"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-prayer-vyke",
+    "name": "ヴァイクの竜雷",
+    "category": "incantation",
+    "subCategory": "撃破報酬",
+    "regions": [
+      "mountaintops"
+    ],
+    "location": "王に近づいた者の封牢",
+    "acquisition": "ヴァイクを倒す。",
+    "conditions": "山嶺の封牢へ到達",
+    "sourceIds": [
+      "prayer"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-prayer-frozen",
+    "name": "氷の雷槍",
+    "category": "incantation",
+    "subCategory": "撃破報酬",
+    "regions": [
+      "ainsel"
+    ],
+    "location": "ノクステラの竜人兵の戦場",
+    "acquisition": "竜人兵を倒して報酬を確認する。",
+    "conditions": "エインセル河を探索",
+    "sourceIds": [
+      "prayer"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-prayer-fortissax",
+    "name": "フォルサクスの雷槍",
+    "category": "incantation",
+    "subCategory": "追憶交換",
+    "regions": [
+      "roundtable"
+    ],
+    "location": "円卓の指読みエンヤ",
+    "acquisition": "死竜の追憶から交換する。",
+    "conditions": "フィア側を進めフォルサクスを倒す",
+    "sourceIds": [
+      "prayer"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-prayer-deathlightning",
+    "name": "死の雷撃",
+    "category": "incantation",
+    "subCategory": "追憶交換",
+    "regions": [
+      "roundtable"
+    ],
+    "location": "円卓の指読みエンヤ",
+    "acquisition": "死竜の追憶から交換する。",
+    "conditions": "フォルサクスの撃破と追憶",
+    "sourceIds": [
+      "prayer"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-prayer-catch",
+    "name": "火付け",
+    "category": "incantation",
+    "subCategory": "商人から購入",
+    "regions": [
+      "roundtable"
+    ],
+    "location": "円卓のコリン",
+    "acquisition": "販売品から購入する。",
+    "conditions": "円卓へ到達",
+    "sourceIds": [
+      "prayer"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-prayer-sling",
+    "name": "火投げ",
+    "category": "incantation",
+    "subCategory": "商人から購入",
+    "regions": [
+      "roundtable"
+    ],
+    "location": "円卓のコリン",
+    "acquisition": "販売品から購入する。",
+    "conditions": "円卓へ到達",
+    "sourceIds": [
+      "prayer"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-prayer-strength",
+    "name": "火よ、力を！",
+    "category": "incantation",
+    "subCategory": "探索で入手",
+    "regions": [
+      "caelid"
+    ],
+    "location": "ゲール砦の裏の火戦車付近",
+    "acquisition": "遺体から回収する。",
+    "conditions": "火戦車に挟まれないよう探索",
+    "sourceIds": [
+      "prayer"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-prayer-cleanse",
+    "name": "火の癒しよ",
+    "category": "incantation",
+    "subCategory": "探索で入手",
+    "regions": [
+      "liurnia"
+    ],
+    "location": "東部台地から南西の野営地",
+    "acquisition": "野営地の遺体を調べる。",
+    "conditions": "リエーニエ東部へ到達",
+    "sourceIds": [
+      "prayer"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-prayer-stone",
+    "name": "獣の石",
+    "category": "incantation",
+    "subCategory": "死の根報酬",
+    "regions": [
+      "caelid"
+    ],
+    "location": "獣の神殿のグラング",
+    "acquisition": "死の根を累計2個渡し報酬を確認する。",
+    "conditions": "死の根2個",
+    "sourceIds": [
+      "prayer"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-prayer-vitality",
+    "name": "獣の生命",
+    "category": "incantation",
+    "subCategory": "死の根報酬",
+    "regions": [
+      "caelid"
+    ],
+    "location": "獣の神殿のグラング",
+    "acquisition": "死の根を累計3個渡し報酬を確認する。",
+    "conditions": "死の根3個",
+    "sourceIds": [
+      "prayer"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-prayer-claw",
+    "name": "獣爪",
+    "category": "incantation",
+    "subCategory": "死の根報酬",
+    "regions": [
+      "caelid"
+    ],
+    "location": "獣の神殿のグラング",
+    "acquisition": "死の根を累計5個渡す段階を進める。",
+    "conditions": "グラングの敵対段階など必要な会話も確認",
+    "sourceIds": [
+      "prayer"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-prayer-boulder",
+    "name": "グラングの岩",
+    "category": "incantation",
+    "subCategory": "死の根報酬",
+    "regions": [
+      "caelid"
+    ],
+    "location": "獣の神殿のグラング",
+    "acquisition": "死の根を累計6個渡し報酬を確認する。",
+    "conditions": "死の根6個",
+    "sourceIds": [
+      "prayer"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-prayer-gurranq",
+    "name": "グラングの獣爪",
+    "category": "incantation",
+    "subCategory": "死の根報酬",
+    "regions": [
+      "caelid"
+    ],
+    "location": "獣の神殿のグラング",
+    "acquisition": "死の根を累計8個渡し報酬を確認する。",
+    "conditions": "死の根8個",
+    "sourceIds": [
+      "prayer"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  },
+  {
+    "id": "v19-prayer-regression",
+    "name": "回帰性原理",
+    "category": "incantation",
+    "subCategory": "祈祷書購入",
+    "regions": [
+      "leyndell"
+    ],
+    "location": "王都の黄金律原論→祈祷の師",
+    "acquisition": "黄金律原論を師に渡し、販売される祈祷を購入する。",
+    "conditions": "王都の原論を入手。詠唱条件と購入条件は別",
+    "sourceIds": [
+      "prayer",
+      "regression"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false
+  }
+]

@@ -1,0 +1,9 @@
+# Ver.19統合メモ
+
+ホームとFirebase関連は無変更。assets/elden.jsには、既存NPCコア、収集コア、追加したcollection-loader.jsを同梱します。ホームへscriptタグを足さず、index.htmlを保持します。
+
+正本はdata/elden.jsonとdata/collections.json。data/elden-data.jsは全文データそのものではなく、既存167記事全文＋新規131記事の軽量索引＋収集台帳＋manifestという起動用投影です。data/collections-v19/以下の15カテゴリJSONに詳細を分割し、必要時だけ読み込みます。コピーする際はdataフォルダ全体を保持してください。
+
+保存形式・保存先・認証設定は変更しません。初回の自動移行や削除を行いません。未知IDと旧JSONにない現行IDを保持します。遅延ロードは全文表示だけに影響し、進捗分母には影響しません。旧JSONのインポートは従来どおり確認操作を伴います。
+
+GitHub公開・Firebase変更をせず確認するZIPです。手動確認用tests/responsive19.htmlは390px iframeで、同じブラウザ保存を参照します。検証のために既存記録を初期化しないでください。旧ホームのバージョンラベルは、その画面を一切変更しない条件に従い保持しています。

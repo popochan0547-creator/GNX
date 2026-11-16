@@ -1,0 +1,122 @@
+[
+  {
+    "id": "v21-l-weapons",
+    "title": "武器の入手方法一覧",
+    "url": "https://www.gameoronline.com/eldenring/data/weapon.html",
+    "publisher": "GameOrOnline",
+    "kind": "secondary",
+    "checkedAt": "2026-11-16"
+  },
+  {
+    "id": "v21-l-talismans",
+    "title": "タリスマンの入手方法一覧",
+    "url": "https://www.gameoronline.com/eldenring/data/talisman.html",
+    "publisher": "GameOrOnline",
+    "kind": "secondary",
+    "checkedAt": "2026-11-16"
+  },
+  {
+    "id": "v21-l-armor",
+    "title": "防具の入手方法と性能",
+    "url": "https://www.gameoronline.com/eldenring/data/armor.html",
+    "publisher": "GameOrOnline",
+    "kind": "secondary",
+    "checkedAt": "2026-11-16"
+  },
+  {
+    "id": "v21-l-uchi",
+    "title": "打刀の性能と入手方法",
+    "url": "https://game8.jp/eldenring/440714",
+    "publisher": "Game8",
+    "kind": "secondary",
+    "checkedAt": "2026-11-16"
+  },
+  {
+    "id": "v21-l-bells",
+    "title": "鈴玉の入手場所一覧",
+    "url": "https://game8.jp/eldenring/442318",
+    "publisher": "Game8",
+    "kind": "secondary",
+    "checkedAt": "2026-11-16"
+  },
+  {
+    "id": "v21-l-physick",
+    "title": "霊薬の聖杯瓶の入手方法",
+    "url": "https://game8.jp/eldenring/440671",
+    "publisher": "Game8",
+    "kind": "secondary",
+    "checkedAt": "2026-11-16"
+  },
+  {
+    "id": "v21-l-whetstone",
+    "title": "砥石の小刀の入手方法",
+    "url": "https://game8.jp/eldenring/440950",
+    "publisher": "Game8",
+    "kind": "secondary",
+    "checkedAt": "2026-11-16"
+  },
+  {
+    "id": "v21-l-roderika",
+    "title": "ローデリカのイベント攻略",
+    "url": "https://game8.jp/eldenring/440755",
+    "publisher": "Game8",
+    "kind": "secondary",
+    "checkedAt": "2026-11-16"
+  },
+  {
+    "id": "v21-l-academy-key",
+    "title": "学院の輝石鍵の入手方法",
+    "url": "https://game8.jp/eldenring/440981",
+    "publisher": "Game8",
+    "kind": "secondary",
+    "checkedAt": "2026-11-16"
+  },
+  {
+    "id": "v21-l-fingerslayer",
+    "title": "指殺しの刃の入手方法",
+    "url": "https://game8.jp/eldenring/455436",
+    "publisher": "Game8",
+    "kind": "secondary",
+    "checkedAt": "2026-11-16"
+  },
+  {
+    "id": "v21-l-discarded-key",
+    "title": "捨てられた王家の鍵の入手方法",
+    "url": "https://game8.jp/eldenring/441832",
+    "publisher": "Game8",
+    "kind": "secondary",
+    "checkedAt": "2026-11-16"
+  },
+  {
+    "id": "v21-l-dark-ring",
+    "title": "暗月の指輪の入手方法",
+    "url": "https://game8.jp/eldenring/441831",
+    "publisher": "Game8",
+    "kind": "secondary",
+    "checkedAt": "2026-11-16"
+  },
+  {
+    "id": "v21-l-ritual",
+    "title": "捧闘の剣のタリスマンの入手方法",
+    "url": "https://game8.jp/eldenring/444290",
+    "publisher": "Game8",
+    "kind": "secondary",
+    "checkedAt": "2026-11-16"
+  },
+  {
+    "id": "v21-l-vow",
+    "title": "黄金樹に誓って（祈祷）の入手方法",
+    "url": "https://game8.jp/eldenring/442597",
+    "publisher": "Game8",
+    "kind": "secondary",
+    "checkedAt": "2026-11-16"
+  },
+  {
+    "id": "v21-l-dectus",
+    "title": "デクタスの割符の入手場所",
+    "url": "https://gamewith.jp/eldenring/320971",
+    "publisher": "GameWith",
+    "kind": "secondary",
+    "checkedAt": "2026-11-16"
+  }
+]

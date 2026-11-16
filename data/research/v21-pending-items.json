@@ -1,0 +1,806 @@
+[
+  {
+    "id": "v21-ash-flaming-strike",
+    "name": "炎撃",
+    "category": "ash-war",
+    "subCategory": "戦灰：炎",
+    "regions": [
+      "caelid"
+    ],
+    "location": "赤獅子城南側、城壁外の墓地",
+    "acquisition": "城の正門側から崖沿いに南の裏手へ回り、墓地のスカラベを倒す。",
+    "conditions": "赤獅子城の城壁外へ到達。城内への侵入や祭りの完了を必須条件とはしていない。",
+    "sourceIds": [
+      "p-ash-flaming-strike"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "defaultAffinity": "炎",
+    "compatibleWeapons": "近接武器（特大武器と鞭を除く）。武器個体ごとの固有戦技制限は装着画面で確認。",
+    "skillKind": "ash-of-war",
+    "gameplayTested": false,
+    "verificationScope": "名称・分類・代表取得先と基本属性/資料の装備対応範囲を確認。全装備個体・全例外・現行実機・周回は未検証。",
+    "relatedIds": []
+  },
+  {
+    "id": "v21-ash-thunderbolt",
+    "name": "落雷",
+    "category": "ash-war",
+    "subCategory": "戦灰：雷",
+    "regions": [
+      "leyndell"
+    ],
+    "location": "王都ローデイル、大通り脇の露台から階段を下りた先の柵の下",
+    "acquisition": "階段を下った左側の柵から下の区画に降り、スカラベを倒す。",
+    "conditions": "王都内への到達。掲載は灰都化前の王都で確認した取得経路。灰都化後の再取得可否は未検証。",
+    "sourceIds": [
+      "p-ash-thunderbolt"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "defaultAffinity": "雷",
+    "compatibleWeapons": "近接武器全般。個別の固有戦技制限は装着画面で確認。",
+    "skillKind": "ash-of-war",
+    "gameplayTested": false,
+    "verificationScope": "名称・分類・代表取得先と基本属性/資料の装備対応範囲を確認。全装備個体・全例外・現行実機・周回は未検証。",
+    "relatedIds": []
+  },
+  {
+    "id": "v21-ash-lightning-slash",
+    "name": "雷撃斬",
+    "category": "ash-war",
+    "subCategory": "戦灰：雷",
+    "regions": [
+      "altus"
+    ],
+    "location": "王都外廓、祝福「外廓の戦場跡」から北の野営地",
+    "acquisition": "北の野営地へ進み、そこにいるスカラベを倒す。",
+    "conditions": "アルター高原の王都外廓へ到達。",
+    "sourceIds": [
+      "p-ash-lightning-slash"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "defaultAffinity": "雷",
+    "compatibleWeapons": "剣・斧・槌。全武器個体の例外照合は未実施。",
+    "skillKind": "ash-of-war",
+    "gameplayTested": false,
+    "verificationScope": "名称・分類・代表取得先と基本属性/資料の装備対応範囲を確認。全装備個体・全例外・現行実機・周回は未検証。",
+    "relatedIds": []
+  },
+  {
+    "id": "v21-ash-sacred-blade",
+    "name": "聖なる刃",
+    "category": "ash-war",
+    "subCategory": "戦灰：神聖",
+    "regions": [
+      "limgrave"
+    ],
+    "location": "第三マリカ教会の北",
+    "acquisition": "教会から北へ進み、スカラベを倒す。",
+    "conditions": "第三マリカ教会方面へ到達。",
+    "sourceIds": [
+      "p-ash-sacred-blade"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "defaultAffinity": "神聖",
+    "compatibleWeapons": "近接武器（鞭・拳・爪を除く）。個別の固有戦技制限は装着画面で確認。",
+    "skillKind": "ash-of-war",
+    "gameplayTested": false,
+    "verificationScope": "名称・分類・代表取得先と基本属性/資料の装備対応範囲を確認。全装備個体・全例外・現行実機・周回は未検証。",
+    "relatedIds": []
+  },
+  {
+    "id": "v21-ash-sacred-ring",
+    "name": "聖なる光輪",
+    "category": "ash-war",
+    "subCategory": "戦灰：神聖",
+    "regions": [
+      "caelid"
+    ],
+    "location": "エオニアの沼、祝福「エオニアの中心」より東",
+    "acquisition": "沼の東側のスカラベを倒し、爆発に巻き込まれないよう離れて回収を確認する。",
+    "conditions": "エオニアの沼へ到達。オニール撃破は祝福の利用条件として説明し、戦灰そのものの必須条件とは断定しない。",
+    "sourceIds": [
+      "p-ash-sacred-ring"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "defaultAffinity": "神聖",
+    "compatibleWeapons": "長柄武器（大槍を除く）。全武器個体の例外照合は未実施。",
+    "skillKind": "ash-of-war",
+    "gameplayTested": false,
+    "verificationScope": "名称・分類・代表取得先と基本属性/資料の装備対応範囲を確認。全装備個体・全例外・現行実機・周回は未検証。",
+    "relatedIds": []
+  },
+  {
+    "id": "v21-ash-poison-mist",
+    "name": "毒の霧（戦灰）",
+    "category": "ash-war",
+    "subCategory": "戦灰：毒",
+    "regions": [
+      "caelid"
+    ],
+    "location": "エオニアの沼の南側",
+    "acquisition": "南側でスカラベを探し、倒して取得する。",
+    "conditions": "ケイリッド南部への到達。同名の祈祷とは別の取得物。",
+    "sourceIds": [
+      "p-ash-poison-mist"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "defaultAffinity": "毒",
+    "compatibleWeapons": "近接武器（鞭・拳・爪を除く）。個別の固有戦技制限は装着画面で確認。",
+    "skillKind": "ash-of-war",
+    "formalName": "毒の霧",
+    "aliases": [
+      "毒の霧 戦灰",
+      "毒の霧"
+    ],
+    "gameplayTested": false,
+    "verificationScope": "名称・分類・代表取得先と基本属性/資料の装備対応範囲を確認。全装備個体・全例外・現行実機・周回は未検証。",
+    "relatedIds": []
+  },
+  {
+    "id": "v21-ash-chilling-mist",
+    "name": "冷気の霧",
+    "category": "ash-war",
+    "subCategory": "戦灰：冷気",
+    "regions": [
+      "liurnia"
+    ],
+    "location": "カーリアの城館の北側、レナの魔術師塔付近",
+    "acquisition": "城館の北に出て西側を探索し、スカラベを倒す。",
+    "conditions": "カーリアの城館の先へ到達。",
+    "sourceIds": [
+      "p-ash-chilling-mist"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "defaultAffinity": "冷気",
+    "compatibleWeapons": "近接武器（鞭・拳・爪を除く）。個別の固有戦技制限は装着画面で確認。",
+    "skillKind": "ash-of-war",
+    "relatedIds": [
+      "boss-loretta-manor"
+    ],
+    "gameplayTested": false,
+    "verificationScope": "名称・分類・代表取得先と基本属性/資料の装備対応範囲を確認。全装備個体・全例外・現行実機・周回は未検証。"
+  },
+  {
+    "id": "v21-ash-glintstone-pebble",
+    "name": "輝石のつぶて（戦灰）",
+    "category": "ash-war",
+    "subCategory": "戦灰：魔力",
+    "regions": [
+      "stormveil",
+      "roundtable"
+    ],
+    "location": "ストームヴィル城内のロジェール、または移動後の円卓",
+    "acquisition": "ロジェールの販売一覧で戦灰版を購入する。",
+    "conditions": "ロジェールの店を利用できる進行状態。魔術版の購入チェックとは独立。",
+    "sourceIds": [
+      "p-ash-pebble-gw",
+      "p-rogier-gw",
+      "p-pebble-difference"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "needs-review",
+    "verificationLevel": "review",
+    "formalName": "輝石のつぶて",
+    "aliases": [
+      "輝石のつぶて 戦灰"
+    ],
+    "defaultAffinity": "魔力",
+    "compatibleWeapons": "短剣・直剣・大剣・刺剣・重刺剣・曲剣・大曲剣・刀・両刃剣・槍・大槍・斧槍。資料に掲載された武器種で、固有武器を含む全個体の適合保証ではない。",
+    "skillKind": "ash-of-war",
+    "sourceDifference": "Game8の戦灰個別ページはセレン/トープス販売と記載するが、GameWithの戦灰個別・ロジェール記事ではロジェール販売。同名の魔術との混同が疑われるため、取得先をロジェールと明示し、資料差のある行として扱う。",
+    "gameplayTested": false,
+    "verificationScope": "名称・分類・代表取得先と基本属性/資料の装備対応範囲を確認。全装備個体・全例外・現行実機・周回は未検証。",
+    "relatedIds": []
+  },
+  {
+    "id": "v21-ash-carian-retaliation",
+    "name": "カーリアの返報（戦灰）",
+    "category": "ash-war",
+    "subCategory": "戦灰：魔力",
+    "regions": [
+      "liurnia"
+    ],
+    "location": "カーリアの城館、召使いのピディの店",
+    "acquisition": "ピディの販売一覧で戦灰を購入する。",
+    "conditions": "城館の先のスリーシスターズ側からピディへ到達。同名の魔術とは別。",
+    "sourceIds": [
+      "p-ash-carian-retaliation"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "defaultAffinity": "魔力",
+    "compatibleWeapons": "小盾・中盾。個別の固有戦技制限は装着画面で確認。",
+    "skillKind": "ash-of-war",
+    "formalName": "カーリアの返報",
+    "aliases": [
+      "カーリアの返報 戦灰"
+    ],
+    "gameplayTested": false,
+    "verificationScope": "名称・分類・代表取得先と基本属性/資料の装備対応範囲を確認。全装備個体・全例外・現行実機・周回は未検証。",
+    "relatedIds": []
+  },
+  {
+    "id": "v21-ash-thops-barrier",
+    "name": "トープスの力場（戦灰）",
+    "category": "ash-war",
+    "subCategory": "戦灰：魔力",
+    "regions": [
+      "liurnia"
+    ],
+    "location": "イリス教会、トープスが移動した後に現れるスカラベ",
+    "acquisition": "学院内で見つかる余分な輝石鍵をトープスへ渡して学院へ送り、イリス教会へ戻ってスカラベを倒す。",
+    "conditions": "トープスを学院へ移動させるイベント経路。同名の魔術は学院側の遺体から得る別アイテム。",
+    "sourceIds": [
+      "p-ash-thops-barrier",
+      "p-thops-eldenpedia",
+      "p-thops-version"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "needs-review",
+    "verificationLevel": "review",
+    "defaultAffinity": "魔力",
+    "compatibleWeapons": "小盾・中盾。個別の固有戦技制限は装着画面で確認。",
+    "skillKind": "ash-of-war",
+    "formalName": "トープスの力場",
+    "aliases": [
+      "トープスの力場 戦灰"
+    ],
+    "relatedIds": [
+      "npc-thops",
+      "v20-bell-thops"
+    ],
+    "sourceDifference": "一部旧資料はリエーニエ西側の小島を取得先とする。EldenpediaおよびGamer Guidesのデータベースは教会のイベント後のスカラベを掲載し、Gamer GuidesはPost-Patch 1.03と区別。今回は教会側の経路を掲載するが現行実機での再現は未確認。",
+    "gameplayTested": false,
+    "verificationScope": "名称・分類・代表取得先と基本属性/資料の装備対応範囲を確認。全装備個体・全例外・現行実機・周回は未検証。"
+  },
+  {
+    "id": "v21-ash-vacuum-slice",
+    "name": "真空斬り",
+    "category": "ash-war",
+    "subCategory": "戦灰：上質",
+    "regions": [
+      "deeproot"
+    ],
+    "location": "祝福「名も無き永遠の都」近く、炎を吐く敵のいる建物内",
+    "acquisition": "建物内の遺体を調べて戦灰を回収する。",
+    "conditions": "深き根の底へ到達。ガーゴイルの大剣の初期戦技を持っていることとは別の取得。",
+    "sourceIds": [
+      "p-ash-vacuum-slice"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "defaultAffinity": "上質",
+    "compatibleWeapons": "剣・斧（小型の剣と特大の斧を除く、資料表記）。個々の武器の全例外は未照合。",
+    "skillKind": "ash-of-war",
+    "gameplayTested": false,
+    "verificationScope": "名称・分類・代表取得先と基本属性/資料の装備対応範囲を確認。全装備個体・全例外・現行実機・周回は未検証。",
+    "relatedIds": []
+  },
+  {
+    "id": "v21-ash-stormcaller",
+    "name": "嵐呼び",
+    "category": "ash-war",
+    "subCategory": "戦灰：上質",
+    "regions": [
+      "stormveil"
+    ],
+    "location": "ストームヴィル城内のスカラベ",
+    "acquisition": "城内を探索し、スカラベを倒して戦灰を回収する。",
+    "conditions": "ストームヴィル城への到達。細かな曲がり角を含む全道順は未照合。",
+    "sourceIds": [
+      "p-ash-stormcaller"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "defaultAffinity": "上質",
+    "compatibleWeapons": "斬撃できる剣・斧・槌・長柄武器（小型・特大を除く）。固有武器を含む全個体の照合は未実施。",
+    "skillKind": "ash-of-war",
+    "gameplayTested": false,
+    "verificationScope": "名称・分類・代表取得先と基本属性/資料の装備対応範囲を確認。全装備個体・全例外・現行実機・周回は未検証。",
+    "relatedIds": []
+  },
+  {
+    "id": "v21-spirit-greatshield",
+    "name": "大盾兵の遺灰",
+    "category": "spirit",
+    "subCategory": "召喚用遺灰",
+    "regions": [
+      "nokron"
+    ],
+    "location": "永遠の都ノクローン、祝福から屋外へ進んで右奥側にある遺体",
+    "acquisition": "祝福の建物を出て前方へ進み、右側の墓地寄りの遺体を調べる。",
+    "conditions": "ラダーン撃破後にノクローンへ到達。",
+    "sourceIds": [
+      "p-spirit-greatshield"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "needs-review",
+    "verificationLevel": "review",
+    "summonKind": "spirit-ash",
+    "relatedIds": [
+      "boss-radahn"
+    ],
+    "gameplayTested": false,
+    "verificationScope": "名称・分類・記載した代表取得先と条件を資料確認。全代替経路・数量・周回・現行実機は未検証。",
+    "sourceDifference": "Game8本文にノクローンを「エインセル河」とする地理表現があるが、記事の取得先は永遠の都ノクローン。DB地域はノクローンとして管理し、別地域へ混在させない。"
+  },
+  {
+    "id": "v21-spirit-marionette",
+    "name": "人形兵の遺灰",
+    "category": "spirit",
+    "subCategory": "召喚用遺灰",
+    "regions": [
+      "academy"
+    ],
+    "location": "カッコウの教会の外、最初の橋を渡らず左の墓石裏へ進んだ先の遺体",
+    "acquisition": "墓石の裏の道をたどり、人形兵2体がいる遺体から回収する。",
+    "conditions": "学院へ入場。橋の脇の経路にはジャンプが必要。",
+    "sourceIds": [
+      "p-spirit-marionette"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "summonKind": "spirit-ash",
+    "gameplayTested": false,
+    "verificationScope": "名称・分類・記載した代表取得先と条件を資料確認。全代替経路・数量・周回・現行実機は未検証。",
+    "relatedIds": []
+  },
+  {
+    "id": "v21-spirit-crystalian",
+    "name": "結晶人の遺灰",
+    "category": "spirit",
+    "subCategory": "召喚用遺灰",
+    "regions": [
+      "caelid"
+    ],
+    "location": "サリアの隠し洞窟、結晶柱から進む横穴の宝箱",
+    "acquisition": "結晶の柱を足場に横穴へ入り、敵のいる部屋の宝箱を開ける。",
+    "conditions": "隠し洞窟への到達。",
+    "sourceIds": [
+      "p-spirit-crystalian"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "summonKind": "spirit-ash",
+    "gameplayTested": false,
+    "verificationScope": "名称・分類・記載した代表取得先と条件を資料確認。全代替経路・数量・周回・現行実機は未検証。",
+    "relatedIds": []
+  },
+  {
+    "id": "v21-spirit-tricia",
+    "name": "調香師、トリシャ",
+    "category": "spirit",
+    "subCategory": "召喚用遺灰",
+    "regions": [
+      "altus"
+    ],
+    "location": "醜き地下墓のボス部屋",
+    "acquisition": "調香師トリシャと混種の戦士とのボス戦に勝ち、報酬を受け取る。",
+    "conditions": "地下墓の封印に石剣の鍵2個。捨てられた棺から北西の入口へ進む。",
+    "sourceIds": [
+      "p-spirit-tricia"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "summonKind": "spirit-ash",
+    "aliases": [
+      "調香師トリシャ"
+    ],
+    "gameplayTested": false,
+    "verificationScope": "名称・分類・記載した代表取得先と条件を資料確認。全代替経路・数量・周回・現行実機は未検証。",
+    "relatedIds": []
+  },
+  {
+    "id": "v21-spirit-hugues",
+    "name": "戦魔術師、ユーグ",
+    "category": "spirit",
+    "subCategory": "召喚用遺灰",
+    "regions": [
+      "caelid"
+    ],
+    "location": "グレイオールの竜塚、サリアの封牢",
+    "acquisition": "封牢の戦魔術師ユーグを倒し、遺灰を受け取る。",
+    "conditions": "竜塚の西から封牢へ向かう。",
+    "sourceIds": [
+      "p-spirit-hugues"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "summonKind": "spirit-ash",
+    "aliases": [
+      "戦魔術師ユーグ"
+    ],
+    "gameplayTested": false,
+    "verificationScope": "名称・分類・記載した代表取得先と条件を資料確認。全代替経路・数量・周回・現行実機は未検証。",
+    "relatedIds": []
+  },
+  {
+    "id": "v21-weapon-golden-halberd",
+    "name": "黄金のハルバード",
+    "category": "weapon",
+    "subCategory": "斧槍",
+    "regions": [
+      "limgrave"
+    ],
+    "location": "導きのはじまりから北へ続く道のツリーガード",
+    "acquisition": "リムグレイブのツリーガードを倒して取得する。",
+    "conditions": "王都方面の別のツリーガードではなく、開始地点近くの個体。",
+    "sourceIds": [
+      "p-weapon-golden-halberd"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "relatedIds": [],
+    "gameplayTested": false,
+    "verificationScope": "名称・分類・記載した代表取得先と条件を資料確認。全代替経路・数量・周回・現行実機は未検証。"
+  },
+  {
+    "id": "v21-weapon-godskin-peeler",
+    "name": "神肌剥ぎ",
+    "category": "weapon",
+    "subCategory": "両刃剣",
+    "regions": [
+      "altus"
+    ],
+    "location": "風車村ドミヌラの最奥",
+    "acquisition": "最奥の神肌の使徒を倒して武器を取得する。",
+    "conditions": "アルター高原へ到達。ファルム・アズラの神肌のふたりとは別の戦闘。",
+    "sourceIds": [
+      "p-weapon-godskin-peeler"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "relatedIds": [
+      "v20-ash-tornado"
+    ],
+    "gameplayTested": false,
+    "verificationScope": "名称・分類・記載した代表取得先と条件を資料確認。全代替経路・数量・周回・現行実機は未検証。"
+  },
+  {
+    "id": "v21-weapon-rusted-anchor",
+    "name": "錆び付いた錨",
+    "category": "weapon",
+    "subCategory": "大斧",
+    "regions": [
+      "weeping"
+    ],
+    "location": "モーンの坑道、ウロコの混種",
+    "acquisition": "坑道のボス「ウロコの混種」を倒して取得する。",
+    "conditions": "啜り泣きの半島のモーンの坑道へ到達。",
+    "sourceIds": [
+      "p-weapon-rusted-anchor"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "aliases": [
+      "錆びた錨"
+    ],
+    "gameplayTested": false,
+    "verificationScope": "名称・分類・記載した代表取得先と条件を資料確認。全代替経路・数量・周回・現行実機は未検証。",
+    "relatedIds": []
+  },
+  {
+    "id": "v21-weapon-great-epee",
+    "name": "グレート・エペ",
+    "category": "weapon",
+    "subCategory": "重刺剣",
+    "regions": [
+      "limgrave"
+    ],
+    "location": "祝福「アギール湖南」の東側、野営地付近の宝箱",
+    "acquisition": "東側の野営地を探索し、宝箱から武器を取得する。",
+    "conditions": "リムグレイブ南部へ到達。",
+    "sourceIds": [
+      "p-weapon-great-epee"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "aliases": [
+      "グレートエペ"
+    ],
+    "gameplayTested": false,
+    "verificationScope": "名称・分類・記載した代表取得先と条件を資料確認。全代替経路・数量・周回・現行実機は未検証。",
+    "relatedIds": []
+  },
+  {
+    "id": "v21-weapon-nightrider-flail",
+    "name": "夜騎兵のフレイル",
+    "category": "weapon",
+    "subCategory": "フレイル",
+    "regions": [
+      "weeping"
+    ],
+    "location": "祝福「モーンの城壁前」付近の夜の騎兵",
+    "acquisition": "夜に現れる騎兵を倒し、武器を取得する。",
+    "conditions": "夜に訪れる。同じ敵から戦灰「鉄壁の盾」も得られるが、取得物が別なので進捗を自動共通化しない。",
+    "sourceIds": [
+      "p-weapon-nightrider-flail"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "relatedIds": [
+      "v20-ash-barricade"
+    ],
+    "gameplayTested": false,
+    "verificationScope": "名称・分類・記載した代表取得先と条件を資料確認。全代替経路・数量・周回・現行実機は未検証。"
+  },
+  {
+    "id": "v21-talisman-blood-exultation",
+    "name": "血の君主の歓喜",
+    "category": "talisman",
+    "subCategory": "通常タリスマン",
+    "regions": [
+      "leyndell"
+    ],
+    "location": "忌み捨ての地下から進むローデイルの地下墓",
+    "acquisition": "地下墓のボスを倒して報酬を受け取る。",
+    "conditions": "地下大通り脇の下層の配管・ザリガニのいる区画を経由し、地下墓へ到達。",
+    "sourceIds": [
+      "p-talisman-blood-exultation"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "verificationScope": "名称・分類・記載した代表取得先と条件を資料確認。全代替経路・数量・周回・現行実機は未検証。",
+    "relatedIds": []
+  },
+  {
+    "id": "v21-talisman-rot-exultation",
+    "name": "腐敗眷属の歓喜",
+    "category": "talisman",
+    "subCategory": "通常タリスマン",
+    "regions": [
+      "gelmir"
+    ],
+    "location": "煮え立ち川の洞窟",
+    "acquisition": "洞窟のボス戦を終えて取得する。",
+    "conditions": "ゲルミア火山の煮え立ち川の洞窟へ到達。",
+    "sourceIds": [
+      "p-talisman-rot-exultation"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "verificationScope": "名称・分類・記載した代表取得先と条件を資料確認。全代替経路・数量・周回・現行実機は未検証。",
+    "relatedIds": []
+  },
+  {
+    "id": "v21-talisman-silver-scarab",
+    "name": "銀のスカラベ",
+    "category": "talisman",
+    "subCategory": "通常タリスマン",
+    "regions": [
+      "snowfield"
+    ],
+    "location": "聖樹への秘路、見えない床から入る通路の幻の壁の先",
+    "acquisition": "見えない床へ降り、南側の通路の奥で幻の壁を解き、宝箱を開ける。",
+    "conditions": "聖樹への秘路へ到達。落下を避けて足場を確認する。",
+    "sourceIds": [
+      "p-talisman-silver-scarab"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "verificationScope": "名称・分類・記載した代表取得先と条件を資料確認。全代替経路・数量・周回・現行実機は未検証。",
+    "relatedIds": []
+  },
+  {
+    "id": "v21-talisman-ritual-shield",
+    "name": "捧闘の盾のタリスマン",
+    "category": "talisman",
+    "subCategory": "通常タリスマン",
+    "regions": [
+      "leyndell"
+    ],
+    "location": "王都西城壁から南西、闘技場前の階段の遺体",
+    "acquisition": "闘技場の階段前の遺体を調べる。",
+    "conditions": "王都ローデイル内へ到達。灰都化後の取得可否はこの経路の確認範囲外。",
+    "sourceIds": [
+      "p-talisman-ritual-shield"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "verificationScope": "名称・分類・記載した代表取得先と条件を資料確認。全代替経路・数量・周回・現行実機は未検証。",
+    "relatedIds": []
+  },
+  {
+    "id": "v21-talisman-greatshield",
+    "name": "大盾のタリスマン",
+    "category": "talisman",
+    "subCategory": "通常タリスマン",
+    "regions": [
+      "altus"
+    ],
+    "location": "祝福「アルター高原」から北へ下った野営地の馬車",
+    "acquisition": "馬車の宝箱からタリスマンを回収する。",
+    "conditions": "祝福から崖沿いに東へ進み、北側の野営地へ下る。",
+    "sourceIds": [
+      "p-talisman-greatshield"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "verificationScope": "名称・分類・記載した代表取得先と条件を資料確認。全代替経路・数量・周回・現行実機は未検証。",
+    "relatedIds": []
+  },
+  {
+    "id": "v21-bell-iji",
+    "name": "イジーの鈴玉",
+    "category": "bell-bearing",
+    "subCategory": "NPC",
+    "regions": [
+      "liurnia"
+    ],
+    "location": "祝福「城館への道」付近、イジーの鍛冶台",
+    "acquisition": "ラニ・ブライヴの物語を進め、ブライヴの最期をイジーへ伝えた後に再訪し、鍛冶台の鈴玉を拾う。",
+    "conditions": "報告後にエリアを再読み込みするイベント経路。円卓の双子の老婆へ渡すと、イジーの販売品を鈴玉取引で購入できる。",
+    "sourceIds": [
+      "p-bell-iji",
+      "p-bell-iji-gw"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "unlocks": [
+      "喪色の鍛石【1】",
+      "喪色の鍛石【2】",
+      "喪色の鍛石【3】",
+      "喪色の鍛石【4】",
+      "カーリアの徽章（生前の販売解放状況は個別確認）"
+    ],
+    "relatedIds": [
+      "npc-ranni-late",
+      "v20-armor-blaidd"
+    ],
+    "gameplayTested": false,
+    "verificationScope": "名称・分類・記載した代表取得先と条件を資料確認。全代替経路・数量・周回・現行実機は未検証。"
+  },
+  {
+    "id": "v21-bell-rogier",
+    "name": "ロジェールの鈴玉",
+    "category": "bell-bearing",
+    "subCategory": "NPC",
+    "regions": [
+      "roundtable"
+    ],
+    "location": "円卓、イベント進行後のロジェールの遺体",
+    "acquisition": "ロジェールのイベントを進め、円卓で死亡後に残された取得物を調べる。",
+    "conditions": "ロジェールが円卓へ移動した後のイベント経路。死亡までの全トリガー・例外は未網羅。鈴玉を双子の老婆へ渡して販売戦灰を引き継ぐ。",
+    "sourceIds": [
+      "p-bell-rogier",
+      "p-rogier-event"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "unlocks": [
+      "戦灰「輝石のつぶて」",
+      "戦灰「カーリアの大剣」",
+      "戦灰「回れ回れ」"
+    ],
+    "relatedIds": [
+      "v21-ash-glintstone-pebble"
+    ],
+    "gameplayTested": false,
+    "verificationScope": "名称・分類・記載した代表取得先と条件を資料確認。全代替経路・数量・周回・現行実機は未検証。"
+  }
+]

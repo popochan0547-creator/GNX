@@ -1,0 +1,814 @@
+{
+  "weapon-uchigatana": {
+    "status": "verified",
+    "verifiedFields": [
+      "name",
+      "location",
+      "acquisition"
+    ],
+    "sourceIds": [
+      "l-uchi"
+    ],
+    "location": "死に触れた地下墓／素性「侍」の初期装備",
+    "acquisition": "地下墓の遺体から回収、または侍で開始する。",
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "notes": "資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。",
+    "checkedAt": "2026-11-16"
+  },
+  "weapon-fang": {
+    "status": "verified",
+    "verifiedFields": [
+      "name",
+      "location",
+      "acquisition"
+    ],
+    "sourceIds": [
+      "l-weapons"
+    ],
+    "location": "主なき猟犬の封牢",
+    "acquisition": "封牢のボスを倒す。",
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "notes": "資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。",
+    "checkedAt": "2026-11-16"
+  },
+  "weapon-meteorite": {
+    "status": "verified",
+    "verifiedFields": [
+      "name",
+      "location",
+      "acquisition"
+    ],
+    "sourceIds": [
+      "l-weapons"
+    ],
+    "location": "賢者街の廃墟",
+    "acquisition": "廃墟で拾う。",
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "notes": "資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。",
+    "checkedAt": "2026-11-16"
+  },
+  "weapon-claymore": {
+    "status": "verified",
+    "verifiedFields": [
+      "name",
+      "location",
+      "acquisition"
+    ],
+    "sourceIds": [
+      "l-weapons"
+    ],
+    "location": "モーンの城",
+    "acquisition": "城内の宝箱を開ける。",
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "notes": "資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。",
+    "checkedAt": "2026-11-16"
+  },
+  "armor-chain": {
+    "status": "verified",
+    "verifiedFields": [
+      "name",
+      "location",
+      "acquisition"
+    ],
+    "sourceIds": [
+      "l-armor"
+    ],
+    "location": "エレの教会・商人カーレ",
+    "acquisition": "シリーズの装備を購入する。",
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "notes": "シリーズの販売先を照合。個別部位・軽装差・購入価格・一式取得済み状態は推定しない。",
+    "checkedAt": "2026-11-16"
+  },
+  "armor-knight": {
+    "status": "review",
+    "verifiedFields": [],
+    "sourceIds": [],
+    "reason": "今回の担当範囲では十分な資料照合を完了していない。既存情報を削除・変更しない。",
+    "notes": "未確認は誤りの確定ではない。",
+    "checkedAt": "2026-11-16"
+  },
+  "armor-carian": {
+    "status": "review",
+    "verifiedFields": [],
+    "sourceIds": [],
+    "reason": "今回の担当範囲では十分な資料照合を完了していない。既存情報を削除・変更しない。",
+    "notes": "未確認は誤りの確定ではない。",
+    "checkedAt": "2026-11-16"
+  },
+  "talisman-turtle": {
+    "status": "verified",
+    "verifiedFields": [
+      "name",
+      "location",
+      "acquisition",
+      "conditions"
+    ],
+    "sourceIds": [
+      "l-talismans"
+    ],
+    "location": "呼び水の村・地下",
+    "acquisition": "封印の先の宝箱を開ける。",
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "notes": "資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。",
+    "checkedAt": "2026-11-16",
+    "conditions": "石剣の鍵が必要。"
+  },
+  "talisman-amber": {
+    "status": "verified",
+    "verifiedFields": [
+      "name",
+      "location",
+      "acquisition"
+    ],
+    "sourceIds": [
+      "l-talismans"
+    ],
+    "location": "形見／モーンの城壁前の商人",
+    "acquisition": "形見として選ぶ、または商人から購入する。",
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "notes": "資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。",
+    "checkedAt": "2026-11-16"
+  },
+  "talisman-arsenal": {
+    "status": "review",
+    "verifiedFields": [],
+    "sourceIds": [],
+    "reason": "別担当の個別監査対象。このファイルでは判定を上書きしない。",
+    "notes": "未確認は誤りの確定ではない。",
+    "checkedAt": "2026-11-16"
+  },
+  "collect-seed-stormhill": {
+    "status": "review",
+    "verifiedFields": [],
+    "sourceIds": [],
+    "reason": "今回の担当範囲では十分な資料照合を完了していない。既存情報を削除・変更しない。",
+    "notes": "未確認は誤りの確定ではない。",
+    "checkedAt": "2026-11-16"
+  },
+  "collect-tear-marika": {
+    "status": "review",
+    "verifiedFields": [],
+    "sourceIds": [],
+    "reason": "今回の担当範囲では十分な資料照合を完了していない。既存情報を削除・変更しない。",
+    "notes": "未確認は誤りの確定ではない。",
+    "checkedAt": "2026-11-16"
+  },
+  "collect-bearing-1": {
+    "status": "verified",
+    "verifiedFields": [
+      "name",
+      "location",
+      "acquisition"
+    ],
+    "sourceIds": [
+      "l-bells"
+    ],
+    "location": "レアルカリア結晶坑道",
+    "acquisition": "結晶人の撃破で入手する。",
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "notes": "資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。",
+    "checkedAt": "2026-11-16"
+  },
+  "collect-spirit-bell": {
+    "status": "review",
+    "verifiedFields": [],
+    "sourceIds": [],
+    "reason": "今回の担当範囲では十分な資料照合を完了していない。既存情報を削除・変更しない。",
+    "notes": "未確認は誤りの確定ではない。",
+    "checkedAt": "2026-11-16"
+  },
+  "collect-academy-key": {
+    "status": "verified",
+    "verifiedFields": [
+      "name",
+      "location",
+      "acquisition",
+      "conditions"
+    ],
+    "sourceIds": [
+      "l-academy-key"
+    ],
+    "location": "魔術学院レアルカリア西側・輝石竜の背後",
+    "acquisition": "眠る竜の後ろで学院外の1本目を回収する。",
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "notes": "資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。",
+    "checkedAt": "2026-11-16",
+    "conditions": "竜の撃破は不要。"
+  },
+  "weapon-greatsword": {
+    "status": "verified",
+    "verifiedFields": [
+      "name",
+      "location",
+      "acquisition"
+    ],
+    "sourceIds": [
+      "l-weapons"
+    ],
+    "location": "ケイリッド・キレムの廃墟と腐敗を臨む露台の間",
+    "acquisition": "馬車の宝箱を開ける。",
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "notes": "資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。",
+    "checkedAt": "2026-11-16"
+  },
+  "weapon-moonveil": {
+    "status": "verified",
+    "verifiedFields": [
+      "name",
+      "location",
+      "acquisition"
+    ],
+    "sourceIds": [
+      "l-weapons"
+    ],
+    "location": "ゲール坑道",
+    "acquisition": "坑道のボスを倒す。",
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "notes": "資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。",
+    "checkedAt": "2026-11-16"
+  },
+  "weapon-nagakiba": {
+    "status": "review",
+    "verifiedFields": [],
+    "sourceIds": [],
+    "reason": "別担当の個別監査対象。このファイルでは判定を上書きしない。",
+    "notes": "未確認は誤りの確定ではない。",
+    "checkedAt": "2026-11-16"
+  },
+  "weapon-reduvia": {
+    "status": "verified",
+    "verifiedFields": [
+      "name",
+      "location",
+      "acquisition"
+    ],
+    "sourceIds": [
+      "l-weapons"
+    ],
+    "location": "曇り川の洞窟前",
+    "acquisition": "侵入する血の指ネリウスを倒す。",
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "notes": "資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。",
+    "checkedAt": "2026-11-16"
+  },
+  "weapon-twinblade": {
+    "status": "verified",
+    "verifiedFields": [
+      "name",
+      "location",
+      "acquisition"
+    ],
+    "sourceIds": [
+      "l-weapons"
+    ],
+    "location": "竜に焼かれた廃墟",
+    "acquisition": "地下の宝箱を開ける。",
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "notes": "資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。",
+    "checkedAt": "2026-11-16"
+  },
+  "weapon-rivers-blood": {
+    "status": "review",
+    "verifiedFields": [],
+    "sourceIds": [],
+    "reason": "別担当の個別監査対象。このファイルでは判定を上書きしない。",
+    "notes": "未確認は誤りの確定ではない。",
+    "checkedAt": "2026-11-16"
+  },
+  "weapon-blasphemous": {
+    "status": "verified",
+    "verifiedFields": [
+      "name",
+      "location",
+      "acquisition"
+    ],
+    "sourceIds": [
+      "l-weapons"
+    ],
+    "location": "円卓・指読みエンヤ",
+    "acquisition": "冒涜の君主の追憶を交換する。",
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "notes": "資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。",
+    "checkedAt": "2026-11-16"
+  },
+  "weapon-winged-scythe": {
+    "status": "verified",
+    "verifiedFields": [
+      "name",
+      "location",
+      "acquisition"
+    ],
+    "sourceIds": [
+      "l-weapons"
+    ],
+    "location": "霊廟ヶ原の廃墟",
+    "acquisition": "廃墟の宝箱を開ける。",
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "notes": "資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。",
+    "checkedAt": "2026-11-16"
+  },
+  "weapon-backhand": {
+    "status": "review",
+    "verifiedFields": [],
+    "sourceIds": [],
+    "reason": "DLC品のため今回の本編監査の事実照合対象外。区分と既存IDを維持する。",
+    "notes": "未確認は誤りの確定ではない。",
+    "checkedAt": "2026-11-16"
+  },
+  "weapon-milady": {
+    "status": "review",
+    "verifiedFields": [],
+    "sourceIds": [],
+    "reason": "DLC品のため今回の本編監査の事実照合対象外。区分と既存IDを維持する。",
+    "notes": "未確認は誤りの確定ではない。",
+    "checkedAt": "2026-11-16"
+  },
+  "weapon-great-katana": {
+    "status": "review",
+    "verifiedFields": [],
+    "sourceIds": [],
+    "reason": "DLC品のため今回の本編監査の事実照合対象外。区分と既存IDを維持する。",
+    "notes": "未確認は誤りの確定ではない。",
+    "checkedAt": "2026-11-16"
+  },
+  "armor-vagabond": {
+    "status": "review",
+    "verifiedFields": [],
+    "sourceIds": [],
+    "reason": "今回の担当範囲では十分な資料照合を完了していない。既存情報を削除・変更しない。",
+    "notes": "未確認は誤りの確定ではない。",
+    "checkedAt": "2026-11-16"
+  },
+  "armor-reeds": {
+    "status": "verified",
+    "verifiedFields": [
+      "name",
+      "location",
+      "acquisition"
+    ],
+    "sourceIds": [
+      "l-armor"
+    ],
+    "location": "素性「侍」の初期装備／竜塚の隠遁商人",
+    "acquisition": "侍で開始、または商人から購入する。",
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "notes": "シリーズの代表入手経路のみ。各部位と軽装差の完全列挙・一式チェックから部位への推定は行わない。",
+    "checkedAt": "2026-11-16"
+  },
+  "armor-astrologer": {
+    "status": "review",
+    "verifiedFields": [],
+    "sourceIds": [],
+    "reason": "今回の担当範囲では十分な資料照合を完了していない。既存情報を削除・変更しない。",
+    "notes": "未確認は誤りの確定ではない。",
+    "checkedAt": "2026-11-16"
+  },
+  "armor-radahn": {
+    "status": "review",
+    "verifiedFields": [],
+    "sourceIds": [],
+    "reason": "今回の担当範囲では十分な資料照合を完了していない。既存情報を削除・変更しない。",
+    "notes": "未確認は誤りの確定ではない。",
+    "checkedAt": "2026-11-16"
+  },
+  "armor-black-knife": {
+    "status": "verified",
+    "verifiedFields": [
+      "name",
+      "location",
+      "acquisition"
+    ],
+    "sourceIds": [
+      "l-armor"
+    ],
+    "location": "典礼街オルディナ・転送門へ向かう階段の下",
+    "acquisition": "階段下の遺体を調べる。",
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "notes": "シリーズの代表入手経路のみ。個別部位の取得済み状態は既存一式チェックから推定しない。",
+    "checkedAt": "2026-11-16"
+  },
+  "armor-cleanrot": {
+    "status": "review",
+    "verifiedFields": [],
+    "sourceIds": [],
+    "reason": "今回の担当範囲では十分な資料照合を完了していない。既存情報を削除・変更しない。",
+    "notes": "未確認は誤りの確定ではない。",
+    "checkedAt": "2026-11-16"
+  },
+  "armor-solitude": {
+    "status": "review",
+    "verifiedFields": [],
+    "sourceIds": [],
+    "reason": "DLC品のため今回の本編監査の事実照合対象外。区分と既存IDを維持する。",
+    "notes": "未確認は誤りの確定ではない。",
+    "checkedAt": "2026-11-16"
+  },
+  "armor-oathseeker": {
+    "status": "review",
+    "verifiedFields": [],
+    "sourceIds": [],
+    "reason": "DLC品のため今回の本編監査の事実照合対象外。区分と既存IDを維持する。",
+    "notes": "未確認は誤りの確定ではない。",
+    "checkedAt": "2026-11-16"
+  },
+  "talisman-claw": {
+    "status": "verified",
+    "verifiedFields": [
+      "name",
+      "location",
+      "acquisition"
+    ],
+    "sourceIds": [
+      "l-talismans"
+    ],
+    "location": "ストームヴィル城・城壁の塔から進む屋上",
+    "acquisition": "屋根と崩れた煙突を経由し、梯子の先の遺体を調べる。",
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "notes": "資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。",
+    "checkedAt": "2026-11-16"
+  },
+  "talisman-axe": {
+    "status": "verified",
+    "verifiedFields": [
+      "name",
+      "location",
+      "acquisition"
+    ],
+    "sourceIds": [
+      "l-talismans"
+    ],
+    "location": "霧の森の廃墟・地下",
+    "acquisition": "地下の宝箱を開ける。",
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "notes": "資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。",
+    "checkedAt": "2026-11-16"
+  },
+  "talisman-curved": {
+    "status": "verified",
+    "verifiedFields": [
+      "name",
+      "location",
+      "acquisition"
+    ],
+    "sourceIds": [
+      "l-talismans"
+    ],
+    "location": "ストームヴィル城・錆びた鍵がある部屋",
+    "acquisition": "部屋の宝箱を開ける。",
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "notes": "資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。",
+    "checkedAt": "2026-11-16"
+  },
+  "talisman-erdtree": {
+    "status": "verified",
+    "verifiedFields": [
+      "name",
+      "location",
+      "acquisition"
+    ],
+    "sourceIds": [
+      "l-talismans"
+    ],
+    "location": "辺境の英雄墓",
+    "acquisition": "通常版を封印の先で回収する。",
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "notes": "通常版のみの照合。強化版と同じ収集単位として扱わない。封印通過や回収の全経路は未照合。",
+    "checkedAt": "2026-11-16"
+  },
+  "talisman-ritual-sword": {
+    "status": "verified",
+    "verifiedFields": [
+      "name",
+      "location",
+      "acquisition"
+    ],
+    "sourceIds": [
+      "l-ritual"
+    ],
+    "location": "アルター高原・ルクスの廃墟の地下",
+    "acquisition": "廃墟の地下を探索して回収する。",
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "notes": "地下の入手位置を照合。ボス前提・性能数値・取り逃しはこの監査では未照合。",
+    "checkedAt": "2026-11-16"
+  },
+  "talisman-gold-scarab": {
+    "status": "verified",
+    "verifiedFields": [
+      "name",
+      "location",
+      "acquisition"
+    ],
+    "sourceIds": [
+      "l-talismans"
+    ],
+    "location": "廃棄洞窟",
+    "acquisition": "洞窟のボス、貴腐騎士を倒す。",
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "notes": "資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。",
+    "checkedAt": "2026-11-16"
+  },
+  "talisman-alexander": {
+    "status": "verified",
+    "verifiedFields": [
+      "name",
+      "location",
+      "acquisition"
+    ],
+    "sourceIds": [
+      "l-talismans"
+    ],
+    "location": "アレキサンダーのイベント終盤",
+    "acquisition": "イベント完了時の報酬として入手する。",
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "notes": "最終報酬との対応のみ照合。早期敵対・死亡など分岐全体は未照合。戦士の壺の破片と同一品ではない。",
+    "checkedAt": "2026-11-16"
+  },
+  "talisman-two-turtle": {
+    "status": "review",
+    "verifiedFields": [],
+    "sourceIds": [],
+    "reason": "DLC品のため今回の本編監査の事実照合対象外。区分と既存IDを維持する。",
+    "notes": "未確認は誤りの確定ではない。",
+    "checkedAt": "2026-11-16"
+  },
+  "talisman-two-handed": {
+    "status": "review",
+    "verifiedFields": [],
+    "sourceIds": [],
+    "reason": "DLC品のため今回の本編監査の事実照合対象外。区分と既存IDを維持する。",
+    "notes": "未確認は誤りの確定ではない。",
+    "checkedAt": "2026-11-16"
+  },
+  "collect-physick": {
+    "status": "verified",
+    "verifiedFields": [
+      "name",
+      "location",
+      "acquisition"
+    ],
+    "sourceIds": [
+      "l-physick"
+    ],
+    "location": "リムグレイブ・第三マリカ教会",
+    "acquisition": "教会にある霊薬の聖杯瓶を回収する。",
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "notes": "資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。",
+    "checkedAt": "2026-11-16"
+  },
+  "collect-whetstone": {
+    "status": "verified",
+    "verifiedFields": [
+      "name",
+      "location",
+      "acquisition"
+    ],
+    "sourceIds": [
+      "l-whetstone"
+    ],
+    "location": "関門前の廃墟・地下室",
+    "acquisition": "地下の宝箱を開ける。",
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "notes": "資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。",
+    "checkedAt": "2026-11-16"
+  },
+  "collect-jellyfish": {
+    "status": "verified",
+    "verifiedFields": [
+      "name",
+      "location",
+      "acquisition"
+    ],
+    "sourceIds": [
+      "l-roderika"
+    ],
+    "location": "嵐丘のボロ家・ローデリカ",
+    "acquisition": "ローデリカとの会話を進めて受け取る。",
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "notes": "序盤にボロ家で3回会話する経路を照合。円卓移動後の代替経路・会話条件全体は未照合。黄金の種子の収集単位には転用しない。",
+    "checkedAt": "2026-11-16"
+  },
+  "collect-bearing-2": {
+    "status": "verified",
+    "verifiedFields": [
+      "name",
+      "location",
+      "acquisition"
+    ],
+    "sourceIds": [
+      "l-bells"
+    ],
+    "location": "封印された坑道",
+    "acquisition": "坑道内の宝箱を開ける。",
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "notes": "資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。",
+    "checkedAt": "2026-11-16"
+  },
+  "collect-somber-1": {
+    "status": "verified",
+    "verifiedFields": [
+      "name",
+      "location",
+      "acquisition"
+    ],
+    "sourceIds": [
+      "l-bells"
+    ],
+    "location": "サリアの結晶坑道",
+    "acquisition": "降る星の獣を倒す。",
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "notes": "資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。",
+    "checkedAt": "2026-11-16"
+  },
+  "collect-dectus-left": {
+    "status": "verified",
+    "verifiedFields": [
+      "name",
+      "location",
+      "acquisition"
+    ],
+    "sourceIds": [
+      "l-dectus"
+    ],
+    "location": "リムグレイブ・ハイト砦",
+    "acquisition": "砦の梯子を上がった先の宝箱を開ける。",
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "notes": "資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。",
+    "checkedAt": "2026-11-16"
+  },
+  "collect-dectus-right": {
+    "status": "verified",
+    "verifiedFields": [
+      "name",
+      "location",
+      "acquisition"
+    ],
+    "sourceIds": [
+      "l-dectus"
+    ],
+    "location": "竜塚・ファロス砦",
+    "acquisition": "砦の梯子を上がった先の宝箱を開ける。",
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "notes": "資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。",
+    "checkedAt": "2026-11-16"
+  },
+  "collect-scadutree-consolation": {
+    "status": "review",
+    "verifiedFields": [],
+    "sourceIds": [],
+    "reason": "DLC品のため今回の本編監査の事実照合対象外。区分と既存IDを維持する。",
+    "notes": "未確認は誤りの確定ではない。",
+    "checkedAt": "2026-11-16"
+  },
+  "weapon-carian-regal": {
+    "status": "verified",
+    "verifiedFields": [
+      "name",
+      "location",
+      "acquisition"
+    ],
+    "sourceIds": [
+      "l-weapons"
+    ],
+    "location": "円卓・指読みエンヤ",
+    "acquisition": "レナラの追憶報酬を交換する。",
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "notes": "資料の追憶名称は略称。正式な追憶名をこの資料から新たに断定しない。性能・必要能力は未照合。",
+    "checkedAt": "2026-11-16"
+  },
+  "weapon-hand-malenia": {
+    "status": "verified",
+    "verifiedFields": [
+      "name",
+      "location",
+      "acquisition"
+    ],
+    "sourceIds": [
+      "l-weapons"
+    ],
+    "location": "円卓・指読みエンヤ",
+    "acquisition": "マレニアの追憶報酬を交換する。",
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "notes": "資料の追憶名称は略称。正式な追憶名をこの資料から新たに断定しない。性能・必要能力は未照合。",
+    "checkedAt": "2026-11-16"
+  },
+  "weapon-glintstone-kris": {
+    "status": "verified",
+    "verifiedFields": [
+      "name",
+      "location",
+      "acquisition",
+      "conditions"
+    ],
+    "sourceIds": [
+      "l-weapons"
+    ],
+    "location": "魔術学院レアルカリア・大書庫付近",
+    "acquisition": "セレンに協力してジェーレンを倒し、セレンと話す。",
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "notes": "資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。",
+    "checkedAt": "2026-11-16",
+    "conditions": "セレンのイベントで共闘する分岐を選ぶ。"
+  },
+  "collect-fingerslayer": {
+    "status": "verified",
+    "verifiedFields": [
+      "name",
+      "location",
+      "acquisition",
+      "conditions"
+    ],
+    "sourceIds": [
+      "l-fingerslayer"
+    ],
+    "location": "永遠の都ノクローン・夜の神域",
+    "acquisition": "祝福の正面にある建物内の宝箱を開ける。",
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "notes": "資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。",
+    "checkedAt": "2026-11-16",
+    "conditions": "ラニのイベント進行が必要。"
+  },
+  "collect-discarded-key": {
+    "status": "verified",
+    "verifiedFields": [
+      "name",
+      "location",
+      "acquisition",
+      "conditions"
+    ],
+    "sourceIds": [
+      "l-discarded-key"
+    ],
+    "location": "エインセル河・ノクステラ滝壺の南",
+    "acquisition": "災いの影を倒して受け取る。",
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "notes": "資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。",
+    "checkedAt": "2026-11-16",
+    "conditions": "ラニのイベントを進める。"
+  },
+  "collect-dark-ring": {
+    "status": "verified",
+    "verifiedFields": [
+      "name",
+      "location",
+      "acquisition",
+      "conditions"
+    ],
+    "sourceIds": [
+      "l-dark-ring"
+    ],
+    "location": "魔術学院レアルカリア・大書庫",
+    "acquisition": "レナラのそばの宝箱を開ける。",
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "notes": "資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。",
+    "checkedAt": "2026-11-16",
+    "conditions": "捨てられた王家の鍵が必要。"
+  },
+  "collect-ancient-nepheli": {
+    "status": "review",
+    "verifiedFields": [],
+    "sourceIds": [],
+    "reason": "今回の担当範囲では十分な資料照合を完了していない。既存情報を削除・変更しない。",
+    "notes": "未確認は誤りの確定ではない。",
+    "checkedAt": "2026-11-16"
+  },
+  "armor-azur": {
+    "status": "review",
+    "verifiedFields": [],
+    "sourceIds": [],
+    "reason": "別担当の個別監査対象。このファイルでは判定を上書きしない。",
+    "notes": "未確認は誤りの確定ではない。",
+    "checkedAt": "2026-11-16"
+  },
+  "armor-lusat": {
+    "status": "review",
+    "verifiedFields": [],
+    "sourceIds": [],
+    "reason": "別担当の個別監査対象。このファイルでは判定を上書きしない。",
+    "notes": "未確認は誤りの確定ではない。",
+    "checkedAt": "2026-11-16"
+  },
+  "incantation-golden-vow": {
+    "status": "verified",
+    "verifiedFields": [
+      "name",
+      "location",
+      "acquisition"
+    ],
+    "sourceIds": [
+      "l-vow"
+    ],
+    "location": "ゲルミア火山・死体臭のボロ家",
+    "acquisition": "ボロ家の遺体から祈祷を回収する。",
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "notes": "同名の戦灰と区別して祈祷の入手場所のみ照合。戦灰の対応武器種・属性の根拠には使用しない。",
+    "checkedAt": "2026-11-16"
+  },
+  "ash-war-hoarfrost": {
+    "status": "review",
+    "verifiedFields": [],
+    "sourceIds": [],
+    "reason": "別担当の個別監査対象。このファイルでは判定を上書きしない。",
+    "notes": "未確認は誤りの確定ではない。",
+    "checkedAt": "2026-11-16"
+  }
+}

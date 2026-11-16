@@ -1,0 +1,92 @@
+﻿entryId,name,verification,checkedAt,verifiedFields,notes,sourceURLs,gameplayTested
+weapon-uchigatana,打刀,verified,2026-11-16,name;location;acquisition,資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。,https://game8.jp/eldenring/440714,False
+weapon-fang,猟犬の長牙,verified,2026-11-16,name;location;acquisition,資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。,https://www.gameoronline.com/eldenring/data/weapon.html,False
+weapon-meteorite,隕石の杖,verified,2026-11-16,name;location;acquisition,資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。,https://www.gameoronline.com/eldenring/data/weapon.html,False
+weapon-claymore,クレイモア,verified,2026-11-16,name;location;acquisition,資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。,https://www.gameoronline.com/eldenring/data/weapon.html,False
+armor-chain,チェインシリーズ,verified,2026-11-16,name;location;acquisition,シリーズの販売先を照合。個別部位・軽装差・購入価格・一式取得済み状態は推定しない。,https://www.gameoronline.com/eldenring/data/armor.html,False
+armor-knight,騎士シリーズ,review,2026-11-16,,未確認は誤りの確定ではない。,,False
+armor-carian,カーリア騎士シリーズ,review,2026-11-16,,未確認は誤りの確定ではない。,,False
+talisman-turtle,緑亀のタリスマン,verified,2026-11-16,name;location;acquisition;conditions,資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。,https://www.gameoronline.com/eldenring/data/talisman.html,False
+talisman-amber,緋琥珀のメダリオン,verified,2026-11-16,name;location;acquisition,資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。,https://www.gameoronline.com/eldenring/data/talisman.html,False
+talisman-arsenal,武具塊のお守り,review,2026-11-16,,未確認は誤りの確定ではない。,,False
+collect-seed-stormhill,黄金の種子：嵐の関門の先,review,2026-11-16,,未確認は誤りの確定ではない。,,False
+collect-tear-marika,聖杯の雫：第三マリカ教会,review,2026-11-16,,未確認は誤りの確定ではない。,,False
+collect-bearing-1,鍛石掘りの鈴玉【1】,verified,2026-11-16,name;location;acquisition,資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。,https://game8.jp/eldenring/442318,False
+collect-spirit-bell,霊喚びの鈴,review,2026-11-16,,未確認は誤りの確定ではない。,,False
+collect-academy-key,学院の輝石鍵：学院外の1本目,verified,2026-11-16,name;location;acquisition;conditions,資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。,https://game8.jp/eldenring/440981,False
+weapon-greatsword,グレートソード,verified,2026-11-16,name;location;acquisition,資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。,https://www.gameoronline.com/eldenring/data/weapon.html,False
+weapon-moonveil,名刀月隠,verified,2026-11-16,name;location;acquisition,資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。,https://www.gameoronline.com/eldenring/data/weapon.html,False
+weapon-nagakiba,長牙,review,2026-11-16,,未確認は誤りの確定ではない。,,False
+weapon-reduvia,レドゥビア,verified,2026-11-16,name;location;acquisition,資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。,https://www.gameoronline.com/eldenring/data/weapon.html,False
+weapon-twinblade,ツインブレード,verified,2026-11-16,name;location;acquisition,資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。,https://www.gameoronline.com/eldenring/data/weapon.html,False
+weapon-rivers-blood,屍山血河,review,2026-11-16,location;acquisition,"['既存ID・チェックID・進捗対応は維持する。', '火の巨人前必須という断定的な取り逃し条件へ変更しない。現行パッチでの再現および全取得条件は未検証。']",https://game8.jp/eldenring/442273;https://game8.jp/eldenring/443552;https://game8.jp/eldenring/444954;https://gamewith.jp/eldenring/321393,False
+weapon-blasphemous,冒涜の聖剣,verified,2026-11-16,name;location;acquisition,資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。,https://www.gameoronline.com/eldenring/data/weapon.html,False
+weapon-winged-scythe,翼の鎌,verified,2026-11-16,name;location;acquisition,資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。,https://www.gameoronline.com/eldenring/data/weapon.html,False
+weapon-backhand,逆手剣,review,2026-11-16,,未確認は誤りの確定ではない。,,False
+weapon-milady,レディソード,review,2026-11-16,,未確認は誤りの確定ではない。,,False
+weapon-great-katana,大刀,review,2026-11-16,,未確認は誤りの確定ではない。,,False
+armor-vagabond,放浪騎士シリーズ,review,2026-11-16,,未確認は誤りの確定ではない。,,False
+armor-reeds,葦の地シリーズ,verified,2026-11-16,name;location;acquisition,シリーズの代表入手経路のみ。各部位と軽装差の完全列挙・一式チェックから部位への推定は行わない。,https://www.gameoronline.com/eldenring/data/armor.html,False
+armor-astrologer,星見シリーズ,review,2026-11-16,,未確認は誤りの確定ではない。,,False
+armor-radahn,ラダーンシリーズ,review,2026-11-16,,未確認は誤りの確定ではない。,,False
+armor-black-knife,黒き刃シリーズ,verified,2026-11-16,name;location;acquisition,シリーズの代表入手経路のみ。個別部位の取得済み状態は既存一式チェックから推定しない。,https://www.gameoronline.com/eldenring/data/armor.html,False
+armor-cleanrot,貴腐騎士シリーズ,review,2026-11-16,,未確認は誤りの確定ではない。,,False
+armor-solitude,孤牢シリーズ,review,2026-11-16,,未確認は誤りの確定ではない。,,False
+armor-oathseeker,誓約騎士シリーズ,review,2026-11-16,,未確認は誤りの確定ではない。,,False
+talisman-claw,爪のタリスマン,verified,2026-11-16,name;location;acquisition,資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。,https://www.gameoronline.com/eldenring/data/talisman.html,False
+talisman-axe,斧のタリスマン,verified,2026-11-16,name;location;acquisition,資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。,https://www.gameoronline.com/eldenring/data/talisman.html,False
+talisman-curved,曲剣のタリスマン,verified,2026-11-16,name;location;acquisition,資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。,https://www.gameoronline.com/eldenring/data/talisman.html,False
+talisman-erdtree,黄金樹の恩寵（通常版）,verified,2026-11-16,name;location;acquisition,通常版のみの照合。強化版と同じ収集単位として扱わない。封印通過や回収の全経路は未照合。,https://www.gameoronline.com/eldenring/data/talisman.html,False
+talisman-ritual-sword,捧闘の剣のタリスマン,verified,2026-11-16,name;location;acquisition,地下の入手位置を照合。ボス前提・性能数値・取り逃しはこの監査では未照合。,https://game8.jp/eldenring/444290,False
+talisman-gold-scarab,金のスカラベ,verified,2026-11-16,name;location;acquisition,資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。,https://www.gameoronline.com/eldenring/data/talisman.html,False
+talisman-alexander,アレキサンダーの破片,verified,2026-11-16,name;location;acquisition,最終報酬との対応のみ照合。早期敵対・死亡など分岐全体は未照合。戦士の壺の破片と同一品ではない。,https://www.gameoronline.com/eldenring/data/talisman.html,False
+talisman-two-turtle,双頭亀のタリスマン,review,2026-11-16,,未確認は誤りの確定ではない。,,False
+talisman-two-handed,両手剣のタリスマン,review,2026-11-16,,未確認は誤りの確定ではない。,,False
+collect-physick,霊薬の聖杯瓶,verified,2026-11-16,name;location;acquisition,資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。,https://game8.jp/eldenring/440671,False
+collect-whetstone,砥石の小刀,verified,2026-11-16,name;location;acquisition,資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。,https://game8.jp/eldenring/440950,False
+collect-jellyfish,霊クラゲの遺灰,verified,2026-11-16,name;location;acquisition,序盤にボロ家で3回会話する経路を照合。円卓移動後の代替経路・会話条件全体は未照合。黄金の種子の収集単位には転用しない。,https://game8.jp/eldenring/440755,False
+collect-bearing-2,鍛石掘りの鈴玉【2】,verified,2026-11-16,name;location;acquisition,資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。,https://game8.jp/eldenring/442318,False
+collect-somber-1,喪色掘りの鈴玉【1】,verified,2026-11-16,name;location;acquisition,資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。,https://game8.jp/eldenring/442318,False
+collect-dectus-left,デクタスの割符（左）,verified,2026-11-16,name;location;acquisition,資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。,https://gamewith.jp/eldenring/320971,False
+collect-dectus-right,デクタスの割符（右）,verified,2026-11-16,name;location;acquisition,資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。,https://gamewith.jp/eldenring/320971,False
+collect-scadutree-consolation,影樹の破片：慰めの教会,review,2026-11-16,,未確認は誤りの確定ではない。,,False
+weapon-carian-regal,カーリアの王笏,verified,2026-11-16,name;location;acquisition,資料の追憶名称は略称。正式な追憶名をこの資料から新たに断定しない。性能・必要能力は未照合。,https://www.gameoronline.com/eldenring/data/weapon.html,False
+weapon-hand-malenia,マレニアの義手刀,verified,2026-11-16,name;location;acquisition,資料の追憶名称は略称。正式な追憶名をこの資料から新たに断定しない。性能・必要能力は未照合。,https://www.gameoronline.com/eldenring/data/weapon.html,False
+weapon-glintstone-kris,輝石のクリス,verified,2026-11-16,name;location;acquisition;conditions,資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。,https://www.gameoronline.com/eldenring/data/weapon.html,False
+collect-fingerslayer,指殺しの刃,verified,2026-11-16,name;location;acquisition;conditions,資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。,https://game8.jp/eldenring/455436,False
+collect-discarded-key,捨てられた王家の鍵,verified,2026-11-16,name;location;acquisition;conditions,資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。,https://game8.jp/eldenring/441832,False
+collect-dark-ring,暗月の指輪,verified,2026-11-16,name;location;acquisition;conditions,資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。,https://game8.jp/eldenring/441831,False
+collect-ancient-nepheli,古竜岩の鍛石：ネフェリ報酬,review,2026-11-16,,未確認は誤りの確定ではない。,,False
+armor-azur,アズールシリーズ,review,2026-11-16,,未確認は誤りの確定ではない。,,False
+armor-lusat,ルーサットシリーズ,review,2026-11-16,,未確認は誤りの確定ではない。,,False
+incantation-golden-vow,黄金樹に誓って（祈祷）,verified,2026-11-16,name;location;acquisition,同名の戦灰と区別して祈祷の入手場所のみ照合。戦灰の対応武器種・属性の根拠には使用しない。,https://game8.jp/eldenring/442597,False
+ash-war-hoarfrost,霜踏み（戦灰）,review,2026-11-16,,未確認は誤りの確定ではない。,,False
+v20-ash-quickstep,クイックステップ,verified,2026-11-16,defaultAffinity;compatibleWeapons,"['基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。', '対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。', '入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。']",https://game8.jp/eldenring/441720,False
+v20-ash-spinning,回転斬り,verified,2026-11-16,defaultAffinity;compatibleWeapons,"['基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。', '対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。', '入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。']",https://game8.jp/eldenring/441715,False
+v20-ash-stamp-up,踏み込み（斬り上げ）,verified,2026-11-16,defaultAffinity;compatibleWeapons,"['基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。', '対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。', '入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。']",https://game8.jp/eldenring/441705,False
+v20-ash-kick,キック,verified,2026-11-16,defaultAffinity;compatibleWeapons,"['基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。', '対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。', '入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。']",https://game8.jp/eldenring/441710,False
+v20-ash-endure,我慢,verified,2026-11-16,defaultAffinity;compatibleWeapons,"['基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。', '対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。', '入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。']",https://game8.jp/eldenring/441714,False
+v20-ash-warcry,ウォークライ,verified,2026-11-16,defaultAffinity;compatibleWeapons,"['基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。', '対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。', '入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。']",https://game8.jp/eldenring/441712,False
+v20-ash-piercing,貫通突き,verified,2026-11-16,defaultAffinity;compatibleWeapons,"['基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。', '対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。', '入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。']",https://game8.jp/eldenring/441716,False
+v20-ash-no-skill,戦技なし,verified,2026-11-16,defaultAffinity;compatibleWeapons,"['基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。', '対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。', '入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。']",https://game8.jp/eldenring/441743,False
+v20-ash-stamp-sweep,踏み込み（回転薙ぎ）,verified,2026-11-16,defaultAffinity;compatibleWeapons,"['基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。', '対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。', '入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。']",https://game8.jp/eldenring/442294,False
+v20-ash-wild-strikes,乱撃,verified,2026-11-16,defaultAffinity;compatibleWeapons,"['基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。', '対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。', '入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。']",https://game8.jp/eldenring/441707,False
+v20-ash-lion,獅子斬り,verified,2026-11-16,defaultAffinity;compatibleWeapons,"['基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。', '対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。', '入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。']",https://game8.jp/eldenring/441708,False
+v20-ash-cragblade,岩石剣,verified,2026-11-16,defaultAffinity;compatibleWeapons,"['基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。', '対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。', '入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。']",https://game8.jp/eldenring/448997,False
+v20-ash-slam,ヒップドロップ,verified,2026-11-16,defaultAffinity;compatibleWeapons,"['基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。', '対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。', '入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。']",https://game8.jp/eldenring/441711,False
+v20-ash-barbaric,野蛮な咆哮,verified,2026-11-16,defaultAffinity;compatibleWeapons,"['基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。', '対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。', '入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。']",https://game8.jp/eldenring/441713,False
+v20-ash-repeating,連続突き,review,2026-11-16,defaultAffinity;compatibleWeapons;acquisition;location（方角を限定しない範囲）,"['基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。', '対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。', '入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。']",https://game8.jp/eldenring/441717;https://gamewith.jp/eldenring/321284,False
+v20-ash-double,二連斬り,verified,2026-11-16,defaultAffinity;compatibleWeapons,"['基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。', '対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。', '入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。']",https://game8.jp/eldenring/449001,False
+v20-ash-dance,剣舞,verified,2026-11-16,defaultAffinity;compatibleWeapons,"['基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。', '対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。', '入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。']",https://game8.jp/eldenring/442541,False
+v20-ash-square,構え,verified,2026-11-16,defaultAffinity;compatibleWeapons,"['基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。', '対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。', '入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。']",https://game8.jp/eldenring/447840,False
+v20-ash-charge,突撃,verified,2026-11-16,defaultAffinity;compatibleWeapons,"['基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。', '対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。', '入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。']",https://game8.jp/eldenring/449314,False
+v20-ash-raptors,霧の猛禽,verified,2026-11-16,defaultAffinity;compatibleWeapons,"['基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。', '対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。', '入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。']",https://game8.jp/eldenring/441699,False
+v20-ash-beast,獣の咆哮,verified,2026-11-16,defaultAffinity;compatibleWeapons,"['基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。', '対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。', '入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。']",https://game8.jp/eldenring/441719,False
+v20-ash-determination,デターミネーション,verified,2026-11-16,defaultAffinity;compatibleWeapons,"['基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。', '対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。', '入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。']",https://game8.jp/eldenring/441725,False
+v20-ash-storm-stomp,嵐脚,verified,2026-11-16,defaultAffinity;compatibleWeapons,"['基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。', '対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。', '入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。']",https://game8.jp/eldenring/441724,False
+v20-ash-storm-assault,嵐の襲撃,verified,2026-11-16,defaultAffinity;compatibleWeapons,"['基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。', '対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。', '入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。']",https://game8.jp/eldenring/441723,False
+v20-ash-ice-spear,氷槍,verified,2026-11-16,defaultAffinity;compatibleWeapons,"['基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。', '対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。', '入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。']",https://game8.jp/eldenring/454536,False
+v20-ash-seppuku,切腹,verified,2026-11-16,defaultAffinity;compatibleWeapons,"['基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。', '対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。', '入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。']",https://game8.jp/eldenring/447847,False
+v20-ash-bloody,血の斬撃,verified,2026-11-16,defaultAffinity;compatibleWeapons,"['基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。', '対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。', '入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。']",https://game8.jp/eldenring/441738,False
+v20-ash-unsheathe,居合,review,2026-11-16,defaultAffinity;compatibleWeapons;location（祝福基準の限定表現）;acquisition,"['基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。', '対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。', '入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。']",https://game8.jp/eldenring/441718;https://gamewith.jp/eldenring/321281,False
+v19-book-glintstone-6,輝石職人の製法書【6】,review,2026-11-16,location（範囲限定）;acquisition,"['【7】のピディからの購入と混同しない。', '地図や画像の転載なし。現行パッチ・周回の実機確認なし。']",https://gamewith.jp/eldenring/322847;https://mudauchi.info/398243;https://www.gameoronline.com/eldenring/data/cookbook.html,False

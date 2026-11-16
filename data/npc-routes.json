@@ -1,0 +1,1277 @@
+[
+  {
+    "id": "millicent",
+    "name": "ミリセント",
+    "gameScope": "base-game",
+    "entryId": "npc17-millicent",
+    "regions": [
+      "caelid",
+      "altus",
+      "mountaintops",
+      "haligtree"
+    ],
+    "sourceIds": [
+      "v17-game8-442431",
+      "v17-gamewith-322385",
+      "v17-game8-449568"
+    ],
+    "options": [
+      {
+        "id": "assist",
+        "label": "協力して針を目指す"
+      },
+      {
+        "id": "oppose",
+        "label": "敵対側の報酬を目指す"
+      }
+    ],
+    "warning": "金/赤サインは排他的な分岐。ミケラの針を目指すなら協力側。",
+    "endings": [
+      "ending-frenzy"
+    ],
+    "stages": [
+      {
+        "id": "millicent:needle",
+        "taskId": "npc17-millicent:needle",
+        "entryId": "npc17-millicent",
+        "label": "無垢金の針を入手",
+        "location": "エオニアの沼",
+        "action": "宿将オニールを倒して針を得る。",
+        "condition": "ゴーリーの依頼を確認",
+        "items": "指定なし",
+        "branch": null,
+        "warning": "",
+        "reward": "無垢金の針",
+        "sourceIds": [
+          "v17-game8-442431",
+          "v17-gamewith-322385",
+          "v17-game8-449568"
+        ],
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "id": "millicent:repair",
+        "taskId": "npc-millicent-early:step-1",
+        "entryId": "npc-millicent-early",
+        "label": "修理済みの針を受け取る",
+        "location": "ゴーリーのボロ家",
+        "action": "針を渡し、祝福等で再読み込みして受け取る。",
+        "condition": "前段階の会話・進行をゲーム内で確認",
+        "items": "無垢金の針",
+        "branch": null,
+        "warning": "",
+        "reward": "",
+        "sourceIds": [
+          "v17-game8-442431",
+          "v17-gamewith-322385",
+          "v17-game8-449568"
+        ],
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "id": "millicent:give",
+        "taskId": "npc-millicent-early:step-2",
+        "entryId": "npc-millicent-early",
+        "label": "ミリセントに針を渡す",
+        "location": "腐れ病の教会",
+        "action": "針を渡して休憩後に会話を進める。",
+        "condition": "前段階の会話・進行をゲーム内で確認",
+        "items": "修理済みの無垢金の針",
+        "branch": null,
+        "warning": "",
+        "reward": "",
+        "sourceIds": [
+          "v17-game8-442431",
+          "v17-gamewith-322385",
+          "v17-game8-449568"
+        ],
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "id": "millicent:shack",
+        "taskId": "npc-millicent-early:step-3",
+        "entryId": "npc-millicent-early",
+        "label": "旅立ちの会話",
+        "location": "ゴーリーのボロ家",
+        "action": "移動した本人に話す。",
+        "condition": "前段階の会話・進行をゲーム内で確認",
+        "items": "指定なし",
+        "branch": null,
+        "warning": "",
+        "reward": "",
+        "sourceIds": [
+          "v17-game8-442431",
+          "v17-gamewith-322385",
+          "v17-game8-449568"
+        ],
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "id": "millicent:hill",
+        "taskId": "npc17-millicent:hill",
+        "entryId": "npc17-millicent",
+        "label": "高原で再会",
+        "location": "黄金樹を臨む丘",
+        "action": "祝福の北側の本人に話す。",
+        "condition": "前段階の会話・進行をゲーム内で確認",
+        "items": "指定なし",
+        "branch": null,
+        "warning": "",
+        "reward": "",
+        "sourceIds": [
+          "v17-game8-442431",
+          "v17-gamewith-322385",
+          "v17-game8-449568"
+        ],
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "id": "millicent:prosthesis",
+        "taskId": "npc17-millicent:prosthesis",
+        "entryId": "npc17-millicent",
+        "label": "戦乙女の義手を渡す",
+        "location": "日陰城→黄金樹を臨む丘",
+        "action": "日陰城の宝箱で義手を回収し、本人へ渡す。",
+        "condition": "前段階の会話・進行をゲーム内で確認",
+        "items": "戦乙女の義手",
+        "branch": null,
+        "warning": "",
+        "reward": "",
+        "sourceIds": [
+          "v17-game8-442431",
+          "v17-gamewith-322385",
+          "v17-game8-449568"
+        ],
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "id": "millicent:windmill",
+        "taskId": "npc17-millicent:windmill",
+        "entryId": "npc17-millicent",
+        "label": "風車村で再会",
+        "location": "風車村",
+        "action": "神肌の使徒を倒し、再読み込み後に本人と話す。",
+        "condition": "前段階の会話・進行をゲーム内で確認",
+        "items": "指定なし",
+        "branch": null,
+        "warning": "",
+        "reward": "",
+        "sourceIds": [
+          "v17-game8-442431",
+          "v17-gamewith-322385",
+          "v17-game8-449568"
+        ],
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "id": "millicent:snow",
+        "taskId": "npc17-millicent:snow",
+        "entryId": "npc17-millicent",
+        "label": "山嶺で再会",
+        "location": "古遺跡の雪谷",
+        "action": "本人との会話を進める。",
+        "condition": "前段階の会話・進行をゲーム内で確認",
+        "items": "指定なし",
+        "branch": null,
+        "warning": "",
+        "reward": "",
+        "sourceIds": [
+          "v17-game8-442431",
+          "v17-gamewith-322385",
+          "v17-game8-449568"
+        ],
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "id": "millicent:prayer",
+        "taskId": "npc17-millicent:prayer",
+        "entryId": "npc17-millicent",
+        "label": "聖樹で再会",
+        "location": "祈祷室",
+        "action": "本人と話し、排水路方面へ探索を続ける。",
+        "condition": "前段階の会話・進行をゲーム内で確認",
+        "items": "指定なし",
+        "branch": null,
+        "warning": "",
+        "reward": "",
+        "sourceIds": [
+          "v17-game8-442431",
+          "v17-gamewith-322385",
+          "v17-game8-449568"
+        ],
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "id": "millicent:spirit",
+        "taskId": "npc17-millicent:spirit",
+        "entryId": "npc17-millicent",
+        "label": "分岐サインを出現させる",
+        "location": "排水路近くの腐敗した沼",
+        "action": "沼の爛れた樹霊を倒す。分岐する前に目的を確認。",
+        "condition": "前段階の会話・進行をゲーム内で確認",
+        "items": "指定なし",
+        "branch": null,
+        "warning": "",
+        "reward": "",
+        "sourceIds": [
+          "v17-game8-442431",
+          "v17-gamewith-322385",
+          "v17-game8-449568"
+        ],
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "id": "millicent:help",
+        "taskId": "npc17-millicent:help",
+        "entryId": "npc17-millicent",
+        "label": "金サインで協力",
+        "location": "沼の足場",
+        "action": "金色サインで本人に協力して勝つ。",
+        "condition": "前段階の会話・進行をゲーム内で確認",
+        "items": "指定なし",
+        "branch": "assist",
+        "warning": "",
+        "reward": "腐敗翼剣の徽章",
+        "sourceIds": [
+          "v17-game8-442431",
+          "v17-gamewith-322385",
+          "v17-game8-449568"
+        ],
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "id": "millicent:retrieve",
+        "taskId": "npc17-millicent:retrieve",
+        "entryId": "npc17-millicent",
+        "label": "無垢金の針を回収",
+        "location": "沼の岸",
+        "action": "協力後の本人と会話を終え、再読み込み後の場所を調べる。",
+        "condition": "前段階の会話・進行をゲーム内で確認",
+        "items": "指定なし",
+        "branch": "assist",
+        "warning": "",
+        "reward": "無垢金の針",
+        "sourceIds": [
+          "v17-game8-442431",
+          "v17-gamewith-322385",
+          "v17-game8-449568"
+        ],
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "id": "millicent:miquella",
+        "taskId": "npc17-millicent:miquella",
+        "entryId": "npc17-millicent",
+        "label": "ミケラの針へ交換",
+        "location": "マレニアの戦場",
+        "action": "マレニア撃破後の花へ無垢金の針を返す。",
+        "condition": "前段階の会話・進行をゲーム内で確認",
+        "items": "協力後の無垢金の針",
+        "branch": "assist",
+        "warning": "",
+        "reward": "ミケラの針・古竜岩の喪色鍛石",
+        "sourceIds": [
+          "v17-game8-442431",
+          "v17-gamewith-322385",
+          "v17-game8-449568"
+        ],
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "id": "millicent:invade",
+        "taskId": "npc17-millicent:invade",
+        "entryId": "npc17-millicent",
+        "label": "赤サインで敵対",
+        "location": "沼の足場",
+        "action": "赤色サインで本人と敵対し、勝利後の報酬を確認。",
+        "condition": "前段階の会話・進行をゲーム内で確認",
+        "items": "指定なし",
+        "branch": "oppose",
+        "warning": "この周回の協力側の針の手順とは両立しない。",
+        "reward": "ミリセントの義手",
+        "sourceIds": [
+          "v17-game8-442431",
+          "v17-gamewith-322385",
+          "v17-game8-449568"
+        ],
+        "verifiedAt": "2026-11-16"
+      }
+    ],
+    "coverage": "代表的な進行順。例外・NPC死亡後の復旧・全到達経路は未網羅。"
+  },
+  {
+    "id": "fia",
+    "name": "フィア",
+    "gameScope": "base-game",
+    "entryId": "npc17-fia",
+    "regions": [
+      "roundtable",
+      "liurnia",
+      "deeproot"
+    ],
+    "sourceIds": [
+      "v17-gamewith-322682",
+      "v17-game8-440765",
+      "v17-gamewith-320159",
+      "v17-game8-447145"
+    ],
+    "options": [
+      {
+        "id": "early",
+        "label": "円卓から進める"
+      },
+      {
+        "id": "late",
+        "label": "物語進行で円卓段階が省略された"
+      }
+    ],
+    "warning": "ルーンの名称は「死王子の修復ルーン」。抱擁の恩寵を所持したままのHP低下にも注意。",
+    "endings": [
+      "ending-dusk"
+    ],
+    "stages": [
+      {
+        "id": "fia:dagger",
+        "taskId": "npc17-fia:dagger",
+        "entryId": "npc17-fia",
+        "label": "抱擁と短剣の依頼",
+        "location": "円卓",
+        "action": "フィアに抱かれ、お願いの会話から蝕まれた短剣を受け取る。",
+        "condition": "高原到達など進行により依頼の選択肢が出た状態",
+        "items": "指定なし",
+        "branch": "early",
+        "warning": "",
+        "reward": "蝕まれた短剣",
+        "sourceIds": [
+          "v17-gamewith-322682",
+          "v17-game8-440765",
+          "v17-gamewith-320159",
+          "v17-game8-447145"
+        ],
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "id": "fia:d",
+        "taskId": "npc17-fia:d",
+        "entryId": "npc17-fia",
+        "label": "Dへ短剣を渡す",
+        "location": "円卓",
+        "action": "Dに短剣を預ける。",
+        "condition": "前段階の会話・進行をゲーム内で確認",
+        "items": "蝕まれた短剣",
+        "branch": "early",
+        "warning": "",
+        "reward": "",
+        "sourceIds": [
+          "v17-gamewith-322682",
+          "v17-game8-440765",
+          "v17-gamewith-320159",
+          "v17-game8-447145"
+        ],
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "id": "fia:leave",
+        "taskId": "npc17-fia:leave",
+        "entryId": "npc17-fia",
+        "label": "奥の部屋を確認",
+        "location": "円卓",
+        "action": "再読み込み後に廊下奥の部屋で会話し、フィアの移動を確認。",
+        "condition": "前段階の会話・進行をゲーム内で確認",
+        "items": "指定なし",
+        "branch": "early",
+        "warning": "",
+        "reward": "",
+        "sourceIds": [
+          "v17-gamewith-322682",
+          "v17-game8-440765",
+          "v17-gamewith-320159",
+          "v17-game8-447145"
+        ],
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "id": "fia:curse",
+        "taskId": "npc17-fia:curse",
+        "entryId": "npc17-fia",
+        "label": "死の呪痕を回収",
+        "location": "リエーニエの神授塔",
+        "action": "ラニから得るカーリアの逆さ像で書院の経路を開き、神授塔の遺体を調べる。",
+        "condition": "ラニへ指殺しの刃を渡した後",
+        "items": "カーリアの逆さ像",
+        "branch": null,
+        "warning": "",
+        "reward": "死の呪痕",
+        "sourceIds": [
+          "v17-gamewith-322682",
+          "v17-game8-440765",
+          "v17-gamewith-320159",
+          "v17-game8-447145"
+        ],
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "id": "fia:depths",
+        "taskId": "npc17-fia:depths",
+        "entryId": "npc17-fia",
+        "label": "死王子の座へ",
+        "location": "深き根の底",
+        "action": "代表ルートはシーフラ水道橋の英雄のガーゴイル戦後の石棺。根渡りの先から座へ進む。",
+        "condition": "地下への到達経路を開く",
+        "items": "指定なし",
+        "branch": null,
+        "warning": "地下全域の道順・別ルートは未収録。",
+        "reward": "",
+        "sourceIds": [
+          "v17-gamewith-322682",
+          "v17-game8-440765",
+          "v17-gamewith-320159",
+          "v17-game8-447145"
+        ],
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "id": "fia:champions",
+        "taskId": "npc17-fia:champions",
+        "entryId": "npc17-fia",
+        "label": "フィアへ呪痕を渡す",
+        "location": "死王子の座",
+        "action": "フィアの英雄を越え、抱かれたい側の会話を選び、死の呪痕を渡す。",
+        "condition": "前段階の会話・進行をゲーム内で確認",
+        "items": "死の呪痕",
+        "branch": null,
+        "warning": "",
+        "reward": "",
+        "sourceIds": [
+          "v17-gamewith-322682",
+          "v17-game8-440765",
+          "v17-gamewith-320159",
+          "v17-game8-447145"
+        ],
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "id": "fia:dream",
+        "taskId": "npc-fia-late:step-1",
+        "entryId": "npc-fia-late",
+        "label": "死衾の夢へ入る",
+        "location": "死王子の座",
+        "action": "密かな話を聞いて休憩・会話を繰り返し、眠った本人から夢へ入る。",
+        "condition": "前段階の会話・進行をゲーム内で確認",
+        "items": "指定なし",
+        "branch": null,
+        "warning": "",
+        "reward": "",
+        "sourceIds": [
+          "v17-gamewith-322682",
+          "v17-game8-440765",
+          "v17-gamewith-320159",
+          "v17-game8-447145"
+        ],
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "id": "fia:rune",
+        "taskId": "npc-fia-late:step-2",
+        "entryId": "npc-fia-late",
+        "label": "修復ルーンを得る",
+        "location": "死王子の座",
+        "action": "フォルサクス戦後に本人の場所を調べる。",
+        "condition": "前段階の会話・進行をゲーム内で確認",
+        "items": "指定なし",
+        "branch": null,
+        "warning": "",
+        "reward": "死王子の修復ルーン",
+        "sourceIds": [
+          "v17-gamewith-322682",
+          "v17-game8-440765",
+          "v17-gamewith-320159",
+          "v17-game8-447145"
+        ],
+        "verifiedAt": "2026-11-16"
+      }
+    ],
+    "coverage": "代表的な進行順。例外・NPC死亡後の復旧・全到達経路は未網羅。"
+  },
+  {
+    "id": "goldmask",
+    "name": "コリン・金仮面卿",
+    "gameScope": "base-game",
+    "entryId": "npc17-goldmask",
+    "regions": [
+      "altus",
+      "leyndell",
+      "mountaintops",
+      "ashen"
+    ],
+    "sourceIds": [
+      "v17-game8-440762",
+      "v17-gamewith-323820"
+    ],
+    "options": [],
+    "warning": "王都の謎解きは灰都化前に進める。未進行のまま物語を進めると取り逃す。",
+    "endings": [
+      "ending-order"
+    ],
+    "stages": [
+      {
+        "id": "goldmask:meet",
+        "taskId": "npc-goldmask-intro:step-1",
+        "entryId": "npc-goldmask-intro",
+        "label": "高原で両者に会う",
+        "location": "三叉路の北／森渡の大橋の対岸",
+        "action": "円卓で旅立ちの話を聞き、高原のコリンと金仮面卿に会う。",
+        "condition": "前段階の会話・進行をゲーム内で確認",
+        "items": "指定なし",
+        "branch": null,
+        "warning": "",
+        "reward": "",
+        "sourceIds": [
+          "v17-game8-440762",
+          "v17-gamewith-323820"
+        ],
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "id": "goldmask:join",
+        "taskId": "npc-goldmask-intro:step-2",
+        "entryId": "npc-goldmask-intro",
+        "label": "居場所を伝える",
+        "location": "森渡の大橋",
+        "action": "コリンに金仮面卿の居場所を伝え、合流を確認する。",
+        "condition": "前段階の会話・進行をゲーム内で確認",
+        "items": "指定なし",
+        "branch": null,
+        "warning": "",
+        "reward": "",
+        "sourceIds": [
+          "v17-game8-440762",
+          "v17-gamewith-323820"
+        ],
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "id": "goldmask:capital",
+        "taskId": "npc17-goldmask:capital",
+        "entryId": "npc17-goldmask",
+        "label": "王都で話す",
+        "location": "王都西城壁から闘技場方面",
+        "action": "両者の会話を確認する。",
+        "condition": "前段階の会話・進行をゲーム内で確認",
+        "items": "指定なし",
+        "branch": null,
+        "warning": "",
+        "reward": "",
+        "sourceIds": [
+          "v17-game8-440762",
+          "v17-gamewith-323820"
+        ],
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "id": "goldmask:book",
+        "taskId": "npc17-goldmask:book",
+        "entryId": "npc17-goldmask",
+        "label": "回帰性原理を用意",
+        "location": "黄金樹の大聖堂上層",
+        "action": "黄金律原論を回収して祈祷の師へ渡し、回帰性原理を購入する。",
+        "condition": "前段階の会話・進行をゲーム内で確認",
+        "items": "黄金律原論・聖印",
+        "branch": null,
+        "warning": "詠唱には知力37が必要。装備や能力を用意してから向かう。",
+        "reward": "",
+        "sourceIds": [
+          "v17-game8-440762",
+          "v17-gamewith-323820"
+        ],
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "id": "goldmask:statue",
+        "taskId": "npc17-goldmask:statue",
+        "entryId": "npc17-goldmask",
+        "label": "像の謎を報告",
+        "location": "王都のラダゴン像",
+        "action": "メッセージのある位置で回帰性原理を唱え、現れた情報を金仮面卿へ伝える。",
+        "condition": "灰都化前",
+        "items": "回帰性原理",
+        "branch": null,
+        "warning": "",
+        "reward": "",
+        "sourceIds": [
+          "v17-game8-440762",
+          "v17-gamewith-323820"
+        ],
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "id": "goldmask:bridge",
+        "taskId": "npc17-goldmask:bridge",
+        "entryId": "npc17-goldmask",
+        "label": "山嶺で再会",
+        "location": "巨人たちの山嶺・橋",
+        "action": "両者に話しかける。忘却の秘薬はこの推奨ルートでは渡さない。",
+        "condition": "前段階の会話・進行をゲーム内で確認",
+        "items": "指定なし",
+        "branch": null,
+        "warning": "",
+        "reward": "",
+        "sourceIds": [
+          "v17-game8-440762",
+          "v17-gamewith-323820"
+        ],
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "id": "goldmask:rune",
+        "taskId": "npc17-goldmask:rune",
+        "entryId": "npc17-goldmask",
+        "label": "完全律の修復ルーン",
+        "location": "灰都の闘技場方面の崖下",
+        "action": "灰都化後に金仮面卿のいた側を探し、遺体を確認する。",
+        "condition": "王都で謎を報告し、後半を進めた後",
+        "items": "指定なし",
+        "branch": null,
+        "warning": "",
+        "reward": "完全律の修復ルーン",
+        "sourceIds": [
+          "v17-game8-440762",
+          "v17-gamewith-323820"
+        ],
+        "verifiedAt": "2026-11-16"
+      }
+    ],
+    "coverage": "代表的な進行順。例外・NPC死亡後の復旧・全到達経路は未網羅。"
+  },
+  {
+    "id": "nepheli",
+    "name": "ネフェリ・ルー",
+    "gameScope": "base-game",
+    "entryId": "npc17-nepheli",
+    "regions": [
+      "stormveil",
+      "liurnia",
+      "roundtable"
+    ],
+    "sourceIds": [
+      "v17-game8-441109",
+      "v17-gamewith-323295",
+      "v17-gamewith-322133"
+    ],
+    "options": [
+      {
+        "id": "king",
+        "label": "生存・新王を目指す"
+      },
+      {
+        "id": "puppet",
+        "label": "精薬側の分岐を確認"
+      }
+    ],
+    "warning": "精薬を飲ませると生存側へ進めない。ケネス必須性には資料差があるため、同行者の会話も進める推奨手順を示す。",
+    "endings": [],
+    "stages": [
+      {
+        "id": "nepheli:castle",
+        "taskId": "npc-nepheli-early:step-1",
+        "entryId": "npc-nepheli-early",
+        "label": "城で話す",
+        "location": "ストームヴィル城",
+        "action": "ゴドリック戦前に昇降機側の部屋近くで会う。",
+        "condition": "前段階の会話・進行をゲーム内で確認",
+        "items": "指定なし",
+        "branch": null,
+        "warning": "",
+        "reward": "",
+        "sourceIds": [
+          "v17-game8-441109",
+          "v17-gamewith-323295",
+          "v17-gamewith-322133"
+        ],
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "id": "nepheli:reward",
+        "taskId": "npc-nepheli-early:step-2",
+        "entryId": "npc-nepheli-early",
+        "label": "円卓で話す",
+        "location": "円卓",
+        "action": "ゴドリック撃破後の会話と報酬を確認。",
+        "condition": "前段階の会話・進行をゲーム内で確認",
+        "items": "指定なし",
+        "branch": null,
+        "warning": "",
+        "reward": "",
+        "sourceIds": [
+          "v17-game8-441109",
+          "v17-gamewith-323295",
+          "v17-gamewith-322133"
+        ],
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "id": "nepheli:village",
+        "taskId": "npc17-nepheli:village",
+        "entryId": "npc17-nepheli",
+        "label": "しろがね村から円卓へ",
+        "location": "しろがね村／円卓",
+        "action": "村で会い、忌み潰しを倒した後に円卓で本人とギデオンの会話を進める。",
+        "condition": "前段階の会話・進行をゲーム内で確認",
+        "items": "指定なし",
+        "branch": null,
+        "warning": "",
+        "reward": "",
+        "sourceIds": [
+          "v17-game8-441109",
+          "v17-gamewith-323295",
+          "v17-gamewith-322133"
+        ],
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "id": "nepheli:potion-safe",
+        "taskId": "npc17-nepheli:potion-safe",
+        "entryId": "npc17-nepheli",
+        "label": "精薬を飲ませない",
+        "location": "円卓",
+        "action": "精薬を所持している場合はギデオンに処分を相談する。本人へは飲ませない。",
+        "condition": "前段階の会話・進行をゲーム内で確認",
+        "items": "指定なし",
+        "branch": "king",
+        "warning": "精薬の取得・処分を必須条件と断定しない。所持している場合の安全な分岐。",
+        "reward": "",
+        "sourceIds": [
+          "v17-game8-441109",
+          "v17-gamewith-323295",
+          "v17-gamewith-322133"
+        ],
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "id": "nepheli:hawk",
+        "taskId": "npc17-nepheli:hawk",
+        "entryId": "npc17-nepheli",
+        "label": "嵐鷹の古王を渡す",
+        "location": "四鐘楼→王を待つ礼拝堂／円卓",
+        "action": "魔石剣の鍵で礼拝堂へ戻り、建物脇の上階側で古王を拾う。円卓の本人へ渡す。",
+        "condition": "前段階の会話・進行をゲーム内で確認",
+        "items": "魔石剣の鍵・嵐鷹の古王",
+        "branch": "king",
+        "warning": "渡せない場合はローデリカの調霊解放と会話進行を確認。",
+        "reward": "",
+        "sourceIds": [
+          "v17-game8-441109",
+          "v17-gamewith-323295",
+          "v17-gamewith-322133"
+        ],
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "id": "nepheli:companions",
+        "taskId": "npc17-nepheli:companions",
+        "entryId": "npc17-nepheli",
+        "label": "同行者と物語を進める",
+        "location": "ハイト砦／ストームヴィル城",
+        "action": "ケネスへ砦奪還を報告し砦で話す。生存中のゴストークとゴドリック戦後に話し、モーゴットまで物語を進める。",
+        "condition": "前段階の会話・進行をゲーム内で確認",
+        "items": "指定なし",
+        "branch": "king",
+        "warning": "",
+        "reward": "",
+        "sourceIds": [
+          "v17-game8-441109",
+          "v17-gamewith-323295",
+          "v17-gamewith-322133"
+        ],
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "id": "nepheli:throne",
+        "taskId": "collect-ancient-nepheli:step-1",
+        "entryId": "collect-ancient-nepheli",
+        "label": "玉座の結末",
+        "location": "ゴドリックの玉座",
+        "action": "祝福で休憩・再読み込みし玉座を確認。本人の会話から鍛石を受け取る。",
+        "condition": "前段階の会話・進行をゲーム内で確認",
+        "items": "指定なし",
+        "branch": "king",
+        "warning": "",
+        "reward": "古竜岩の鍛石。ゴストーク生存・移動時は販売も確認",
+        "sourceIds": [
+          "v17-game8-441109",
+          "v17-gamewith-323295",
+          "v17-gamewith-322133"
+        ],
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "id": "nepheli:dose",
+        "taskId": "npc17-nepheli:dose",
+        "entryId": "npc17-nepheli",
+        "label": "精薬を飲ませる分岐",
+        "location": "円卓",
+        "action": "失意についてギデオンと話した後、本人へ精薬を渡す選択を確認する。",
+        "condition": "前段階の会話・進行をゲーム内で確認",
+        "items": "セルブスの精薬",
+        "branch": "puppet",
+        "warning": "生存ルートを望む場合は実行しない。",
+        "reward": "",
+        "sourceIds": [
+          "v17-game8-441109",
+          "v17-gamewith-323295",
+          "v17-gamewith-322133"
+        ],
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "id": "nepheli:puppet",
+        "taskId": "npc17-nepheli:puppet",
+        "entryId": "npc17-nepheli",
+        "label": "傀儡を回収",
+        "location": "ピディの遺体",
+        "action": "ラニ／セルブス側を進めてピディの結末が発生した後、遺体の報酬を確認。",
+        "condition": "前段階の会話・進行をゲーム内で確認",
+        "items": "指定なし",
+        "branch": "puppet",
+        "warning": "セルブス全手順と発生タイミングの例外は未収録。",
+        "reward": "ネフェリ・ルーの傀儡",
+        "sourceIds": [
+          "v17-game8-441109",
+          "v17-gamewith-323295",
+          "v17-gamewith-322133"
+        ],
+        "verifiedAt": "2026-11-16"
+      }
+    ],
+    "coverage": "代表的な進行順。例外・NPC死亡後の復旧・全到達経路は未網羅。"
+  },
+  {
+    "id": "dung",
+    "name": "糞喰い",
+    "gameScope": "base-game",
+    "entryId": "npc17-dung",
+    "regions": [
+      "roundtable",
+      "leyndell",
+      "haligtree",
+      "gelmir"
+    ],
+    "sourceIds": [
+      "v17-gamewith-322897",
+      "v17-game8-442430",
+      "v17-game8-442479",
+      "v17-gamewith-324236"
+    ],
+    "options": [
+      {
+        "id": "rune",
+        "label": "修復ルーンを目指す"
+      },
+      {
+        "id": "potion",
+        "label": "精薬分岐の注意を確認"
+      }
+    ],
+    "warning": "王都の苗床は灰都化前に回収。殺害や精薬は修復ルーン側と両立しない。",
+    "endings": [
+      "ending-despair"
+    ],
+    "stages": [
+      {
+        "id": "dung:key",
+        "taskId": "npc17-dung:key",
+        "entryId": "npc17-dung",
+        "label": "円卓で鍵を得る",
+        "location": "円卓",
+        "action": "苗床の呪いを1つ所持して本人に話す。",
+        "condition": "前段階の会話・進行をゲーム内で確認",
+        "items": "苗床の呪い",
+        "branch": null,
+        "warning": "",
+        "reward": "下水牢の鍵",
+        "sourceIds": [
+          "v17-gamewith-322897",
+          "v17-game8-442430",
+          "v17-game8-442479",
+          "v17-gamewith-324236"
+        ],
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "id": "dung:release",
+        "taskId": "npc17-dung:release",
+        "entryId": "npc17-dung",
+        "label": "地下牢を開く",
+        "location": "忌み捨ての地下",
+        "action": "下水牢の鍵で本体の牢を開き、外へ出るよう会話する。",
+        "condition": "前段階の会話・進行をゲーム内で確認",
+        "items": "下水牢の鍵",
+        "branch": null,
+        "warning": "",
+        "reward": "",
+        "sourceIds": [
+          "v17-gamewith-322897",
+          "v17-game8-442430",
+          "v17-game8-442479",
+          "v17-gamewith-324236"
+        ],
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "id": "dung:message",
+        "taskId": "npc17-dung:message",
+        "entryId": "npc17-dung",
+        "label": "円卓の伝言",
+        "location": "円卓",
+        "action": "本人のいた部屋の伝言を確認する。",
+        "condition": "前段階の会話・進行をゲーム内で確認",
+        "items": "指定なし",
+        "branch": null,
+        "warning": "",
+        "reward": "",
+        "sourceIds": [
+          "v17-gamewith-322897",
+          "v17-game8-442430",
+          "v17-game8-442479",
+          "v17-gamewith-324236"
+        ],
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "id": "dung:invader",
+        "taskId": "npc17-dung:invader",
+        "entryId": "npc17-dung",
+        "label": "外廓の侵入戦",
+        "location": "王都城壁前の北西の池",
+        "action": "外廓の池へ向かい侵入を倒す。ならず者がいる場合は会話を確認。",
+        "condition": "前段階の会話・進行をゲーム内で確認",
+        "items": "指定なし",
+        "branch": null,
+        "warning": "ならず者側の進行は本人の結末に影響。",
+        "reward": "ミエロスの剣",
+        "sourceIds": [
+          "v17-gamewith-322897",
+          "v17-game8-442430",
+          "v17-game8-442479",
+          "v17-gamewith-324236"
+        ],
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "id": "dung:return",
+        "taskId": "npc17-dung:return",
+        "entryId": "npc17-dung",
+        "label": "本体のもとへ",
+        "location": "円卓→忌み捨ての地下",
+        "action": "円卓で会話した後、地下牢に戻る。",
+        "condition": "前段階の会話・進行をゲーム内で確認",
+        "items": "指定なし",
+        "branch": null,
+        "warning": "",
+        "reward": "",
+        "sourceIds": [
+          "v17-gamewith-322897",
+          "v17-game8-442430",
+          "v17-game8-442479",
+          "v17-gamewith-324236"
+        ],
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "id": "dung:five",
+        "taskId": "npc17-dung:five",
+        "entryId": "npc17-dung",
+        "label": "苗床を計5つ渡す",
+        "location": "地下牢",
+        "action": "王都・火山館・聖樹などから回収した苗床の呪いを本体へ計5つ使う。",
+        "condition": "前段階の会話・進行をゲーム内で確認",
+        "items": "苗床の呪い 計5個",
+        "branch": "rune",
+        "warning": "全地点の詳細道順は未収録。先に必要数の取得計画を立てる。",
+        "reward": "",
+        "sourceIds": [
+          "v17-gamewith-322897",
+          "v17-game8-442430",
+          "v17-game8-442479",
+          "v17-gamewith-324236"
+        ],
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "id": "dung:rune",
+        "taskId": "npc17-dung:rune",
+        "entryId": "npc17-dung",
+        "label": "修復ルーンを確認",
+        "location": "地下牢",
+        "action": "5つ渡した後の報酬を確認し、再読み込み後の防具も調べる。",
+        "condition": "前段階の会話・進行をゲーム内で確認",
+        "items": "指定なし",
+        "branch": "rune",
+        "warning": "",
+        "reward": "忌み呪いの修復ルーン・忌みシリーズ",
+        "sourceIds": [
+          "v17-gamewith-322897",
+          "v17-game8-442430",
+          "v17-game8-442479",
+          "v17-gamewith-324236"
+        ],
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "id": "dung:dose",
+        "taskId": "npc17-dung:dose",
+        "entryId": "npc17-dung",
+        "label": "精薬側の分岐",
+        "location": "地下牢",
+        "action": "縛られた本体への精薬が別分岐になることを確認する。",
+        "condition": "前段階の会話・進行をゲーム内で確認",
+        "items": "セルブスの精薬",
+        "branch": "potion",
+        "warning": "苗床5個を渡し終える前の分岐。傀儡の購入までのセルブス全手順は未収録。",
+        "reward": "",
+        "sourceIds": [
+          "v17-gamewith-322897",
+          "v17-game8-442430",
+          "v17-game8-442479",
+          "v17-gamewith-324236"
+        ],
+        "verifiedAt": "2026-11-16"
+      }
+    ],
+    "coverage": "代表的な進行順。例外・NPC死亡後の復旧・全到達経路は未網羅。"
+  },
+  {
+    "id": "hyetta",
+    "name": "ハイータ・狂い火",
+    "gameScope": "base-game",
+    "entryId": "npc17-hyetta",
+    "regions": [
+      "liurnia",
+      "leyndell",
+      "farum"
+    ],
+    "sourceIds": [
+      "v17-gamewith-323813",
+      "v17-game8-441107",
+      "v17-game8-442641",
+      "v17-game8-452889"
+    ],
+    "options": [
+      {
+        "id": "keep",
+        "label": "受領状態を維持"
+      },
+      {
+        "id": "cure",
+        "label": "受領後に解除を目指す"
+      }
+    ],
+    "warning": "受領すると他の結末が制限される。ハイータ完走は狂い火受領の必須条件ではない。受領前に将来の結末を確認。",
+    "endings": [
+      "ending-frenzy"
+    ],
+    "stages": [
+      {
+        "id": "hyetta:irina",
+        "taskId": "npc17-hyetta:irina",
+        "entryId": "npc17-hyetta",
+        "label": "前提イベントを確認",
+        "location": "啜り泣きの半島",
+        "action": "イレーナの依頼とエドガーの城での会話を進め、イレーナの結末を確認。",
+        "condition": "前段階の会話・進行をゲーム内で確認",
+        "items": "指定なし",
+        "branch": null,
+        "warning": "イレーナを自分で殺害する手順ではない。全会話分岐の例外は未収録。",
+        "reward": "",
+        "sourceIds": [
+          "v17-gamewith-323813",
+          "v17-game8-441107",
+          "v17-game8-442641",
+          "v17-game8-452889"
+        ],
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "id": "hyetta:grape1",
+        "taskId": "npc17-hyetta:grape1",
+        "entryId": "npc17-hyetta",
+        "label": "1つ目のブドウ",
+        "location": "湖を臨む断崖",
+        "action": "ゴドリック後の城の出口側でブドウを拾い、断崖のハイータへ渡す。",
+        "condition": "前段階の会話・進行をゲーム内で確認",
+        "items": "シャブリリのブドウ",
+        "branch": null,
+        "warning": "",
+        "reward": "",
+        "sourceIds": [
+          "v17-gamewith-323813",
+          "v17-game8-441107",
+          "v17-game8-442641",
+          "v17-game8-452889"
+        ],
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "id": "hyetta:grape2",
+        "taskId": "npc17-hyetta:grape2",
+        "entryId": "npc17-hyetta",
+        "label": "2つ目のブドウ",
+        "location": "浄化された廃墟",
+        "action": "廃墟の地下のブドウを回収し、廃墟西側の本人へ渡す。",
+        "condition": "前段階の会話・進行をゲーム内で確認",
+        "items": "シャブリリのブドウ",
+        "branch": null,
+        "warning": "",
+        "reward": "",
+        "sourceIds": [
+          "v17-gamewith-323813",
+          "v17-game8-441107",
+          "v17-game8-442641",
+          "v17-game8-452889"
+        ],
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "id": "hyetta:grape3",
+        "taskId": "npc17-hyetta:grape3",
+        "entryId": "npc17-hyetta",
+        "label": "3つ目と会話",
+        "location": "門前町の橋",
+        "action": "復讐者のボロ家の侵入エドガーから得たブドウを渡し、正体に関する会話と再読み込み後の会話を進める。",
+        "condition": "前段階の会話・進行をゲーム内で確認",
+        "items": "シャブリリのブドウ",
+        "branch": null,
+        "warning": "",
+        "reward": "",
+        "sourceIds": [
+          "v17-gamewith-323813",
+          "v17-game8-441107",
+          "v17-game8-442641",
+          "v17-game8-452889"
+        ],
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "id": "hyetta:finger",
+        "taskId": "npc17-hyetta:finger",
+        "entryId": "npc17-hyetta",
+        "label": "指痕のブドウ",
+        "location": "鎮めの教会→ベイルム教会",
+        "action": "侵入ヴァイクから指痕のブドウを得て、ベイルム教会で渡す。",
+        "condition": "前段階の会話・進行をゲーム内で確認",
+        "items": "指痕のブドウ",
+        "branch": null,
+        "warning": "",
+        "reward": "",
+        "sourceIds": [
+          "v17-gamewith-323813",
+          "v17-game8-441107",
+          "v17-game8-442641",
+          "v17-game8-452889"
+        ],
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "id": "hyetta:seal",
+        "taskId": "npc17-hyetta:seal",
+        "entryId": "npc17-hyetta",
+        "label": "封印の奥へ",
+        "location": "忌み捨ての地下・狂い火の封印",
+        "action": "地下のモーグを越え、祭壇奥から落下経路を降りる。封印が残る場合はモーゴット撃破を確認。",
+        "condition": "前段階の会話・進行をゲーム内で確認",
+        "items": "指定なし",
+        "branch": null,
+        "warning": "落下で死亡しやすい。地下全域の道順は未収録。",
+        "reward": "",
+        "sourceIds": [
+          "v17-gamewith-323813",
+          "v17-game8-441107",
+          "v17-game8-442641",
+          "v17-game8-452889"
+        ],
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "id": "hyetta:receive",
+        "taskId": "npc17-hyetta:receive",
+        "entryId": "npc17-hyetta",
+        "label": "狂い火を受領",
+        "location": "狂い火の封印",
+        "action": "防具を外して奥の扉へ。受領による結末制限を理解してから進む。",
+        "condition": "ハイータの完走とは独立。地下の封印が解けている",
+        "items": "指定なし",
+        "branch": null,
+        "warning": "受領後の解除は針の長い取得条件が必要。ゲームの確認操作は慎重に。",
+        "reward": "",
+        "sourceIds": [
+          "v17-gamewith-323813",
+          "v17-game8-441107",
+          "v17-game8-442641",
+          "v17-game8-452889"
+        ],
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "id": "hyetta:reward",
+        "taskId": "npc17-hyetta:reward",
+        "entryId": "npc17-hyetta",
+        "label": "ハイータの報酬",
+        "location": "狂い火の封印",
+        "action": "受領後に本人と話し、触れる会話を進めて報酬を調べる。",
+        "condition": "前段階の会話・進行をゲーム内で確認",
+        "items": "指定なし",
+        "branch": null,
+        "warning": "この報酬は本編の最終結末を見る操作ではない。",
+        "reward": "狂い火の聖印",
+        "sourceIds": [
+          "v17-gamewith-323813",
+          "v17-game8-441107",
+          "v17-game8-442641",
+          "v17-game8-452889"
+        ],
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "id": "hyetta:needle",
+        "taskId": "npc17-millicent:miquella",
+        "entryId": "npc17-millicent",
+        "label": "ミケラの針を用意",
+        "location": "ミリセント協力ルート／マレニア後の花",
+        "action": "ミリセント協力後の針を回収し、マレニア後の花で交換する。",
+        "condition": "前段階の会話・進行をゲーム内で確認",
+        "items": "ミケラの針",
+        "branch": "cure",
+        "warning": "ミリセント画面と同じチェックを再利用。敵対側からはこの取得手順に進めない。",
+        "reward": "",
+        "sourceIds": [
+          "v17-gamewith-323813",
+          "v17-game8-441107",
+          "v17-game8-442641",
+          "v17-game8-452889"
+        ],
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "id": "hyetta:cure",
+        "taskId": "npc17-hyetta:cure",
+        "entryId": "npc17-hyetta",
+        "label": "狂い火を鎮める",
+        "location": "プラキドサクスの戦場",
+        "action": "針を所持し、ファルムアズラの竜王の戦場で使用して解除を確認する。",
+        "condition": "前段階の会話・進行をゲーム内で確認",
+        "items": "ミケラの針",
+        "branch": "cure",
+        "warning": "竜王撃破自体は使用条件ではない。解除してもメリナとの離別が取り消されるとは扱わない。",
+        "reward": "",
+        "sourceIds": [
+          "v17-gamewith-323813",
+          "v17-game8-441107",
+          "v17-game8-442641",
+          "v17-game8-452889"
+        ],
+        "verifiedAt": "2026-11-16"
+      }
+    ],
+    "coverage": "代表的な進行順。例外・NPC死亡後の復旧・全到達経路は未網羅。"
+  }
+]

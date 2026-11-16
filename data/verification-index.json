@@ -1,0 +1,4312 @@
+{
+  "collection:weapon-uchigatana": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "g8-uchigatana",
+      "v21-l-uchi"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:weapon-fang": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "g8-fang",
+      "gw-fang",
+      "v21-l-weapons"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:weapon-meteorite": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "g8-meteor",
+      "v21-l-weapons"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:weapon-claymore": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "g8-claymore",
+      "v21-l-weapons"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:armor-chain": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "g8-chain",
+      "v21-l-armor"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:armor-knight": {
+    "level": "review",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "g8-knight"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:armor-carian": {
+    "level": "review",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "g8-carian"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:talisman-turtle": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "g8-turtle",
+      "gw-turtle",
+      "v21-l-talismans"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:talisman-amber": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "g8-amber",
+      "v21-l-talismans"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:talisman-arsenal": {
+    "level": "review",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "g8-arsenal"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:collect-seed-stormhill": {
+    "level": "review",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "gw-seed",
+      "official-grace"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:collect-tear-marika": {
+    "level": "review",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "gw-tear",
+      "official-grace"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:collect-bearing-1": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "g8-bearing",
+      "v21-l-bells"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:collect-spirit-bell": {
+    "level": "review",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "famitsu-bell"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:collect-academy-key": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "gw-key",
+      "g8-academy",
+      "v21-l-academy-key"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:weapon-greatsword": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v14-game8-440897",
+      "v21-l-weapons"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:weapon-moonveil": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v14-game8-441034",
+      "v21-l-weapons"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:weapon-nagakiba": {
+    "level": "review",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v14-gamewith-321769"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:weapon-reduvia": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v14-game8-440918",
+      "v21-l-weapons"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:weapon-twinblade": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v14-game8-442094",
+      "v21-l-weapons"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:weapon-night-flame": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v14-game8-441687",
+      "v18-weapons"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:weapon-grafted": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v14-game8-441033",
+      "v18-weapons"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:weapon-ruins": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v14-game8-442733",
+      "v14-gamewith-321351",
+      "v18-weapons"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:weapon-gransax": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v14-game8-441686",
+      "v18-weapons"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:weapon-dark-moon": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v14-gamewith-320185",
+      "v18-weapons"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:weapon-rivers-blood": {
+    "level": "review",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v14-gamewith-321393",
+      "v21-r-rivers-g8-weapon",
+      "v21-r-rivers-g8-okina",
+      "v21-r-rivers-g8-church",
+      "v21-r-rivers-gw"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:weapon-blasphemous": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v14-gamewith-322273",
+      "v21-l-weapons"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:weapon-winged-scythe": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v14-game8-442747",
+      "v21-l-weapons"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:weapon-backhand": {
+    "level": "review",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v14-game8-618798"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:weapon-milady": {
+    "level": "review",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v14-game8-619770"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:weapon-great-katana": {
+    "level": "review",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v14-game8-618798"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:armor-vagabond": {
+    "level": "review",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v14-game8-440675"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:armor-reeds": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v14-game8-440678",
+      "v21-l-armor"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:armor-astrologer": {
+    "level": "review",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v14-game8-440679"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:armor-radahn": {
+    "level": "review",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v14-game8-448785"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:armor-black-knife": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v14-game8-442766",
+      "v21-l-armor"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:armor-cleanrot": {
+    "level": "review",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v14-game8-442768"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:armor-solitude": {
+    "level": "review",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v14-game8-620131"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:armor-oathseeker": {
+    "level": "review",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v14-game8-620797"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:talisman-claw": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v14-game8-441554",
+      "v21-l-talismans"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:talisman-axe": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v14-game8-441553",
+      "v21-l-talismans"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:talisman-curved": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v14-game8-441552",
+      "v21-l-talismans"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:talisman-radagon-icon": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v14-game8-441555",
+      "v18-talismans"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:talisman-soreseal": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v14-game8-443090",
+      "v18-talismans"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:talisman-erdtree": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v14-game8-441058",
+      "v21-l-talismans"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:talisman-ritual-sword": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v14-game8-444290",
+      "v21-l-ritual"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:talisman-gold-scarab": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v14-game8-441177",
+      "v21-l-talismans"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:talisman-dragoncrest": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v14-game8-442313",
+      "v18-talismans"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:talisman-alexander": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v14-game8-443678",
+      "v14-gamewith-322853",
+      "v21-l-talismans"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:talisman-two-turtle": {
+    "level": "review",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v14-game8-620058"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:talisman-two-handed": {
+    "level": "review",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v14-game8-620217"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:collect-physick": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v14-game8-440671",
+      "v21-l-physick"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:collect-whetstone": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v14-game8-440950",
+      "v21-l-whetstone"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:collect-jellyfish": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v14-game8-440755",
+      "v21-l-roderika"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:collect-bearing-2": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v14-game8-441569",
+      "v21-l-bells"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:collect-somber-1": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v14-game8-441137",
+      "v21-l-bells"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:collect-dectus-left": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v14-gamewith-320971",
+      "v21-l-dectus"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:collect-dectus-right": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v14-gamewith-320971",
+      "v21-l-dectus"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:collect-scadutree-consolation": {
+    "level": "review",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v14-game8-631566"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:weapon-carian-regal": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v15-g8-442307",
+      "v21-l-weapons"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:weapon-hand-malenia": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v15-g8-444450",
+      "v21-l-weapons"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:weapon-glintstone-kris": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v15-g8-441619",
+      "v21-l-weapons"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:collect-fingerslayer": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v15-g8-455436",
+      "v21-l-fingerslayer"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:collect-discarded-key": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v15-g8-441832",
+      "v21-l-discarded-key"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:collect-dark-ring": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v15-g8-441831",
+      "v21-l-dark-ring"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:collect-ancient-nepheli": {
+    "level": "review",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v15-g8-441109"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:armor-azur": {
+    "level": "review",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v15-g8-440982"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:armor-lusat": {
+    "level": "review",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v15-g8-440982"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:sorcery-comet-azur": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v16-g8-441621",
+      "v18-magic"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:incantation-golden-vow": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v16-g8-442597",
+      "v21-l-vow"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:ash-war-hoarfrost": {
+    "level": "review",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v16-g8-441427"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:spirit-mimic": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v16-g8-441630",
+      "v18-spirit"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v18-marais": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v18-weapons",
+      "v18-gw-weapons"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v18-golden-order": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v18-weapons",
+      "v18-gw-weapons"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v18-eclipse": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v18-weapons",
+      "v18-gw-weapons"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v18-devourer": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v18-weapons",
+      "v18-gw-weapons",
+      "v18-bernahl"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v18-stars-ruin": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v18-magic"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v18-ranni-moon": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v18-magic"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v18-founding-rain": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v18-magic"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v18-elden-stars": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v18-magic",
+      "v18-gw-prayer"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v18-fell-god": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v18-magic",
+      "v18-gw-prayer"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v18-greyoll": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v18-magic",
+      "v18-gw-prayer"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v18-godfrey-icon": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v18-talismans",
+      "v18-gw-talismans"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v18-nokstella-moon": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v18-talismans",
+      "v18-gw-talismans"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v18-old-lord": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v18-talismans",
+      "v18-gw-talismans",
+      "v18-old-lord"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v18-marika-soreseal": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v18-talismans",
+      "v18-gw-talismans"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v18-erdtree-two": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v18-talismans",
+      "v18-gw-talismans",
+      "v18-erdtree-two"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v18-tiche": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v18-spirit",
+      "v18-gw-spirit"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v18-lhutel": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v18-spirit",
+      "v18-gw-spirit"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v18-kristoff": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v18-spirit",
+      "v18-gw-spirit"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v18-ogha": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v18-gw-spirit",
+      "v18-ogha",
+      "v18-spirit"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v18-finlay": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v18-spirit",
+      "v18-gw-spirit"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-shield-buckler": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-shield",
+      "v19-shield-types",
+      "v19-buckler"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-shield-guilty": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-shield",
+      "v19-shield-types",
+      "v19-small"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-shield-ice": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-shield",
+      "v19-shield-types",
+      "v19-small"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-shield-coil": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-shield",
+      "v19-shield-types",
+      "v19-small"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-shield-heater": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-shield",
+      "v19-shield-types"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-shield-beastcrest": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-shield",
+      "v19-shield-types"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-shield-brass": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-shield",
+      "v19-shield-types"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-shield-turtle": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-shield",
+      "v19-shield-types"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-shield-carian": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-shield",
+      "v19-shield-types"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-shield-bluegold": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-shield",
+      "v19-shield-types"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-shield-jelly": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-shield",
+      "v19-shield-types",
+      "v19-jelly"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-shield-fingerprint": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-shield",
+      "v19-shield-types",
+      "v19-fingerprint"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-shield-visage": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-shield",
+      "v19-shield-types",
+      "v19-visage"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-shield-erdtree": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-shield",
+      "v19-shield-types",
+      "v19-erdtree"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-shield-ant": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-shield",
+      "v19-shield-types"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-shield-crossed": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-shield",
+      "v19-shield-types"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-tear-crimson": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-tears",
+      "v19-tears-gw"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-tear-crimsonspill": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-tears",
+      "v19-tears-gw"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-tear-crimsonburst": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-tears",
+      "v19-tears-gw"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-tear-cerulean": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-tears",
+      "v19-tears-gw"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-tear-greenspill": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-tears",
+      "v19-tears-gw"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-tear-greenburst": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-tears",
+      "v19-tears-gw"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-tear-strength": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-tears",
+      "v19-tears-gw"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-tear-dexterity": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-tears",
+      "v19-tears-gw"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-tear-intelligence": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-tears",
+      "v19-tears-gw"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-tear-faith": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-tears",
+      "v19-tears-gw"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-tear-opaline-hard": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-tears",
+      "v19-tears-gw"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-tear-speckled": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-tears",
+      "v19-tears-gw"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-tear-leaden": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-tears",
+      "v19-tears-gw"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-tear-magic": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-tears",
+      "v19-tears-gw"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-tear-flame": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-tears",
+      "v19-tears-gw"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-tear-lightning": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-tears",
+      "v19-tears-gw"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-tear-holy": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-tears",
+      "v19-tears-gw"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-tear-stonebarb": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-tears",
+      "v19-tears-gw"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-tear-spiked": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-tears",
+      "v19-tears-gw"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-tear-thorny": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-tears",
+      "v19-tears-gw"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-tear-twiggy": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-tears",
+      "v19-tears-gw"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-tear-winged": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-tears",
+      "v19-tears-gw",
+      "v19-winged-en"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-tear-windy": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-tears",
+      "v19-tears-gw"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-tear-crimsonbubble": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-tears",
+      "v19-tears-gw"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-tear-crimsonwhorl": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-tears",
+      "v19-tears-gw"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-tear-opaline": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-tears",
+      "v19-tears-gw"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-tear-hidden": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-tears",
+      "v19-tears-gw"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-book-nomadic-1": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-books",
+      "v19-books-go"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-book-nomadic-2": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-books",
+      "v19-books-go"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-book-nomadic-3": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-books",
+      "v19-books-go"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-book-nomadic-4": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-books",
+      "v19-books-go"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-book-nomadic-5": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-books",
+      "v19-books-go"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-book-nomadic-6": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-books",
+      "v19-books-go"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-book-nomadic-7": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-books",
+      "v19-books-go"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-book-nomadic-8": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-books",
+      "v19-books-go"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-book-nomadic-9": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-books",
+      "v19-books-go"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-book-nomadic-10": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-books",
+      "v19-books-go"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-book-nomadic-11": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-books",
+      "v19-books-go"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-book-nomadic-12": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-books",
+      "v19-books-go"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-book-nomadic-13": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-books",
+      "v19-books-go"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-book-nomadic-14": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-books",
+      "v19-books-go"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-book-nomadic-15": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-books",
+      "v19-books-go"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-book-nomadic-16": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-books",
+      "v19-books-go"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-book-nomadic-17": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-books",
+      "v19-books-go"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-book-nomadic-18": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-books",
+      "v19-books-go"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-book-nomadic-19": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-books",
+      "v19-books-go"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-book-nomadic-20": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-books",
+      "v19-books-go"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-book-nomadic-21": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-books",
+      "v19-books-go"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-book-nomadic-22": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-books",
+      "v19-books-go"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-book-nomadic-23": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-books",
+      "v19-books-go"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-book-nomadic-24": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-books",
+      "v19-books-go"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-book-armorer-1": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-books",
+      "v19-books-go"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-book-armorer-2": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-books",
+      "v19-books-go"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-book-armorer-3": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-books",
+      "v19-books-go"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-book-armorer-4": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-books",
+      "v19-books-go"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-book-armorer-5": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-books",
+      "v19-books-go"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-book-armorer-6": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-books",
+      "v19-books-go"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-book-armorer-7": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-books",
+      "v19-books-go"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-book-glintstone-1": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-books",
+      "v19-books-go"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-book-glintstone-2": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-books",
+      "v19-books-go"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-book-glintstone-3": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-books",
+      "v19-books-go"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-book-glintstone-4": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-books",
+      "v19-books-go"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-book-glintstone-5": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-books",
+      "v19-books-go"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-book-glintstone-6": {
+    "level": "review",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-books",
+      "v19-books-go",
+      "v21-r-book-glintstone-6-gw",
+      "v21-r-book-glintstone-6-mudauchi",
+      "v21-r-book-glintstone-6-go"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-book-glintstone-7": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-books",
+      "v19-books-go"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-book-glintstone-8": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-books",
+      "v19-books-go"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-spell-pebble": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-sorcery",
+      "v19-sorcery-g8"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-spell-swift": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-sorcery",
+      "v19-sorcery-g8"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-spell-great": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-sorcery",
+      "v19-sorcery-g8"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-spell-shard": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-sorcery",
+      "v19-sorcery-g8"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-spell-stars": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-sorcery",
+      "v19-sorcery-g8"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-spell-shower": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-sorcery",
+      "v19-sorcery-g8"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-spell-arc": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-sorcery",
+      "v19-sorcery-g8"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-spell-barrage": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-sorcery",
+      "v19-sorcery-g8"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-spell-burst": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-sorcery",
+      "v19-sorcery-g8"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-spell-rockblaster": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-sorcery",
+      "v19-sorcery-g8"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-spell-starlight": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-sorcery",
+      "v19-sorcery-g8"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-spell-glintblade": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-sorcery",
+      "v19-sorcery-g8"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-spell-phalanx": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-sorcery",
+      "v19-sorcery-g8"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-spell-greatphalanx": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-sorcery",
+      "v19-sorcery-g8"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-spell-fullmoon": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-sorcery",
+      "v19-sorcery-g8"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-spell-slicer": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-sorcery",
+      "v19-sorcery-g8"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-spell-greatsword": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-sorcery",
+      "v19-sorcery-g8"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-spell-piercer": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-sorcery",
+      "v19-sorcery-g8"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-spell-adula": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-sorcery",
+      "v19-sorcery-g8"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-spell-loretta": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-sorcery",
+      "v19-sorcery-g8"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-spell-mastery": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-sorcery",
+      "v19-sorcery-g8"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-spell-ambush": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-sorcery",
+      "v19-sorcery-g8"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-spell-zamor": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-sorcery",
+      "v19-sorcery-g8"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-spell-nightcomet": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-night",
+      "v19-sorcery"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-prayer-urgent": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-prayer"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-prayer-cure": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-prayer"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-prayer-heal": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-prayer"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-prayer-magic": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-prayer"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-prayer-flame": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-prayer"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-prayer-rejection": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-prayer"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-prayer-blessing": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-prayer"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-prayer-lightningspear": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-prayer"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-prayer-honed": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-prayer"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-prayer-electrify": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-prayer"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-prayer-dragonbolt": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-prayer"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-prayer-vyke": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-prayer"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-prayer-frozen": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-prayer"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-prayer-fortissax": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-prayer"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-prayer-deathlightning": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-prayer"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-prayer-catch": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-prayer"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-prayer-sling": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-prayer"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-prayer-strength": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-prayer"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-prayer-cleanse": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-prayer"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-prayer-stone": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-prayer"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-prayer-vitality": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-prayer"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-prayer-claw": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-prayer"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-prayer-boulder": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-prayer"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-prayer-gurranq": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-prayer"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v19-prayer-regression": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v19-prayer",
+      "v19-regression"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-ash-seppuku": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-seppuku",
+      "v21-r-ash-seppuku"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-ash-bloodhound": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-bloodhound",
+      "v20-ash-routes"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-ash-redmane": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-redmane"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-ash-barricade": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-barricade"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-ash-unsheathe": {
+    "level": "review",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-unsheathe",
+      "v20-ash-routes",
+      "v21-r-ash-unsheathe",
+      "v21-r-ash-unsheathe-gw"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-ash-bloody": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-bloody",
+      "v21-r-ash-bloody"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-ash-vow": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-vow"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-ash-tornado": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-tornado"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-ash-quickstep": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-ash-routes",
+      "v21-r-ash-quickstep"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-ash-spinning": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-ash-routes",
+      "v21-r-ash-spinning"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-ash-stamp-up": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-ash-routes",
+      "v21-r-ash-stamp-up"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-ash-kick": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-ash-routes",
+      "v21-r-ash-kick"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-ash-endure": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-ash-routes",
+      "v21-r-ash-endure"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-ash-warcry": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-ash-routes",
+      "v21-r-ash-warcry"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-ash-piercing": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-ash-routes",
+      "v21-r-ash-piercing"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-ash-no-skill": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-ash-routes",
+      "v21-r-ash-no-skill"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-ash-stamp-sweep": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-ash-routes",
+      "v21-r-ash-stamp-sweep"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-ash-wild-strikes": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-ash-routes",
+      "v21-r-ash-wild-strikes"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-ash-lion": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-ash-routes",
+      "v21-r-ash-lion"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-ash-cragblade": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-ash-routes",
+      "v21-r-ash-cragblade"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-ash-slam": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-ash-routes",
+      "v21-r-ash-slam"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-ash-barbaric": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-ash-routes",
+      "v21-r-ash-barbaric"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-ash-repeating": {
+    "level": "review",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-ash-routes",
+      "v21-r-ash-repeating",
+      "v21-r-ash-repeating-gw"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-ash-double": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-ash-routes",
+      "v21-r-ash-double"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-ash-dance": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-ash-routes",
+      "v21-r-ash-dance"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-ash-square": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-ash-routes",
+      "v21-r-ash-square"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-ash-charge": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-ash-routes",
+      "v21-r-ash-charge"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-ash-raptors": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-ash-routes",
+      "v20-yura",
+      "v21-r-ash-raptors"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-ash-beast": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-ash-routes",
+      "v21-r-ash-beast"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-ash-determination": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-ash-list",
+      "v21-r-ash-determination"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-ash-storm-stomp": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-ash-list",
+      "v21-r-ash-storm-stomp"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-ash-storm-assault": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-ash-list",
+      "v21-r-ash-storm-assault"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-ash-ice-spear": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-ash-list",
+      "v21-r-ash-ice-spear"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-spirit-imps": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-spirits"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-spirit-wolves": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-spirits"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-spirit-militia": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-spirits"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-spirit-nobles": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-spirits"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-spirit-noble-sorcerer": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-spirits"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-spirit-oleg": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-spirits"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-spirit-deenh": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-spirits"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-spirit-latenna": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-spirits"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-spirit-putrid": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-spirits"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-spirit-demihuman": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-spirits"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-spirit-claymen": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-spirits"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-spirit-stray": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-spirits"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-spirit-rats": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-spirits"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-spirit-squirts": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-spirits"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-spirit-miranda": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-spirits"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-spirit-archers": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-spirits"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-spirit-avian": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-spirits"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-spirit-kaiden": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-spirits"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-spirit-pumpkin": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-spirits"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-spirit-ancestral": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-spirits"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-spirit-rot": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-spirits"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-spirit-glintstone": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-spirits"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-spirit-twinsage": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-spirits"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-spirit-raya": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-spirits"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-spirit-radahn": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-spirits"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-spirit-rollo": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-spirits"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-spirit-nightmaiden": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-spirits"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-spirit-ingvall": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-ingvall"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-talisman-crimson1": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-talismans"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-talisman-crimson2": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-talismans"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-talisman-crimson-seed": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-talismans"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-talisman-dew": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-talismans"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-talisman-cerulean": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-talismans"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-talisman-cerulean1": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-talismans"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-talisman-cerulean2": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-talismans"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-talisman-cerulean-seed": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-talismans"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-talisman-viridian": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-talismans"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-talisman-viridian1": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-talismans"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-talisman-viridian2": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-talismans"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-talisman-arsenal1": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-talismans"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-talisman-greatjar": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-talismans"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-talisman-erdtree1": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-talismans"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-talisman-radagon": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-talismans"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-talisman-marika": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-talismans"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-weapon-dagger": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-weapons"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-weapon-cinquedea": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-weapons"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-weapon-parrying": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-weapons"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-weapon-misericorde": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-weapons"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-weapon-crystal-knife": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-weapons"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-weapon-wakizashi": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-weapons"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-weapon-ivory": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-weapons"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-weapon-black-knife": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-weapons"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-weapon-eochaid": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-weapons"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-weapon-carian": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-weapons"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-weapon-trina": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-weapons"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-weapon-broadsword": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-weapons"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-weapon-longsword": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-weapons"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-weapon-ornamental": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-weapons"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-weapon-crystal-sword": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-weapons"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-weapon-morningstar": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-weapons"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-weapon-mace": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-weapons"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-weapon-greatstars": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-weapons"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-weapon-pike": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-weapons"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-weapon-cross-naginata": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-weapons"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-weapon-finger-seal": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-weapons"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-weapon-clawmark": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-weapons"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-weapon-godslayer": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-weapons"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-weapon-serpent": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-serpent",
+      "v20-weapons"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-armor-veteran": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-veteran"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-armor-banished": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-banished"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-armor-blaidd": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-blaidd"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-armor-wolfmask": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-wolfmask"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-bell-smith3": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-bells"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-bell-smith4": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-bells"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-bell-somber2": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-bells"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-bell-somber3": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-bells"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-bell-somber4": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-bells"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-bell-somber5": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-bells"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-bell-grave1": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-bells"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-bell-grave2": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-bells"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-bell-grave3": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-bells"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-bell-ghost1": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-bells"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-bell-ghost2": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-bells"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-bell-ghost3": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-bells"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-bell-bones": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-bells",
+      "v20-bell-night"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-bell-meat": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-bells",
+      "v20-bell-night"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-bell-gravity": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-bells",
+      "v20-bell-night"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-bell-medicine": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-bells",
+      "v20-bell-night"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v20-bell-thops": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v20-bells",
+      "v20-thops-stock"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-tear-pilgrimage": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-m-tears"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-tear-marika4": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-m-tears"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-tear-callu": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-m-tears"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-tear-irith": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-m-tears"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-tear-bellum": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-m-tears"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-tear-inhibition": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-m-tears"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-tear-plague": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-m-tears"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-tear-marika2": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-m-tears"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-tear-stormcaller": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-m-tears"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-tear-marika1": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-m-tears"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-tear-repose": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-m-tears"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-seed-stormveil-court": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-m-seeds"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-seed-stormveil-root": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-m-seeds"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-seed-fringefolk": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-m-seeds"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-seed-haight": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-m-seeds"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-seed-morne": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-m-seeds"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-seed-town": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-m-seeds"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-seed-main-gate": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-m-seeds"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-seed-ravine": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-m-seeds"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-seed-south-caelid": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-m-seeds"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-seed-sellia": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-m-seeds"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-seed-farm-bridge": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-m-seeds"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-seed-altus-junction": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-m-seeds"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-seed-erdtree-hill": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-m-seeds"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-key-stormhill": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-m-keys"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-key-dragon-ruins": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-m-keys"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-key-siofra-south": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-m-keys"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-key-siofra-woods": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-m-keys"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-key-stench-bridge": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-m-keys"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-shield-hawk": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-m-hawk"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-shield-bluewhite": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-m-bluewhite"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-sorcery-rock": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-m-rock"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-sorcery-unseen": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-m-unseen",
+      "v21-m-mirage"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-prayer-blackflame": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-m-blackflame"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-prayer-bloodflame": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-m-bloodflame"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-book-mission1": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-m-books"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-book-mission2": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-m-mission2"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-ash-flaming-strike": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-p-ash-flaming-strike"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-ash-thunderbolt": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-p-ash-thunderbolt"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-ash-lightning-slash": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-p-ash-lightning-slash"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-ash-sacred-blade": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-p-ash-sacred-blade"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-ash-sacred-ring": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-p-ash-sacred-ring"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-ash-poison-mist": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-p-ash-poison-mist"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-ash-chilling-mist": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-p-ash-chilling-mist"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-ash-glintstone-pebble": {
+    "level": "review",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-p-ash-pebble-gw",
+      "v21-p-rogier-gw",
+      "v21-p-pebble-difference"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-ash-carian-retaliation": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-p-ash-carian-retaliation"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-ash-thops-barrier": {
+    "level": "review",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-p-ash-thops-barrier",
+      "v21-p-thops-eldenpedia",
+      "v21-p-thops-version"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-ash-vacuum-slice": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-p-ash-vacuum-slice"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-ash-stormcaller": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-p-ash-stormcaller"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-spirit-greatshield": {
+    "level": "review",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-p-spirit-greatshield"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-spirit-marionette": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-p-spirit-marionette"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-spirit-crystalian": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-p-spirit-crystalian"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-spirit-tricia": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-p-spirit-tricia"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-spirit-hugues": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-p-spirit-hugues"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-weapon-golden-halberd": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-p-weapon-golden-halberd"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-weapon-godskin-peeler": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-p-weapon-godskin-peeler"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-weapon-rusted-anchor": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-p-weapon-rusted-anchor"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-weapon-great-epee": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-p-weapon-great-epee"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-weapon-nightrider-flail": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-p-weapon-nightrider-flail"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-talisman-blood-exultation": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-p-talisman-blood-exultation"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-talisman-rot-exultation": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-p-talisman-rot-exultation"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-talisman-silver-scarab": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-p-talisman-silver-scarab"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-talisman-ritual-shield": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-p-talisman-ritual-shield"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-talisman-greatshield": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-p-talisman-greatshield"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-bell-iji": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-p-bell-iji",
+      "v21-p-bell-iji-gw"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-bell-rogier": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-p-bell-rogier",
+      "v21-p-rogier-event"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-armor-maliketh": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-a-maliketh",
+      "v21-a-maliketh-gw"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-armor-maliketh-head": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-a-maliketh",
+      "v21-a-maliketh-gw"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-armor-maliketh-chest": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-a-maliketh",
+      "v21-a-maliketh-gw"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-armor-maliketh-arms": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-a-maliketh",
+      "v21-a-maliketh-gw"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-armor-maliketh-legs": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-a-maliketh",
+      "v21-a-maliketh-gw"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-armor-tree": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-a-tree",
+      "v21-a-tree-gw"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-armor-tree-head": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-a-tree",
+      "v21-a-tree-gw"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-armor-tree-chest": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-a-tree",
+      "v21-a-tree-gw"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-armor-tree-arms": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-a-tree",
+      "v21-a-tree-gw"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-armor-tree-legs": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-a-tree",
+      "v21-a-tree-gw"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-armor-royal": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-a-royal",
+      "v21-a-royal-gw"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-armor-royal-head": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-a-royal",
+      "v21-a-royal-gw"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-armor-royal-chest": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-a-royal",
+      "v21-a-royal-gw"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-armor-royal-arms": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-a-royal",
+      "v21-a-royal-gw"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-armor-royal-legs": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-a-royal",
+      "v21-a-royal-gw"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-armor-crucible-axe": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-a-crucible",
+      "v21-a-crucible-gw"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-armor-crucible-axe-head": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-a-crucible",
+      "v21-a-crucible-gw"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-armor-crucible-axe-chest": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-a-crucible",
+      "v21-a-crucible-gw"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-armor-crucible-axe-arms": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-a-crucible",
+      "v21-a-crucible-gw"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-armor-crucible-axe-legs": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-a-crucible",
+      "v21-a-crucible-gw"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-armor-tree-chest-altered": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-a-tree",
+      "v21-a-tree-gw"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-armor-crucible-axe-chest-altered": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-a-crucible",
+      "v21-a-crucible-gw"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-armor-maliketh-chest-altered": {
+    "level": "review",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-a-maliketh",
+      "v21-a-maliketh-gw",
+      "v21-a-maliketh-altered-gw"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-armor-veteran-head": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-a-veteran"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-armor-veteran-chest": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-a-veteran"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-armor-veteran-arms": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-a-veteran"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-armor-veteran-legs": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-a-veteran"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-armor-veteran-chest-altered": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-a-veteran"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-armor-banished-head-altered": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-a-banished"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-armor-banished-head": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-a-banished"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-armor-banished-chest-altered": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-a-banished"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-armor-banished-chest": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-a-banished"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-armor-banished-arms": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-a-banished"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-armor-banished-legs": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-a-banished"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-armor-blaidd-chest": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-a-blaidd"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-armor-blaidd-arms": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-a-blaidd"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-armor-blaidd-legs": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-a-blaidd"
+    ],
+    "checkedAt": "2026-11-16"
+  },
+  "collection:v21-armor-blaidd-chest-altered": {
+    "level": "verified",
+    "method": "source-review",
+    "gameplayTested": false,
+    "sourceIds": [
+      "v21-a-blaidd"
+    ],
+    "checkedAt": "2026-11-16"
+  }
+}

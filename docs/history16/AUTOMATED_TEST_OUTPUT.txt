@@ -1,0 +1,42 @@
+Syntax OK: all 6 asset scripts + data bundle + 10 home inline scripts.
+✔ legacy 27 entries and 33 task IDs are deeply unchanged (4.622659ms)
+✔ all entry/task/source IDs and references, provenance, scope and dates are valid (1.478786ms)
+✔ JSON and browser data bundle have the same payload (9.862015ms)
+✔ combined search honors keyword, category, region, scope and status (5.067113ms)
+✔ NPC partial progress and all-task totals are counted correctly (0.623639ms)
+✔ old backup restores all legacy checks without dropping unknown current IDs (1.685357ms)
+✔ home and unrelated guides/account CSS remain byte-identical with allowed script additions normalized (112.208209ms)
+✔ Firebase config, SDK version, storage key and cloud document remain compatible (0.345259ms)
+✔ all static item pages expose unique titles, canonical links, source URLs and related URLs under /GNX/ (4.050237ms)
+✔ all 105 baseline records and 119 tasks remain unchanged; sync and home files unchanged from V14 (53.809722ms)
+✔ story chapters link to existing progress IDs without duplicate tasks (0.693154ms)
+✔ actual adapter retains legacy cloud state and merges independent clients plus unknown fields (13.73841ms)
+✔ actual adapter retains offline outbox, retries online and supports unchecking (4.989631ms)
+✔ actual adapter stops conflicting notes and keeps unsent conflict in the durable outbox (2.880526ms)
+✔ actual adapter preserves divergent pre-login local record in backup (1.471965ms)
+✔ actual adapter protects corrupt local and cloud state against automatic replacement (3.053246ms)
+✔ actual adapter does not write a queued edit after logout (1.890446ms)
+✔ actual adapter restores offline outbox after page reload (2.594096ms)
+✔ conflict resolution fetches latest cloud note before applying the explicit selection (3.49417ms)
+✔ an in-flight transaction cannot write into a newly selected account (1.66729ms)
+✔ two devices changing different checks preserve both, including unknown cloud IDs (3.166226ms)
+✔ uncheck is preserved without erasing unrelated achievements (0.427022ms)
+✔ concurrent notes require explicit resolution (0.193461ms)
+✔ in-flight delta combined with later edits survives retry (0.424188ms)
+✔ same value merges idempotently and toggle back cancels pending mutation (0.280282ms)
+✔ unknown task survives validation, JSON roundtrip, and reset; excluded from progress (1.224403ms)
+✔ invalid values and unsafe IDs are rejected before writes (1.452406ms)
+✔ V16 preserves all 125 records and 146 tasks, home/auth/sync/save modules byte for byte (57.153184ms)
+✔ ledger has unique IDs, complete baseline mapping, scope isolation, and no fabricated denominator (2.501034ms)
+✔ coverage AND filters distinguish DLC, pending candidates, and retained articles needing review (5.134919ms)
+✔ new category filters, old progress and exact totals remain valid (3.238394ms)
+✔ all new static detail and ledger scripts parse and source references resolve (4.523309ms)
+ℹ tests 32
+ℹ suites 0
+ℹ pass 32
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 323.258469
+Local links/resources: 1452 OK; structured JSON-LD OK; sitemap URLs resolve.

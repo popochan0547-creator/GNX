@@ -3,3 +3,26 @@
 
 /* Ver.14.0 additions are scoped to the DB. */
 #er-db .er-search{grid-template-columns:repeat(2,minmax(0,1fr))}#er-db .er-branches{display:grid;gap:12px}#er-db .er-branches section{padding:16px;border-left:2px solid #51d8bd;background:#102323}#er-db .er-branches h4{margin:0 0 10px}#er-db .er-branches p{margin:7px 0}#er-db .er-source a{overflow-wrap:anywhere}@media(max-width:540px){#er-db .er-search{grid-template-columns:1fr}}
+
+#er-db .er-npc-route{scroll-margin-top:90px}#er-db .er-npc-route fieldset{border:1px solid #294448;padding:14px;margin:18px 0;min-width:0}#er-db .er-npc-next{padding:18px;background:#123029;border-left:3px solid #55dfc6;margin:18px 0}#er-db .er-npc-stages{padding-left:24px}#er-db .er-npc-stages>li{padding:15px 0;border-bottom:1px solid #294448}#er-db .er-npc-route details,#er-db .er-npc-ending{margin:16px 0;padding:14px;border:1px solid #294448}#er-db .er-npc-route summary{cursor:pointer;min-height:44px;display:list-item}#er-db .er-npc-route h4{font-size:17px;margin:14px 0}#er-db [data-er-plan][aria-pressed=true]{background:#24594e;border-color:#55dfc6}#er-db .er-npc-route .er-actions button{white-space:normal;overflow-wrap:anywhere;min-height:44px}@media(max-width:540px){#er-db .er-npc-route fieldset{padding:10px}#er-db .er-npc-route .er-actions{display:grid;grid-template-columns:1fr}#er-db .er-npc-next{padding:12px}}
+#er-db .er-nav>*{flex:1 1 160px;min-width:0;text-align:center;white-space:normal;justify-content:center}#er-db .er-nav .er-button{font-size:12px}@media(max-width:540px){#er-db .er-nav>*{flex-basis:calc(50% - 4px);padding:12px 8px}#er-db .er-nav button{font-size:12px}}
+
+/* Ver.18 collection view: all selectors are isolated from home/account UI. */
+#er-db .er-collection-controls{margin:20px 0;align-items:end}
+#er-db .er-collection-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:20px 0}
+#er-db .er-collection-card{margin:0;min-width:0;overflow-wrap:anywhere}
+#er-db .er-collection-card h3{font-size:1.15rem;line-height:1.5}
+#er-db .er-collection-card .er-check{min-height:48px;cursor:pointer}
+#er-db .er-collection-card input[type=checkbox]{width:22px;height:22px;flex-shrink:0}
+#er-db .er-collection-card summary{cursor:pointer;padding:12px 0}
+#er-db .er-collection-controls input,#er-db .er-collection-controls select{min-height:44px}
+#er-db .er-collection-stats{padding-top:12px}
+#er-db button:disabled{opacity:.4;cursor:default;transform:none}
+@media(max-width:700px){#er-db .er-collection-grid{grid-template-columns:minmax(0,1fr)}#er-db .er-collection-controls{grid-template-columns:minmax(0,1fr)}#er-db .er-collection-card{padding:18px}#er-db .er-stat{gap:12px;flex-wrap:wrap}}
+
+/* V19 mobile collection controls remain isolated from home/account. */
+#er-db .er-collection-controls .er-check{min-height:48px;align-items:center;gap:10px}
+#er-db .er-collection-controls button{min-height:48px}
+#er-db .er-collection-grid a{overflow-wrap:anywhere}
+#er-db .er-collection-card details{scroll-margin-top:100px}
+@media(max-width:700px){#er-db .er-collection-controls input,#er-db .er-collection-controls select{font-size:16px}#er-db [data-er-region-todo]{width:100%;justify-content:space-between}}

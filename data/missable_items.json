@@ -1,0 +1,136 @@
+[
+  {
+    "id": "collection:weapon-gransax",
+    "entryId": "weapon-gransax",
+    "name": "グランサクスの雷",
+    "aliases": [],
+    "category": "weapon",
+    "subCategory": "未分類（要照合）",
+    "gameScope": "base-game",
+    "regions": [
+      "leyndell"
+    ],
+    "location": "王都ローデイル・巨大な槍の上",
+    "acquisition": "既存攻略の入手手順を参照。今回の再検証は下記の状態を確認。",
+    "conditions": null,
+    "missable": true,
+    "missableNote": "マリケス撃破による灰都化の前に回収。",
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "unit": "item",
+    "itemFamily": "weapon-gransax",
+    "occurrences": [
+      {
+        "id": "weapon-gransax:location-1",
+        "location": "王都ローデイル・巨大な槍の上",
+        "quantity": null,
+        "verification": "source-reviewed"
+      }
+    ],
+    "checkIds": [
+      "weapon-gransax:step-1"
+    ],
+    "legacyMeaning": null,
+    "legendaryGroup": "weapons",
+    "trophyRelated": true,
+    "relatedEntryIds": [
+      "area-leyndell",
+      "boss-maliketh"
+    ],
+    "chartChapter": 4,
+    "sourceIds": [
+      "v14-game8-441686",
+      "v18-weapons"
+    ],
+    "checkedAt": "2026-11-16",
+    "verification": "source-reviewed",
+    "verificationScope": "名前・伝説グループ・代表取得先を資料確認。周回/数量/未記載条件は未確認。"
+  },
+  {
+    "id": "collection:v20-ash-raptors",
+    "entryId": "v20-ash-raptors",
+    "name": "霧の猛禽",
+    "englishName": null,
+    "aliases": [],
+    "category": "ash-war",
+    "subCategory": "戦灰：鋭利",
+    "gameScope": "base-game",
+    "regions": [
+      "liurnia"
+    ],
+    "location": "学院正門前、ユラの共闘イベント",
+    "acquisition": "ユラ側でカラス山の凶手との戦闘を終える。",
+    "conditions": "ユラのイベントを学院正門前の共闘まで進める。学院へ入る方向と逆、北東の橋の赤サインから協力する。",
+    "missable": true,
+    "missableNote": "取得前のユラの死亡・イベント終了に注意。資料では巨人たちの山嶺への到達でイベントが終了するため、先に学院正門前の共闘を終える。共闘中の霊体ユラの敗北と本人の死亡は区別する。",
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "multipleNote": "全代替経路・周回・数量は未照合。",
+    "unit": "item",
+    "itemFamily": "v20-ash-raptors",
+    "occurrences": [
+      {
+        "id": "v20-ash-raptors:location-1",
+        "location": "学院正門前、ユラの共闘イベント",
+        "quantity": null,
+        "verification": "source-reviewed"
+      }
+    ],
+    "checkIds": [
+      "v20-ash-raptors:acquire"
+    ],
+    "legacyMeaning": null,
+    "legendaryGroup": null,
+    "trophyRelated": false,
+    "relatedEntryIds": [
+      "area-liurnia",
+      "weapon-nagakiba"
+    ],
+    "chartChapter": 3,
+    "sourceIds": [
+      "v20-ash-routes",
+      "v20-yura",
+      "v21-r-ash-raptors"
+    ],
+    "checkedAt": "2026-11-16",
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "verificationScope": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+    "sourceDifference": null,
+    "detailFacts": [
+      {
+        "label": "収集区分",
+        "value": "戦灰：属性未照合"
+      },
+      {
+        "label": "必要条件",
+        "value": "ユラのイベントを学院正門前の共闘まで進める。学院へ入る方向と逆、北東の橋の赤サインから協力する。"
+      },
+      {
+        "label": "周回・複数入手",
+        "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+      },
+      {
+        "label": "戦灰・固有戦技の区別",
+        "value": "付け替え用の戦灰。武器固有戦技だけの項目ではありません。"
+      },
+      {
+        "label": "基本の付与属性",
+        "value": "鋭利"
+      },
+      {
+        "label": "使用可能な装備",
+        "value": "全ての近接武器"
+      },
+      {
+        "label": "派生の注意",
+        "value": "ここで記載する属性は戦灰の基本属性。全派生選択肢や砥石刃による拡張の一覧ではありません。"
+      }
+    ],
+    "defaultAffinity": "鋭利",
+    "compatibleWeapons": "全ての近接武器",
+    "skillKind": "ash-of-war",
+    "unknownFields": []
+  }
+]

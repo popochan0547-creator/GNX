@@ -1,0 +1,1358 @@
+[
+  {
+    "id": "v21-armor-maliketh",
+    "name": "マリケスシリーズ",
+    "category": "armor",
+    "subCategory": "シリーズ（通常4部位）",
+    "regions": [
+      "roundtable",
+      "farum"
+    ],
+    "location": "マリケス撃破後の円卓、指読みエンヤ",
+    "acquisition": "黒き剣のマリケスを倒してから円卓で防具の購入一覧を確認する。",
+    "conditions": "通常の兜・鎧・手甲・足甲が対象。鎧の軽装はこの一式に含めない。",
+    "sourceIds": [
+      "a-maliketh",
+      "a-maliketh-gw"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "gameScope": "base-game",
+    "multipleNote": "取得の累積チェック。現在の所持数・周回・同時所持を意味しない。通常と軽装のチェックを相互に自動変更しない。",
+    "unit": "set",
+    "components": [
+      "マリケスの兜",
+      "マリケスの鎧",
+      "マリケスの手甲",
+      "マリケスの足甲"
+    ],
+    "componentEntryIds": [
+      "v21-armor-maliketh-head",
+      "v21-armor-maliketh-chest",
+      "v21-armor-maliketh-arms",
+      "v21-armor-maliketh-legs"
+    ],
+    "relatedIds": [
+      "boss-maliketh",
+      "v21-armor-maliketh-head",
+      "v21-armor-maliketh-chest",
+      "v21-armor-maliketh-arms",
+      "v21-armor-maliketh-legs"
+    ],
+    "seriesKey": "maliketh"
+  },
+  {
+    "id": "v21-armor-maliketh-head",
+    "name": "マリケスの兜",
+    "category": "armor",
+    "subCategory": "部位：頭",
+    "regions": [
+      "roundtable",
+      "farum"
+    ],
+    "location": "マリケス撃破後の円卓、指読みエンヤ",
+    "acquisition": "黒き剣のマリケスを倒してから円卓で防具の購入一覧を確認する。 取得した部位名を確認する。",
+    "conditions": "通常の兜・鎧・手甲・足甲が対象。鎧の軽装はこの一式に含めない。 この部位だけを明示的にチェックする。シリーズの一式チェックから取得を推定しない。",
+    "sourceIds": [
+      "a-maliketh",
+      "a-maliketh-gw"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "gameScope": "base-game",
+    "multipleNote": "取得の累積チェック。現在の所持数・周回・同時所持を意味しない。通常と軽装のチェックを相互に自動変更しない。",
+    "unit": "item",
+    "armorSlot": "head",
+    "variant": "normal",
+    "seriesKey": "maliketh",
+    "setEntryId": "v21-armor-maliketh",
+    "setConfigurationMember": true,
+    "relatedIds": [
+      "v21-armor-maliketh",
+      "boss-maliketh"
+    ]
+  },
+  {
+    "id": "v21-armor-maliketh-chest",
+    "name": "マリケスの鎧",
+    "category": "armor",
+    "subCategory": "部位：胴",
+    "regions": [
+      "roundtable",
+      "farum"
+    ],
+    "location": "マリケス撃破後の円卓、指読みエンヤ",
+    "acquisition": "黒き剣のマリケスを倒してから円卓で防具の購入一覧を確認する。 取得した部位名を確認する。",
+    "conditions": "通常の兜・鎧・手甲・足甲が対象。鎧の軽装はこの一式に含めない。 この部位だけを明示的にチェックする。シリーズの一式チェックから取得を推定しない。",
+    "sourceIds": [
+      "a-maliketh",
+      "a-maliketh-gw"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "gameScope": "base-game",
+    "multipleNote": "取得の累積チェック。現在の所持数・周回・同時所持を意味しない。通常と軽装のチェックを相互に自動変更しない。",
+    "unit": "item",
+    "armorSlot": "chest",
+    "variant": "normal",
+    "seriesKey": "maliketh",
+    "setEntryId": "v21-armor-maliketh",
+    "setConfigurationMember": true,
+    "relatedIds": [
+      "v21-armor-maliketh",
+      "boss-maliketh"
+    ]
+  },
+  {
+    "id": "v21-armor-maliketh-arms",
+    "name": "マリケスの手甲",
+    "category": "armor",
+    "subCategory": "部位：腕",
+    "regions": [
+      "roundtable",
+      "farum"
+    ],
+    "location": "マリケス撃破後の円卓、指読みエンヤ",
+    "acquisition": "黒き剣のマリケスを倒してから円卓で防具の購入一覧を確認する。 取得した部位名を確認する。",
+    "conditions": "通常の兜・鎧・手甲・足甲が対象。鎧の軽装はこの一式に含めない。 この部位だけを明示的にチェックする。シリーズの一式チェックから取得を推定しない。",
+    "sourceIds": [
+      "a-maliketh",
+      "a-maliketh-gw"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "gameScope": "base-game",
+    "multipleNote": "取得の累積チェック。現在の所持数・周回・同時所持を意味しない。通常と軽装のチェックを相互に自動変更しない。",
+    "unit": "item",
+    "armorSlot": "arms",
+    "variant": "normal",
+    "seriesKey": "maliketh",
+    "setEntryId": "v21-armor-maliketh",
+    "setConfigurationMember": true,
+    "relatedIds": [
+      "v21-armor-maliketh",
+      "boss-maliketh"
+    ]
+  },
+  {
+    "id": "v21-armor-maliketh-legs",
+    "name": "マリケスの足甲",
+    "category": "armor",
+    "subCategory": "部位：脚",
+    "regions": [
+      "roundtable",
+      "farum"
+    ],
+    "location": "マリケス撃破後の円卓、指読みエンヤ",
+    "acquisition": "黒き剣のマリケスを倒してから円卓で防具の購入一覧を確認する。 取得した部位名を確認する。",
+    "conditions": "通常の兜・鎧・手甲・足甲が対象。鎧の軽装はこの一式に含めない。 この部位だけを明示的にチェックする。シリーズの一式チェックから取得を推定しない。",
+    "sourceIds": [
+      "a-maliketh",
+      "a-maliketh-gw"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "gameScope": "base-game",
+    "multipleNote": "取得の累積チェック。現在の所持数・周回・同時所持を意味しない。通常と軽装のチェックを相互に自動変更しない。",
+    "unit": "item",
+    "armorSlot": "legs",
+    "variant": "normal",
+    "seriesKey": "maliketh",
+    "setEntryId": "v21-armor-maliketh",
+    "setConfigurationMember": true,
+    "relatedIds": [
+      "v21-armor-maliketh",
+      "boss-maliketh"
+    ]
+  },
+  {
+    "id": "v21-armor-tree",
+    "name": "ツリーガードシリーズ",
+    "category": "armor",
+    "subCategory": "シリーズ（通常4部位）",
+    "regions": [
+      "altus"
+    ],
+    "location": "アウレーザの英雄墓、チャリオットを破壊する仕掛け",
+    "acquisition": "墓内後半の梁へ降りる経路から炎の柱を操作し、再び坂道の区画へ戻ってチャリオットの破壊報酬を受け取る。",
+    "conditions": "野外のツリーガード撃破報酬ではない。墓のボス撃破とチャリオット破壊は別の条件。通常4部位で管理する。",
+    "sourceIds": [
+      "a-tree",
+      "a-tree-gw"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "gameScope": "base-game",
+    "multipleNote": "取得の累積チェック。現在の所持数・周回・同時所持を意味しない。通常と軽装のチェックを相互に自動変更しない。",
+    "unit": "set",
+    "components": [
+      "ツリーガードの兜",
+      "ツリーガードの鎧",
+      "ツリーガードの手甲",
+      "ツリーガードの足甲"
+    ],
+    "componentEntryIds": [
+      "v21-armor-tree-head",
+      "v21-armor-tree-chest",
+      "v21-armor-tree-arms",
+      "v21-armor-tree-legs"
+    ],
+    "relatedIds": [
+      "v21-armor-tree-head",
+      "v21-armor-tree-chest",
+      "v21-armor-tree-arms",
+      "v21-armor-tree-legs"
+    ],
+    "seriesKey": "tree"
+  },
+  {
+    "id": "v21-armor-tree-head",
+    "name": "ツリーガードの兜",
+    "category": "armor",
+    "subCategory": "部位：頭",
+    "regions": [
+      "altus"
+    ],
+    "location": "アウレーザの英雄墓、チャリオットを破壊する仕掛け",
+    "acquisition": "墓内後半の梁へ降りる経路から炎の柱を操作し、再び坂道の区画へ戻ってチャリオットの破壊報酬を受け取る。 取得した部位名を確認する。",
+    "conditions": "野外のツリーガード撃破報酬ではない。墓のボス撃破とチャリオット破壊は別の条件。通常4部位で管理する。 この部位だけを明示的にチェックする。シリーズの一式チェックから取得を推定しない。",
+    "sourceIds": [
+      "a-tree",
+      "a-tree-gw"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "gameScope": "base-game",
+    "multipleNote": "取得の累積チェック。現在の所持数・周回・同時所持を意味しない。通常と軽装のチェックを相互に自動変更しない。",
+    "unit": "item",
+    "armorSlot": "head",
+    "variant": "normal",
+    "seriesKey": "tree",
+    "setEntryId": "v21-armor-tree",
+    "setConfigurationMember": true,
+    "relatedIds": [
+      "v21-armor-tree"
+    ]
+  },
+  {
+    "id": "v21-armor-tree-chest",
+    "name": "ツリーガードの鎧",
+    "category": "armor",
+    "subCategory": "部位：胴",
+    "regions": [
+      "altus"
+    ],
+    "location": "アウレーザの英雄墓、チャリオットを破壊する仕掛け",
+    "acquisition": "墓内後半の梁へ降りる経路から炎の柱を操作し、再び坂道の区画へ戻ってチャリオットの破壊報酬を受け取る。 取得した部位名を確認する。",
+    "conditions": "野外のツリーガード撃破報酬ではない。墓のボス撃破とチャリオット破壊は別の条件。通常4部位で管理する。 この部位だけを明示的にチェックする。シリーズの一式チェックから取得を推定しない。",
+    "sourceIds": [
+      "a-tree",
+      "a-tree-gw"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "gameScope": "base-game",
+    "multipleNote": "取得の累積チェック。現在の所持数・周回・同時所持を意味しない。通常と軽装のチェックを相互に自動変更しない。",
+    "unit": "item",
+    "armorSlot": "chest",
+    "variant": "normal",
+    "seriesKey": "tree",
+    "setEntryId": "v21-armor-tree",
+    "setConfigurationMember": true,
+    "relatedIds": [
+      "v21-armor-tree"
+    ]
+  },
+  {
+    "id": "v21-armor-tree-arms",
+    "name": "ツリーガードの手甲",
+    "category": "armor",
+    "subCategory": "部位：腕",
+    "regions": [
+      "altus"
+    ],
+    "location": "アウレーザの英雄墓、チャリオットを破壊する仕掛け",
+    "acquisition": "墓内後半の梁へ降りる経路から炎の柱を操作し、再び坂道の区画へ戻ってチャリオットの破壊報酬を受け取る。 取得した部位名を確認する。",
+    "conditions": "野外のツリーガード撃破報酬ではない。墓のボス撃破とチャリオット破壊は別の条件。通常4部位で管理する。 この部位だけを明示的にチェックする。シリーズの一式チェックから取得を推定しない。",
+    "sourceIds": [
+      "a-tree",
+      "a-tree-gw"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "gameScope": "base-game",
+    "multipleNote": "取得の累積チェック。現在の所持数・周回・同時所持を意味しない。通常と軽装のチェックを相互に自動変更しない。",
+    "unit": "item",
+    "armorSlot": "arms",
+    "variant": "normal",
+    "seriesKey": "tree",
+    "setEntryId": "v21-armor-tree",
+    "setConfigurationMember": true,
+    "relatedIds": [
+      "v21-armor-tree"
+    ]
+  },
+  {
+    "id": "v21-armor-tree-legs",
+    "name": "ツリーガードの足甲",
+    "category": "armor",
+    "subCategory": "部位：脚",
+    "regions": [
+      "altus"
+    ],
+    "location": "アウレーザの英雄墓、チャリオットを破壊する仕掛け",
+    "acquisition": "墓内後半の梁へ降りる経路から炎の柱を操作し、再び坂道の区画へ戻ってチャリオットの破壊報酬を受け取る。 取得した部位名を確認する。",
+    "conditions": "野外のツリーガード撃破報酬ではない。墓のボス撃破とチャリオット破壊は別の条件。通常4部位で管理する。 この部位だけを明示的にチェックする。シリーズの一式チェックから取得を推定しない。",
+    "sourceIds": [
+      "a-tree",
+      "a-tree-gw"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "gameScope": "base-game",
+    "multipleNote": "取得の累積チェック。現在の所持数・周回・同時所持を意味しない。通常と軽装のチェックを相互に自動変更しない。",
+    "unit": "item",
+    "armorSlot": "legs",
+    "variant": "normal",
+    "seriesKey": "tree",
+    "setEntryId": "v21-armor-tree",
+    "setConfigurationMember": true,
+    "relatedIds": [
+      "v21-armor-tree"
+    ]
+  },
+  {
+    "id": "v21-armor-royal",
+    "name": "王骸シリーズ",
+    "category": "armor",
+    "subCategory": "シリーズ（通常4部位）",
+    "regions": [
+      "roundtable",
+      "liurnia"
+    ],
+    "location": "円卓、エンシャが立っていた場所",
+    "acquisition": "聖樹の秘割符（右）を入手後に円卓で起きるエンシャの侵入を退け、円卓へ戻って元の立ち位置の取得物を調べる。",
+    "conditions": "通常の円卓で非敵対NPCを攻撃する手順ではない。資料確認したのは侵入イベント後の回収経路。",
+    "sourceIds": [
+      "a-royal",
+      "a-royal-gw"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "gameScope": "base-game",
+    "multipleNote": "取得の累積チェック。現在の所持数・周回・同時所持を意味しない。通常と軽装のチェックを相互に自動変更しない。",
+    "unit": "set",
+    "components": [
+      "王骸の兜",
+      "王骸の鎧",
+      "王骸の手甲",
+      "王骸の足甲"
+    ],
+    "componentEntryIds": [
+      "v21-armor-royal-head",
+      "v21-armor-royal-chest",
+      "v21-armor-royal-arms",
+      "v21-armor-royal-legs"
+    ],
+    "relatedIds": [
+      "v21-armor-royal-head",
+      "v21-armor-royal-chest",
+      "v21-armor-royal-arms",
+      "v21-armor-royal-legs"
+    ],
+    "seriesKey": "royal"
+  },
+  {
+    "id": "v21-armor-royal-head",
+    "name": "王骸の兜",
+    "category": "armor",
+    "subCategory": "部位：頭",
+    "regions": [
+      "roundtable",
+      "liurnia"
+    ],
+    "location": "円卓、エンシャが立っていた場所",
+    "acquisition": "聖樹の秘割符（右）を入手後に円卓で起きるエンシャの侵入を退け、円卓へ戻って元の立ち位置の取得物を調べる。 取得した部位名を確認する。",
+    "conditions": "通常の円卓で非敵対NPCを攻撃する手順ではない。資料確認したのは侵入イベント後の回収経路。 この部位だけを明示的にチェックする。シリーズの一式チェックから取得を推定しない。",
+    "sourceIds": [
+      "a-royal",
+      "a-royal-gw"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "gameScope": "base-game",
+    "multipleNote": "取得の累積チェック。現在の所持数・周回・同時所持を意味しない。通常と軽装のチェックを相互に自動変更しない。",
+    "unit": "item",
+    "armorSlot": "head",
+    "variant": "normal",
+    "seriesKey": "royal",
+    "setEntryId": "v21-armor-royal",
+    "setConfigurationMember": true,
+    "relatedIds": [
+      "v21-armor-royal"
+    ]
+  },
+  {
+    "id": "v21-armor-royal-chest",
+    "name": "王骸の鎧",
+    "category": "armor",
+    "subCategory": "部位：胴",
+    "regions": [
+      "roundtable",
+      "liurnia"
+    ],
+    "location": "円卓、エンシャが立っていた場所",
+    "acquisition": "聖樹の秘割符（右）を入手後に円卓で起きるエンシャの侵入を退け、円卓へ戻って元の立ち位置の取得物を調べる。 取得した部位名を確認する。",
+    "conditions": "通常の円卓で非敵対NPCを攻撃する手順ではない。資料確認したのは侵入イベント後の回収経路。 この部位だけを明示的にチェックする。シリーズの一式チェックから取得を推定しない。",
+    "sourceIds": [
+      "a-royal",
+      "a-royal-gw"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "gameScope": "base-game",
+    "multipleNote": "取得の累積チェック。現在の所持数・周回・同時所持を意味しない。通常と軽装のチェックを相互に自動変更しない。",
+    "unit": "item",
+    "armorSlot": "chest",
+    "variant": "normal",
+    "seriesKey": "royal",
+    "setEntryId": "v21-armor-royal",
+    "setConfigurationMember": true,
+    "relatedIds": [
+      "v21-armor-royal"
+    ]
+  },
+  {
+    "id": "v21-armor-royal-arms",
+    "name": "王骸の手甲",
+    "category": "armor",
+    "subCategory": "部位：腕",
+    "regions": [
+      "roundtable",
+      "liurnia"
+    ],
+    "location": "円卓、エンシャが立っていた場所",
+    "acquisition": "聖樹の秘割符（右）を入手後に円卓で起きるエンシャの侵入を退け、円卓へ戻って元の立ち位置の取得物を調べる。 取得した部位名を確認する。",
+    "conditions": "通常の円卓で非敵対NPCを攻撃する手順ではない。資料確認したのは侵入イベント後の回収経路。 この部位だけを明示的にチェックする。シリーズの一式チェックから取得を推定しない。",
+    "sourceIds": [
+      "a-royal",
+      "a-royal-gw"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "gameScope": "base-game",
+    "multipleNote": "取得の累積チェック。現在の所持数・周回・同時所持を意味しない。通常と軽装のチェックを相互に自動変更しない。",
+    "unit": "item",
+    "armorSlot": "arms",
+    "variant": "normal",
+    "seriesKey": "royal",
+    "setEntryId": "v21-armor-royal",
+    "setConfigurationMember": true,
+    "relatedIds": [
+      "v21-armor-royal"
+    ]
+  },
+  {
+    "id": "v21-armor-royal-legs",
+    "name": "王骸の足甲",
+    "category": "armor",
+    "subCategory": "部位：脚",
+    "regions": [
+      "roundtable",
+      "liurnia"
+    ],
+    "location": "円卓、エンシャが立っていた場所",
+    "acquisition": "聖樹の秘割符（右）を入手後に円卓で起きるエンシャの侵入を退け、円卓へ戻って元の立ち位置の取得物を調べる。 取得した部位名を確認する。",
+    "conditions": "通常の円卓で非敵対NPCを攻撃する手順ではない。資料確認したのは侵入イベント後の回収経路。 この部位だけを明示的にチェックする。シリーズの一式チェックから取得を推定しない。",
+    "sourceIds": [
+      "a-royal",
+      "a-royal-gw"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "gameScope": "base-game",
+    "multipleNote": "取得の累積チェック。現在の所持数・周回・同時所持を意味しない。通常と軽装のチェックを相互に自動変更しない。",
+    "unit": "item",
+    "armorSlot": "legs",
+    "variant": "normal",
+    "seriesKey": "royal",
+    "setEntryId": "v21-armor-royal",
+    "setConfigurationMember": true,
+    "relatedIds": [
+      "v21-armor-royal"
+    ]
+  },
+  {
+    "id": "v21-armor-crucible-axe",
+    "name": "坩堝の斧シリーズ",
+    "category": "armor",
+    "subCategory": "シリーズ（通常4部位）",
+    "regions": [
+      "altus"
+    ],
+    "location": "アウレーザの英雄墓、坩堝の騎士2体とのボス戦",
+    "acquisition": "英雄墓のボス「坩堝の騎士」と「坩堝の騎士、オルドビス」を倒して報酬を受け取る。",
+    "conditions": "斧兜・斧鎧・共通の手甲・足甲を構成とする。別の樹兜・樹鎧や軽装鎧を必須に含めない。",
+    "sourceIds": [
+      "a-crucible",
+      "a-crucible-gw"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "gameScope": "base-game",
+    "multipleNote": "取得の累積チェック。現在の所持数・周回・同時所持を意味しない。通常と軽装のチェックを相互に自動変更しない。",
+    "unit": "set",
+    "components": [
+      "坩堝の斧兜",
+      "坩堝の斧鎧",
+      "坩堝の手甲",
+      "坩堝の足甲"
+    ],
+    "componentEntryIds": [
+      "v21-armor-crucible-axe-head",
+      "v21-armor-crucible-axe-chest",
+      "v21-armor-crucible-axe-arms",
+      "v21-armor-crucible-axe-legs"
+    ],
+    "relatedIds": [
+      "v21-armor-crucible-axe-head",
+      "v21-armor-crucible-axe-chest",
+      "v21-armor-crucible-axe-arms",
+      "v21-armor-crucible-axe-legs"
+    ],
+    "seriesKey": "crucible-axe"
+  },
+  {
+    "id": "v21-armor-crucible-axe-head",
+    "name": "坩堝の斧兜",
+    "category": "armor",
+    "subCategory": "部位：頭",
+    "regions": [
+      "altus"
+    ],
+    "location": "アウレーザの英雄墓、坩堝の騎士2体とのボス戦",
+    "acquisition": "英雄墓のボス「坩堝の騎士」と「坩堝の騎士、オルドビス」を倒して報酬を受け取る。 取得した部位名を確認する。",
+    "conditions": "斧兜・斧鎧・共通の手甲・足甲を構成とする。別の樹兜・樹鎧や軽装鎧を必須に含めない。 この部位だけを明示的にチェックする。シリーズの一式チェックから取得を推定しない。",
+    "sourceIds": [
+      "a-crucible",
+      "a-crucible-gw"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "gameScope": "base-game",
+    "multipleNote": "取得の累積チェック。現在の所持数・周回・同時所持を意味しない。通常と軽装のチェックを相互に自動変更しない。",
+    "unit": "item",
+    "armorSlot": "head",
+    "variant": "normal",
+    "seriesKey": "crucible-axe",
+    "setEntryId": "v21-armor-crucible-axe",
+    "setConfigurationMember": true,
+    "relatedIds": [
+      "v21-armor-crucible-axe"
+    ]
+  },
+  {
+    "id": "v21-armor-crucible-axe-chest",
+    "name": "坩堝の斧鎧",
+    "category": "armor",
+    "subCategory": "部位：胴",
+    "regions": [
+      "altus"
+    ],
+    "location": "アウレーザの英雄墓、坩堝の騎士2体とのボス戦",
+    "acquisition": "英雄墓のボス「坩堝の騎士」と「坩堝の騎士、オルドビス」を倒して報酬を受け取る。 取得した部位名を確認する。",
+    "conditions": "斧兜・斧鎧・共通の手甲・足甲を構成とする。別の樹兜・樹鎧や軽装鎧を必須に含めない。 この部位だけを明示的にチェックする。シリーズの一式チェックから取得を推定しない。",
+    "sourceIds": [
+      "a-crucible",
+      "a-crucible-gw"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "gameScope": "base-game",
+    "multipleNote": "取得の累積チェック。現在の所持数・周回・同時所持を意味しない。通常と軽装のチェックを相互に自動変更しない。",
+    "unit": "item",
+    "armorSlot": "chest",
+    "variant": "normal",
+    "seriesKey": "crucible-axe",
+    "setEntryId": "v21-armor-crucible-axe",
+    "setConfigurationMember": true,
+    "relatedIds": [
+      "v21-armor-crucible-axe"
+    ]
+  },
+  {
+    "id": "v21-armor-crucible-axe-arms",
+    "name": "坩堝の手甲",
+    "category": "armor",
+    "subCategory": "部位：腕",
+    "regions": [
+      "altus"
+    ],
+    "location": "アウレーザの英雄墓、坩堝の騎士2体とのボス戦",
+    "acquisition": "英雄墓のボス「坩堝の騎士」と「坩堝の騎士、オルドビス」を倒して報酬を受け取る。 取得した部位名を確認する。",
+    "conditions": "斧兜・斧鎧・共通の手甲・足甲を構成とする。別の樹兜・樹鎧や軽装鎧を必須に含めない。 この部位だけを明示的にチェックする。シリーズの一式チェックから取得を推定しない。 樹シリーズとも共有する部位。深き根の底の宝箱という別取得経路も資料にあるが、ここでは英雄墓の報酬を代表経路とする。",
+    "sourceIds": [
+      "a-crucible",
+      "a-crucible-gw"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "gameScope": "base-game",
+    "multipleNote": "取得の累積チェック。現在の所持数・周回・同時所持を意味しない。通常と軽装のチェックを相互に自動変更しない。",
+    "unit": "item",
+    "armorSlot": "arms",
+    "variant": "normal",
+    "seriesKey": "crucible-axe",
+    "setEntryId": "v21-armor-crucible-axe",
+    "setConfigurationMember": true,
+    "relatedIds": [
+      "v21-armor-crucible-axe"
+    ]
+  },
+  {
+    "id": "v21-armor-crucible-axe-legs",
+    "name": "坩堝の足甲",
+    "category": "armor",
+    "subCategory": "部位：脚",
+    "regions": [
+      "altus"
+    ],
+    "location": "アウレーザの英雄墓、坩堝の騎士2体とのボス戦",
+    "acquisition": "英雄墓のボス「坩堝の騎士」と「坩堝の騎士、オルドビス」を倒して報酬を受け取る。 取得した部位名を確認する。",
+    "conditions": "斧兜・斧鎧・共通の手甲・足甲を構成とする。別の樹兜・樹鎧や軽装鎧を必須に含めない。 この部位だけを明示的にチェックする。シリーズの一式チェックから取得を推定しない。 樹シリーズとも共有する部位。深き根の底の宝箱という別取得経路も資料にあるが、ここでは英雄墓の報酬を代表経路とする。",
+    "sourceIds": [
+      "a-crucible",
+      "a-crucible-gw"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "gameScope": "base-game",
+    "multipleNote": "取得の累積チェック。現在の所持数・周回・同時所持を意味しない。通常と軽装のチェックを相互に自動変更しない。",
+    "unit": "item",
+    "armorSlot": "legs",
+    "variant": "normal",
+    "seriesKey": "crucible-axe",
+    "setEntryId": "v21-armor-crucible-axe",
+    "setConfigurationMember": true,
+    "relatedIds": [
+      "v21-armor-crucible-axe"
+    ]
+  },
+  {
+    "id": "v21-armor-tree-chest-altered",
+    "name": "ツリーガードの鎧（軽装）",
+    "category": "armor",
+    "subCategory": "部位：胴",
+    "regions": [
+      "altus"
+    ],
+    "location": "祝福の「衣装の調整」",
+    "acquisition": "ツリーガードの鎧を入手して衣装調整し、軽装の名称を確認する。",
+    "conditions": "通常の鎧を用意し、祝福の衣装調整を利用できるようにする。ゲームエイトは裁縫道具と縫い針が必要と説明している。 通常と軽装は同時所持の保証ではなく別形態の取得記録。",
+    "sourceIds": [
+      "a-tree",
+      "a-tree-gw"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "gameScope": "base-game",
+    "multipleNote": "取得の累積チェック。現在の所持数・周回・同時所持を意味しない。通常と軽装のチェックを相互に自動変更しない。",
+    "unit": "item",
+    "armorSlot": "chest",
+    "variant": "altered",
+    "seriesKey": "tree",
+    "setEntryId": "v21-armor-tree",
+    "setConfigurationMember": false,
+    "alteredFromEntryId": "v21-armor-tree-chest",
+    "relatedIds": [
+      "v21-armor-tree",
+      "v21-armor-tree-chest"
+    ]
+  },
+  {
+    "id": "v21-armor-crucible-axe-chest-altered",
+    "name": "坩堝の斧鎧（軽装）",
+    "category": "armor",
+    "subCategory": "部位：胴",
+    "regions": [
+      "altus"
+    ],
+    "location": "祝福の「衣装の調整」",
+    "acquisition": "坩堝の斧鎧を入手して衣装調整し、軽装の名称を確認する。",
+    "conditions": "通常の斧鎧を用意し、祝福の衣装調整を利用する。ゲームエイトは裁縫道具と縫い針が必要と説明している。 通常と軽装は同時所持の保証ではなく別形態の取得記録。",
+    "sourceIds": [
+      "a-crucible",
+      "a-crucible-gw"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "gameScope": "base-game",
+    "multipleNote": "取得の累積チェック。現在の所持数・周回・同時所持を意味しない。通常と軽装のチェックを相互に自動変更しない。",
+    "unit": "item",
+    "armorSlot": "chest",
+    "variant": "altered",
+    "seriesKey": "crucible-axe",
+    "setEntryId": "v21-armor-crucible-axe",
+    "setConfigurationMember": false,
+    "alteredFromEntryId": "v21-armor-crucible-axe-chest",
+    "relatedIds": [
+      "v21-armor-crucible-axe",
+      "v21-armor-crucible-axe-chest"
+    ]
+  },
+  {
+    "id": "v21-armor-maliketh-chest-altered",
+    "name": "マリケスの鎧（軽装）",
+    "category": "armor",
+    "subCategory": "部位：胴",
+    "regions": [
+      "roundtable"
+    ],
+    "location": "円卓の購入一覧／祝福の衣装調整（資料差あり）",
+    "acquisition": "ゲームエイトは通常鎧からの衣装調整、ゲームウィズはエンヤからの購入と案内しており、取得経路を一つに断定できない。",
+    "conditions": "軽装という形態名と胴部位は両資料で確認。実際の取得操作はゲーム内で確認してからチェックする。",
+    "sourceIds": [
+      "a-maliketh",
+      "a-maliketh-gw",
+      "a-maliketh-altered-gw"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "needs-review",
+    "verificationLevel": "review",
+    "gameplayTested": false,
+    "gameScope": "base-game",
+    "multipleNote": "取得の累積チェック。現在の所持数・周回・同時所持を意味しない。通常と軽装のチェックを相互に自動変更しない。",
+    "unit": "item",
+    "armorSlot": "chest",
+    "variant": "altered",
+    "seriesKey": "maliketh",
+    "setEntryId": "v21-armor-maliketh",
+    "setConfigurationMember": false,
+    "alteredFromEntryId": "v21-armor-maliketh-chest",
+    "relatedIds": [
+      "v21-armor-maliketh",
+      "v21-armor-maliketh-chest"
+    ],
+    "sourceDifference": "Game8 456350は通常鎧を衣装調整（黄金の裁縫道具・黄金の縫い針）と記載。GameWith 323323/323307は軽装そのものをマリケス撃破後にエンヤから購入と記載。取得経路と必要道具の確定は保留。"
+  },
+  {
+    "id": "v21-armor-veteran-head",
+    "name": "宿将の兜",
+    "category": "armor",
+    "subCategory": "部位：頭",
+    "regions": [
+      "roundtable",
+      "mountaintops"
+    ],
+    "location": "ソールの城砦のニアール撃破後、円卓エンヤ",
+    "acquisition": "ニアール撃破後に円卓の指読みエンヤの販売一覧から、この部位を購入する。",
+    "conditions": "既存の宿将シリーズ一式とは独立した、この部位の取得記録。",
+    "sourceIds": [
+      "a-veteran"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "gameScope": "base-game",
+    "multipleNote": "取得の累積チェック。現在の所持数・周回・同時所持を意味しない。通常と軽装のチェックを相互に自動変更しない。",
+    "unit": "item",
+    "armorSlot": "head",
+    "variant": "normal",
+    "seriesKey": "veteran",
+    "setEntryId": "v20-armor-veteran",
+    "setConfigurationMember": true,
+    "relatedIds": [
+      "v20-armor-veteran"
+    ]
+  },
+  {
+    "id": "v21-armor-veteran-chest",
+    "name": "宿将の鎧",
+    "category": "armor",
+    "subCategory": "部位：胴",
+    "regions": [
+      "roundtable",
+      "mountaintops"
+    ],
+    "location": "ソールの城砦のニアール撃破後、円卓エンヤ",
+    "acquisition": "ニアール撃破後に円卓の指読みエンヤの販売一覧から、この部位を購入する。",
+    "conditions": "既存の宿将シリーズ一式とは独立した、この部位の取得記録。",
+    "sourceIds": [
+      "a-veteran"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "gameScope": "base-game",
+    "multipleNote": "取得の累積チェック。現在の所持数・周回・同時所持を意味しない。通常と軽装のチェックを相互に自動変更しない。",
+    "unit": "item",
+    "armorSlot": "chest",
+    "variant": "normal",
+    "seriesKey": "veteran",
+    "setEntryId": "v20-armor-veteran",
+    "setConfigurationMember": true,
+    "relatedIds": [
+      "v20-armor-veteran"
+    ]
+  },
+  {
+    "id": "v21-armor-veteran-arms",
+    "name": "宿将の手甲",
+    "category": "armor",
+    "subCategory": "部位：腕",
+    "regions": [
+      "roundtable",
+      "mountaintops"
+    ],
+    "location": "ソールの城砦のニアール撃破後、円卓エンヤ",
+    "acquisition": "ニアール撃破後に円卓の指読みエンヤの販売一覧から、この部位を購入する。",
+    "conditions": "既存の宿将シリーズ一式とは独立した、この部位の取得記録。",
+    "sourceIds": [
+      "a-veteran"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "gameScope": "base-game",
+    "multipleNote": "取得の累積チェック。現在の所持数・周回・同時所持を意味しない。通常と軽装のチェックを相互に自動変更しない。",
+    "unit": "item",
+    "armorSlot": "arms",
+    "variant": "normal",
+    "seriesKey": "veteran",
+    "setEntryId": "v20-armor-veteran",
+    "setConfigurationMember": true,
+    "relatedIds": [
+      "v20-armor-veteran"
+    ]
+  },
+  {
+    "id": "v21-armor-veteran-legs",
+    "name": "宿将の足甲",
+    "category": "armor",
+    "subCategory": "部位：脚",
+    "regions": [
+      "roundtable",
+      "mountaintops"
+    ],
+    "location": "ソールの城砦のニアール撃破後、円卓エンヤ",
+    "acquisition": "ニアール撃破後に円卓の指読みエンヤの販売一覧から、この部位を購入する。",
+    "conditions": "既存の宿将シリーズ一式とは独立した、この部位の取得記録。",
+    "sourceIds": [
+      "a-veteran"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "gameScope": "base-game",
+    "multipleNote": "取得の累積チェック。現在の所持数・周回・同時所持を意味しない。通常と軽装のチェックを相互に自動変更しない。",
+    "unit": "item",
+    "armorSlot": "legs",
+    "variant": "normal",
+    "seriesKey": "veteran",
+    "setEntryId": "v20-armor-veteran",
+    "setConfigurationMember": true,
+    "relatedIds": [
+      "v20-armor-veteran"
+    ]
+  },
+  {
+    "id": "v21-armor-veteran-chest-altered",
+    "name": "宿将の鎧（軽装）",
+    "category": "armor",
+    "subCategory": "部位：胴",
+    "regions": [
+      "roundtable"
+    ],
+    "location": "祝福の「衣装の調整」",
+    "acquisition": "宿将の鎧を用意し、祝福の衣装調整で軽装の名称を確認する。",
+    "conditions": "通常鎧の取得と衣装調整が必要。道具やNPC代行の全条件は今回未照合。既存の一式の必須構成には含めない。",
+    "sourceIds": [
+      "a-veteran"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "gameScope": "base-game",
+    "multipleNote": "取得の累積チェック。現在の所持数・周回・同時所持を意味しない。通常と軽装のチェックを相互に自動変更しない。",
+    "unit": "item",
+    "armorSlot": "chest",
+    "variant": "altered",
+    "seriesKey": "veteran",
+    "setEntryId": "v20-armor-veteran",
+    "setConfigurationMember": false,
+    "alteredFromEntryId": "v21-armor-veteran-chest",
+    "relatedIds": [
+      "v20-armor-veteran",
+      "v21-armor-veteran-chest"
+    ]
+  },
+  {
+    "id": "v21-armor-banished-head-altered",
+    "name": "失地騎士の兜（軽装）",
+    "category": "armor",
+    "subCategory": "部位：頭",
+    "regions": [
+      "stormveil"
+    ],
+    "location": "ストームヴィル城、祝福「城壁の塔」近くの失地騎士",
+    "acquisition": "記載地点の失地騎士を倒し、この部位のドロップを確認する。",
+    "conditions": "確定入手やドロップ率を保証しない。兜・鎧は通常版と軽装版で代表取得先が異なる。衣装調整による相互変換は今回確認していない。",
+    "sourceIds": [
+      "a-banished"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "gameScope": "base-game",
+    "multipleNote": "取得の累積チェック。現在の所持数・周回・同時所持を意味しない。通常と軽装のチェックを相互に自動変更しない。",
+    "unit": "item",
+    "armorSlot": "head",
+    "variant": "altered",
+    "seriesKey": "banished",
+    "setEntryId": "v20-armor-banished",
+    "setConfigurationMember": true,
+    "relatedIds": [
+      "v20-armor-banished"
+    ]
+  },
+  {
+    "id": "v21-armor-banished-head",
+    "name": "失地騎士の兜",
+    "category": "armor",
+    "subCategory": "部位：頭",
+    "regions": [
+      "caelid"
+    ],
+    "location": "大竜餐教会の北の失地騎士",
+    "acquisition": "記載地点の失地騎士を倒し、この部位のドロップを確認する。",
+    "conditions": "確定入手やドロップ率を保証しない。兜・鎧は通常版と軽装版で代表取得先が異なる。衣装調整による相互変換は今回確認していない。",
+    "sourceIds": [
+      "a-banished"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "gameScope": "base-game",
+    "multipleNote": "取得の累積チェック。現在の所持数・周回・同時所持を意味しない。通常と軽装のチェックを相互に自動変更しない。",
+    "unit": "item",
+    "armorSlot": "head",
+    "variant": "normal",
+    "seriesKey": "banished",
+    "setEntryId": "v20-armor-banished",
+    "setConfigurationMember": false,
+    "relatedIds": [
+      "v20-armor-banished"
+    ]
+  },
+  {
+    "id": "v21-armor-banished-chest-altered",
+    "name": "失地騎士の鎧（軽装）",
+    "category": "armor",
+    "subCategory": "部位：胴",
+    "regions": [
+      "stormveil"
+    ],
+    "location": "ストームヴィル城、祝福「城壁の塔」近くの失地騎士",
+    "acquisition": "記載地点の失地騎士を倒し、この部位のドロップを確認する。",
+    "conditions": "確定入手やドロップ率を保証しない。兜・鎧は通常版と軽装版で代表取得先が異なる。衣装調整による相互変換は今回確認していない。",
+    "sourceIds": [
+      "a-banished"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "gameScope": "base-game",
+    "multipleNote": "取得の累積チェック。現在の所持数・周回・同時所持を意味しない。通常と軽装のチェックを相互に自動変更しない。",
+    "unit": "item",
+    "armorSlot": "chest",
+    "variant": "altered",
+    "seriesKey": "banished",
+    "setEntryId": "v20-armor-banished",
+    "setConfigurationMember": true,
+    "relatedIds": [
+      "v20-armor-banished"
+    ]
+  },
+  {
+    "id": "v21-armor-banished-chest",
+    "name": "失地騎士の鎧",
+    "category": "armor",
+    "subCategory": "部位：胴",
+    "regions": [
+      "mountaintops"
+    ],
+    "location": "ソールの城砦、祝福「日蝕教会」付近の失地騎士",
+    "acquisition": "記載地点の失地騎士を倒し、この部位のドロップを確認する。",
+    "conditions": "確定入手やドロップ率を保証しない。兜・鎧は通常版と軽装版で代表取得先が異なる。衣装調整による相互変換は今回確認していない。",
+    "sourceIds": [
+      "a-banished"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "gameScope": "base-game",
+    "multipleNote": "取得の累積チェック。現在の所持数・周回・同時所持を意味しない。通常と軽装のチェックを相互に自動変更しない。",
+    "unit": "item",
+    "armorSlot": "chest",
+    "variant": "normal",
+    "seriesKey": "banished",
+    "setEntryId": "v20-armor-banished",
+    "setConfigurationMember": false,
+    "relatedIds": [
+      "v20-armor-banished"
+    ]
+  },
+  {
+    "id": "v21-armor-banished-arms",
+    "name": "失地騎士の手甲",
+    "category": "armor",
+    "subCategory": "部位：腕",
+    "regions": [
+      "stormveil"
+    ],
+    "location": "ストームヴィル城、祝福「城壁の塔」近くの失地騎士",
+    "acquisition": "記載地点の失地騎士を倒し、この部位のドロップを確認する。",
+    "conditions": "確定入手やドロップ率を保証しない。兜・鎧は通常版と軽装版で代表取得先が異なる。衣装調整による相互変換は今回確認していない。",
+    "sourceIds": [
+      "a-banished"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "gameScope": "base-game",
+    "multipleNote": "取得の累積チェック。現在の所持数・周回・同時所持を意味しない。通常と軽装のチェックを相互に自動変更しない。",
+    "unit": "item",
+    "armorSlot": "arms",
+    "variant": "normal",
+    "seriesKey": "banished",
+    "setEntryId": "v20-armor-banished",
+    "setConfigurationMember": true,
+    "relatedIds": [
+      "v20-armor-banished"
+    ]
+  },
+  {
+    "id": "v21-armor-banished-legs",
+    "name": "失地騎士の足甲",
+    "category": "armor",
+    "subCategory": "部位：脚",
+    "regions": [
+      "stormveil"
+    ],
+    "location": "ストームヴィル城、祝福「城壁の塔」近くの失地騎士",
+    "acquisition": "記載地点の失地騎士を倒し、この部位のドロップを確認する。",
+    "conditions": "確定入手やドロップ率を保証しない。兜・鎧は通常版と軽装版で代表取得先が異なる。衣装調整による相互変換は今回確認していない。",
+    "sourceIds": [
+      "a-banished"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "gameScope": "base-game",
+    "multipleNote": "取得の累積チェック。現在の所持数・周回・同時所持を意味しない。通常と軽装のチェックを相互に自動変更しない。",
+    "unit": "item",
+    "armorSlot": "legs",
+    "variant": "normal",
+    "seriesKey": "banished",
+    "setEntryId": "v20-armor-banished",
+    "setConfigurationMember": true,
+    "relatedIds": [
+      "v20-armor-banished"
+    ]
+  },
+  {
+    "id": "v21-armor-blaidd-chest",
+    "name": "ブライヴの鎧",
+    "category": "armor",
+    "subCategory": "部位：胴",
+    "regions": [
+      "liurnia"
+    ],
+    "location": "ラニの魔術師塔の前",
+    "acquisition": "ラニのイベントを進めて塔前で敵対したブライヴを倒し、この部位を確認する。",
+    "conditions": "ラニの進行が前提。黒狼の仮面は別取得で、この報酬から入手したと推定しない。",
+    "sourceIds": [
+      "a-blaidd"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "gameScope": "base-game",
+    "multipleNote": "取得の累積チェック。現在の所持数・周回・同時所持を意味しない。通常と軽装のチェックを相互に自動変更しない。",
+    "unit": "item",
+    "armorSlot": "chest",
+    "variant": "normal",
+    "seriesKey": "blaidd",
+    "setEntryId": "v20-armor-blaidd",
+    "setConfigurationMember": true,
+    "relatedIds": [
+      "v20-armor-blaidd",
+      "npc-ranni-late"
+    ]
+  },
+  {
+    "id": "v21-armor-blaidd-arms",
+    "name": "ブライヴの手甲",
+    "category": "armor",
+    "subCategory": "部位：腕",
+    "regions": [
+      "liurnia"
+    ],
+    "location": "ラニの魔術師塔の前",
+    "acquisition": "ラニのイベントを進めて塔前で敵対したブライヴを倒し、この部位を確認する。",
+    "conditions": "ラニの進行が前提。黒狼の仮面は別取得で、この報酬から入手したと推定しない。",
+    "sourceIds": [
+      "a-blaidd"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "gameScope": "base-game",
+    "multipleNote": "取得の累積チェック。現在の所持数・周回・同時所持を意味しない。通常と軽装のチェックを相互に自動変更しない。",
+    "unit": "item",
+    "armorSlot": "arms",
+    "variant": "normal",
+    "seriesKey": "blaidd",
+    "setEntryId": "v20-armor-blaidd",
+    "setConfigurationMember": true,
+    "relatedIds": [
+      "v20-armor-blaidd",
+      "npc-ranni-late"
+    ]
+  },
+  {
+    "id": "v21-armor-blaidd-legs",
+    "name": "ブライヴの足甲",
+    "category": "armor",
+    "subCategory": "部位：脚",
+    "regions": [
+      "liurnia"
+    ],
+    "location": "ラニの魔術師塔の前",
+    "acquisition": "ラニのイベントを進めて塔前で敵対したブライヴを倒し、この部位を確認する。",
+    "conditions": "ラニの進行が前提。黒狼の仮面は別取得で、この報酬から入手したと推定しない。",
+    "sourceIds": [
+      "a-blaidd"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "gameScope": "base-game",
+    "multipleNote": "取得の累積チェック。現在の所持数・周回・同時所持を意味しない。通常と軽装のチェックを相互に自動変更しない。",
+    "unit": "item",
+    "armorSlot": "legs",
+    "variant": "normal",
+    "seriesKey": "blaidd",
+    "setEntryId": "v20-armor-blaidd",
+    "setConfigurationMember": true,
+    "relatedIds": [
+      "v20-armor-blaidd",
+      "npc-ranni-late"
+    ]
+  },
+  {
+    "id": "v21-armor-blaidd-chest-altered",
+    "name": "ブライヴの鎧（軽装）",
+    "category": "armor",
+    "subCategory": "部位：胴",
+    "regions": [
+      "liurnia"
+    ],
+    "location": "祝福の「衣装の調整」",
+    "acquisition": "ブライヴの鎧を入手後、祝福の衣装調整から軽装の名称を確認する。",
+    "conditions": "通常鎧が必要。道具やNPC代行の全条件は今回未照合。通常と軽装のチェックは互いに自動変更しない。",
+    "sourceIds": [
+      "a-blaidd"
+    ],
+    "englishName": null,
+    "missable": null,
+    "reacquireOnNGPlus": null,
+    "quantityPerCycle": null,
+    "verification": "source-reviewed",
+    "verificationLevel": "verified",
+    "gameplayTested": false,
+    "gameScope": "base-game",
+    "multipleNote": "取得の累積チェック。現在の所持数・周回・同時所持を意味しない。通常と軽装のチェックを相互に自動変更しない。",
+    "unit": "item",
+    "armorSlot": "chest",
+    "variant": "altered",
+    "seriesKey": "blaidd",
+    "setEntryId": "v20-armor-blaidd",
+    "setConfigurationMember": false,
+    "alteredFromEntryId": "v21-armor-blaidd-chest",
+    "relatedIds": [
+      "v20-armor-blaidd",
+      "v21-armor-blaidd-chest",
+      "npc-ranni-late"
+    ]
+  }
+]

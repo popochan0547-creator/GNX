@@ -1,0 +1,3170 @@
+{
+  "datasetVersion": "14.0.0",
+  "reviewedAt": "2026-11-16",
+  "timezone": "Asia/Tokyo",
+  "meaning": "資料の所在・取得条件等を確認。実機・現行パッチの再現検証ではない。",
+  "sourceRecordCount": 108,
+  "uniqueSourceURLCount": 107,
+  "sources": [
+    {
+      "id": "g8-uchigatana",
+      "publisher": "Game8",
+      "title": "打刀の性能と入手方法",
+      "url": "https://game8.jp/eldenring/440714",
+      "kind": "secondary",
+      "checkedAt": "2026-11-15",
+      "entryIds": [
+        "weapon-uchigatana"
+      ]
+    },
+    {
+      "id": "g8-fang",
+      "publisher": "Game8",
+      "title": "猟犬の長牙の性能と入手方法",
+      "url": "https://game8.jp/eldenring/441403",
+      "kind": "secondary",
+      "checkedAt": "2026-11-15",
+      "entryIds": [
+        "boss-darriwil",
+        "weapon-fang"
+      ]
+    },
+    {
+      "id": "g8-meteor",
+      "publisher": "Game8",
+      "title": "隕石の杖の性能と入手方法",
+      "url": "https://game8.jp/eldenring/441005",
+      "kind": "secondary",
+      "checkedAt": "2026-11-15",
+      "entryIds": [
+        "weapon-meteorite"
+      ]
+    },
+    {
+      "id": "g8-claymore",
+      "publisher": "Game8",
+      "title": "クレイモアの性能と入手方法",
+      "url": "https://game8.jp/eldenring/441088",
+      "kind": "secondary",
+      "checkedAt": "2026-11-15",
+      "entryIds": [
+        "weapon-claymore"
+      ]
+    },
+    {
+      "id": "g8-carian",
+      "publisher": "Game8",
+      "title": "カーリア騎士装備の性能と入手方法",
+      "url": "https://game8.jp/eldenring/441605",
+      "kind": "secondary",
+      "checkedAt": "2026-11-15",
+      "entryIds": [
+        "armor-carian"
+      ]
+    },
+    {
+      "id": "g8-chain",
+      "publisher": "Game8",
+      "title": "チェイン装備の性能と入手方法",
+      "url": "https://game8.jp/eldenring/440732",
+      "kind": "secondary",
+      "checkedAt": "2026-11-15",
+      "entryIds": [
+        "armor-chain"
+      ]
+    },
+    {
+      "id": "g8-knight",
+      "publisher": "Game8",
+      "title": "騎士装備の性能と入手方法",
+      "url": "https://game8.jp/eldenring/440752",
+      "kind": "secondary",
+      "checkedAt": "2026-11-15",
+      "entryIds": [
+        "armor-knight"
+      ]
+    },
+    {
+      "id": "g8-turtle",
+      "publisher": "Game8",
+      "title": "緑亀のタリスマンの効果と入手方法",
+      "url": "https://game8.jp/eldenring/442637",
+      "kind": "secondary",
+      "checkedAt": "2026-11-15",
+      "entryIds": [
+        "talisman-turtle"
+      ]
+    },
+    {
+      "id": "g8-amber",
+      "publisher": "Game8",
+      "title": "緋琥珀のメダリオンの効果と入手方法",
+      "url": "https://game8.jp/eldenring/440687",
+      "kind": "secondary",
+      "checkedAt": "2026-11-15",
+      "entryIds": [
+        "talisman-amber"
+      ]
+    },
+    {
+      "id": "g8-arsenal",
+      "publisher": "Game8",
+      "title": "武具塊のお守りの効果と入手方法",
+      "url": "https://game8.jp/eldenring/455104",
+      "kind": "secondary",
+      "checkedAt": "2026-11-15",
+      "entryIds": [
+        "talisman-arsenal",
+        "area-stormveil"
+      ]
+    },
+    {
+      "id": "g8-roderika",
+      "publisher": "Game8",
+      "title": "ローデリカイベント攻略と場所",
+      "url": "https://game8.jp/eldenring/440755",
+      "kind": "secondary",
+      "checkedAt": "2026-11-15",
+      "entryIds": [
+        "npc-roderika"
+      ]
+    },
+    {
+      "id": "g8-tree",
+      "publisher": "Game8",
+      "title": "ツリーガードの攻略と出現場所",
+      "url": "https://game8.jp/eldenring/440326",
+      "kind": "secondary",
+      "checkedAt": "2026-11-15",
+      "entryIds": [
+        "boss-tree-limgrave"
+      ]
+    },
+    {
+      "id": "g8-darriwil",
+      "publisher": "Game8",
+      "title": "猟犬騎士の攻略と出現場所",
+      "url": "https://game8.jp/eldenring/440418",
+      "kind": "secondary",
+      "checkedAt": "2026-11-15",
+      "entryIds": [
+        "boss-darriwil"
+      ]
+    },
+    {
+      "id": "g8-bearing",
+      "publisher": "Game8",
+      "title": "鍛石掘りの鈴玉【1】の効果と入手方法",
+      "url": "https://game8.jp/eldenring/441360",
+      "kind": "secondary",
+      "checkedAt": "2026-11-15",
+      "entryIds": [
+        "collect-bearing-1"
+      ]
+    },
+    {
+      "id": "g8-weeping",
+      "publisher": "Game8",
+      "title": "啜り泣きの半島のマップと行き方",
+      "url": "https://game8.jp/eldenring/441515",
+      "kind": "secondary",
+      "checkedAt": "2026-11-15",
+      "entryIds": [
+        "area-weeping"
+      ]
+    },
+    {
+      "id": "g8-academy",
+      "publisher": "Game8",
+      "title": "魔術学院レアルカリアの攻略チャート",
+      "url": "https://game8.jp/eldenring/440981",
+      "kind": "secondary",
+      "checkedAt": "2026-11-15",
+      "entryIds": [
+        "collect-academy-key",
+        "area-academy"
+      ]
+    },
+    {
+      "id": "g8-stormveil",
+      "publisher": "Game8",
+      "title": "ストームヴィル城の攻略チャート",
+      "url": "https://game8.jp/eldenring/440746",
+      "kind": "secondary",
+      "checkedAt": "2026-11-15",
+      "entryIds": []
+    },
+    {
+      "id": "g8-limgrave",
+      "publisher": "Game8",
+      "title": "リムグレイブの攻略チャート",
+      "url": "https://game8.jp/eldenring/440668",
+      "kind": "secondary",
+      "checkedAt": "2026-11-15",
+      "entryIds": [
+        "area-limgrave"
+      ]
+    },
+    {
+      "id": "gw-margit",
+      "publisher": "GameWith",
+      "title": "マルギットの攻略と立ち回り",
+      "url": "https://gamewith.jp/eldenring/320239",
+      "kind": "secondary",
+      "checkedAt": "2026-11-15",
+      "entryIds": [
+        "boss-margit"
+      ]
+    },
+    {
+      "id": "gw-godrick",
+      "publisher": "GameWith",
+      "title": "接ぎ木のゴドリックの攻略と立ち回り",
+      "url": "https://gamewith.jp/eldenring/320136",
+      "kind": "secondary",
+      "checkedAt": "2026-11-15",
+      "entryIds": [
+        "boss-godrick"
+      ]
+    },
+    {
+      "id": "gw-alexander",
+      "publisher": "GameWith",
+      "title": "アレキサンダーのイベント攻略と場所",
+      "url": "https://gamewith.jp/eldenring/322859",
+      "kind": "secondary",
+      "checkedAt": "2026-11-15",
+      "entryIds": [
+        "npc-alexander"
+      ]
+    },
+    {
+      "id": "gw-blaidd",
+      "publisher": "GameWith",
+      "title": "半狼のブライヴのイベント攻略と場所",
+      "url": "https://gamewith.jp/eldenring/323155",
+      "kind": "secondary",
+      "checkedAt": "2026-11-15",
+      "entryIds": [
+        "npc-blaidd"
+      ]
+    },
+    {
+      "id": "gw-key",
+      "publisher": "GameWith",
+      "title": "学院の輝石鍵の入手場所と使い道",
+      "url": "https://gamewith.jp/eldenring/320606",
+      "kind": "secondary",
+      "checkedAt": "2026-11-15",
+      "entryIds": [
+        "collect-academy-key",
+        "area-liurnia"
+      ]
+    },
+    {
+      "id": "gw-liurnia",
+      "publisher": "GameWith",
+      "title": "リエーニエのマップと攻略",
+      "url": "https://gamewith.jp/eldenring/320584",
+      "kind": "secondary",
+      "checkedAt": "2026-11-15",
+      "entryIds": [
+        "area-stormveil",
+        "area-liurnia"
+      ]
+    },
+    {
+      "id": "gw-seed",
+      "publisher": "GameWith",
+      "title": "嵐の関門の行き方と攻略",
+      "url": "https://gamewith.jp/eldenring/320220",
+      "kind": "secondary",
+      "checkedAt": "2026-11-15",
+      "entryIds": [
+        "collect-seed-stormhill"
+      ]
+    },
+    {
+      "id": "gw-tear",
+      "publisher": "GameWith",
+      "title": "第三マリカ教会の行き方と攻略",
+      "url": "https://gamewith.jp/eldenring/320236",
+      "kind": "secondary",
+      "checkedAt": "2026-11-15",
+      "entryIds": [
+        "collect-tear-marika"
+      ]
+    },
+    {
+      "id": "gw-turtle",
+      "publisher": "GameWith",
+      "title": "緑亀のタリスマンの効果と入手方法",
+      "url": "https://gamewith.jp/eldenring/320549",
+      "kind": "secondary",
+      "checkedAt": "2026-11-15",
+      "entryIds": [
+        "talisman-turtle"
+      ]
+    },
+    {
+      "id": "gw-fang",
+      "publisher": "GameWith",
+      "title": "序盤おすすめ武器装備の入手場所",
+      "url": "https://gamewith.jp/eldenring/320602",
+      "kind": "secondary",
+      "checkedAt": "2026-11-15",
+      "entryIds": [
+        "weapon-fang"
+      ]
+    },
+    {
+      "id": "official-grace",
+      "publisher": "フロム・ソフトウェア",
+      "title": "ELDEN RING オンラインマニュアル：祝福",
+      "url": "https://www.fromsoftware.jp/manual/eldenring/ps5/blessing.html",
+      "kind": "primary",
+      "checkedAt": "2026-11-15",
+      "entryIds": [
+        "collect-seed-stormhill",
+        "collect-tear-marika",
+        "area-limgrave"
+      ]
+    },
+    {
+      "id": "famitsu-bell",
+      "publisher": "ファミ通",
+      "title": "フロムゲー初心者28種の疑問に答える攻略ガイド",
+      "url": "https://www.famitsu.com/news/202202/26252793.html",
+      "kind": "secondary",
+      "checkedAt": "2026-11-15",
+      "entryIds": [
+        "collect-spirit-bell"
+      ]
+    },
+    {
+      "id": "v14-game8-441094",
+      "publisher": "Game8",
+      "title": "ラダゴンの赤狼：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/441094",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "boss-red-wolf"
+      ]
+    },
+    {
+      "id": "v14-game8-441117",
+      "publisher": "Game8",
+      "title": "満月の女王、レナラ：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/441117",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "boss-rennala"
+      ]
+    },
+    {
+      "id": "v14-game8-440934",
+      "publisher": "Game8",
+      "title": "獅子の混種（モーンの城）：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/440934",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "boss-leonine"
+      ]
+    },
+    {
+      "id": "v14-game8-441148",
+      "publisher": "Game8",
+      "title": "親衛騎士ローレッタ：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/441148",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "boss-loretta-manor"
+      ]
+    },
+    {
+      "id": "v14-game8-441349",
+      "publisher": "Game8",
+      "title": "星砕きのラダーン：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/441349",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "boss-radahn"
+      ]
+    },
+    {
+      "id": "v14-game8-444741",
+      "publisher": "Game8",
+      "title": "写し身の雫（ノクローン）：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/444741",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "boss-mimic"
+      ]
+    },
+    {
+      "id": "v14-game8-443509",
+      "publisher": "Game8",
+      "title": "血の君主、モーグ：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/443509",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "boss-mohg-lord"
+      ]
+    },
+    {
+      "id": "v14-game8-441633",
+      "publisher": "Game8",
+      "title": "最初の王、ゴッドフレイ（黄金の幻影）：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/441633",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "boss-godfrey-shade"
+      ]
+    },
+    {
+      "id": "v14-game8-441692",
+      "publisher": "Game8",
+      "title": "忌み王、モーゴット：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/441692",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "boss-morgott"
+      ]
+    },
+    {
+      "id": "v14-game8-442289",
+      "publisher": "Game8",
+      "title": "火の巨人：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/442289",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "boss-fire-giant"
+      ]
+    },
+    {
+      "id": "v14-game8-442321",
+      "publisher": "Game8",
+      "title": "神肌のふたり：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/442321",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "boss-godskin-duo"
+      ]
+    },
+    {
+      "id": "v14-gamewith-322886",
+      "publisher": "GameWith",
+      "title": "黒き剣のマリケス：場所・入手方法・攻略",
+      "url": "https://gamewith.jp/eldenring/322886",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "boss-maliketh"
+      ]
+    },
+    {
+      "id": "v14-game8-442480",
+      "publisher": "Game8",
+      "title": "百智卿、ギデオン＝オーフニール：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/442480",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "boss-gideon"
+      ]
+    },
+    {
+      "id": "v14-game8-442529",
+      "publisher": "Game8",
+      "title": "最初の王、ゴッドフレイ／戦士、ホーラ・ルー：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/442529",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "boss-hoarah"
+      ]
+    },
+    {
+      "id": "v14-game8-619761",
+      "publisher": "Game8",
+      "title": "双月の騎士、レラーナ：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/619761",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "boss-rellana"
+      ]
+    },
+    {
+      "id": "v14-game8-619834",
+      "publisher": "Game8",
+      "title": "神獣獅子舞（ベルラート）：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/619834",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "boss-dancing-lion"
+      ]
+    },
+    {
+      "id": "v14-game8-619987",
+      "publisher": "Game8",
+      "title": "串刺し公、メスメル：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/619987",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "boss-messmer"
+      ]
+    },
+    {
+      "id": "v14-game8-620159",
+      "publisher": "Game8",
+      "title": "蕾の聖女、ロミナ：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/620159",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "boss-romina"
+      ]
+    },
+    {
+      "id": "v14-game8-440897",
+      "publisher": "Game8",
+      "title": "グレートソード：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/440897",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "weapon-greatsword"
+      ]
+    },
+    {
+      "id": "v14-game8-441034",
+      "publisher": "Game8",
+      "title": "名刀月隠：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/441034",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "weapon-moonveil"
+      ]
+    },
+    {
+      "id": "v14-gamewith-321769",
+      "publisher": "GameWith",
+      "title": "長牙：場所・入手方法・攻略",
+      "url": "https://gamewith.jp/eldenring/321769",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "weapon-nagakiba"
+      ]
+    },
+    {
+      "id": "v14-game8-440918",
+      "publisher": "Game8",
+      "title": "レドゥビア：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/440918",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "weapon-reduvia"
+      ]
+    },
+    {
+      "id": "v14-game8-442094",
+      "publisher": "Game8",
+      "title": "ツインブレード：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/442094",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "weapon-twinblade"
+      ]
+    },
+    {
+      "id": "v14-game8-441687",
+      "publisher": "Game8",
+      "title": "夜と炎の剣：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/441687",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "weapon-night-flame"
+      ]
+    },
+    {
+      "id": "v14-game8-441033",
+      "publisher": "Game8",
+      "title": "剣接ぎの大剣：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/441033",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "weapon-grafted"
+      ]
+    },
+    {
+      "id": "v14-game8-442733",
+      "publisher": "Game8",
+      "title": "遺跡の大剣：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/442733",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "weapon-ruins"
+      ]
+    },
+    {
+      "id": "v14-game8-441686",
+      "publisher": "Game8",
+      "title": "グランサクスの雷：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/441686",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "weapon-gransax"
+      ]
+    },
+    {
+      "id": "v14-gamewith-320185",
+      "publisher": "GameWith",
+      "title": "暗月の大剣：場所・入手方法・攻略",
+      "url": "https://gamewith.jp/eldenring/320185",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "weapon-dark-moon"
+      ]
+    },
+    {
+      "id": "v14-gamewith-321393",
+      "publisher": "GameWith",
+      "title": "屍山血河：場所・入手方法・攻略",
+      "url": "https://gamewith.jp/eldenring/321393",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "weapon-rivers-blood"
+      ]
+    },
+    {
+      "id": "v14-gamewith-322273",
+      "publisher": "GameWith",
+      "title": "冒涜の聖剣：場所・入手方法・攻略",
+      "url": "https://gamewith.jp/eldenring/322273",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "weapon-blasphemous"
+      ]
+    },
+    {
+      "id": "v14-game8-442747",
+      "publisher": "Game8",
+      "title": "翼の鎌：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/442747",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "weapon-winged-scythe"
+      ]
+    },
+    {
+      "id": "v14-game8-618798",
+      "publisher": "Game8",
+      "title": "DLC武器一覧と入手場所",
+      "url": "https://game8.jp/eldenring/618798",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "weapon-backhand",
+        "weapon-great-katana"
+      ]
+    },
+    {
+      "id": "v14-game8-619770",
+      "publisher": "Game8",
+      "title": "エンシスの城砦の攻略・入手アイテム",
+      "url": "https://game8.jp/eldenring/619770",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "weapon-milady",
+        "area-ensis"
+      ]
+    },
+    {
+      "id": "v14-game8-440675",
+      "publisher": "Game8",
+      "title": "放浪騎士シリーズ：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/440675",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "armor-vagabond"
+      ]
+    },
+    {
+      "id": "v14-game8-440678",
+      "publisher": "Game8",
+      "title": "葦の地シリーズ：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/440678",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "armor-reeds"
+      ]
+    },
+    {
+      "id": "v14-game8-440679",
+      "publisher": "Game8",
+      "title": "星見シリーズ：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/440679",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "armor-astrologer"
+      ]
+    },
+    {
+      "id": "v14-game8-448785",
+      "publisher": "Game8",
+      "title": "ラダーンシリーズ：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/448785",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "armor-radahn"
+      ]
+    },
+    {
+      "id": "v14-game8-442766",
+      "publisher": "Game8",
+      "title": "黒き刃シリーズ：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/442766",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "armor-black-knife"
+      ]
+    },
+    {
+      "id": "v14-game8-442768",
+      "publisher": "Game8",
+      "title": "貴腐騎士シリーズ：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/442768",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "armor-cleanrot"
+      ]
+    },
+    {
+      "id": "v14-game8-620131",
+      "publisher": "Game8",
+      "title": "孤牢シリーズ：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/620131",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "armor-solitude"
+      ]
+    },
+    {
+      "id": "v14-game8-620797",
+      "publisher": "Game8",
+      "title": "誓約騎士シリーズ：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/620797",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "armor-oathseeker"
+      ]
+    },
+    {
+      "id": "v14-game8-441554",
+      "publisher": "Game8",
+      "title": "爪のタリスマン：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/441554",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "talisman-claw"
+      ]
+    },
+    {
+      "id": "v14-game8-441553",
+      "publisher": "Game8",
+      "title": "斧のタリスマン：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/441553",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "talisman-axe"
+      ]
+    },
+    {
+      "id": "v14-game8-441552",
+      "publisher": "Game8",
+      "title": "曲剣のタリスマン：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/441552",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "talisman-curved"
+      ]
+    },
+    {
+      "id": "v14-game8-441555",
+      "publisher": "Game8",
+      "title": "ラダゴンの肖像：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/441555",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "talisman-radagon-icon"
+      ]
+    },
+    {
+      "id": "v14-game8-443090",
+      "publisher": "Game8",
+      "title": "ラダゴンの爛れ刻印：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/443090",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "talisman-soreseal"
+      ]
+    },
+    {
+      "id": "v14-game8-441058",
+      "publisher": "Game8",
+      "title": "黄金樹の恩寵（通常版）：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/441058",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "talisman-erdtree"
+      ]
+    },
+    {
+      "id": "v14-game8-444290",
+      "publisher": "Game8",
+      "title": "捧闘の剣のタリスマン：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/444290",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "talisman-ritual-sword"
+      ]
+    },
+    {
+      "id": "v14-game8-441177",
+      "publisher": "Game8",
+      "title": "金のスカラベ：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/441177",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "talisman-gold-scarab"
+      ]
+    },
+    {
+      "id": "v14-game8-442313",
+      "publisher": "Game8",
+      "title": "竜印の大盾のタリスマン：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/442313",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "talisman-dragoncrest"
+      ]
+    },
+    {
+      "id": "v14-game8-443678",
+      "publisher": "Game8",
+      "title": "アレキサンダーの破片：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/443678",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "talisman-alexander"
+      ]
+    },
+    {
+      "id": "v14-game8-620058",
+      "publisher": "Game8",
+      "title": "双頭亀のタリスマン：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/620058",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "talisman-two-turtle"
+      ]
+    },
+    {
+      "id": "v14-game8-620217",
+      "publisher": "Game8",
+      "title": "両手剣のタリスマン：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/620217",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "talisman-two-handed"
+      ]
+    },
+    {
+      "id": "v14-game8-441157",
+      "publisher": "Game8",
+      "title": "ラニ：仕官まで：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/441157",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "npc-ranni-intro"
+      ]
+    },
+    {
+      "id": "v14-game8-441109",
+      "publisher": "Game8",
+      "title": "ネフェリ・ルー：円卓の報酬まで：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/441109",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "npc-nepheli-early"
+      ]
+    },
+    {
+      "id": "v14-game8-440982",
+      "publisher": "Game8",
+      "title": "魔術師セレン：師事まで：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/440982",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "npc-sellen-intro"
+      ]
+    },
+    {
+      "id": "v14-game8-441771",
+      "publisher": "Game8",
+      "title": "魔術師トープス：学院での確認まで：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/441771",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "npc-thops"
+      ]
+    },
+    {
+      "id": "v14-game8-441769",
+      "publisher": "Game8",
+      "title": "ラーヤ：火山館への案内まで：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/441769",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "npc-rya"
+      ]
+    },
+    {
+      "id": "v14-gamewith-322187",
+      "publisher": "GameWith",
+      "title": "パッチ：降参を受け入れるまで：場所・入手方法・攻略",
+      "url": "https://gamewith.jp/eldenring/322187",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "npc-patches-intro"
+      ]
+    },
+    {
+      "id": "v14-game8-440671",
+      "publisher": "Game8",
+      "title": "霊薬の聖杯瓶：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/440671",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "collect-physick"
+      ]
+    },
+    {
+      "id": "v14-game8-440950",
+      "publisher": "Game8",
+      "title": "砥石の小刀：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/440950",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "collect-whetstone"
+      ]
+    },
+    {
+      "id": "v14-game8-440755",
+      "publisher": "Game8",
+      "title": "ローデリカのイベントと霊クラゲの遺灰",
+      "url": "https://game8.jp/eldenring/440755",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "collect-jellyfish"
+      ]
+    },
+    {
+      "id": "v14-game8-441569",
+      "publisher": "Game8",
+      "title": "鍛石掘りの鈴玉【2】：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/441569",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "collect-bearing-2"
+      ]
+    },
+    {
+      "id": "v14-game8-441137",
+      "publisher": "Game8",
+      "title": "喪色掘りの鈴玉【1】：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/441137",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "collect-somber-1"
+      ]
+    },
+    {
+      "id": "v14-gamewith-320971",
+      "publisher": "GameWith",
+      "title": "デクタスの割符の入手場所と使い道",
+      "url": "https://gamewith.jp/eldenring/320971",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "collect-dectus-left",
+        "collect-dectus-right"
+      ]
+    },
+    {
+      "id": "v14-game8-631566",
+      "publisher": "Game8",
+      "title": "影樹の破片：慰めの教会：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/631566",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "collect-scadutree-consolation"
+      ]
+    },
+    {
+      "id": "v14-gamewith-320141",
+      "publisher": "GameWith",
+      "title": "ケイリッド：場所・入手方法・攻略",
+      "url": "https://gamewith.jp/eldenring/320141",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "area-caelid"
+      ]
+    },
+    {
+      "id": "v14-gamewith-320140",
+      "publisher": "GameWith",
+      "title": "アルター高原：場所・入手方法・攻略",
+      "url": "https://gamewith.jp/eldenring/320140",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "area-altus"
+      ]
+    },
+    {
+      "id": "v14-gamewith-322447",
+      "publisher": "GameWith",
+      "title": "王都ローデイル（灰都化前）：場所・入手方法・攻略",
+      "url": "https://gamewith.jp/eldenring/322447",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "area-leyndell"
+      ]
+    },
+    {
+      "id": "v14-game8-441146",
+      "publisher": "Game8",
+      "title": "火山館：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/441146",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "area-volcano"
+      ]
+    },
+    {
+      "id": "v14-game8-441319",
+      "publisher": "Game8",
+      "title": "永遠の都ノクローン：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/441319",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "area-nokron"
+      ]
+    },
+    {
+      "id": "v14-game8-442291",
+      "publisher": "Game8",
+      "title": "崩れゆくファルムアズラ：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/442291",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "area-farum"
+      ]
+    },
+    {
+      "id": "v14-game8-442471",
+      "publisher": "Game8",
+      "title": "ミケラの聖樹：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/442471",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "area-haligtree"
+      ]
+    },
+    {
+      "id": "v14-game8-619121",
+      "publisher": "Game8",
+      "title": "墓地平原：DLCへの入口：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/619121",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "area-gravesite"
+      ]
+    },
+    {
+      "id": "v14-game8-620829",
+      "publisher": "Game8",
+      "title": "塔の街、ベルラート：場所・入手方法・攻略",
+      "url": "https://game8.jp/eldenring/620829",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "area-belurat"
+      ]
+    },
+    {
+      "id": "official-dlc-access-20240620",
+      "publisher": "FromSoftware",
+      "title": "DLC「SHADOW OF THE ERDTREE」プレイ開始に関するご案内",
+      "url": "https://www.eldenring.jp/newsdetail/news_detail_240620_2.html",
+      "kind": "primary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "boss-radahn",
+        "boss-mohg-lord",
+        "area-gravesite"
+      ]
+    },
+    {
+      "id": "v14-gamewith-321351",
+      "publisher": "GameWith",
+      "title": "遺跡の大剣の入手方法",
+      "url": "https://gamewith.jp/eldenring/321351",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "weapon-ruins"
+      ]
+    },
+    {
+      "id": "v14-gamewith-322853",
+      "publisher": "GameWith",
+      "title": "アレキサンダーのイベントと分岐報酬",
+      "url": "https://gamewith.jp/eldenring/322853",
+      "kind": "secondary",
+      "checkedAt": "2026-11-16",
+      "entryIds": [
+        "talisman-alexander"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "boss-margit",
+      "name": "忌み鬼、マルギット",
+      "scope": "base-game",
+      "checkedAt": "2026-11-15",
+      "verification": {
+        "status": "inherited-reviewed",
+        "checkedAt": "2026-11-15",
+        "note": "Ver.13.0.2から本文・IDを無変更継承。今回の実機再検証は未実施。"
+      },
+      "evidence": [
+        {
+          "sourceId": "gw-margit",
+          "scope": "出現場所、報酬、準備と一撃離脱の方針",
+          "url": "https://gamewith.jp/eldenring/320239"
+        }
+      ]
+    },
+    {
+      "id": "boss-godrick",
+      "name": "接ぎ木のゴドリック",
+      "scope": "base-game",
+      "checkedAt": "2026-11-15",
+      "verification": {
+        "status": "inherited-reviewed",
+        "checkedAt": "2026-11-15",
+        "note": "Ver.13.0.2から本文・IDを無変更継承。今回の実機再検証は未実施。"
+      },
+      "evidence": [
+        {
+          "sourceId": "gw-godrick",
+          "scope": "場所、報酬、後半の炎と側面への回避",
+          "url": "https://gamewith.jp/eldenring/320136"
+        }
+      ]
+    },
+    {
+      "id": "boss-darriwil",
+      "name": "猟犬騎士ダリウィル",
+      "scope": "base-game",
+      "checkedAt": "2026-11-15",
+      "verification": {
+        "status": "inherited-reviewed",
+        "checkedAt": "2026-11-15",
+        "note": "Ver.13.0.2から本文・IDを無変更継承。今回の実機再検証は未実施。"
+      },
+      "evidence": [
+        {
+          "sourceId": "g8-darriwil",
+          "scope": "封牢の個体、出血、攻撃後の反撃",
+          "url": "https://game8.jp/eldenring/440418"
+        },
+        {
+          "sourceId": "g8-fang",
+          "scope": "撃破報酬としての猟犬の長牙",
+          "url": "https://game8.jp/eldenring/441403"
+        }
+      ]
+    },
+    {
+      "id": "boss-tree-limgrave",
+      "name": "ツリーガード（リムグレイブ）",
+      "scope": "base-game",
+      "checkedAt": "2026-11-15",
+      "verification": {
+        "status": "inherited-reviewed",
+        "checkedAt": "2026-11-15",
+        "note": "Ver.13.0.2から本文・IDを無変更継承。今回の実機再検証は未実施。"
+      },
+      "evidence": [
+        {
+          "sourceId": "g8-tree",
+          "scope": "出現位置、報酬、後回しにできること",
+          "url": "https://game8.jp/eldenring/440326"
+        }
+      ]
+    },
+    {
+      "id": "weapon-uchigatana",
+      "name": "打刀",
+      "scope": "base-game",
+      "checkedAt": "2026-11-15",
+      "verification": {
+        "status": "inherited-reviewed",
+        "checkedAt": "2026-11-15",
+        "note": "Ver.13.0.2から本文・IDを無変更継承。今回の実機再検証は未実施。"
+      },
+      "evidence": [
+        {
+          "sourceId": "g8-uchigatana",
+          "scope": "武器種、初期戦技、必要能力、2種類の入手経路",
+          "url": "https://game8.jp/eldenring/440714"
+        }
+      ]
+    },
+    {
+      "id": "weapon-fang",
+      "name": "猟犬の長牙",
+      "scope": "base-game",
+      "checkedAt": "2026-11-15",
+      "verification": {
+        "status": "inherited-reviewed",
+        "checkedAt": "2026-11-15",
+        "note": "Ver.13.0.2から本文・IDを無変更継承。今回の実機再検証は未実施。"
+      },
+      "evidence": [
+        {
+          "sourceId": "g8-fang",
+          "scope": "武器種、戦技、必要能力、入手経路",
+          "url": "https://game8.jp/eldenring/441403"
+        },
+        {
+          "sourceId": "gw-fang",
+          "scope": "封牢での入手経路を照合",
+          "url": "https://gamewith.jp/eldenring/320602"
+        }
+      ]
+    },
+    {
+      "id": "weapon-meteorite",
+      "name": "隕石の杖",
+      "scope": "base-game",
+      "checkedAt": "2026-11-15",
+      "verification": {
+        "status": "inherited-reviewed",
+        "checkedAt": "2026-11-15",
+        "note": "Ver.13.0.2から本文・IDを無変更継承。今回の実機再検証は未実施。"
+      },
+      "evidence": [
+        {
+          "sourceId": "g8-meteor",
+          "scope": "種別、効果、必要能力、廃墟内での入手",
+          "url": "https://game8.jp/eldenring/441005"
+        }
+      ]
+    },
+    {
+      "id": "weapon-claymore",
+      "name": "クレイモア",
+      "scope": "base-game",
+      "checkedAt": "2026-11-15",
+      "verification": {
+        "status": "inherited-reviewed",
+        "checkedAt": "2026-11-15",
+        "note": "Ver.13.0.2から本文・IDを無変更継承。今回の実機再検証は未実施。"
+      },
+      "evidence": [
+        {
+          "sourceId": "g8-claymore",
+          "scope": "基本情報と宝箱までの経路",
+          "url": "https://game8.jp/eldenring/441088"
+        }
+      ]
+    },
+    {
+      "id": "armor-chain",
+      "name": "チェインシリーズ",
+      "scope": "base-game",
+      "checkedAt": "2026-11-15",
+      "verification": {
+        "status": "inherited-reviewed",
+        "checkedAt": "2026-11-15",
+        "note": "Ver.13.0.2から本文・IDを無変更継承。今回の実機再検証は未実施。"
+      },
+      "evidence": [
+        {
+          "sourceId": "g8-chain",
+          "scope": "セット構成とカーレからの購入",
+          "url": "https://game8.jp/eldenring/440732"
+        }
+      ]
+    },
+    {
+      "id": "armor-knight",
+      "name": "騎士シリーズ",
+      "scope": "base-game",
+      "checkedAt": "2026-11-15",
+      "verification": {
+        "status": "inherited-reviewed",
+        "checkedAt": "2026-11-15",
+        "note": "Ver.13.0.2から本文・IDを無変更継承。今回の実機再検証は未実施。"
+      },
+      "evidence": [
+        {
+          "sourceId": "g8-knight",
+          "scope": "セット構成、円卓の購入先",
+          "url": "https://game8.jp/eldenring/440752"
+        }
+      ]
+    },
+    {
+      "id": "armor-carian",
+      "name": "カーリア騎士シリーズ",
+      "scope": "base-game",
+      "checkedAt": "2026-11-15",
+      "verification": {
+        "status": "inherited-reviewed",
+        "checkedAt": "2026-11-15",
+        "note": "Ver.13.0.2から本文・IDを無変更継承。今回の実機再検証は未実施。"
+      },
+      "evidence": [
+        {
+          "sourceId": "g8-carian",
+          "scope": "セットの入手場所と墓地からの経路",
+          "url": "https://game8.jp/eldenring/441605"
+        }
+      ]
+    },
+    {
+      "id": "talisman-turtle",
+      "name": "緑亀のタリスマン",
+      "scope": "base-game",
+      "checkedAt": "2026-11-15",
+      "verification": {
+        "status": "inherited-reviewed",
+        "checkedAt": "2026-11-15",
+        "note": "Ver.13.0.2から本文・IDを無変更継承。今回の実機再検証は未実施。"
+      },
+      "evidence": [
+        {
+          "sourceId": "g8-turtle",
+          "scope": "効果と地下の宝箱",
+          "url": "https://game8.jp/eldenring/442637"
+        },
+        {
+          "sourceId": "gw-turtle",
+          "scope": "石剣の鍵を使う入手経路",
+          "url": "https://gamewith.jp/eldenring/320549"
+        }
+      ]
+    },
+    {
+      "id": "talisman-amber",
+      "name": "緋琥珀のメダリオン",
+      "scope": "base-game",
+      "checkedAt": "2026-11-15",
+      "verification": {
+        "status": "inherited-reviewed",
+        "checkedAt": "2026-11-15",
+        "note": "Ver.13.0.2から本文・IDを無変更継承。今回の実機再検証は未実施。"
+      },
+      "evidence": [
+        {
+          "sourceId": "g8-amber",
+          "scope": "効果、形見と商人の入手経路",
+          "url": "https://game8.jp/eldenring/440687"
+        }
+      ]
+    },
+    {
+      "id": "talisman-arsenal",
+      "name": "武具塊のお守り",
+      "scope": "base-game",
+      "checkedAt": "2026-11-15",
+      "verification": {
+        "status": "inherited-reviewed",
+        "checkedAt": "2026-11-15",
+        "note": "Ver.13.0.2から本文・IDを無変更継承。今回の実機再検証は未実施。"
+      },
+      "evidence": [
+        {
+          "sourceId": "g8-arsenal",
+          "scope": "効果、事前会話と撃破後の受け取り条件",
+          "url": "https://game8.jp/eldenring/455104"
+        }
+      ]
+    },
+    {
+      "id": "npc-roderika",
+      "name": "ローデリカ：調霊の解放まで",
+      "scope": "base-game",
+      "checkedAt": "2026-11-15",
+      "verification": {
+        "status": "inherited-reviewed",
+        "checkedAt": "2026-11-15",
+        "note": "Ver.13.0.2から本文・IDを無変更継承。今回の実機再検証は未実施。"
+      },
+      "evidence": [
+        {
+          "sourceId": "g8-roderika",
+          "scope": "移動の2経路、遺灰の受け取り、ヒューグとの会話による調霊解放",
+          "url": "https://game8.jp/eldenring/440755"
+        }
+      ]
+    },
+    {
+      "id": "npc-alexander",
+      "name": "アレキサンダー：最初の救出",
+      "scope": "base-game",
+      "checkedAt": "2026-11-15",
+      "verification": {
+        "status": "inherited-reviewed",
+        "checkedAt": "2026-11-15",
+        "note": "Ver.13.0.2から本文・IDを無変更継承。今回の実機再検証は未実施。"
+      },
+      "evidence": [
+        {
+          "sourceId": "gw-alexander",
+          "scope": "初回の場所、救出操作、イベントのスキップ条件",
+          "url": "https://gamewith.jp/eldenring/322859"
+        }
+      ]
+    },
+    {
+      "id": "npc-blaidd",
+      "name": "半狼のブライヴ：ダリウィルまで",
+      "scope": "base-game",
+      "checkedAt": "2026-11-15",
+      "verification": {
+        "status": "inherited-reviewed",
+        "checkedAt": "2026-11-15",
+        "note": "Ver.13.0.2から本文・IDを無変更継承。今回の実機再検証は未実施。"
+      },
+      "evidence": [
+        {
+          "sourceId": "gw-blaidd",
+          "scope": "遠吠えと指鳴らし、封牢、お礼、既に撃破済みの場合",
+          "url": "https://gamewith.jp/eldenring/323155"
+        }
+      ]
+    },
+    {
+      "id": "collect-seed-stormhill",
+      "name": "黄金の種子：嵐の関門の先",
+      "scope": "base-game",
+      "checkedAt": "2026-11-15",
+      "verification": {
+        "status": "inherited-reviewed",
+        "checkedAt": "2026-11-15",
+        "note": "Ver.13.0.2から本文・IDを無変更継承。今回の実機再検証は未実施。"
+      },
+      "evidence": [
+        {
+          "sourceId": "gw-seed",
+          "scope": "嵐の関門を抜けた地点",
+          "url": "https://gamewith.jp/eldenring/320220"
+        },
+        {
+          "sourceId": "official-grace",
+          "scope": "種子を使った聖杯瓶の回数強化",
+          "url": "https://www.fromsoftware.jp/manual/eldenring/ps5/blessing.html"
+        }
+      ]
+    },
+    {
+      "id": "collect-tear-marika",
+      "name": "聖杯の雫：第三マリカ教会",
+      "scope": "base-game",
+      "checkedAt": "2026-11-15",
+      "verification": {
+        "status": "inherited-reviewed",
+        "checkedAt": "2026-11-15",
+        "note": "Ver.13.0.2から本文・IDを無変更継承。今回の実機再検証は未実施。"
+      },
+      "evidence": [
+        {
+          "sourceId": "gw-tear",
+          "scope": "第三マリカ教会の回収場所",
+          "url": "https://gamewith.jp/eldenring/320236"
+        },
+        {
+          "sourceId": "official-grace",
+          "scope": "聖杯の雫による回復効果の強化",
+          "url": "https://www.fromsoftware.jp/manual/eldenring/ps5/blessing.html"
+        }
+      ]
+    },
+    {
+      "id": "collect-bearing-1",
+      "name": "鍛石掘りの鈴玉【1】",
+      "scope": "base-game",
+      "checkedAt": "2026-11-15",
+      "verification": {
+        "status": "inherited-reviewed",
+        "checkedAt": "2026-11-15",
+        "note": "Ver.13.0.2から本文・IDを無変更継承。今回の実機再検証は未実施。"
+      },
+      "evidence": [
+        {
+          "sourceId": "g8-bearing",
+          "scope": "撃破による入手と双子の老婆に渡す用途",
+          "url": "https://game8.jp/eldenring/441360"
+        }
+      ]
+    },
+    {
+      "id": "collect-spirit-bell",
+      "name": "霊喚びの鈴",
+      "scope": "base-game",
+      "checkedAt": "2026-11-15",
+      "verification": {
+        "status": "inherited-reviewed",
+        "checkedAt": "2026-11-15",
+        "note": "Ver.13.0.2から本文・IDを無変更継承。今回の実機再検証は未実施。"
+      },
+      "evidence": [
+        {
+          "sourceId": "famitsu-bell",
+          "scope": "霊馬の指笛取得後の夜の会話と霊体召喚",
+          "url": "https://www.famitsu.com/news/202202/26252793.html"
+        }
+      ]
+    },
+    {
+      "id": "collect-academy-key",
+      "name": "学院の輝石鍵：学院外の1本目",
+      "scope": "base-game",
+      "checkedAt": "2026-11-15",
+      "verification": {
+        "status": "inherited-reviewed",
+        "checkedAt": "2026-11-15",
+        "note": "Ver.13.0.2から本文・IDを無変更継承。今回の実機再検証は未実施。"
+      },
+      "evidence": [
+        {
+          "sourceId": "gw-key",
+          "scope": "1本目の場所、竜撃破不要、封印への使用",
+          "url": "https://gamewith.jp/eldenring/320606"
+        },
+        {
+          "sourceId": "g8-academy",
+          "scope": "学院へ入るまでの鍵の導線",
+          "url": "https://game8.jp/eldenring/440981"
+        }
+      ]
+    },
+    {
+      "id": "area-limgrave",
+      "name": "リムグレイブ：序盤の探索",
+      "scope": "base-game",
+      "checkedAt": "2026-11-15",
+      "verification": {
+        "status": "inherited-reviewed",
+        "checkedAt": "2026-11-15",
+        "note": "Ver.13.0.2から本文・IDを無変更継承。今回の実機再検証は未実施。"
+      },
+      "evidence": [
+        {
+          "sourceId": "g8-limgrave",
+          "scope": "序盤の導線、探索、ツリーガードの後回し",
+          "url": "https://game8.jp/eldenring/440668"
+        },
+        {
+          "sourceId": "official-grace",
+          "scope": "祝福への接触と休息",
+          "url": "https://www.fromsoftware.jp/manual/eldenring/ps5/blessing.html"
+        }
+      ]
+    },
+    {
+      "id": "area-weeping",
+      "name": "啜り泣きの半島",
+      "scope": "base-game",
+      "checkedAt": "2026-11-15",
+      "verification": {
+        "status": "inherited-reviewed",
+        "checkedAt": "2026-11-15",
+        "note": "Ver.13.0.2から本文・IDを無変更継承。今回の実機再検証は未実施。"
+      },
+      "evidence": [
+        {
+          "sourceId": "g8-weeping",
+          "scope": "地域への入り方と地域内の建物",
+          "url": "https://game8.jp/eldenring/441515"
+        }
+      ]
+    },
+    {
+      "id": "area-stormveil",
+      "name": "ストームヴィル城",
+      "scope": "base-game",
+      "checkedAt": "2026-11-15",
+      "verification": {
+        "status": "inherited-reviewed",
+        "checkedAt": "2026-11-15",
+        "note": "Ver.13.0.2から本文・IDを無変更継承。今回の実機再検証は未実施。"
+      },
+      "evidence": [
+        {
+          "sourceId": "gw-liurnia",
+          "scope": "マルギット、城、ゴドリックを経由する進路",
+          "url": "https://gamewith.jp/eldenring/320584"
+        },
+        {
+          "sourceId": "g8-arsenal",
+          "scope": "城内のネフェリとの事前会話",
+          "url": "https://game8.jp/eldenring/455104"
+        }
+      ]
+    },
+    {
+      "id": "area-liurnia",
+      "name": "湖のリエーニエ",
+      "scope": "base-game",
+      "checkedAt": "2026-11-15",
+      "verification": {
+        "status": "inherited-reviewed",
+        "checkedAt": "2026-11-15",
+        "note": "Ver.13.0.2から本文・IDを無変更継承。今回の実機再検証は未実施。"
+      },
+      "evidence": [
+        {
+          "sourceId": "gw-liurnia",
+          "scope": "城を抜ける経路とボス戦なしの裏道",
+          "url": "https://gamewith.jp/eldenring/320584"
+        },
+        {
+          "sourceId": "gw-key",
+          "scope": "学院へ進むための鍵",
+          "url": "https://gamewith.jp/eldenring/320606"
+        }
+      ]
+    },
+    {
+      "id": "area-academy",
+      "name": "魔術学院レアルカリア",
+      "scope": "base-game",
+      "checkedAt": "2026-11-15",
+      "verification": {
+        "status": "inherited-reviewed",
+        "checkedAt": "2026-11-15",
+        "note": "Ver.13.0.2から本文・IDを無変更継承。今回の実機再検証は未実施。"
+      },
+      "evidence": [
+        {
+          "sourceId": "g8-academy",
+          "scope": "入場条件と学院内の祝福・ボスへの進路",
+          "url": "https://game8.jp/eldenring/440981"
+        }
+      ]
+    },
+    {
+      "id": "boss-red-wolf",
+      "name": "ラダゴンの赤狼",
+      "scope": "base-game",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-game8-441094",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://game8.jp/eldenring/441094"
+        }
+      ]
+    },
+    {
+      "id": "boss-rennala",
+      "name": "満月の女王、レナラ",
+      "scope": "base-game",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-game8-441117",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://game8.jp/eldenring/441117"
+        }
+      ]
+    },
+    {
+      "id": "boss-leonine",
+      "name": "獅子の混種（モーンの城）",
+      "scope": "base-game",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-game8-440934",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://game8.jp/eldenring/440934"
+        }
+      ]
+    },
+    {
+      "id": "boss-loretta-manor",
+      "name": "親衛騎士ローレッタ",
+      "scope": "base-game",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-game8-441148",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://game8.jp/eldenring/441148"
+        }
+      ]
+    },
+    {
+      "id": "boss-radahn",
+      "name": "星砕きのラダーン",
+      "scope": "base-game",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "公式案内と攻略メディアを照合（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-game8-441349",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://game8.jp/eldenring/441349"
+        },
+        {
+          "sourceId": "official-dlc-access-20240620",
+          "scope": "DLC開始には星砕きのラダーンと血の君主モーグの両方の撃破が必要。神人眠りの繭から移動。",
+          "url": "https://www.eldenring.jp/newsdetail/news_detail_240620_2.html"
+        }
+      ]
+    },
+    {
+      "id": "boss-mimic",
+      "name": "写し身の雫（ノクローン）",
+      "scope": "base-game",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-game8-444741",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://game8.jp/eldenring/444741"
+        }
+      ]
+    },
+    {
+      "id": "boss-mohg-lord",
+      "name": "血の君主、モーグ",
+      "scope": "base-game",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "公式案内と攻略メディアを照合（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-game8-443509",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://game8.jp/eldenring/443509"
+        },
+        {
+          "sourceId": "official-dlc-access-20240620",
+          "scope": "DLC開始には星砕きのラダーンと血の君主モーグの両方の撃破が必要。神人眠りの繭から移動。",
+          "url": "https://www.eldenring.jp/newsdetail/news_detail_240620_2.html"
+        }
+      ]
+    },
+    {
+      "id": "boss-godfrey-shade",
+      "name": "最初の王、ゴッドフレイ（黄金の幻影）",
+      "scope": "base-game",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-game8-441633",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://game8.jp/eldenring/441633"
+        }
+      ]
+    },
+    {
+      "id": "boss-morgott",
+      "name": "忌み王、モーゴット",
+      "scope": "base-game",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-game8-441692",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://game8.jp/eldenring/441692"
+        }
+      ]
+    },
+    {
+      "id": "boss-fire-giant",
+      "name": "火の巨人",
+      "scope": "base-game",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-game8-442289",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://game8.jp/eldenring/442289"
+        }
+      ]
+    },
+    {
+      "id": "boss-godskin-duo",
+      "name": "神肌のふたり",
+      "scope": "base-game",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-game8-442321",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://game8.jp/eldenring/442321"
+        }
+      ]
+    },
+    {
+      "id": "boss-maliketh",
+      "name": "黒き剣のマリケス",
+      "scope": "base-game",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-gamewith-322886",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://gamewith.jp/eldenring/322886"
+        }
+      ]
+    },
+    {
+      "id": "boss-gideon",
+      "name": "百智卿、ギデオン＝オーフニール",
+      "scope": "base-game",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-game8-442480",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://game8.jp/eldenring/442480"
+        }
+      ]
+    },
+    {
+      "id": "boss-hoarah",
+      "name": "最初の王、ゴッドフレイ／戦士、ホーラ・ルー",
+      "scope": "base-game",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-game8-442529",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://game8.jp/eldenring/442529"
+        }
+      ]
+    },
+    {
+      "id": "boss-rellana",
+      "name": "双月の騎士、レラーナ",
+      "scope": "dlc",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-game8-619761",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://game8.jp/eldenring/619761"
+        }
+      ]
+    },
+    {
+      "id": "boss-dancing-lion",
+      "name": "神獣獅子舞（ベルラート）",
+      "scope": "dlc",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-game8-619834",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://game8.jp/eldenring/619834"
+        }
+      ]
+    },
+    {
+      "id": "boss-messmer",
+      "name": "串刺し公、メスメル",
+      "scope": "dlc",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-game8-619987",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://game8.jp/eldenring/619987"
+        }
+      ]
+    },
+    {
+      "id": "boss-romina",
+      "name": "蕾の聖女、ロミナ",
+      "scope": "dlc",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-game8-620159",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://game8.jp/eldenring/620159"
+        }
+      ]
+    },
+    {
+      "id": "weapon-greatsword",
+      "name": "グレートソード",
+      "scope": "base-game",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-game8-440897",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://game8.jp/eldenring/440897"
+        }
+      ]
+    },
+    {
+      "id": "weapon-moonveil",
+      "name": "名刀月隠",
+      "scope": "base-game",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-game8-441034",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://game8.jp/eldenring/441034"
+        }
+      ]
+    },
+    {
+      "id": "weapon-nagakiba",
+      "name": "長牙",
+      "scope": "base-game",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-gamewith-321769",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://gamewith.jp/eldenring/321769"
+        }
+      ]
+    },
+    {
+      "id": "weapon-reduvia",
+      "name": "レドゥビア",
+      "scope": "base-game",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-game8-440918",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://game8.jp/eldenring/440918"
+        }
+      ]
+    },
+    {
+      "id": "weapon-twinblade",
+      "name": "ツインブレード",
+      "scope": "base-game",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-game8-442094",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://game8.jp/eldenring/442094"
+        }
+      ]
+    },
+    {
+      "id": "weapon-night-flame",
+      "name": "夜と炎の剣",
+      "scope": "base-game",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-game8-441687",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://game8.jp/eldenring/441687"
+        }
+      ]
+    },
+    {
+      "id": "weapon-grafted",
+      "name": "剣接ぎの大剣",
+      "scope": "base-game",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-game8-441033",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://game8.jp/eldenring/441033"
+        }
+      ]
+    },
+    {
+      "id": "weapon-ruins",
+      "name": "遺跡の大剣",
+      "scope": "base-game",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-game8-442733",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://game8.jp/eldenring/442733"
+        },
+        {
+          "sourceId": "v14-gamewith-321351",
+          "scope": "祭り以前にも入手できる。先にラダーンを倒した場合は会話・再読み込みで通常状態に戻す。",
+          "url": "https://gamewith.jp/eldenring/321351"
+        }
+      ]
+    },
+    {
+      "id": "weapon-gransax",
+      "name": "グランサクスの雷",
+      "scope": "base-game",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-game8-441686",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://game8.jp/eldenring/441686"
+        }
+      ]
+    },
+    {
+      "id": "weapon-dark-moon",
+      "name": "暗月の大剣",
+      "scope": "base-game",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-gamewith-320185",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://gamewith.jp/eldenring/320185"
+        }
+      ]
+    },
+    {
+      "id": "weapon-rivers-blood",
+      "name": "屍山血河",
+      "scope": "base-game",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-gamewith-321393",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://gamewith.jp/eldenring/321393"
+        }
+      ]
+    },
+    {
+      "id": "weapon-blasphemous",
+      "name": "冒涜の聖剣",
+      "scope": "base-game",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-gamewith-322273",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://gamewith.jp/eldenring/322273"
+        }
+      ]
+    },
+    {
+      "id": "weapon-winged-scythe",
+      "name": "翼の鎌",
+      "scope": "base-game",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-game8-442747",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://game8.jp/eldenring/442747"
+        }
+      ]
+    },
+    {
+      "id": "weapon-backhand",
+      "name": "逆手剣",
+      "scope": "dlc",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-game8-618798",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://game8.jp/eldenring/618798"
+        }
+      ]
+    },
+    {
+      "id": "weapon-milady",
+      "name": "レディソード",
+      "scope": "dlc",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-game8-619770",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://game8.jp/eldenring/619770"
+        }
+      ]
+    },
+    {
+      "id": "weapon-great-katana",
+      "name": "大刀",
+      "scope": "dlc",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-game8-618798",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://game8.jp/eldenring/618798"
+        }
+      ]
+    },
+    {
+      "id": "armor-vagabond",
+      "name": "放浪騎士シリーズ",
+      "scope": "base-game",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-game8-440675",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://game8.jp/eldenring/440675"
+        }
+      ]
+    },
+    {
+      "id": "armor-reeds",
+      "name": "葦の地シリーズ",
+      "scope": "base-game",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-game8-440678",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://game8.jp/eldenring/440678"
+        }
+      ]
+    },
+    {
+      "id": "armor-astrologer",
+      "name": "星見シリーズ",
+      "scope": "base-game",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-game8-440679",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://game8.jp/eldenring/440679"
+        }
+      ]
+    },
+    {
+      "id": "armor-radahn",
+      "name": "ラダーンシリーズ",
+      "scope": "base-game",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-game8-448785",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://game8.jp/eldenring/448785"
+        }
+      ]
+    },
+    {
+      "id": "armor-black-knife",
+      "name": "黒き刃シリーズ",
+      "scope": "base-game",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-game8-442766",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://game8.jp/eldenring/442766"
+        }
+      ]
+    },
+    {
+      "id": "armor-cleanrot",
+      "name": "貴腐騎士シリーズ",
+      "scope": "base-game",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-game8-442768",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://game8.jp/eldenring/442768"
+        }
+      ]
+    },
+    {
+      "id": "armor-solitude",
+      "name": "孤牢シリーズ",
+      "scope": "dlc",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-game8-620131",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://game8.jp/eldenring/620131"
+        }
+      ]
+    },
+    {
+      "id": "armor-oathseeker",
+      "name": "誓約騎士シリーズ",
+      "scope": "dlc",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-game8-620797",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://game8.jp/eldenring/620797"
+        }
+      ]
+    },
+    {
+      "id": "talisman-claw",
+      "name": "爪のタリスマン",
+      "scope": "base-game",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-game8-441554",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://game8.jp/eldenring/441554"
+        }
+      ]
+    },
+    {
+      "id": "talisman-axe",
+      "name": "斧のタリスマン",
+      "scope": "base-game",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-game8-441553",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://game8.jp/eldenring/441553"
+        }
+      ]
+    },
+    {
+      "id": "talisman-curved",
+      "name": "曲剣のタリスマン",
+      "scope": "base-game",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-game8-441552",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://game8.jp/eldenring/441552"
+        }
+      ]
+    },
+    {
+      "id": "talisman-radagon-icon",
+      "name": "ラダゴンの肖像",
+      "scope": "base-game",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-game8-441555",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://game8.jp/eldenring/441555"
+        }
+      ]
+    },
+    {
+      "id": "talisman-soreseal",
+      "name": "ラダゴンの爛れ刻印",
+      "scope": "base-game",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-game8-443090",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://game8.jp/eldenring/443090"
+        }
+      ]
+    },
+    {
+      "id": "talisman-erdtree",
+      "name": "黄金樹の恩寵（通常版）",
+      "scope": "base-game",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-game8-441058",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://game8.jp/eldenring/441058"
+        }
+      ]
+    },
+    {
+      "id": "talisman-ritual-sword",
+      "name": "捧闘の剣のタリスマン",
+      "scope": "base-game",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-game8-444290",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://game8.jp/eldenring/444290"
+        }
+      ]
+    },
+    {
+      "id": "talisman-gold-scarab",
+      "name": "金のスカラベ",
+      "scope": "base-game",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-game8-441177",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://game8.jp/eldenring/441177"
+        }
+      ]
+    },
+    {
+      "id": "talisman-dragoncrest",
+      "name": "竜印の大盾のタリスマン",
+      "scope": "base-game",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-game8-442313",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://game8.jp/eldenring/442313"
+        }
+      ]
+    },
+    {
+      "id": "talisman-alexander",
+      "name": "アレキサンダーの破片",
+      "scope": "base-game",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-game8-443678",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://game8.jp/eldenring/443678"
+        },
+        {
+          "sourceId": "v14-gamewith-322853",
+          "scope": "序盤殺害の報酬と、終盤のアレキサンダーの破片は別。",
+          "url": "https://gamewith.jp/eldenring/322853"
+        }
+      ]
+    },
+    {
+      "id": "talisman-two-turtle",
+      "name": "双頭亀のタリスマン",
+      "scope": "dlc",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-game8-620058",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://game8.jp/eldenring/620058"
+        }
+      ]
+    },
+    {
+      "id": "talisman-two-handed",
+      "name": "両手剣のタリスマン",
+      "scope": "dlc",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-game8-620217",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://game8.jp/eldenring/620217"
+        }
+      ]
+    },
+    {
+      "id": "npc-ranni-intro",
+      "name": "ラニ：仕官まで",
+      "scope": "base-game",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-game8-441157",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://game8.jp/eldenring/441157"
+        }
+      ]
+    },
+    {
+      "id": "npc-nepheli-early",
+      "name": "ネフェリ・ルー：円卓の報酬まで",
+      "scope": "base-game",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-game8-441109",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://game8.jp/eldenring/441109"
+        }
+      ]
+    },
+    {
+      "id": "npc-sellen-intro",
+      "name": "魔術師セレン：師事まで",
+      "scope": "base-game",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-game8-440982",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://game8.jp/eldenring/440982"
+        }
+      ]
+    },
+    {
+      "id": "npc-thops",
+      "name": "魔術師トープス：学院での確認まで",
+      "scope": "base-game",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-game8-441771",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://game8.jp/eldenring/441771"
+        }
+      ]
+    },
+    {
+      "id": "npc-rya",
+      "name": "ラーヤ：火山館への案内まで",
+      "scope": "base-game",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-game8-441769",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://game8.jp/eldenring/441769"
+        }
+      ]
+    },
+    {
+      "id": "npc-patches-intro",
+      "name": "パッチ：降参を受け入れるまで",
+      "scope": "base-game",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-gamewith-322187",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://gamewith.jp/eldenring/322187"
+        }
+      ]
+    },
+    {
+      "id": "collect-physick",
+      "name": "霊薬の聖杯瓶",
+      "scope": "base-game",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-game8-440671",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://game8.jp/eldenring/440671"
+        }
+      ]
+    },
+    {
+      "id": "collect-whetstone",
+      "name": "砥石の小刀",
+      "scope": "base-game",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-game8-440950",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://game8.jp/eldenring/440950"
+        }
+      ]
+    },
+    {
+      "id": "collect-jellyfish",
+      "name": "霊クラゲの遺灰",
+      "scope": "base-game",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-game8-440755",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://game8.jp/eldenring/440755"
+        }
+      ]
+    },
+    {
+      "id": "collect-bearing-2",
+      "name": "鍛石掘りの鈴玉【2】",
+      "scope": "base-game",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-game8-441569",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://game8.jp/eldenring/441569"
+        }
+      ]
+    },
+    {
+      "id": "collect-somber-1",
+      "name": "喪色掘りの鈴玉【1】",
+      "scope": "base-game",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-game8-441137",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://game8.jp/eldenring/441137"
+        }
+      ]
+    },
+    {
+      "id": "collect-dectus-left",
+      "name": "デクタスの割符（左）",
+      "scope": "base-game",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-gamewith-320971",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://gamewith.jp/eldenring/320971"
+        }
+      ]
+    },
+    {
+      "id": "collect-dectus-right",
+      "name": "デクタスの割符（右）",
+      "scope": "base-game",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-gamewith-320971",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://gamewith.jp/eldenring/320971"
+        }
+      ]
+    },
+    {
+      "id": "collect-scadutree-consolation",
+      "name": "影樹の破片：慰めの教会",
+      "scope": "dlc",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-game8-631566",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://game8.jp/eldenring/631566"
+        }
+      ]
+    },
+    {
+      "id": "area-caelid",
+      "name": "ケイリッド",
+      "scope": "base-game",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-gamewith-320141",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://gamewith.jp/eldenring/320141"
+        }
+      ]
+    },
+    {
+      "id": "area-altus",
+      "name": "アルター高原",
+      "scope": "base-game",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-gamewith-320140",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://gamewith.jp/eldenring/320140"
+        }
+      ]
+    },
+    {
+      "id": "area-leyndell",
+      "name": "王都ローデイル（灰都化前）",
+      "scope": "base-game",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-gamewith-322447",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://gamewith.jp/eldenring/322447"
+        }
+      ]
+    },
+    {
+      "id": "area-volcano",
+      "name": "火山館",
+      "scope": "base-game",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-game8-441146",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://game8.jp/eldenring/441146"
+        }
+      ]
+    },
+    {
+      "id": "area-nokron",
+      "name": "永遠の都ノクローン",
+      "scope": "base-game",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-game8-441319",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://game8.jp/eldenring/441319"
+        }
+      ]
+    },
+    {
+      "id": "area-farum",
+      "name": "崩れゆくファルムアズラ",
+      "scope": "base-game",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-game8-442291",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://game8.jp/eldenring/442291"
+        }
+      ]
+    },
+    {
+      "id": "area-haligtree",
+      "name": "ミケラの聖樹",
+      "scope": "base-game",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-game8-442471",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://game8.jp/eldenring/442471"
+        }
+      ]
+    },
+    {
+      "id": "area-gravesite",
+      "name": "墓地平原：DLCへの入口",
+      "scope": "dlc",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "公式案内と攻略メディアを照合（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-game8-619121",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://game8.jp/eldenring/619121"
+        },
+        {
+          "sourceId": "official-dlc-access-20240620",
+          "scope": "DLC開始には星砕きのラダーンと血の君主モーグの両方の撃破が必要。神人眠りの繭から移動。",
+          "url": "https://www.eldenring.jp/newsdetail/news_detail_240620_2.html"
+        }
+      ]
+    },
+    {
+      "id": "area-belurat",
+      "name": "塔の街、ベルラート",
+      "scope": "dlc",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-game8-620829",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://game8.jp/eldenring/620829"
+        }
+      ]
+    },
+    {
+      "id": "area-ensis",
+      "name": "エンシスの城砦",
+      "scope": "dlc",
+      "checkedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-16",
+        "method": "資料確認（実機再現なし）"
+      },
+      "evidence": [
+        {
+          "sourceId": "v14-game8-619770",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。",
+          "url": "https://game8.jp/eldenring/619770"
+        }
+      ]
+    }
+  ]
+}

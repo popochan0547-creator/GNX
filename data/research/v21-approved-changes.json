@@ -1,0 +1,5870 @@
+{
+  "weapon-uchigatana": {
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "entryPatch": {
+      "summary": "地下墓の遺体から回収、または侍で開始する。",
+      "steps": [
+        "記載の地点・前提をゲーム内で確認する。",
+        "地下墓の遺体から回収、または侍で開始する。"
+      ],
+      "evidence": [
+        {
+          "sourceId": "g8-uchigatana",
+          "scope": "武器種、初期戦技、必要能力、2種類の入手経路"
+        },
+        {
+          "sourceId": "v21-l-uchi",
+          "scope": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        }
+      ],
+      "caveats": [
+        "必要能力は通常の装備条件。両手持ち時の計算や強化・派生後の性能は未収録。",
+        "Ver.21資料再照合：代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+        "資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。"
+      ],
+      "verifiedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "level": "verified",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "acquisition": "地下墓の遺体から回収、または侍で開始する。",
+      "sourceIds": [
+        "g8-uchigatana",
+        "v21-l-uchi"
+      ],
+      "checkedAt": "2026-11-16",
+      "verification": "source-reviewed",
+      "verificationScope": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "unknownFields": [],
+      "verificationLevel": "verified",
+      "detailFacts": [
+        {
+          "label": "武器種",
+          "value": "刀"
+        },
+        {
+          "label": "初期戦技",
+          "value": "居合"
+        },
+        {
+          "label": "必要能力（出典表記）",
+          "value": "筋力11・技量15"
+        }
+      ]
+    },
+    "sourceIds": [
+      "l-uchi"
+    ]
+  },
+  "weapon-fang": {
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "entryPatch": {
+      "summary": "封牢のボスを倒す。",
+      "steps": [
+        "記載の地点・前提をゲーム内で確認する。",
+        "封牢のボスを倒す。"
+      ],
+      "evidence": [
+        {
+          "sourceId": "g8-fang",
+          "scope": "武器種、戦技、必要能力、入手経路"
+        },
+        {
+          "sourceId": "gw-fang",
+          "scope": "封牢での入手経路を照合"
+        },
+        {
+          "sourceId": "v21-l-weapons",
+          "scope": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        }
+      ],
+      "caveats": [
+        "ボス撃破のチェックとは独立して記録します。",
+        "Ver.21資料再照合：代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+        "資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。"
+      ],
+      "verifiedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "level": "verified",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "acquisition": "封牢のボスを倒す。",
+      "sourceIds": [
+        "g8-fang",
+        "gw-fang",
+        "v21-l-weapons"
+      ],
+      "checkedAt": "2026-11-16",
+      "verification": "source-reviewed",
+      "verificationScope": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "unknownFields": [],
+      "verificationLevel": "verified",
+      "detailFacts": [
+        {
+          "label": "武器種",
+          "value": "大曲剣"
+        },
+        {
+          "label": "戦技",
+          "value": "猟犬の剣技"
+        },
+        {
+          "label": "必要能力（出典表記）",
+          "value": "筋力18・技量17"
+        }
+      ]
+    },
+    "sourceIds": [
+      "l-weapons"
+    ]
+  },
+  "weapon-meteorite": {
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "entryPatch": {
+      "summary": "廃墟で拾う。",
+      "steps": [
+        "記載の地点・前提をゲーム内で確認する。",
+        "廃墟で拾う。"
+      ],
+      "evidence": [
+        {
+          "sourceId": "g8-meteor",
+          "scope": "種別、効果、必要能力、廃墟内での入手"
+        },
+        {
+          "sourceId": "v21-l-weapons",
+          "scope": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        }
+      ],
+      "caveats": [
+        "攻撃力の比較、補正の計算、詳細な安全経路は未収録。",
+        "Ver.21資料再照合：代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+        "資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。"
+      ],
+      "verifiedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "level": "verified",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "acquisition": "廃墟で拾う。",
+      "sourceIds": [
+        "g8-meteor",
+        "v21-l-weapons"
+      ],
+      "checkedAt": "2026-11-16",
+      "verification": "source-reviewed",
+      "verificationScope": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "unknownFields": [],
+      "verificationLevel": "verified",
+      "detailFacts": [
+        {
+          "label": "武器種",
+          "value": "杖"
+        },
+        {
+          "label": "付帯効果",
+          "value": "重力の魔術を強化"
+        },
+        {
+          "label": "必要能力（出典表記）",
+          "value": "筋力6・知力18"
+        }
+      ]
+    },
+    "sourceIds": [
+      "l-weapons"
+    ]
+  },
+  "weapon-claymore": {
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "entryPatch": {
+      "location": "モーンの城",
+      "summary": "城内の宝箱を開ける。",
+      "steps": [
+        "記載の地点・前提をゲーム内で確認する。",
+        "城内の宝箱を開ける。"
+      ],
+      "evidence": [
+        {
+          "sourceId": "g8-claymore",
+          "scope": "基本情報と宝箱までの経路"
+        },
+        {
+          "sourceId": "v21-l-weapons",
+          "scope": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        }
+      ],
+      "caveats": [
+        "Ver.21資料再照合：代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+        "資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。"
+      ],
+      "verifiedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "level": "verified",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "location": "モーンの城",
+      "acquisition": "城内の宝箱を開ける。",
+      "sourceIds": [
+        "g8-claymore",
+        "v21-l-weapons"
+      ],
+      "checkedAt": "2026-11-16",
+      "verification": "source-reviewed",
+      "verificationScope": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "unknownFields": [],
+      "verificationLevel": "verified",
+      "detailFacts": [
+        {
+          "label": "武器種",
+          "value": "大剣"
+        },
+        {
+          "label": "初期戦技",
+          "value": "獅子斬り"
+        },
+        {
+          "label": "必要能力（出典表記）",
+          "value": "筋力16・技量13"
+        }
+      ]
+    },
+    "sourceIds": [
+      "l-weapons"
+    ]
+  },
+  "armor-chain": {
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "entryPatch": {
+      "location": "エレの教会・商人カーレ",
+      "summary": "シリーズの装備を購入する。",
+      "steps": [
+        "記載の地点・前提をゲーム内で確認する。",
+        "シリーズの装備を購入する。"
+      ],
+      "evidence": [
+        {
+          "sourceId": "g8-chain",
+          "scope": "セット構成とカーレからの購入"
+        },
+        {
+          "sourceId": "v21-l-armor",
+          "scope": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        }
+      ],
+      "caveats": [
+        "価格、カット率、強靭度は今回未収録。",
+        "Ver.21資料再照合：代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+        "シリーズの販売先を照合。個別部位・軽装差・購入価格・一式取得済み状態は推定しない。"
+      ],
+      "verifiedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "level": "verified",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "location": "エレの教会・商人カーレ",
+      "acquisition": "シリーズの装備を購入する。",
+      "sourceIds": [
+        "g8-chain",
+        "v21-l-armor"
+      ],
+      "checkedAt": "2026-11-16",
+      "verification": "source-reviewed",
+      "verificationScope": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "unknownFields": [],
+      "verificationLevel": "verified",
+      "detailFacts": [
+        {
+          "label": "管理単位",
+          "value": "防具セット（部位別管理は未対応）"
+        }
+      ]
+    },
+    "sourceIds": [
+      "l-armor"
+    ]
+  },
+  "armor-knight": {
+    "reason": "今回の担当範囲では十分な資料照合を完了していない。既存情報を削除・変更しない。",
+    "entryPatch": {
+      "caveats": [
+        "価格、カット率、強靭度は今回未収録。",
+        "Ver.21資料再照合：今回の担当範囲では十分な資料照合を完了していない。既存情報を削除・変更しない。",
+        "未確認は誤りの確定ではない。"
+      ],
+      "verifiedAt": "2026-11-16",
+      "verification": {
+        "status": "needs-review",
+        "level": "review",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "checkedAt": "2026-11-16",
+      "verification": "needs-review",
+      "verificationScope": "今回の資料再照合フィールド：。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "unknownFields": [],
+      "verificationLevel": "review",
+      "detailFacts": [
+        {
+          "label": "管理単位",
+          "value": "防具セット（部位別管理は未対応）"
+        }
+      ]
+    },
+    "sourceIds": []
+  },
+  "armor-carian": {
+    "reason": "今回の担当範囲では十分な資料照合を完了していない。既存情報を削除・変更しない。",
+    "entryPatch": {
+      "caveats": [
+        "段差移動に注意。画像付きの足場案内は未収録。",
+        "Ver.21資料再照合：今回の担当範囲では十分な資料照合を完了していない。既存情報を削除・変更しない。",
+        "未確認は誤りの確定ではない。"
+      ],
+      "verifiedAt": "2026-11-16",
+      "verification": {
+        "status": "needs-review",
+        "level": "review",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "checkedAt": "2026-11-16",
+      "verification": "needs-review",
+      "verificationScope": "今回の資料再照合フィールド：。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "unknownFields": [],
+      "verificationLevel": "review",
+      "detailFacts": [
+        {
+          "label": "管理単位",
+          "value": "通常の防具セット。軽装版は別管理しない"
+        }
+      ]
+    },
+    "sourceIds": []
+  },
+  "talisman-turtle": {
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "entryPatch": {
+      "location": "呼び水の村・地下",
+      "summary": "封印の先の宝箱を開ける。",
+      "facts": [
+        {
+          "label": "効果",
+          "value": "スタミナ回復速度を高める"
+        },
+        {
+          "label": "準備",
+          "value": "地下の封印を解く石剣の鍵"
+        },
+        {
+          "label": "必要条件",
+          "value": "石剣の鍵が必要。"
+        }
+      ],
+      "steps": [
+        "石剣の鍵が必要。",
+        "封印の先の宝箱を開ける。"
+      ],
+      "evidence": [
+        {
+          "sourceId": "g8-turtle",
+          "scope": "効果と地下の宝箱"
+        },
+        {
+          "sourceId": "gw-turtle",
+          "scope": "石剣の鍵を使う入手経路"
+        },
+        {
+          "sourceId": "v21-l-talismans",
+          "scope": "今回の資料再照合フィールド：name, location, acquisition, conditions。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        }
+      ],
+      "caveats": [
+        "DLCの双頭亀のタリスマンとは別です。",
+        "Ver.21資料再照合：代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+        "資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。"
+      ],
+      "verifiedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "level": "verified",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：name, location, acquisition, conditions。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "location": "呼び水の村・地下",
+      "acquisition": "封印の先の宝箱を開ける。",
+      "conditions": "石剣の鍵が必要。",
+      "sourceIds": [
+        "g8-turtle",
+        "gw-turtle",
+        "v21-l-talismans"
+      ],
+      "checkedAt": "2026-11-16",
+      "verification": "source-reviewed",
+      "verificationScope": "今回の資料再照合フィールド：name, location, acquisition, conditions。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "unknownFields": [],
+      "verificationLevel": "verified",
+      "detailFacts": [
+        {
+          "label": "効果",
+          "value": "スタミナ回復速度を高める"
+        },
+        {
+          "label": "準備",
+          "value": "地下の封印を解く石剣の鍵"
+        },
+        {
+          "label": "必要条件",
+          "value": "石剣の鍵が必要。"
+        }
+      ]
+    },
+    "sourceIds": [
+      "l-talismans"
+    ]
+  },
+  "talisman-amber": {
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "entryPatch": {
+      "location": "形見／モーンの城壁前の商人",
+      "summary": "形見として選ぶ、または商人から購入する。",
+      "steps": [
+        "記載の地点・前提をゲーム内で確認する。",
+        "形見として選ぶ、または商人から購入する。"
+      ],
+      "evidence": [
+        {
+          "sourceId": "g8-amber",
+          "scope": "効果、形見と商人の入手経路"
+        },
+        {
+          "sourceId": "v21-l-talismans",
+          "scope": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        }
+      ],
+      "caveats": [
+        "+1以上の強化版は別アイテムで、今回の収録対象外です。",
+        "Ver.21資料再照合：代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+        "資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。"
+      ],
+      "verifiedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "level": "verified",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "location": "形見／モーンの城壁前の商人",
+      "acquisition": "形見として選ぶ、または商人から購入する。",
+      "sourceIds": [
+        "g8-amber",
+        "v21-l-talismans"
+      ],
+      "checkedAt": "2026-11-16",
+      "verification": "source-reviewed",
+      "verificationScope": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "unknownFields": [],
+      "verificationLevel": "verified",
+      "detailFacts": [
+        {
+          "label": "効果",
+          "value": "最大HPを高める"
+        }
+      ]
+    },
+    "sourceIds": [
+      "l-talismans"
+    ]
+  },
+  "talisman-arsenal": {
+    "reason": "別担当の個別監査対象。このファイルでは判定を上書きしない。",
+    "entryPatch": {
+      "caveats": [
+        "会話を飛ばした場合の救済・分岐は未確認。",
+        "Ver.21資料再照合：別担当の個別監査対象。このファイルでは判定を上書きしない。",
+        "未確認は誤りの確定ではない。"
+      ],
+      "verifiedAt": "2026-11-16",
+      "verification": {
+        "status": "needs-review",
+        "level": "review",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "checkedAt": "2026-11-16",
+      "verification": "needs-review",
+      "verificationScope": "今回の資料再照合フィールド：。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "unknownFields": [],
+      "verificationLevel": "review",
+      "detailFacts": [
+        {
+          "label": "効果",
+          "value": "装備重量の上限を高める"
+        },
+        {
+          "label": "事前の会話",
+          "value": "ゴドリックを倒す前に城内のネフェリ・ルーと話す"
+        }
+      ]
+    },
+    "sourceIds": []
+  },
+  "collect-seed-stormhill": {
+    "reason": "今回の担当範囲では十分な資料照合を完了していない。既存情報を削除・変更しない。",
+    "entryPatch": {
+      "caveats": [
+        "黄金の種子全地点のうち1地点のみです。必要個数の段階表は未収録。",
+        "Ver.21資料再照合：今回の担当範囲では十分な資料照合を完了していない。既存情報を削除・変更しない。",
+        "未確認は誤りの確定ではない。"
+      ],
+      "verifiedAt": "2026-11-16",
+      "verification": {
+        "status": "needs-review",
+        "level": "review",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "checkedAt": "2026-11-16",
+      "verification": "needs-review",
+      "verificationScope": "今回の資料再照合フィールド：。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "unknownFields": [],
+      "verificationLevel": "review",
+      "detailFacts": [
+        {
+          "label": "用途",
+          "value": "祝福の聖杯瓶メニューで使用回数を増やす"
+        }
+      ]
+    },
+    "sourceIds": []
+  },
+  "collect-tear-marika": {
+    "reason": "今回の担当範囲では十分な資料照合を完了していない。既存情報を削除・変更しない。",
+    "entryPatch": {
+      "caveats": [
+        "全回収地点の一覧ではありません。",
+        "Ver.21資料再照合：今回の担当範囲では十分な資料照合を完了していない。既存情報を削除・変更しない。",
+        "未確認は誤りの確定ではない。"
+      ],
+      "verifiedAt": "2026-11-16",
+      "verification": {
+        "status": "needs-review",
+        "level": "review",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "checkedAt": "2026-11-16",
+      "verification": "needs-review",
+      "verificationScope": "今回の資料再照合フィールド：。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "unknownFields": [],
+      "verificationLevel": "review",
+      "detailFacts": [
+        {
+          "label": "用途",
+          "value": "祝福の聖杯瓶メニューで回復量を高める"
+        }
+      ]
+    },
+    "sourceIds": []
+  },
+  "collect-bearing-1": {
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "entryPatch": {
+      "location": "レアルカリア結晶坑道",
+      "summary": "結晶人の撃破で入手する。",
+      "steps": [
+        "記載の地点・前提をゲーム内で確認する。",
+        "結晶人の撃破で入手する。"
+      ],
+      "evidence": [
+        {
+          "sourceId": "g8-bearing",
+          "scope": "撃破による入手と双子の老婆に渡す用途"
+        },
+        {
+          "sourceId": "v21-l-bells",
+          "scope": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        }
+      ],
+      "caveats": [
+        "結晶人が出る別の洞窟と混同しないよう、坑道名を確認してください。",
+        "Ver.21資料再照合：代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+        "資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。"
+      ],
+      "verifiedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "level": "verified",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "location": "レアルカリア結晶坑道",
+      "acquisition": "結晶人の撃破で入手する。",
+      "sourceIds": [
+        "g8-bearing",
+        "v21-l-bells"
+      ],
+      "checkedAt": "2026-11-16",
+      "verification": "source-reviewed",
+      "verificationScope": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "unknownFields": [],
+      "verificationLevel": "verified",
+      "detailFacts": [
+        {
+          "label": "入手",
+          "value": "レアルカリア結晶坑道の結晶人を撃破"
+        },
+        {
+          "label": "用途",
+          "value": "双子の老婆に渡して鍛石【1】・【2】を購入可能にする"
+        }
+      ]
+    },
+    "sourceIds": [
+      "l-bells"
+    ]
+  },
+  "collect-spirit-bell": {
+    "reason": "今回の担当範囲では十分な資料照合を完了していない。既存情報を削除・変更しない。",
+    "entryPatch": {
+      "caveats": [
+        "NPCが出現しなくなった場合の代替入手経路は今回未収録。別の道具「呪霊喚びの鈴」とは異なります。",
+        "Ver.21資料再照合：今回の担当範囲では十分な資料照合を完了していない。既存情報を削除・変更しない。",
+        "未確認は誤りの確定ではない。"
+      ],
+      "verifiedAt": "2026-11-16",
+      "verification": {
+        "status": "needs-review",
+        "level": "review",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "checkedAt": "2026-11-16",
+      "verification": "needs-review",
+      "verificationScope": "今回の資料再照合フィールド：。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "unknownFields": [],
+      "verificationLevel": "review",
+      "detailFacts": [
+        {
+          "label": "初回の条件",
+          "value": "霊馬の指笛を入手した後、夜にエレの教会でNPCと会話"
+        }
+      ]
+    },
+    "sourceIds": []
+  },
+  "collect-academy-key": {
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "entryPatch": {
+      "location": "魔術学院レアルカリア西側・輝石竜の背後",
+      "summary": "眠る竜の後ろで学院外の1本目を回収する。",
+      "facts": [
+        {
+          "label": "用途",
+          "value": "レアルカリア南門の封印を通過"
+        },
+        {
+          "label": "位置",
+          "value": "輝石竜スマラグの背後"
+        },
+        {
+          "label": "必要条件",
+          "value": "竜の撃破は不要。"
+        }
+      ],
+      "steps": [
+        "竜の撃破は不要。",
+        "眠る竜の後ろで学院外の1本目を回収する。"
+      ],
+      "evidence": [
+        {
+          "sourceId": "gw-key",
+          "scope": "1本目の場所、竜撃破不要、封印への使用"
+        },
+        {
+          "sourceId": "g8-academy",
+          "scope": "学院へ入るまでの鍵の導線"
+        },
+        {
+          "sourceId": "v21-l-academy-key",
+          "scope": "今回の資料再照合フィールド：name, location, acquisition, conditions。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        }
+      ],
+      "caveats": [
+        "学院内の2本目とトープスのイベントは対象外です。",
+        "Ver.21資料再照合：代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+        "資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。"
+      ],
+      "verifiedAt": "2026-11-16",
+      "verification": {
+        "status": "source-reviewed",
+        "level": "verified",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：name, location, acquisition, conditions。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "location": "魔術学院レアルカリア西側・輝石竜の背後",
+      "acquisition": "眠る竜の後ろで学院外の1本目を回収する。",
+      "conditions": "竜の撃破は不要。",
+      "sourceIds": [
+        "gw-key",
+        "g8-academy",
+        "v21-l-academy-key"
+      ],
+      "checkedAt": "2026-11-16",
+      "verification": "source-reviewed",
+      "verificationScope": "今回の資料再照合フィールド：name, location, acquisition, conditions。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "unknownFields": [],
+      "verificationLevel": "verified",
+      "detailFacts": [
+        {
+          "label": "用途",
+          "value": "レアルカリア南門の封印を通過"
+        },
+        {
+          "label": "位置",
+          "value": "輝石竜スマラグの背後"
+        },
+        {
+          "label": "必要条件",
+          "value": "竜の撃破は不要。"
+        }
+      ]
+    },
+    "sourceIds": [
+      "l-academy-key"
+    ]
+  },
+  "weapon-greatsword": {
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "entryPatch": {
+      "location": "ケイリッド・キレムの廃墟と腐敗を臨む露台の間",
+      "summary": "馬車の宝箱を開ける。",
+      "steps": [
+        "記載の地点・前提をゲーム内で確認する。",
+        "馬車の宝箱を開ける。"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-440897",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        },
+        {
+          "sourceId": "v21-l-weapons",
+          "scope": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        }
+      ],
+      "caveats": [
+        "全派生・強化段階・必要能力値は未収録。",
+        "Ver.21資料再照合：代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+        "資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。"
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "level": "verified",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "location": "ケイリッド・キレムの廃墟と腐敗を臨む露台の間",
+      "acquisition": "馬車の宝箱を開ける。",
+      "sourceIds": [
+        "v14-game8-440897",
+        "v21-l-weapons"
+      ],
+      "verification": "source-reviewed",
+      "verificationScope": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "unknownFields": [],
+      "verificationLevel": "verified",
+      "detailFacts": []
+    },
+    "sourceIds": [
+      "l-weapons"
+    ]
+  },
+  "weapon-moonveil": {
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "entryPatch": {
+      "summary": "坑道のボスを倒す。",
+      "steps": [
+        "記載の地点・前提をゲーム内で確認する。",
+        "坑道のボスを倒す。"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-441034",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        },
+        {
+          "sourceId": "v21-l-weapons",
+          "scope": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        }
+      ],
+      "caveats": [
+        "全派生・強化段階・必要能力値は未収録。",
+        "Ver.21資料再照合：代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+        "資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。"
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "level": "verified",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "acquisition": "坑道のボスを倒す。",
+      "sourceIds": [
+        "v14-game8-441034",
+        "v21-l-weapons"
+      ],
+      "verification": "source-reviewed",
+      "verificationScope": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "unknownFields": [],
+      "verificationLevel": "verified",
+      "detailFacts": []
+    },
+    "sourceIds": [
+      "l-weapons"
+    ]
+  },
+  "weapon-nagakiba": {
+    "reason": "別担当の個別監査対象。このファイルでは判定を上書きしない。",
+    "entryPatch": {
+      "caveats": [
+        "全派生・強化段階・必要能力値は未収録。",
+        "ユラの進行状況で入手地点が変わる。NPC殺害ルートの手順は未収録。",
+        "Ver.21資料再照合：別担当の個別監査対象。このファイルでは判定を上書きしない。",
+        "未確認は誤りの確定ではない。"
+      ],
+      "verification": {
+        "status": "needs-review",
+        "level": "review",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "verification": "needs-review",
+      "verificationScope": "今回の資料再照合フィールド：。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "unknownFields": [],
+      "verificationLevel": "review",
+      "detailFacts": []
+    },
+    "sourceIds": []
+  },
+  "weapon-reduvia": {
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "entryPatch": {
+      "location": "曇り川の洞窟前",
+      "summary": "侵入する血の指ネリウスを倒す。",
+      "steps": [
+        "記載の地点・前提をゲーム内で確認する。",
+        "侵入する血の指ネリウスを倒す。"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-440918",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        },
+        {
+          "sourceId": "v21-l-weapons",
+          "scope": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        }
+      ],
+      "caveats": [
+        "全派生・強化段階・必要能力値は未収録。",
+        "Ver.21資料再照合：代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+        "資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。"
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "level": "verified",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "location": "曇り川の洞窟前",
+      "acquisition": "侵入する血の指ネリウスを倒す。",
+      "sourceIds": [
+        "v14-game8-440918",
+        "v21-l-weapons"
+      ],
+      "verification": "source-reviewed",
+      "verificationScope": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "unknownFields": [],
+      "verificationLevel": "verified",
+      "detailFacts": []
+    },
+    "sourceIds": [
+      "l-weapons"
+    ]
+  },
+  "weapon-twinblade": {
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "entryPatch": {
+      "location": "竜に焼かれた廃墟",
+      "summary": "地下の宝箱を開ける。",
+      "steps": [
+        "記載の地点・前提をゲーム内で確認する。",
+        "地下の宝箱を開ける。"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-442094",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        },
+        {
+          "sourceId": "v21-l-weapons",
+          "scope": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        }
+      ],
+      "caveats": [
+        "全派生・強化段階・必要能力値は未収録。",
+        "Ver.21資料再照合：代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+        "資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。"
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "level": "verified",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "location": "竜に焼かれた廃墟",
+      "acquisition": "地下の宝箱を開ける。",
+      "sourceIds": [
+        "v14-game8-442094",
+        "v21-l-weapons"
+      ],
+      "verification": "source-reviewed",
+      "verificationScope": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "unknownFields": [],
+      "verificationLevel": "verified",
+      "detailFacts": []
+    },
+    "sourceIds": [
+      "l-weapons"
+    ]
+  },
+  "weapon-rivers-blood": {
+    "reason": "安息教会の翁からの入手は資料で確認。火の巨人撃破との関係は旧情報が混在するため、現行版で撃破前必須と断定せず、現在の説明を維持する方針。",
+    "entryPatch": {
+      "location": "巨人たちの山嶺、安息教会付近",
+      "summary": "安息教会付近へ侵入する血の指、翁を倒す。",
+      "steps": [
+        "記載の地点・前提をゲーム内で確認する。",
+        "安息教会付近へ侵入する血の指、翁を倒す。"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-gamewith-321393",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        },
+        {
+          "sourceId": "v21-r-rivers-g8-weapon",
+          "scope": "今回の資料再照合フィールド：location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        },
+        {
+          "sourceId": "v21-r-rivers-g8-okina",
+          "scope": "今回の資料再照合フィールド：location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        },
+        {
+          "sourceId": "v21-r-rivers-g8-church",
+          "scope": "今回の資料再照合フィールド：location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        },
+        {
+          "sourceId": "v21-r-rivers-gw",
+          "scope": "今回の資料再照合フィールド：location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        }
+      ],
+      "caveats": [
+        "全派生・強化段階・必要能力値は未収録。",
+        "火の巨人撃破による旧版の出現制限は、この版の掲載条件に採用していない。現行パッチでの再現は未検証。",
+        "Ver.21資料再照合：安息教会の翁からの入手は資料で確認。火の巨人撃破との関係は旧情報が混在するため、現行版で撃破前必須と断定せず、現在の説明を維持する方針。",
+        "既存ID・チェックID・進捗対応は維持する。",
+        "火の巨人前必須という断定的な取り逃し条件へ変更しない。現行パッチでの再現および全取得条件は未検証。",
+        "資料差：Game8の武器個別ページは火の巨人撃破後に翁が出現しなくなると記載。一方、同媒体の翁・安息教会ページは旧来の出現しないという記述と、Ver1.0.4で修正されたという記述が同居する。GameWithの武器個別ページは安息教会の翁撃破による入手を案内し、火の巨人前必須という条件は記載しない。資料の更新時点・版による相違を実機では解消していない。"
+      ],
+      "verification": {
+        "status": "needs-review",
+        "level": "review",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "location": "巨人たちの山嶺、安息教会付近",
+      "acquisition": "安息教会付近へ侵入する血の指、翁を倒す。",
+      "sourceIds": [
+        "v14-gamewith-321393",
+        "v21-r-rivers-g8-weapon",
+        "v21-r-rivers-g8-okina",
+        "v21-r-rivers-g8-church",
+        "v21-r-rivers-gw"
+      ],
+      "verification": "needs-review",
+      "verificationScope": "今回の資料再照合フィールド：location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "sourceDifference": "Game8の武器個別ページは火の巨人撃破後に翁が出現しなくなると記載。一方、同媒体の翁・安息教会ページは旧来の出現しないという記述と、Ver1.0.4で修正されたという記述が同居する。GameWithの武器個別ページは安息教会の翁撃破による入手を案内し、火の巨人前必須という条件は記載しない。資料の更新時点・版による相違を実機では解消していない。",
+      "unknownFields": [],
+      "verificationLevel": "review",
+      "detailFacts": []
+    },
+    "sourceIds": [
+      "r-rivers-g8-weapon",
+      "r-rivers-g8-okina",
+      "r-rivers-g8-church",
+      "r-rivers-gw"
+    ]
+  },
+  "weapon-blasphemous": {
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "entryPatch": {
+      "location": "円卓・指読みエンヤ",
+      "summary": "冒涜の君主の追憶を交換する。",
+      "steps": [
+        "記載の地点・前提をゲーム内で確認する。",
+        "冒涜の君主の追憶を交換する。"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-gamewith-322273",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        },
+        {
+          "sourceId": "v21-l-weapons",
+          "scope": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        }
+      ],
+      "caveats": [
+        "全派生・強化段階・必要能力値は未収録。",
+        "Ver.21資料再照合：代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+        "資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。"
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "level": "verified",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "location": "円卓・指読みエンヤ",
+      "acquisition": "冒涜の君主の追憶を交換する。",
+      "sourceIds": [
+        "v14-gamewith-322273",
+        "v21-l-weapons"
+      ],
+      "verification": "source-reviewed",
+      "verificationScope": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "unknownFields": [],
+      "verificationLevel": "verified",
+      "detailFacts": []
+    },
+    "sourceIds": [
+      "l-weapons"
+    ]
+  },
+  "weapon-winged-scythe": {
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "entryPatch": {
+      "summary": "廃墟の宝箱を開ける。",
+      "steps": [
+        "記載の地点・前提をゲーム内で確認する。",
+        "廃墟の宝箱を開ける。"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-442747",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        },
+        {
+          "sourceId": "v21-l-weapons",
+          "scope": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        }
+      ],
+      "caveats": [
+        "全派生・強化段階・必要能力値は未収録。",
+        "Ver.21資料再照合：代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+        "資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。"
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "level": "verified",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "acquisition": "廃墟の宝箱を開ける。",
+      "sourceIds": [
+        "v14-game8-442747",
+        "v21-l-weapons"
+      ],
+      "verification": "source-reviewed",
+      "verificationScope": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "unknownFields": [],
+      "verificationLevel": "verified",
+      "detailFacts": []
+    },
+    "sourceIds": [
+      "l-weapons"
+    ]
+  },
+  "weapon-backhand": {
+    "reason": "DLC品のため今回の本編監査の事実照合対象外。区分と既存IDを維持する。",
+    "entryPatch": {
+      "caveats": [
+        "全派生・強化段階・必要能力値は未収録。",
+        "Ver.21資料再照合：DLC品のため今回の本編監査の事実照合対象外。区分と既存IDを維持する。",
+        "未確認は誤りの確定ではない。"
+      ],
+      "verification": {
+        "status": "needs-review",
+        "level": "review",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "verification": "needs-review",
+      "verificationScope": "今回の資料再照合フィールド：。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "unknownFields": [],
+      "verificationLevel": "review",
+      "detailFacts": []
+    },
+    "sourceIds": []
+  },
+  "weapon-milady": {
+    "reason": "DLC品のため今回の本編監査の事実照合対象外。区分と既存IDを維持する。",
+    "entryPatch": {
+      "caveats": [
+        "全派生・強化段階・必要能力値は未収録。",
+        "Ver.21資料再照合：DLC品のため今回の本編監査の事実照合対象外。区分と既存IDを維持する。",
+        "未確認は誤りの確定ではない。"
+      ],
+      "verification": {
+        "status": "needs-review",
+        "level": "review",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "verification": "needs-review",
+      "verificationScope": "今回の資料再照合フィールド：。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "unknownFields": [],
+      "verificationLevel": "review",
+      "detailFacts": []
+    },
+    "sourceIds": []
+  },
+  "weapon-great-katana": {
+    "reason": "DLC品のため今回の本編監査の事実照合対象外。区分と既存IDを維持する。",
+    "entryPatch": {
+      "caveats": [
+        "全派生・強化段階・必要能力値は未収録。",
+        "Ver.21資料再照合：DLC品のため今回の本編監査の事実照合対象外。区分と既存IDを維持する。",
+        "未確認は誤りの確定ではない。"
+      ],
+      "verification": {
+        "status": "needs-review",
+        "level": "review",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "verification": "needs-review",
+      "verificationScope": "今回の資料再照合フィールド：。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "unknownFields": [],
+      "verificationLevel": "review",
+      "detailFacts": []
+    },
+    "sourceIds": []
+  },
+  "armor-vagabond": {
+    "reason": "今回の担当範囲では十分な資料照合を完了していない。既存情報を削除・変更しない。",
+    "entryPatch": {
+      "caveats": [
+        "1チェックは一式の自己確認。部位別のチェックやドロップ率は未収録。",
+        "Ver.21資料再照合：今回の担当範囲では十分な資料照合を完了していない。既存情報を削除・変更しない。",
+        "未確認は誤りの確定ではない。"
+      ],
+      "verification": {
+        "status": "needs-review",
+        "level": "review",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "verification": "needs-review",
+      "verificationScope": "今回の資料再照合フィールド：。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "unknownFields": [],
+      "verificationLevel": "review",
+      "detailFacts": []
+    },
+    "sourceIds": []
+  },
+  "armor-reeds": {
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "entryPatch": {
+      "location": "素性「侍」の初期装備／竜塚の隠遁商人",
+      "summary": "侍で開始、または商人から購入する。",
+      "steps": [
+        "記載の地点・前提をゲーム内で確認する。",
+        "侍で開始、または商人から購入する。"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-440678",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        },
+        {
+          "sourceId": "v21-l-armor",
+          "scope": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        }
+      ],
+      "caveats": [
+        "1チェックは一式の自己確認。部位別のチェックやドロップ率は未収録。",
+        "Ver.21資料再照合：代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+        "シリーズの代表入手経路のみ。各部位と軽装差の完全列挙・一式チェックから部位への推定は行わない。"
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "level": "verified",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "location": "素性「侍」の初期装備／竜塚の隠遁商人",
+      "acquisition": "侍で開始、または商人から購入する。",
+      "sourceIds": [
+        "v14-game8-440678",
+        "v21-l-armor"
+      ],
+      "verification": "source-reviewed",
+      "verificationScope": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "unknownFields": [],
+      "verificationLevel": "verified",
+      "detailFacts": []
+    },
+    "sourceIds": [
+      "l-armor"
+    ]
+  },
+  "armor-astrologer": {
+    "reason": "今回の担当範囲では十分な資料照合を完了していない。既存情報を削除・変更しない。",
+    "entryPatch": {
+      "caveats": [
+        "1チェックは一式の自己確認。部位別のチェックやドロップ率は未収録。",
+        "Ver.21資料再照合：今回の担当範囲では十分な資料照合を完了していない。既存情報を削除・変更しない。",
+        "未確認は誤りの確定ではない。"
+      ],
+      "verification": {
+        "status": "needs-review",
+        "level": "review",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "verification": "needs-review",
+      "verificationScope": "今回の資料再照合フィールド：。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "unknownFields": [],
+      "verificationLevel": "review",
+      "detailFacts": []
+    },
+    "sourceIds": []
+  },
+  "armor-radahn": {
+    "reason": "今回の担当範囲では十分な資料照合を完了していない。既存情報を削除・変更しない。",
+    "entryPatch": {
+      "caveats": [
+        "1チェックは一式の自己確認。部位別のチェックやドロップ率は未収録。",
+        "Ver.21資料再照合：今回の担当範囲では十分な資料照合を完了していない。既存情報を削除・変更しない。",
+        "未確認は誤りの確定ではない。"
+      ],
+      "verification": {
+        "status": "needs-review",
+        "level": "review",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "verification": "needs-review",
+      "verificationScope": "今回の資料再照合フィールド：。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "unknownFields": [],
+      "verificationLevel": "review",
+      "detailFacts": []
+    },
+    "sourceIds": []
+  },
+  "armor-black-knife": {
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "entryPatch": {
+      "location": "典礼街オルディナ・転送門へ向かう階段の下",
+      "summary": "階段下の遺体を調べる。",
+      "steps": [
+        "記載の地点・前提をゲーム内で確認する。",
+        "階段下の遺体を調べる。"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-442766",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        },
+        {
+          "sourceId": "v21-l-armor",
+          "scope": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        }
+      ],
+      "caveats": [
+        "1チェックは一式の自己確認。部位別のチェックやドロップ率は未収録。",
+        "Ver.21資料再照合：代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+        "シリーズの代表入手経路のみ。個別部位の取得済み状態は既存一式チェックから推定しない。"
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "level": "verified",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "location": "典礼街オルディナ・転送門へ向かう階段の下",
+      "acquisition": "階段下の遺体を調べる。",
+      "sourceIds": [
+        "v14-game8-442766",
+        "v21-l-armor"
+      ],
+      "verification": "source-reviewed",
+      "verificationScope": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "unknownFields": [],
+      "verificationLevel": "verified",
+      "detailFacts": []
+    },
+    "sourceIds": [
+      "l-armor"
+    ]
+  },
+  "armor-cleanrot": {
+    "reason": "今回の担当範囲では十分な資料照合を完了していない。既存情報を削除・変更しない。",
+    "entryPatch": {
+      "caveats": [
+        "1チェックは一式の自己確認。部位別のチェックやドロップ率は未収録。",
+        "Ver.21資料再照合：今回の担当範囲では十分な資料照合を完了していない。既存情報を削除・変更しない。",
+        "未確認は誤りの確定ではない。"
+      ],
+      "verification": {
+        "status": "needs-review",
+        "level": "review",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "verification": "needs-review",
+      "verificationScope": "今回の資料再照合フィールド：。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "unknownFields": [],
+      "verificationLevel": "review",
+      "detailFacts": []
+    },
+    "sourceIds": []
+  },
+  "armor-solitude": {
+    "reason": "DLC品のため今回の本編監査の事実照合対象外。区分と既存IDを維持する。",
+    "entryPatch": {
+      "caveats": [
+        "1チェックは一式の自己確認。部位別のチェックやドロップ率は未収録。",
+        "Ver.21資料再照合：DLC品のため今回の本編監査の事実照合対象外。区分と既存IDを維持する。",
+        "未確認は誤りの確定ではない。"
+      ],
+      "verification": {
+        "status": "needs-review",
+        "level": "review",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "verification": "needs-review",
+      "verificationScope": "今回の資料再照合フィールド：。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "unknownFields": [],
+      "verificationLevel": "review",
+      "detailFacts": []
+    },
+    "sourceIds": []
+  },
+  "armor-oathseeker": {
+    "reason": "DLC品のため今回の本編監査の事実照合対象外。区分と既存IDを維持する。",
+    "entryPatch": {
+      "caveats": [
+        "1チェックは一式の自己確認。部位別のチェックやドロップ率は未収録。",
+        "Ver.21資料再照合：DLC品のため今回の本編監査の事実照合対象外。区分と既存IDを維持する。",
+        "未確認は誤りの確定ではない。"
+      ],
+      "verification": {
+        "status": "needs-review",
+        "level": "review",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "verification": "needs-review",
+      "verificationScope": "今回の資料再照合フィールド：。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "unknownFields": [],
+      "verificationLevel": "review",
+      "detailFacts": []
+    },
+    "sourceIds": []
+  },
+  "talisman-claw": {
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "entryPatch": {
+      "location": "ストームヴィル城・城壁の塔から進む屋上",
+      "summary": "屋根と崩れた煙突を経由し、梯子の先の遺体を調べる。",
+      "steps": [
+        "記載の地点・前提をゲーム内で確認する。",
+        "屋根と崩れた煙突を経由し、梯子の先の遺体を調べる。"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-441554",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        },
+        {
+          "sourceId": "v21-l-talismans",
+          "scope": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        }
+      ],
+      "caveats": [
+        "効果の数値、対人時の補正、重複可否の全条件は未検証。",
+        "Ver.21資料再照合：代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+        "資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。"
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "level": "verified",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "location": "ストームヴィル城・城壁の塔から進む屋上",
+      "acquisition": "屋根と崩れた煙突を経由し、梯子の先の遺体を調べる。",
+      "sourceIds": [
+        "v14-game8-441554",
+        "v21-l-talismans"
+      ],
+      "verification": "source-reviewed",
+      "verificationScope": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "unknownFields": [],
+      "verificationLevel": "verified",
+      "detailFacts": [
+        {
+          "label": "効果の概要",
+          "value": "ジャンプ攻撃を強化"
+        }
+      ]
+    },
+    "sourceIds": [
+      "l-talismans"
+    ]
+  },
+  "talisman-axe": {
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "entryPatch": {
+      "summary": "地下の宝箱を開ける。",
+      "steps": [
+        "記載の地点・前提をゲーム内で確認する。",
+        "地下の宝箱を開ける。"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-441553",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        },
+        {
+          "sourceId": "v21-l-talismans",
+          "scope": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        }
+      ],
+      "caveats": [
+        "効果の数値、対人時の補正、重複可否の全条件は未検証。",
+        "Ver.21資料再照合：代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+        "資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。"
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "level": "verified",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "acquisition": "地下の宝箱を開ける。",
+      "sourceIds": [
+        "v14-game8-441553",
+        "v21-l-talismans"
+      ],
+      "verification": "source-reviewed",
+      "verificationScope": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "unknownFields": [],
+      "verificationLevel": "verified",
+      "detailFacts": [
+        {
+          "label": "効果の概要",
+          "value": "タメ攻撃を強化"
+        }
+      ]
+    },
+    "sourceIds": [
+      "l-talismans"
+    ]
+  },
+  "talisman-curved": {
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "entryPatch": {
+      "location": "ストームヴィル城・錆びた鍵がある部屋",
+      "summary": "部屋の宝箱を開ける。",
+      "steps": [
+        "記載の地点・前提をゲーム内で確認する。",
+        "部屋の宝箱を開ける。"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-441552",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        },
+        {
+          "sourceId": "v21-l-talismans",
+          "scope": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        }
+      ],
+      "caveats": [
+        "効果の数値、対人時の補正、重複可否の全条件は未検証。",
+        "Ver.21資料再照合：代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+        "資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。"
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "level": "verified",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "location": "ストームヴィル城・錆びた鍵がある部屋",
+      "acquisition": "部屋の宝箱を開ける。",
+      "sourceIds": [
+        "v14-game8-441552",
+        "v21-l-talismans"
+      ],
+      "verification": "source-reviewed",
+      "verificationScope": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "unknownFields": [],
+      "verificationLevel": "verified",
+      "detailFacts": [
+        {
+          "label": "効果の概要",
+          "value": "ガードカウンターを強化"
+        }
+      ]
+    },
+    "sourceIds": [
+      "l-talismans"
+    ]
+  },
+  "talisman-erdtree": {
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "entryPatch": {
+      "summary": "通常版を封印の先で回収する。",
+      "steps": [
+        "記載の地点・前提をゲーム内で確認する。",
+        "通常版を封印の先で回収する。"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-441058",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        },
+        {
+          "sourceId": "v21-l-talismans",
+          "scope": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        }
+      ],
+      "caveats": [
+        "効果の数値、対人時の補正、重複可否の全条件は未検証。",
+        "＋1・＋2とは別の通常版。英雄墓の罠と石剣の鍵の消費に注意。",
+        "Ver.21資料再照合：代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+        "通常版のみの照合。強化版と同じ収集単位として扱わない。封印通過や回収の全経路は未照合。"
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "level": "verified",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "acquisition": "通常版を封印の先で回収する。",
+      "sourceIds": [
+        "v14-game8-441058",
+        "v21-l-talismans"
+      ],
+      "verification": "source-reviewed",
+      "verificationScope": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "unknownFields": [],
+      "verificationLevel": "verified",
+      "detailFacts": [
+        {
+          "label": "効果の概要",
+          "value": "HP・スタミナ・装備重量上限を上昇"
+        }
+      ]
+    },
+    "sourceIds": [
+      "l-talismans"
+    ]
+  },
+  "talisman-ritual-sword": {
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "entryPatch": {
+      "location": "アルター高原・ルクスの廃墟の地下",
+      "summary": "廃墟の地下を探索して回収する。",
+      "steps": [
+        "記載の地点・前提をゲーム内で確認する。",
+        "廃墟の地下を探索して回収する。"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-444290",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        },
+        {
+          "sourceId": "v21-l-ritual",
+          "scope": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        }
+      ],
+      "caveats": [
+        "効果の数値、対人時の補正、重複可否の全条件は未検証。",
+        "Ver.21資料再照合：代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+        "地下の入手位置を照合。ボス前提・性能数値・取り逃しはこの監査では未照合。"
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "level": "verified",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "location": "アルター高原・ルクスの廃墟の地下",
+      "acquisition": "廃墟の地下を探索して回収する。",
+      "sourceIds": [
+        "v14-game8-444290",
+        "v21-l-ritual"
+      ],
+      "verification": "source-reviewed",
+      "verificationScope": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "unknownFields": [],
+      "verificationLevel": "verified",
+      "detailFacts": [
+        {
+          "label": "効果の概要",
+          "value": "HP最大時の攻撃力を上昇"
+        }
+      ]
+    },
+    "sourceIds": [
+      "l-ritual"
+    ]
+  },
+  "talisman-gold-scarab": {
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "entryPatch": {
+      "summary": "洞窟のボス、貴腐騎士を倒す。",
+      "steps": [
+        "記載の地点・前提をゲーム内で確認する。",
+        "洞窟のボス、貴腐騎士を倒す。"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-441177",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        },
+        {
+          "sourceId": "v21-l-talismans",
+          "scope": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        }
+      ],
+      "caveats": [
+        "効果の数値、対人時の補正、重複可否の全条件は未検証。",
+        "Ver.21資料再照合：代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+        "資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。"
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "level": "verified",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "acquisition": "洞窟のボス、貴腐騎士を倒す。",
+      "sourceIds": [
+        "v14-game8-441177",
+        "v21-l-talismans"
+      ],
+      "verification": "source-reviewed",
+      "verificationScope": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "unknownFields": [],
+      "verificationLevel": "verified",
+      "detailFacts": [
+        {
+          "label": "効果の概要",
+          "value": "獲得ルーンを増加"
+        }
+      ]
+    },
+    "sourceIds": [
+      "l-talismans"
+    ]
+  },
+  "talisman-alexander": {
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "entryPatch": {
+      "summary": "イベント完了時の報酬として入手する。",
+      "steps": [
+        "記載の地点・前提をゲーム内で確認する。",
+        "イベント完了時の報酬として入手する。"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-443678",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        },
+        {
+          "sourceId": "v14-gamewith-322853",
+          "scope": "序盤殺害の報酬と、終盤のアレキサンダーの破片は別。"
+        },
+        {
+          "sourceId": "v21-l-talismans",
+          "scope": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        }
+      ],
+      "caveats": [
+        "効果の数値、対人時の補正、重複可否の全条件は未検証。",
+        "序盤で本人を殺害するルートとは報酬が異なる。最初の救出だけでは入手できない。",
+        "Ver.21資料再照合：代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+        "最終報酬との対応のみ照合。早期敵対・死亡など分岐全体は未照合。戦士の壺の破片と同一品ではない。"
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "level": "verified",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "acquisition": "イベント完了時の報酬として入手する。",
+      "sourceIds": [
+        "v14-game8-443678",
+        "v14-gamewith-322853",
+        "v21-l-talismans"
+      ],
+      "verification": "source-reviewed",
+      "verificationScope": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "unknownFields": [],
+      "verificationLevel": "verified",
+      "detailFacts": [
+        {
+          "label": "効果の概要",
+          "value": "戦技を強化"
+        }
+      ]
+    },
+    "sourceIds": [
+      "l-talismans"
+    ]
+  },
+  "talisman-two-turtle": {
+    "reason": "DLC品のため今回の本編監査の事実照合対象外。区分と既存IDを維持する。",
+    "entryPatch": {
+      "caveats": [
+        "効果の数値、対人時の補正、重複可否の全条件は未検証。",
+        "Ver.21資料再照合：DLC品のため今回の本編監査の事実照合対象外。区分と既存IDを維持する。",
+        "未確認は誤りの確定ではない。"
+      ],
+      "verification": {
+        "status": "needs-review",
+        "level": "review",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "verification": "needs-review",
+      "verificationScope": "今回の資料再照合フィールド：。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "unknownFields": [],
+      "verificationLevel": "review",
+      "detailFacts": [
+        {
+          "label": "効果の概要",
+          "value": "スタミナ回復速度を上昇"
+        }
+      ]
+    },
+    "sourceIds": []
+  },
+  "talisman-two-handed": {
+    "reason": "DLC品のため今回の本編監査の事実照合対象外。区分と既存IDを維持する。",
+    "entryPatch": {
+      "caveats": [
+        "効果の数値、対人時の補正、重複可否の全条件は未検証。",
+        "Ver.21資料再照合：DLC品のため今回の本編監査の事実照合対象外。区分と既存IDを維持する。",
+        "未確認は誤りの確定ではない。"
+      ],
+      "verification": {
+        "status": "needs-review",
+        "level": "review",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "verification": "needs-review",
+      "verificationScope": "今回の資料再照合フィールド：。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "unknownFields": [],
+      "verificationLevel": "review",
+      "detailFacts": [
+        {
+          "label": "効果の概要",
+          "value": "武器の両手持ちによる攻撃を強化"
+        }
+      ]
+    },
+    "sourceIds": []
+  },
+  "collect-physick": {
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "entryPatch": {
+      "location": "リムグレイブ・第三マリカ教会",
+      "summary": "教会にある霊薬の聖杯瓶を回収する。",
+      "steps": [
+        "記載の地点・前提をゲーム内で確認する。",
+        "教会にある霊薬の聖杯瓶を回収する。"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-440671",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        },
+        {
+          "sourceId": "v21-l-physick",
+          "scope": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        }
+      ],
+      "caveats": [
+        "この項目のチェックは入手の自己確認。NPC進行や他項目は自動達成にならない。",
+        "Ver.21資料再照合：代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+        "資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。"
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "level": "verified",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "location": "リムグレイブ・第三マリカ教会",
+      "acquisition": "教会にある霊薬の聖杯瓶を回収する。",
+      "sourceIds": [
+        "v14-game8-440671",
+        "v21-l-physick"
+      ],
+      "verification": "source-reviewed",
+      "verificationScope": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "unknownFields": [],
+      "verificationLevel": "verified",
+      "detailFacts": []
+    },
+    "sourceIds": [
+      "l-physick"
+    ]
+  },
+  "collect-whetstone": {
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "entryPatch": {
+      "location": "関門前の廃墟・地下室",
+      "summary": "地下の宝箱を開ける。",
+      "steps": [
+        "記載の地点・前提をゲーム内で確認する。",
+        "地下の宝箱を開ける。"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-440950",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        },
+        {
+          "sourceId": "v21-l-whetstone",
+          "scope": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        }
+      ],
+      "caveats": [
+        "この項目のチェックは入手の自己確認。NPC進行や他項目は自動達成にならない。",
+        "Ver.21資料再照合：代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+        "資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。"
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "level": "verified",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "location": "関門前の廃墟・地下室",
+      "acquisition": "地下の宝箱を開ける。",
+      "sourceIds": [
+        "v14-game8-440950",
+        "v21-l-whetstone"
+      ],
+      "verification": "source-reviewed",
+      "verificationScope": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "unknownFields": [],
+      "verificationLevel": "verified",
+      "detailFacts": []
+    },
+    "sourceIds": [
+      "l-whetstone"
+    ]
+  },
+  "collect-jellyfish": {
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "entryPatch": {
+      "location": "嵐丘のボロ家・ローデリカ",
+      "summary": "ローデリカとの会話を進めて受け取る。",
+      "steps": [
+        "記載の地点・前提をゲーム内で確認する。",
+        "ローデリカとの会話を進めて受け取る。"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-440755",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        },
+        {
+          "sourceId": "v21-l-roderika",
+          "scope": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        }
+      ],
+      "caveats": [
+        "この項目のチェックは入手の自己確認。NPC進行や他項目は自動達成にならない。",
+        "Ver.21資料再照合：代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+        "序盤にボロ家で3回会話する経路を照合。円卓移動後の代替経路・会話条件全体は未照合。黄金の種子の収集単位には転用しない。"
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "level": "verified",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "location": "嵐丘のボロ家・ローデリカ",
+      "acquisition": "ローデリカとの会話を進めて受け取る。",
+      "sourceIds": [
+        "v14-game8-440755",
+        "v21-l-roderika"
+      ],
+      "verification": "source-reviewed",
+      "verificationScope": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "unknownFields": [],
+      "verificationLevel": "verified",
+      "detailFacts": []
+    },
+    "sourceIds": [
+      "l-roderika"
+    ]
+  },
+  "collect-bearing-2": {
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "entryPatch": {
+      "summary": "坑道内の宝箱を開ける。",
+      "steps": [
+        "記載の地点・前提をゲーム内で確認する。",
+        "坑道内の宝箱を開ける。"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-441569",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        },
+        {
+          "sourceId": "v21-l-bells",
+          "scope": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        }
+      ],
+      "caveats": [
+        "この項目のチェックは入手の自己確認。NPC進行や他項目は自動達成にならない。",
+        "Ver.21資料再照合：代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+        "資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。"
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "level": "verified",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "acquisition": "坑道内の宝箱を開ける。",
+      "sourceIds": [
+        "v14-game8-441569",
+        "v21-l-bells"
+      ],
+      "verification": "source-reviewed",
+      "verificationScope": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "unknownFields": [],
+      "verificationLevel": "verified",
+      "detailFacts": []
+    },
+    "sourceIds": [
+      "l-bells"
+    ]
+  },
+  "collect-somber-1": {
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "entryPatch": {
+      "summary": "降る星の獣を倒す。",
+      "steps": [
+        "記載の地点・前提をゲーム内で確認する。",
+        "降る星の獣を倒す。"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-game8-441137",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        },
+        {
+          "sourceId": "v21-l-bells",
+          "scope": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        }
+      ],
+      "caveats": [
+        "この項目のチェックは入手の自己確認。NPC進行や他項目は自動達成にならない。",
+        "Ver.21資料再照合：代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+        "資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。"
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "level": "verified",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "acquisition": "降る星の獣を倒す。",
+      "sourceIds": [
+        "v14-game8-441137",
+        "v21-l-bells"
+      ],
+      "verification": "source-reviewed",
+      "verificationScope": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "unknownFields": [],
+      "verificationLevel": "verified",
+      "detailFacts": []
+    },
+    "sourceIds": [
+      "l-bells"
+    ]
+  },
+  "collect-dectus-left": {
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "entryPatch": {
+      "location": "リムグレイブ・ハイト砦",
+      "summary": "砦の梯子を上がった先の宝箱を開ける。",
+      "steps": [
+        "記載の地点・前提をゲーム内で確認する。",
+        "砦の梯子を上がった先の宝箱を開ける。"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-gamewith-320971",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        },
+        {
+          "sourceId": "v21-l-dectus",
+          "scope": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        }
+      ],
+      "caveats": [
+        "この項目のチェックは入手の自己確認。NPC進行や他項目は自動達成にならない。",
+        "Ver.21資料再照合：代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+        "資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。"
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "level": "verified",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "location": "リムグレイブ・ハイト砦",
+      "acquisition": "砦の梯子を上がった先の宝箱を開ける。",
+      "sourceIds": [
+        "v14-gamewith-320971",
+        "v21-l-dectus"
+      ],
+      "verification": "source-reviewed",
+      "verificationScope": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "unknownFields": [],
+      "verificationLevel": "verified",
+      "detailFacts": []
+    },
+    "sourceIds": [
+      "l-dectus"
+    ]
+  },
+  "collect-dectus-right": {
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "entryPatch": {
+      "location": "竜塚・ファロス砦",
+      "summary": "砦の梯子を上がった先の宝箱を開ける。",
+      "steps": [
+        "記載の地点・前提をゲーム内で確認する。",
+        "砦の梯子を上がった先の宝箱を開ける。"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v14-gamewith-320971",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。性能数値・現行パッチでの再現は未検証。"
+        },
+        {
+          "sourceId": "v21-l-dectus",
+          "scope": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        }
+      ],
+      "caveats": [
+        "この項目のチェックは入手の自己確認。NPC進行や他項目は自動達成にならない。",
+        "Ver.21資料再照合：代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+        "資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。"
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "level": "verified",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "location": "竜塚・ファロス砦",
+      "acquisition": "砦の梯子を上がった先の宝箱を開ける。",
+      "sourceIds": [
+        "v14-gamewith-320971",
+        "v21-l-dectus"
+      ],
+      "verification": "source-reviewed",
+      "verificationScope": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "unknownFields": [],
+      "verificationLevel": "verified",
+      "detailFacts": []
+    },
+    "sourceIds": [
+      "l-dectus"
+    ]
+  },
+  "collect-scadutree-consolation": {
+    "reason": "DLC品のため今回の本編監査の事実照合対象外。区分と既存IDを維持する。",
+    "entryPatch": {
+      "caveats": [
+        "この項目のチェックは入手の自己確認。NPC進行や他項目は自動達成にならない。",
+        "Ver.21資料再照合：DLC品のため今回の本編監査の事実照合対象外。区分と既存IDを維持する。",
+        "未確認は誤りの確定ではない。"
+      ],
+      "verification": {
+        "status": "needs-review",
+        "level": "review",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "verification": "needs-review",
+      "verificationScope": "今回の資料再照合フィールド：。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "unknownFields": [],
+      "verificationLevel": "review",
+      "detailFacts": []
+    },
+    "sourceIds": []
+  },
+  "weapon-carian-regal": {
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "entryPatch": {
+      "location": "円卓・指読みエンヤ",
+      "summary": "レナラの追憶報酬を交換する。",
+      "steps": [
+        "記載の地点・前提をゲーム内で確認する。",
+        "レナラの追憶報酬を交換する。"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v15-g8-442307",
+          "scope": "掲載した場所・進行・取得条件の資料記述を確認。実機再現なし。"
+        },
+        {
+          "sourceId": "v21-l-weapons",
+          "scope": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        }
+      ],
+      "caveats": [
+        "性能数値・全経路・実機での再現は未検証。",
+        "Ver.21資料再照合：代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+        "資料の追憶名称は略称。正式な追憶名をこの資料から新たに断定しない。性能・必要能力は未照合。"
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "level": "verified",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "location": "円卓・指読みエンヤ",
+      "acquisition": "レナラの追憶報酬を交換する。",
+      "sourceIds": [
+        "v15-g8-442307",
+        "v21-l-weapons"
+      ],
+      "verification": "source-reviewed",
+      "verificationScope": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "unknownFields": [],
+      "verificationLevel": "verified",
+      "detailFacts": []
+    },
+    "sourceIds": [
+      "l-weapons"
+    ]
+  },
+  "weapon-hand-malenia": {
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "entryPatch": {
+      "location": "円卓・指読みエンヤ",
+      "summary": "マレニアの追憶報酬を交換する。",
+      "steps": [
+        "記載の地点・前提をゲーム内で確認する。",
+        "マレニアの追憶報酬を交換する。"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v15-g8-444450",
+          "scope": "掲載した場所・進行・取得条件の資料記述を確認。実機再現なし。"
+        },
+        {
+          "sourceId": "v21-l-weapons",
+          "scope": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        }
+      ],
+      "caveats": [
+        "性能数値・全経路・実機での再現は未検証。",
+        "Ver.21資料再照合：代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+        "資料の追憶名称は略称。正式な追憶名をこの資料から新たに断定しない。性能・必要能力は未照合。"
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "level": "verified",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "location": "円卓・指読みエンヤ",
+      "acquisition": "マレニアの追憶報酬を交換する。",
+      "sourceIds": [
+        "v15-g8-444450",
+        "v21-l-weapons"
+      ],
+      "verification": "source-reviewed",
+      "verificationScope": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "unknownFields": [],
+      "verificationLevel": "verified",
+      "detailFacts": []
+    },
+    "sourceIds": [
+      "l-weapons"
+    ]
+  },
+  "weapon-glintstone-kris": {
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "entryPatch": {
+      "location": "魔術学院レアルカリア・大書庫付近",
+      "summary": "セレンに協力してジェーレンを倒し、セレンと話す。",
+      "facts": [
+        {
+          "label": "必要条件",
+          "value": "セレンのイベントで共闘する分岐を選ぶ。"
+        }
+      ],
+      "steps": [
+        "セレンのイベントで共闘する分岐を選ぶ。",
+        "セレンに協力してジェーレンを倒し、セレンと話す。"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v15-g8-441619",
+          "scope": "掲載した場所・進行・取得条件の資料記述を確認。実機再現なし。"
+        },
+        {
+          "sourceId": "v21-l-weapons",
+          "scope": "今回の資料再照合フィールド：name, location, acquisition, conditions。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        }
+      ],
+      "caveats": [
+        "敵対側の報酬とは異なる。終盤までの前提条件の全手順は未収録。",
+        "Ver.21資料再照合：代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+        "資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。"
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "level": "verified",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：name, location, acquisition, conditions。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "location": "魔術学院レアルカリア・大書庫付近",
+      "acquisition": "セレンに協力してジェーレンを倒し、セレンと話す。",
+      "conditions": "セレンのイベントで共闘する分岐を選ぶ。",
+      "sourceIds": [
+        "v15-g8-441619",
+        "v21-l-weapons"
+      ],
+      "verification": "source-reviewed",
+      "verificationScope": "今回の資料再照合フィールド：name, location, acquisition, conditions。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "unknownFields": [],
+      "verificationLevel": "verified",
+      "detailFacts": [
+        {
+          "label": "必要条件",
+          "value": "セレンのイベントで共闘する分岐を選ぶ。"
+        }
+      ]
+    },
+    "sourceIds": [
+      "l-weapons"
+    ]
+  },
+  "collect-fingerslayer": {
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "entryPatch": {
+      "location": "永遠の都ノクローン・夜の神域",
+      "summary": "祝福の正面にある建物内の宝箱を開ける。",
+      "facts": [
+        {
+          "label": "必要条件",
+          "value": "ラニのイベント進行が必要。"
+        }
+      ],
+      "steps": [
+        "ラニのイベント進行が必要。",
+        "祝福の正面にある建物内の宝箱を開ける。"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v15-g8-455436",
+          "scope": "掲載した場所・進行・取得条件の資料記述を確認。実機再現なし。"
+        },
+        {
+          "sourceId": "v21-l-fingerslayer",
+          "scope": "今回の資料再照合フィールド：name, location, acquisition, conditions。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        }
+      ],
+      "caveats": [
+        "イベントの前提条件を満たす必要がある。関連NPCの全条件・分岐は出典で要確認。",
+        "Ver.21資料再照合：代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+        "資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。"
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "level": "verified",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：name, location, acquisition, conditions。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "location": "永遠の都ノクローン・夜の神域",
+      "acquisition": "祝福の正面にある建物内の宝箱を開ける。",
+      "conditions": "ラニのイベント進行が必要。",
+      "sourceIds": [
+        "v15-g8-455436",
+        "v21-l-fingerslayer"
+      ],
+      "verification": "source-reviewed",
+      "verificationScope": "今回の資料再照合フィールド：name, location, acquisition, conditions。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "unknownFields": [],
+      "verificationLevel": "verified",
+      "detailFacts": [
+        {
+          "label": "必要条件",
+          "value": "ラニのイベント進行が必要。"
+        }
+      ]
+    },
+    "sourceIds": [
+      "l-fingerslayer"
+    ]
+  },
+  "collect-discarded-key": {
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "entryPatch": {
+      "location": "エインセル河・ノクステラ滝壺の南",
+      "summary": "災いの影を倒して受け取る。",
+      "facts": [
+        {
+          "label": "必要条件",
+          "value": "ラニのイベントを進める。"
+        }
+      ],
+      "steps": [
+        "ラニのイベントを進める。",
+        "災いの影を倒して受け取る。"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v15-g8-441832",
+          "scope": "掲載した場所・進行・取得条件の資料記述を確認。実機再現なし。"
+        },
+        {
+          "sourceId": "v21-l-discarded-key",
+          "scope": "今回の資料再照合フィールド：name, location, acquisition, conditions。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        }
+      ],
+      "caveats": [
+        "イベントの前提条件を満たす必要がある。関連NPCの全条件・分岐は出典で要確認。",
+        "Ver.21資料再照合：代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+        "資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。"
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "level": "verified",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：name, location, acquisition, conditions。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "location": "エインセル河・ノクステラ滝壺の南",
+      "acquisition": "災いの影を倒して受け取る。",
+      "conditions": "ラニのイベントを進める。",
+      "sourceIds": [
+        "v15-g8-441832",
+        "v21-l-discarded-key"
+      ],
+      "verification": "source-reviewed",
+      "verificationScope": "今回の資料再照合フィールド：name, location, acquisition, conditions。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "unknownFields": [],
+      "verificationLevel": "verified",
+      "detailFacts": [
+        {
+          "label": "必要条件",
+          "value": "ラニのイベントを進める。"
+        }
+      ]
+    },
+    "sourceIds": [
+      "l-discarded-key"
+    ]
+  },
+  "collect-dark-ring": {
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "entryPatch": {
+      "location": "魔術学院レアルカリア・大書庫",
+      "summary": "レナラのそばの宝箱を開ける。",
+      "facts": [
+        {
+          "label": "必要条件",
+          "value": "捨てられた王家の鍵が必要。"
+        }
+      ],
+      "steps": [
+        "捨てられた王家の鍵が必要。",
+        "レナラのそばの宝箱を開ける。"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v15-g8-441831",
+          "scope": "掲載した場所・進行・取得条件の資料記述を確認。実機再現なし。"
+        },
+        {
+          "sourceId": "v21-l-dark-ring",
+          "scope": "今回の資料再照合フィールド：name, location, acquisition, conditions。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        }
+      ],
+      "caveats": [
+        "イベントの前提条件を満たす必要がある。関連NPCの全条件・分岐は出典で要確認。",
+        "Ver.21資料再照合：代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+        "資料確認のみ。全経路・性能・取り逃し条件・周回数量・現行パッチの実機再現は未照合。"
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "level": "verified",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：name, location, acquisition, conditions。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "location": "魔術学院レアルカリア・大書庫",
+      "acquisition": "レナラのそばの宝箱を開ける。",
+      "conditions": "捨てられた王家の鍵が必要。",
+      "sourceIds": [
+        "v15-g8-441831",
+        "v21-l-dark-ring"
+      ],
+      "verification": "source-reviewed",
+      "verificationScope": "今回の資料再照合フィールド：name, location, acquisition, conditions。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "unknownFields": [],
+      "verificationLevel": "verified",
+      "detailFacts": [
+        {
+          "label": "必要条件",
+          "value": "捨てられた王家の鍵が必要。"
+        }
+      ]
+    },
+    "sourceIds": [
+      "l-dark-ring"
+    ]
+  },
+  "collect-ancient-nepheli": {
+    "reason": "今回の担当範囲では十分な資料照合を完了していない。既存情報を削除・変更しない。",
+    "entryPatch": {
+      "caveats": [
+        "イベントの前提条件を満たす必要がある。関連NPCの全条件・分岐は出典で要確認。",
+        "Ver.21資料再照合：今回の担当範囲では十分な資料照合を完了していない。既存情報を削除・変更しない。",
+        "未確認は誤りの確定ではない。"
+      ],
+      "verification": {
+        "status": "needs-review",
+        "level": "review",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "verification": "needs-review",
+      "verificationScope": "今回の資料再照合フィールド：。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "unknownFields": [],
+      "verificationLevel": "review",
+      "detailFacts": []
+    },
+    "sourceIds": []
+  },
+  "armor-azur": {
+    "reason": "別担当の個別監査対象。このファイルでは判定を上書きしない。",
+    "entryPatch": {
+      "caveats": [
+        "人物との出会いなどイベント前提あり。前提条件を満たす全行程は未収録。一式の所持確認。",
+        "Ver.21資料再照合：別担当の個別監査対象。このファイルでは判定を上書きしない。",
+        "未確認は誤りの確定ではない。"
+      ],
+      "verification": {
+        "status": "needs-review",
+        "level": "review",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "verification": "needs-review",
+      "verificationScope": "今回の資料再照合フィールド：。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "unknownFields": [],
+      "verificationLevel": "review",
+      "detailFacts": []
+    },
+    "sourceIds": []
+  },
+  "armor-lusat": {
+    "reason": "別担当の個別監査対象。このファイルでは判定を上書きしない。",
+    "entryPatch": {
+      "caveats": [
+        "人物との出会いなどイベント前提あり。前提条件を満たす全行程は未収録。一式の所持確認。",
+        "Ver.21資料再照合：別担当の個別監査対象。このファイルでは判定を上書きしない。",
+        "未確認は誤りの確定ではない。"
+      ],
+      "verification": {
+        "status": "needs-review",
+        "level": "review",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "verification": "needs-review",
+      "verificationScope": "今回の資料再照合フィールド：。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "unknownFields": [],
+      "verificationLevel": "review",
+      "detailFacts": []
+    },
+    "sourceIds": []
+  },
+  "incantation-golden-vow": {
+    "reason": "代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+    "entryPatch": {
+      "location": "ゲルミア火山・死体臭のボロ家",
+      "summary": "ボロ家の遺体から祈祷を回収する。",
+      "steps": [
+        "記載の地点・前提をゲーム内で確認する。",
+        "ボロ家の遺体から祈祷を回収する。"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v16-g8-442597",
+          "scope": "掲載した場所・条件・手順の資料記述を確認。実機未検証。"
+        },
+        {
+          "sourceId": "v21-l-vow",
+          "scope": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        }
+      ],
+      "caveats": [
+        "記載範囲のみ資料確認。全攻撃・全経路・現行パッチでの実機再現は未検証。",
+        "Ver.21資料再照合：代表入手経路を資料で再照合。旧ID・チェック意味は維持。",
+        "同名の戦灰と区別して祈祷の入手場所のみ照合。戦灰の対応武器種・属性の根拠には使用しない。"
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "level": "verified",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "location": "ゲルミア火山・死体臭のボロ家",
+      "acquisition": "ボロ家の遺体から祈祷を回収する。",
+      "sourceIds": [
+        "v16-g8-442597",
+        "v21-l-vow"
+      ],
+      "verification": "source-reviewed",
+      "verificationScope": "今回の資料再照合フィールド：name, location, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "unknownFields": [],
+      "verificationLevel": "verified",
+      "detailFacts": []
+    },
+    "sourceIds": [
+      "l-vow"
+    ]
+  },
+  "ash-war-hoarfrost": {
+    "reason": "別担当の個別監査対象。このファイルでは判定を上書きしない。",
+    "entryPatch": {
+      "caveats": [
+        "DLCの神獣霜踏みとは別。過去の強さや数値を現行性能として掲載しない。",
+        "Ver.21資料再照合：別担当の個別監査対象。このファイルでは判定を上書きしない。",
+        "未確認は誤りの確定ではない。"
+      ],
+      "verification": {
+        "status": "needs-review",
+        "level": "review",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "verification": "needs-review",
+      "verificationScope": "今回の資料再照合フィールド：。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "unknownFields": [],
+      "verificationLevel": "review",
+      "detailFacts": []
+    },
+    "sourceIds": []
+  },
+  "v19-book-glintstone-6": {
+    "reason": "遺体からの入手と城館正門近くは一致。2資料で一致する入口基準の経路へ限定し、南という方位とは未統合のため要再検証を維持。",
+    "entryPatch": {
+      "location": "カーリアの城館。正門から城内へ入って右側、階段の先にある部屋",
+      "summary": "部屋内の遺体を調べて入手する。",
+      "steps": [
+        "掲載した探索先へ到達",
+        "部屋内の遺体を調べて入手する。"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v19-books",
+          "scope": "名称・代表取得地点と掲載した条件を資料確認。実機未検証。周回・全例外は対象外。"
+        },
+        {
+          "sourceId": "v19-books-go",
+          "scope": "名称・代表取得地点と掲載した条件を資料確認。実機未検証。周回・全例外は対象外。"
+        },
+        {
+          "sourceId": "v21-r-book-glintstone-6-gw",
+          "scope": "今回の資料再照合フィールド：location（範囲限定）, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        },
+        {
+          "sourceId": "v21-r-book-glintstone-6-mudauchi",
+          "scope": "今回の資料再照合フィールド：location（範囲限定）, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        },
+        {
+          "sourceId": "v21-r-book-glintstone-6-go",
+          "scope": "今回の資料再照合フィールド：location（範囲限定）, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        }
+      ],
+      "caveats": [
+        "周回ごとの再入手・数量・全取り逃し条件は未検証。nullは入手不可や安全を意味しません。",
+        "代表的な取得経路の資料確認です。細かな全道順・全販売経路・例外は未網羅。",
+        "城館内の向き・小部屋の説明に資料差があるため、入口付近という範囲に限定。詳細経路は要再検証。",
+        "Ver.21資料再照合：遺体からの入手と城館正門近くは一致。2資料で一致する入口基準の経路へ限定し、南という方位とは未統合のため要再検証を維持。",
+        "【7】のピディからの購入と混同しない。",
+        "地図や画像の転載なし。現行パッチ・周回の実機確認なし。",
+        "資料差：GameWithは城館正門から入って右側へ進み階段先の部屋、ムダウチは正門から右手の小部屋。GameOrOnlineは正門の祝福から南の部屋と記述。正確な方位と経路表現の相違を実機では解消していない。"
+      ],
+      "verification": {
+        "status": "needs-review",
+        "level": "review",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：location（範囲限定）, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "location": "カーリアの城館。正門から城内へ入って右側、階段の先にある部屋",
+      "acquisition": "部屋内の遺体を調べて入手する。",
+      "sourceIds": [
+        "v19-books",
+        "v19-books-go",
+        "v21-r-book-glintstone-6-gw",
+        "v21-r-book-glintstone-6-mudauchi",
+        "v21-r-book-glintstone-6-go"
+      ],
+      "verificationScope": "今回の資料再照合フィールド：location（範囲限定）, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "sourceDifference": "GameWithは城館正門から入って右側へ進み階段先の部屋、ムダウチは正門から右手の小部屋。GameOrOnlineは正門の祝福から南の部屋と記述。正確な方位と経路表現の相違を実機では解消していない。",
+      "unknownFields": [],
+      "detailFacts": [
+        {
+          "label": "区分・入手経路",
+          "value": "輝石職人の製法書"
+        },
+        {
+          "label": "必要条件",
+          "value": "掲載した探索先へ到達"
+        },
+        {
+          "label": "周回・複数入手",
+          "value": "未検証。記録は累積の取得チェックで、所持数・周回別ではない。"
+        }
+      ]
+    },
+    "sourceIds": [
+      "r-book-glintstone-6-gw",
+      "r-book-glintstone-6-mudauchi",
+      "r-book-glintstone-6-go"
+    ]
+  },
+  "v20-ash-seppuku": {
+    "reason": "戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+    "entryPatch": {
+      "facts": [
+        {
+          "label": "収集区分",
+          "value": "戦灰：血"
+        },
+        {
+          "label": "必要条件",
+          "value": "対象のスカラベまたは敵を確認する。"
+        },
+        {
+          "label": "周回・複数入手",
+          "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+        },
+        {
+          "label": "戦灰・固有戦技の区別",
+          "value": "付け替え用の戦灰。武器固有戦技だけの項目ではありません。"
+        },
+        {
+          "label": "基本の付与属性",
+          "value": "血"
+        },
+        {
+          "label": "使用可能な装備",
+          "value": "剣・刺突可能な長柄武器（特大を除く）"
+        },
+        {
+          "label": "派生の注意",
+          "value": "ここで記載する属性は戦灰の基本属性。全派生選択肢や砥石刃による拡張の一覧ではありません。"
+        }
+      ],
+      "evidence": [
+        {
+          "sourceId": "v20-seppuku",
+          "scope": "名称・分類・記載した代表取得先と条件の資料確認。装備対応・属性・解放品は記載した範囲だけ。実機・全経路・周回条件は未検証。"
+        },
+        {
+          "sourceId": "v21-r-ash-seppuku",
+          "scope": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        }
+      ],
+      "caveats": [
+        "資料で確認した代表取得経路。英語名・全取り逃し条件・一周の数量・周回再取得・実機のパッチ版は未確認。",
+        "本編の限定収録です。資料確認済みとゲーム内再現確認済みは区別しています。",
+        "Ver.21資料再照合：戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+        "基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。",
+        "対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。",
+        "入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。"
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "level": "verified",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "sourceIds": [
+        "v20-seppuku",
+        "v21-r-ash-seppuku"
+      ],
+      "verificationScope": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "detailFacts": [
+        {
+          "label": "収集区分",
+          "value": "戦灰：血"
+        },
+        {
+          "label": "必要条件",
+          "value": "対象のスカラベまたは敵を確認する。"
+        },
+        {
+          "label": "周回・複数入手",
+          "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+        },
+        {
+          "label": "戦灰・固有戦技の区別",
+          "value": "付け替え用の戦灰。武器固有戦技だけの項目ではありません。"
+        },
+        {
+          "label": "基本の付与属性",
+          "value": "血"
+        },
+        {
+          "label": "使用可能な装備",
+          "value": "剣・刺突可能な長柄武器（特大を除く）"
+        },
+        {
+          "label": "派生の注意",
+          "value": "ここで記載する属性は戦灰の基本属性。全派生選択肢や砥石刃による拡張の一覧ではありません。"
+        }
+      ],
+      "compatibleWeapons": "剣・刺突可能な長柄武器（特大を除く）",
+      "unknownFields": []
+    },
+    "sourceIds": [
+      "r-ash-seppuku"
+    ]
+  },
+  "v20-ash-unsheathe": {
+    "reason": "祝福を起点とする表現は照合できたが、資料内の湖基準表現に矛盾が残る。位置の説明を祝福基準へ限定し、要再検証を継続。",
+    "entryPatch": {
+      "location": "祝福「アギール湖南」の北西側、近くの湖",
+      "summary": "湖付近のスカラベを倒して取得する。",
+      "steps": [
+        "打刀の初期戦技を持っていても、戦灰の取得チェックは別。",
+        "湖付近のスカラベを倒して取得する。"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v20-unsheathe",
+          "scope": "名称・分類・記載した代表取得先と条件の資料確認。装備対応・属性・解放品は記載した範囲だけ。実機・全経路・周回条件は未検証。"
+        },
+        {
+          "sourceId": "v20-ash-routes",
+          "scope": "名称・分類・記載した代表取得先と条件の資料確認。装備対応・属性・解放品は記載した範囲だけ。実機・全経路・周回条件は未検証。"
+        },
+        {
+          "sourceId": "v21-r-ash-unsheathe",
+          "scope": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons, location（祝福基準の限定表現）, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        },
+        {
+          "sourceId": "v21-r-ash-unsheathe-gw",
+          "scope": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons, location（祝福基準の限定表現）, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        }
+      ],
+      "caveats": [
+        "資料で確認した代表取得経路。英語名・全取り逃し条件・一周の数量・周回再取得・実機のパッチ版は未確認。",
+        "本編の限定収録です。資料確認済みとゲーム内再現確認済みは区別しています。",
+        "ゲームエイトの小見出しは「湖の北西」だが、同ページの箇条書きと別資料は「祝福アギール湖南の北西」。祝福基準で掲載。",
+        "Ver.21資料再照合：祝福を起点とする表現は照合できたが、資料内の湖基準表現に矛盾が残る。位置の説明を祝福基準へ限定し、要再検証を継続。",
+        "基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。",
+        "対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。",
+        "入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。",
+        "資料差：GameWithは祝福「アギール湖南」の北西、Game8の入手方法箇条書きも同じ祝福基準。一方Game8の小見出しは湖そのものの北西と読める。湖全体の北西と祝福基準の北西は同義として扱わない。"
+      ],
+      "verification": {
+        "status": "needs-review",
+        "level": "review",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons, location（祝福基準の限定表現）, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "location": "祝福「アギール湖南」の北西側、近くの湖",
+      "acquisition": "湖付近のスカラベを倒して取得する。",
+      "sourceIds": [
+        "v20-unsheathe",
+        "v20-ash-routes",
+        "v21-r-ash-unsheathe",
+        "v21-r-ash-unsheathe-gw"
+      ],
+      "verificationScope": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons, location（祝福基準の限定表現）, acquisition。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "sourceDifference": "GameWithは祝福「アギール湖南」の北西、Game8の入手方法箇条書きも同じ祝福基準。一方Game8の小見出しは湖そのものの北西と読める。湖全体の北西と祝福基準の北西は同義として扱わない。",
+      "unknownFields": []
+    },
+    "sourceIds": [
+      "r-ash-unsheathe",
+      "r-ash-unsheathe-gw"
+    ]
+  },
+  "v20-ash-bloody": {
+    "reason": "戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+    "entryPatch": {
+      "facts": [
+        {
+          "label": "収集区分",
+          "value": "戦灰：血"
+        },
+        {
+          "label": "必要条件",
+          "value": "対象のスカラベまたは敵を確認する。"
+        },
+        {
+          "label": "周回・複数入手",
+          "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+        },
+        {
+          "label": "戦灰・固有戦技の区別",
+          "value": "付け替え用の戦灰。武器固有戦技だけの項目ではありません。"
+        },
+        {
+          "label": "基本の付与属性",
+          "value": "血"
+        },
+        {
+          "label": "使用可能な装備",
+          "value": "剣（特大を除く）"
+        },
+        {
+          "label": "派生の注意",
+          "value": "ここで記載する属性は戦灰の基本属性。全派生選択肢や砥石刃による拡張の一覧ではありません。"
+        }
+      ],
+      "evidence": [
+        {
+          "sourceId": "v20-bloody",
+          "scope": "名称・分類・記載した代表取得先と条件の資料確認。装備対応・属性・解放品は記載した範囲だけ。実機・全経路・周回条件は未検証。"
+        },
+        {
+          "sourceId": "v21-r-ash-bloody",
+          "scope": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        }
+      ],
+      "caveats": [
+        "資料で確認した代表取得経路。英語名・全取り逃し条件・一周の数量・周回再取得・実機のパッチ版は未確認。",
+        "本編の限定収録です。資料確認済みとゲーム内再現確認済みは区別しています。",
+        "Ver.21資料再照合：戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+        "基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。",
+        "対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。",
+        "入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。"
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "level": "verified",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "sourceIds": [
+        "v20-bloody",
+        "v21-r-ash-bloody"
+      ],
+      "verificationScope": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "detailFacts": [
+        {
+          "label": "収集区分",
+          "value": "戦灰：血"
+        },
+        {
+          "label": "必要条件",
+          "value": "対象のスカラベまたは敵を確認する。"
+        },
+        {
+          "label": "周回・複数入手",
+          "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+        },
+        {
+          "label": "戦灰・固有戦技の区別",
+          "value": "付け替え用の戦灰。武器固有戦技だけの項目ではありません。"
+        },
+        {
+          "label": "基本の付与属性",
+          "value": "血"
+        },
+        {
+          "label": "使用可能な装備",
+          "value": "剣（特大を除く）"
+        },
+        {
+          "label": "派生の注意",
+          "value": "ここで記載する属性は戦灰の基本属性。全派生選択肢や砥石刃による拡張の一覧ではありません。"
+        }
+      ],
+      "compatibleWeapons": "剣（特大を除く）",
+      "unknownFields": []
+    },
+    "sourceIds": [
+      "r-ash-bloody"
+    ]
+  },
+  "v20-ash-quickstep": {
+    "reason": "戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+    "entryPatch": {
+      "facts": [
+        {
+          "label": "収集区分",
+          "value": "戦灰：属性未照合"
+        },
+        {
+          "label": "必要条件",
+          "value": "早期に訪問する。NPC移動後の全販売経路は未照合。"
+        },
+        {
+          "label": "周回・複数入手",
+          "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+        },
+        {
+          "label": "戦灰・固有戦技の区別",
+          "value": "付け替え用の戦灰。武器固有戦技だけの項目ではありません。"
+        },
+        {
+          "label": "基本の付与属性",
+          "value": "鋭利"
+        },
+        {
+          "label": "使用可能な装備",
+          "value": "全ての近接武器"
+        },
+        {
+          "label": "派生の注意",
+          "value": "ここで記載する属性は戦灰の基本属性。全派生選択肢や砥石刃による拡張の一覧ではありません。"
+        }
+      ],
+      "evidence": [
+        {
+          "sourceId": "v20-ash-routes",
+          "scope": "名称・分類・記載した代表取得先と条件の資料確認。装備対応・属性・解放品は記載した範囲だけ。実機・全経路・周回条件は未検証。"
+        },
+        {
+          "sourceId": "v21-r-ash-quickstep",
+          "scope": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        }
+      ],
+      "caveats": [
+        "資料で確認した代表取得経路。英語名・全取り逃し条件・一周の数量・周回再取得・実機のパッチ版は未確認。",
+        "本編の限定収録です。資料確認済みとゲーム内再現確認済みは区別しています。",
+        "Ver.21資料再照合：戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+        "基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。",
+        "対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。",
+        "入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。"
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "level": "verified",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "subCategory": "戦灰：鋭利",
+      "sourceIds": [
+        "v20-ash-routes",
+        "v21-r-ash-quickstep"
+      ],
+      "verificationScope": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "detailFacts": [
+        {
+          "label": "収集区分",
+          "value": "戦灰：属性未照合"
+        },
+        {
+          "label": "必要条件",
+          "value": "早期に訪問する。NPC移動後の全販売経路は未照合。"
+        },
+        {
+          "label": "周回・複数入手",
+          "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+        },
+        {
+          "label": "戦灰・固有戦技の区別",
+          "value": "付け替え用の戦灰。武器固有戦技だけの項目ではありません。"
+        },
+        {
+          "label": "基本の付与属性",
+          "value": "鋭利"
+        },
+        {
+          "label": "使用可能な装備",
+          "value": "全ての近接武器"
+        },
+        {
+          "label": "派生の注意",
+          "value": "ここで記載する属性は戦灰の基本属性。全派生選択肢や砥石刃による拡張の一覧ではありません。"
+        }
+      ],
+      "defaultAffinity": "鋭利",
+      "compatibleWeapons": "全ての近接武器",
+      "unknownFields": []
+    },
+    "sourceIds": [
+      "r-ash-quickstep"
+    ]
+  },
+  "v20-ash-spinning": {
+    "reason": "戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+    "entryPatch": {
+      "facts": [
+        {
+          "label": "収集区分",
+          "value": "戦灰：属性未照合"
+        },
+        {
+          "label": "必要条件",
+          "value": "早期に訪問する。NPC移動後の全販売経路は未照合。"
+        },
+        {
+          "label": "周回・複数入手",
+          "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+        },
+        {
+          "label": "戦灰・固有戦技の区別",
+          "value": "付け替え用の戦灰。武器固有戦技だけの項目ではありません。"
+        },
+        {
+          "label": "基本の付与属性",
+          "value": "鋭利"
+        },
+        {
+          "label": "使用可能な装備",
+          "value": "剣・斧・長柄武器（特大を除く）"
+        },
+        {
+          "label": "派生の注意",
+          "value": "ここで記載する属性は戦灰の基本属性。全派生選択肢や砥石刃による拡張の一覧ではありません。"
+        }
+      ],
+      "evidence": [
+        {
+          "sourceId": "v20-ash-routes",
+          "scope": "名称・分類・記載した代表取得先と条件の資料確認。装備対応・属性・解放品は記載した範囲だけ。実機・全経路・周回条件は未検証。"
+        },
+        {
+          "sourceId": "v21-r-ash-spinning",
+          "scope": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        }
+      ],
+      "caveats": [
+        "資料で確認した代表取得経路。英語名・全取り逃し条件・一周の数量・周回再取得・実機のパッチ版は未確認。",
+        "本編の限定収録です。資料確認済みとゲーム内再現確認済みは区別しています。",
+        "Ver.21資料再照合：戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+        "基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。",
+        "対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。",
+        "入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。"
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "level": "verified",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "subCategory": "戦灰：鋭利",
+      "sourceIds": [
+        "v20-ash-routes",
+        "v21-r-ash-spinning"
+      ],
+      "verificationScope": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "detailFacts": [
+        {
+          "label": "収集区分",
+          "value": "戦灰：属性未照合"
+        },
+        {
+          "label": "必要条件",
+          "value": "早期に訪問する。NPC移動後の全販売経路は未照合。"
+        },
+        {
+          "label": "周回・複数入手",
+          "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+        },
+        {
+          "label": "戦灰・固有戦技の区別",
+          "value": "付け替え用の戦灰。武器固有戦技だけの項目ではありません。"
+        },
+        {
+          "label": "基本の付与属性",
+          "value": "鋭利"
+        },
+        {
+          "label": "使用可能な装備",
+          "value": "剣・斧・長柄武器（特大を除く）"
+        },
+        {
+          "label": "派生の注意",
+          "value": "ここで記載する属性は戦灰の基本属性。全派生選択肢や砥石刃による拡張の一覧ではありません。"
+        }
+      ],
+      "defaultAffinity": "鋭利",
+      "compatibleWeapons": "剣・斧・長柄武器（特大を除く）",
+      "unknownFields": []
+    },
+    "sourceIds": [
+      "r-ash-spinning"
+    ]
+  },
+  "v20-ash-stamp-up": {
+    "reason": "戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+    "entryPatch": {
+      "facts": [
+        {
+          "label": "収集区分",
+          "value": "戦灰：属性未照合"
+        },
+        {
+          "label": "必要条件",
+          "value": "早期に訪問する。NPC移動後の全販売経路は未照合。"
+        },
+        {
+          "label": "周回・複数入手",
+          "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+        },
+        {
+          "label": "戦灰・固有戦技の区別",
+          "value": "付け替え用の戦灰。武器固有戦技だけの項目ではありません。"
+        },
+        {
+          "label": "基本の付与属性",
+          "value": "重厚"
+        },
+        {
+          "label": "使用可能な装備",
+          "value": "剣・槌・斧（小型・中型の剣を除く）"
+        },
+        {
+          "label": "派生の注意",
+          "value": "ここで記載する属性は戦灰の基本属性。全派生選択肢や砥石刃による拡張の一覧ではありません。"
+        }
+      ],
+      "evidence": [
+        {
+          "sourceId": "v20-ash-routes",
+          "scope": "名称・分類・記載した代表取得先と条件の資料確認。装備対応・属性・解放品は記載した範囲だけ。実機・全経路・周回条件は未検証。"
+        },
+        {
+          "sourceId": "v21-r-ash-stamp-up",
+          "scope": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        }
+      ],
+      "caveats": [
+        "資料で確認した代表取得経路。英語名・全取り逃し条件・一周の数量・周回再取得・実機のパッチ版は未確認。",
+        "本編の限定収録です。資料確認済みとゲーム内再現確認済みは区別しています。",
+        "Ver.21資料再照合：戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+        "基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。",
+        "対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。",
+        "入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。"
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "level": "verified",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "subCategory": "戦灰：重厚",
+      "sourceIds": [
+        "v20-ash-routes",
+        "v21-r-ash-stamp-up"
+      ],
+      "verificationScope": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "detailFacts": [
+        {
+          "label": "収集区分",
+          "value": "戦灰：属性未照合"
+        },
+        {
+          "label": "必要条件",
+          "value": "早期に訪問する。NPC移動後の全販売経路は未照合。"
+        },
+        {
+          "label": "周回・複数入手",
+          "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+        },
+        {
+          "label": "戦灰・固有戦技の区別",
+          "value": "付け替え用の戦灰。武器固有戦技だけの項目ではありません。"
+        },
+        {
+          "label": "基本の付与属性",
+          "value": "重厚"
+        },
+        {
+          "label": "使用可能な装備",
+          "value": "剣・槌・斧（小型・中型の剣を除く）"
+        },
+        {
+          "label": "派生の注意",
+          "value": "ここで記載する属性は戦灰の基本属性。全派生選択肢や砥石刃による拡張の一覧ではありません。"
+        }
+      ],
+      "defaultAffinity": "重厚",
+      "compatibleWeapons": "剣・槌・斧（小型・中型の剣を除く）",
+      "unknownFields": []
+    },
+    "sourceIds": [
+      "r-ash-stamp-up"
+    ]
+  },
+  "v20-ash-kick": {
+    "reason": "戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+    "entryPatch": {
+      "facts": [
+        {
+          "label": "収集区分",
+          "value": "戦灰：属性未照合"
+        },
+        {
+          "label": "必要条件",
+          "value": "早期に訪問する。NPC移動後の全販売経路は未照合。"
+        },
+        {
+          "label": "周回・複数入手",
+          "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+        },
+        {
+          "label": "戦灰・固有戦技の区別",
+          "value": "付け替え用の戦灰。武器固有戦技だけの項目ではありません。"
+        },
+        {
+          "label": "基本の付与属性",
+          "value": "重厚"
+        },
+        {
+          "label": "使用可能な装備",
+          "value": "全ての近接武器"
+        },
+        {
+          "label": "派生の注意",
+          "value": "ここで記載する属性は戦灰の基本属性。全派生選択肢や砥石刃による拡張の一覧ではありません。"
+        }
+      ],
+      "evidence": [
+        {
+          "sourceId": "v20-ash-routes",
+          "scope": "名称・分類・記載した代表取得先と条件の資料確認。装備対応・属性・解放品は記載した範囲だけ。実機・全経路・周回条件は未検証。"
+        },
+        {
+          "sourceId": "v21-r-ash-kick",
+          "scope": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        }
+      ],
+      "caveats": [
+        "資料で確認した代表取得経路。英語名・全取り逃し条件・一周の数量・周回再取得・実機のパッチ版は未確認。",
+        "本編の限定収録です。資料確認済みとゲーム内再現確認済みは区別しています。",
+        "Ver.21資料再照合：戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+        "基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。",
+        "対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。",
+        "入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。"
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "level": "verified",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "subCategory": "戦灰：重厚",
+      "sourceIds": [
+        "v20-ash-routes",
+        "v21-r-ash-kick"
+      ],
+      "verificationScope": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "detailFacts": [
+        {
+          "label": "収集区分",
+          "value": "戦灰：属性未照合"
+        },
+        {
+          "label": "必要条件",
+          "value": "早期に訪問する。NPC移動後の全販売経路は未照合。"
+        },
+        {
+          "label": "周回・複数入手",
+          "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+        },
+        {
+          "label": "戦灰・固有戦技の区別",
+          "value": "付け替え用の戦灰。武器固有戦技だけの項目ではありません。"
+        },
+        {
+          "label": "基本の付与属性",
+          "value": "重厚"
+        },
+        {
+          "label": "使用可能な装備",
+          "value": "全ての近接武器"
+        },
+        {
+          "label": "派生の注意",
+          "value": "ここで記載する属性は戦灰の基本属性。全派生選択肢や砥石刃による拡張の一覧ではありません。"
+        }
+      ],
+      "defaultAffinity": "重厚",
+      "compatibleWeapons": "全ての近接武器",
+      "unknownFields": []
+    },
+    "sourceIds": [
+      "r-ash-kick"
+    ]
+  },
+  "v20-ash-endure": {
+    "reason": "戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+    "entryPatch": {
+      "facts": [
+        {
+          "label": "収集区分",
+          "value": "戦灰：属性未照合"
+        },
+        {
+          "label": "必要条件",
+          "value": "早期に訪問する。NPC移動後の全販売経路は未照合。"
+        },
+        {
+          "label": "周回・複数入手",
+          "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+        },
+        {
+          "label": "戦灰・固有戦技の区別",
+          "value": "付け替え用の戦灰。武器固有戦技だけの項目ではありません。"
+        },
+        {
+          "label": "基本の付与属性",
+          "value": "重厚"
+        },
+        {
+          "label": "使用可能な装備",
+          "value": "全ての近接武器"
+        },
+        {
+          "label": "派生の注意",
+          "value": "ここで記載する属性は戦灰の基本属性。全派生選択肢や砥石刃による拡張の一覧ではありません。"
+        }
+      ],
+      "evidence": [
+        {
+          "sourceId": "v20-ash-routes",
+          "scope": "名称・分類・記載した代表取得先と条件の資料確認。装備対応・属性・解放品は記載した範囲だけ。実機・全経路・周回条件は未検証。"
+        },
+        {
+          "sourceId": "v21-r-ash-endure",
+          "scope": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        }
+      ],
+      "caveats": [
+        "資料で確認した代表取得経路。英語名・全取り逃し条件・一周の数量・周回再取得・実機のパッチ版は未確認。",
+        "本編の限定収録です。資料確認済みとゲーム内再現確認済みは区別しています。",
+        "Ver.21資料再照合：戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+        "基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。",
+        "対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。",
+        "入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。"
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "level": "verified",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "subCategory": "戦灰：重厚",
+      "sourceIds": [
+        "v20-ash-routes",
+        "v21-r-ash-endure"
+      ],
+      "verificationScope": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "detailFacts": [
+        {
+          "label": "収集区分",
+          "value": "戦灰：属性未照合"
+        },
+        {
+          "label": "必要条件",
+          "value": "早期に訪問する。NPC移動後の全販売経路は未照合。"
+        },
+        {
+          "label": "周回・複数入手",
+          "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+        },
+        {
+          "label": "戦灰・固有戦技の区別",
+          "value": "付け替え用の戦灰。武器固有戦技だけの項目ではありません。"
+        },
+        {
+          "label": "基本の付与属性",
+          "value": "重厚"
+        },
+        {
+          "label": "使用可能な装備",
+          "value": "全ての近接武器"
+        },
+        {
+          "label": "派生の注意",
+          "value": "ここで記載する属性は戦灰の基本属性。全派生選択肢や砥石刃による拡張の一覧ではありません。"
+        }
+      ],
+      "defaultAffinity": "重厚",
+      "compatibleWeapons": "全ての近接武器",
+      "unknownFields": []
+    },
+    "sourceIds": [
+      "r-ash-endure"
+    ]
+  },
+  "v20-ash-warcry": {
+    "reason": "戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+    "entryPatch": {
+      "facts": [
+        {
+          "label": "収集区分",
+          "value": "戦灰：属性未照合"
+        },
+        {
+          "label": "必要条件",
+          "value": "早期に訪問する。NPC移動後の全販売経路は未照合。"
+        },
+        {
+          "label": "周回・複数入手",
+          "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+        },
+        {
+          "label": "戦灰・固有戦技の区別",
+          "value": "付け替え用の戦灰。武器固有戦技だけの項目ではありません。"
+        },
+        {
+          "label": "基本の付与属性",
+          "value": "重厚"
+        },
+        {
+          "label": "使用可能な装備",
+          "value": "近接武器（短剣・刺剣・鞭を除く）"
+        },
+        {
+          "label": "派生の注意",
+          "value": "ここで記載する属性は戦灰の基本属性。全派生選択肢や砥石刃による拡張の一覧ではありません。"
+        }
+      ],
+      "evidence": [
+        {
+          "sourceId": "v20-ash-routes",
+          "scope": "名称・分類・記載した代表取得先と条件の資料確認。装備対応・属性・解放品は記載した範囲だけ。実機・全経路・周回条件は未検証。"
+        },
+        {
+          "sourceId": "v21-r-ash-warcry",
+          "scope": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        }
+      ],
+      "caveats": [
+        "資料で確認した代表取得経路。英語名・全取り逃し条件・一周の数量・周回再取得・実機のパッチ版は未確認。",
+        "本編の限定収録です。資料確認済みとゲーム内再現確認済みは区別しています。",
+        "Ver.21資料再照合：戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+        "基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。",
+        "対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。",
+        "入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。"
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "level": "verified",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "subCategory": "戦灰：重厚",
+      "sourceIds": [
+        "v20-ash-routes",
+        "v21-r-ash-warcry"
+      ],
+      "verificationScope": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "detailFacts": [
+        {
+          "label": "収集区分",
+          "value": "戦灰：属性未照合"
+        },
+        {
+          "label": "必要条件",
+          "value": "早期に訪問する。NPC移動後の全販売経路は未照合。"
+        },
+        {
+          "label": "周回・複数入手",
+          "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+        },
+        {
+          "label": "戦灰・固有戦技の区別",
+          "value": "付け替え用の戦灰。武器固有戦技だけの項目ではありません。"
+        },
+        {
+          "label": "基本の付与属性",
+          "value": "重厚"
+        },
+        {
+          "label": "使用可能な装備",
+          "value": "近接武器（短剣・刺剣・鞭を除く）"
+        },
+        {
+          "label": "派生の注意",
+          "value": "ここで記載する属性は戦灰の基本属性。全派生選択肢や砥石刃による拡張の一覧ではありません。"
+        }
+      ],
+      "defaultAffinity": "重厚",
+      "compatibleWeapons": "近接武器（短剣・刺剣・鞭を除く）",
+      "unknownFields": []
+    },
+    "sourceIds": [
+      "r-ash-warcry"
+    ]
+  },
+  "v20-ash-piercing": {
+    "reason": "戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+    "entryPatch": {
+      "facts": [
+        {
+          "label": "収集区分",
+          "value": "戦灰：属性未照合"
+        },
+        {
+          "label": "必要条件",
+          "value": "早期に訪問する。NPC移動後の全販売経路は未照合。"
+        },
+        {
+          "label": "周回・複数入手",
+          "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+        },
+        {
+          "label": "戦灰・固有戦技の区別",
+          "value": "付け替え用の戦灰。武器固有戦技だけの項目ではありません。"
+        },
+        {
+          "label": "基本の付与属性",
+          "value": "鋭利"
+        },
+        {
+          "label": "使用可能な装備",
+          "value": "刺突可能な武器（特大を除く）"
+        },
+        {
+          "label": "派生の注意",
+          "value": "ここで記載する属性は戦灰の基本属性。全派生選択肢や砥石刃による拡張の一覧ではありません。"
+        }
+      ],
+      "evidence": [
+        {
+          "sourceId": "v20-ash-routes",
+          "scope": "名称・分類・記載した代表取得先と条件の資料確認。装備対応・属性・解放品は記載した範囲だけ。実機・全経路・周回条件は未検証。"
+        },
+        {
+          "sourceId": "v21-r-ash-piercing",
+          "scope": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        }
+      ],
+      "caveats": [
+        "資料で確認した代表取得経路。英語名・全取り逃し条件・一周の数量・周回再取得・実機のパッチ版は未確認。",
+        "本編の限定収録です。資料確認済みとゲーム内再現確認済みは区別しています。",
+        "Ver.21資料再照合：戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+        "基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。",
+        "対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。",
+        "入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。"
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "level": "verified",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "subCategory": "戦灰：鋭利",
+      "sourceIds": [
+        "v20-ash-routes",
+        "v21-r-ash-piercing"
+      ],
+      "verificationScope": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "detailFacts": [
+        {
+          "label": "収集区分",
+          "value": "戦灰：属性未照合"
+        },
+        {
+          "label": "必要条件",
+          "value": "早期に訪問する。NPC移動後の全販売経路は未照合。"
+        },
+        {
+          "label": "周回・複数入手",
+          "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+        },
+        {
+          "label": "戦灰・固有戦技の区別",
+          "value": "付け替え用の戦灰。武器固有戦技だけの項目ではありません。"
+        },
+        {
+          "label": "基本の付与属性",
+          "value": "鋭利"
+        },
+        {
+          "label": "使用可能な装備",
+          "value": "刺突可能な武器（特大を除く）"
+        },
+        {
+          "label": "派生の注意",
+          "value": "ここで記載する属性は戦灰の基本属性。全派生選択肢や砥石刃による拡張の一覧ではありません。"
+        }
+      ],
+      "defaultAffinity": "鋭利",
+      "compatibleWeapons": "刺突可能な武器（特大を除く）",
+      "unknownFields": []
+    },
+    "sourceIds": [
+      "r-ash-piercing"
+    ]
+  },
+  "v20-ash-no-skill": {
+    "reason": "戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+    "entryPatch": {
+      "facts": [
+        {
+          "label": "収集区分",
+          "value": "戦灰：属性未照合"
+        },
+        {
+          "label": "必要条件",
+          "value": "早期に訪問する。NPC移動後の全販売経路は未照合。"
+        },
+        {
+          "label": "周回・複数入手",
+          "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+        },
+        {
+          "label": "戦灰・固有戦技の区別",
+          "value": "付け替え用の戦灰。武器固有戦技だけの項目ではありません。"
+        },
+        {
+          "label": "基本の付与属性",
+          "value": "標準"
+        },
+        {
+          "label": "使用可能な装備",
+          "value": "松明・盾"
+        },
+        {
+          "label": "派生の注意",
+          "value": "ここで記載する属性は戦灰の基本属性。全派生選択肢や砥石刃による拡張の一覧ではありません。"
+        }
+      ],
+      "evidence": [
+        {
+          "sourceId": "v20-ash-routes",
+          "scope": "名称・分類・記載した代表取得先と条件の資料確認。装備対応・属性・解放品は記載した範囲だけ。実機・全経路・周回条件は未検証。"
+        },
+        {
+          "sourceId": "v21-r-ash-no-skill",
+          "scope": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        }
+      ],
+      "caveats": [
+        "資料で確認した代表取得経路。英語名・全取り逃し条件・一周の数量・周回再取得・実機のパッチ版は未確認。",
+        "本編の限定収録です。資料確認済みとゲーム内再現確認済みは区別しています。",
+        "Ver.21資料再照合：戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+        "基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。",
+        "対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。",
+        "入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。"
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "level": "verified",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "subCategory": "戦灰：標準",
+      "sourceIds": [
+        "v20-ash-routes",
+        "v21-r-ash-no-skill"
+      ],
+      "verificationScope": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "detailFacts": [
+        {
+          "label": "収集区分",
+          "value": "戦灰：属性未照合"
+        },
+        {
+          "label": "必要条件",
+          "value": "早期に訪問する。NPC移動後の全販売経路は未照合。"
+        },
+        {
+          "label": "周回・複数入手",
+          "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+        },
+        {
+          "label": "戦灰・固有戦技の区別",
+          "value": "付け替え用の戦灰。武器固有戦技だけの項目ではありません。"
+        },
+        {
+          "label": "基本の付与属性",
+          "value": "標準"
+        },
+        {
+          "label": "使用可能な装備",
+          "value": "松明・盾"
+        },
+        {
+          "label": "派生の注意",
+          "value": "ここで記載する属性は戦灰の基本属性。全派生選択肢や砥石刃による拡張の一覧ではありません。"
+        }
+      ],
+      "defaultAffinity": "標準",
+      "compatibleWeapons": "松明・盾",
+      "unknownFields": []
+    },
+    "sourceIds": [
+      "r-ash-no-skill"
+    ]
+  },
+  "v20-ash-stamp-sweep": {
+    "reason": "戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+    "entryPatch": {
+      "facts": [
+        {
+          "label": "収集区分",
+          "value": "戦灰：属性未照合"
+        },
+        {
+          "label": "必要条件",
+          "value": "記載地点への到達が必要。"
+        },
+        {
+          "label": "周回・複数入手",
+          "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+        },
+        {
+          "label": "戦灰・固有戦技の区別",
+          "value": "付け替え用の戦灰。武器固有戦技だけの項目ではありません。"
+        },
+        {
+          "label": "基本の付与属性",
+          "value": "重厚"
+        },
+        {
+          "label": "使用可能な装備",
+          "value": "剣・槌・斧（小型・中型の剣を除く）"
+        },
+        {
+          "label": "派生の注意",
+          "value": "ここで記載する属性は戦灰の基本属性。全派生選択肢や砥石刃による拡張の一覧ではありません。"
+        }
+      ],
+      "evidence": [
+        {
+          "sourceId": "v20-ash-routes",
+          "scope": "名称・分類・記載した代表取得先と条件の資料確認。装備対応・属性・解放品は記載した範囲だけ。実機・全経路・周回条件は未検証。"
+        },
+        {
+          "sourceId": "v21-r-ash-stamp-sweep",
+          "scope": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        }
+      ],
+      "caveats": [
+        "資料で確認した代表取得経路。英語名・全取り逃し条件・一周の数量・周回再取得・実機のパッチ版は未確認。",
+        "本編の限定収録です。資料確認済みとゲーム内再現確認済みは区別しています。",
+        "Ver.21資料再照合：戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+        "基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。",
+        "対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。",
+        "入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。"
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "level": "verified",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "subCategory": "戦灰：重厚",
+      "sourceIds": [
+        "v20-ash-routes",
+        "v21-r-ash-stamp-sweep"
+      ],
+      "verificationScope": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "detailFacts": [
+        {
+          "label": "収集区分",
+          "value": "戦灰：属性未照合"
+        },
+        {
+          "label": "必要条件",
+          "value": "記載地点への到達が必要。"
+        },
+        {
+          "label": "周回・複数入手",
+          "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+        },
+        {
+          "label": "戦灰・固有戦技の区別",
+          "value": "付け替え用の戦灰。武器固有戦技だけの項目ではありません。"
+        },
+        {
+          "label": "基本の付与属性",
+          "value": "重厚"
+        },
+        {
+          "label": "使用可能な装備",
+          "value": "剣・槌・斧（小型・中型の剣を除く）"
+        },
+        {
+          "label": "派生の注意",
+          "value": "ここで記載する属性は戦灰の基本属性。全派生選択肢や砥石刃による拡張の一覧ではありません。"
+        }
+      ],
+      "defaultAffinity": "重厚",
+      "compatibleWeapons": "剣・槌・斧（小型・中型の剣を除く）",
+      "unknownFields": []
+    },
+    "sourceIds": [
+      "r-ash-stamp-sweep"
+    ]
+  },
+  "v20-ash-wild-strikes": {
+    "reason": "戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+    "entryPatch": {
+      "facts": [
+        {
+          "label": "収集区分",
+          "value": "戦灰：属性未照合"
+        },
+        {
+          "label": "必要条件",
+          "value": "記載地点への到達が必要。"
+        },
+        {
+          "label": "周回・複数入手",
+          "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+        },
+        {
+          "label": "戦灰・固有戦技の区別",
+          "value": "付け替え用の戦灰。武器固有戦技だけの項目ではありません。"
+        },
+        {
+          "label": "基本の付与属性",
+          "value": "重厚"
+        },
+        {
+          "label": "使用可能な装備",
+          "value": "斧・槌・曲剣・大剣（特大を除く）"
+        },
+        {
+          "label": "派生の注意",
+          "value": "ここで記載する属性は戦灰の基本属性。全派生選択肢や砥石刃による拡張の一覧ではありません。"
+        }
+      ],
+      "evidence": [
+        {
+          "sourceId": "v20-ash-routes",
+          "scope": "名称・分類・記載した代表取得先と条件の資料確認。装備対応・属性・解放品は記載した範囲だけ。実機・全経路・周回条件は未検証。"
+        },
+        {
+          "sourceId": "v21-r-ash-wild-strikes",
+          "scope": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        }
+      ],
+      "caveats": [
+        "資料で確認した代表取得経路。英語名・全取り逃し条件・一周の数量・周回再取得・実機のパッチ版は未確認。",
+        "本編の限定収録です。資料確認済みとゲーム内再現確認済みは区別しています。",
+        "Ver.21資料再照合：戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+        "基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。",
+        "対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。",
+        "入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。"
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "level": "verified",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "subCategory": "戦灰：重厚",
+      "sourceIds": [
+        "v20-ash-routes",
+        "v21-r-ash-wild-strikes"
+      ],
+      "verificationScope": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "detailFacts": [
+        {
+          "label": "収集区分",
+          "value": "戦灰：属性未照合"
+        },
+        {
+          "label": "必要条件",
+          "value": "記載地点への到達が必要。"
+        },
+        {
+          "label": "周回・複数入手",
+          "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+        },
+        {
+          "label": "戦灰・固有戦技の区別",
+          "value": "付け替え用の戦灰。武器固有戦技だけの項目ではありません。"
+        },
+        {
+          "label": "基本の付与属性",
+          "value": "重厚"
+        },
+        {
+          "label": "使用可能な装備",
+          "value": "斧・槌・曲剣・大剣（特大を除く）"
+        },
+        {
+          "label": "派生の注意",
+          "value": "ここで記載する属性は戦灰の基本属性。全派生選択肢や砥石刃による拡張の一覧ではありません。"
+        }
+      ],
+      "defaultAffinity": "重厚",
+      "compatibleWeapons": "斧・槌・曲剣・大剣（特大を除く）",
+      "unknownFields": []
+    },
+    "sourceIds": [
+      "r-ash-wild-strikes"
+    ]
+  },
+  "v20-ash-lion": {
+    "reason": "戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+    "entryPatch": {
+      "facts": [
+        {
+          "label": "収集区分",
+          "value": "戦灰：属性未照合"
+        },
+        {
+          "label": "必要条件",
+          "value": "記載地点への到達が必要。"
+        },
+        {
+          "label": "周回・複数入手",
+          "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+        },
+        {
+          "label": "戦灰・固有戦技の区別",
+          "value": "付け替え用の戦灰。武器固有戦技だけの項目ではありません。"
+        },
+        {
+          "label": "基本の付与属性",
+          "value": "重厚"
+        },
+        {
+          "label": "使用可能な装備",
+          "value": "剣・槌・斧（小型武器・刺剣を除く）"
+        },
+        {
+          "label": "派生の注意",
+          "value": "ここで記載する属性は戦灰の基本属性。全派生選択肢や砥石刃による拡張の一覧ではありません。"
+        }
+      ],
+      "evidence": [
+        {
+          "sourceId": "v20-ash-routes",
+          "scope": "名称・分類・記載した代表取得先と条件の資料確認。装備対応・属性・解放品は記載した範囲だけ。実機・全経路・周回条件は未検証。"
+        },
+        {
+          "sourceId": "v21-r-ash-lion",
+          "scope": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        }
+      ],
+      "caveats": [
+        "資料で確認した代表取得経路。英語名・全取り逃し条件・一周の数量・周回再取得・実機のパッチ版は未確認。",
+        "本編の限定収録です。資料確認済みとゲーム内再現確認済みは区別しています。",
+        "Ver.21資料再照合：戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+        "基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。",
+        "対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。",
+        "入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。"
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "level": "verified",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "subCategory": "戦灰：重厚",
+      "sourceIds": [
+        "v20-ash-routes",
+        "v21-r-ash-lion"
+      ],
+      "verificationScope": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "detailFacts": [
+        {
+          "label": "収集区分",
+          "value": "戦灰：属性未照合"
+        },
+        {
+          "label": "必要条件",
+          "value": "記載地点への到達が必要。"
+        },
+        {
+          "label": "周回・複数入手",
+          "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+        },
+        {
+          "label": "戦灰・固有戦技の区別",
+          "value": "付け替え用の戦灰。武器固有戦技だけの項目ではありません。"
+        },
+        {
+          "label": "基本の付与属性",
+          "value": "重厚"
+        },
+        {
+          "label": "使用可能な装備",
+          "value": "剣・槌・斧（小型武器・刺剣を除く）"
+        },
+        {
+          "label": "派生の注意",
+          "value": "ここで記載する属性は戦灰の基本属性。全派生選択肢や砥石刃による拡張の一覧ではありません。"
+        }
+      ],
+      "defaultAffinity": "重厚",
+      "compatibleWeapons": "剣・槌・斧（小型武器・刺剣を除く）",
+      "unknownFields": []
+    },
+    "sourceIds": [
+      "r-ash-lion"
+    ]
+  },
+  "v20-ash-cragblade": {
+    "reason": "戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+    "entryPatch": {
+      "facts": [
+        {
+          "label": "収集区分",
+          "value": "戦灰：属性未照合"
+        },
+        {
+          "label": "必要条件",
+          "value": "記載地点への到達が必要。"
+        },
+        {
+          "label": "周回・複数入手",
+          "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+        },
+        {
+          "label": "戦灰・固有戦技の区別",
+          "value": "付け替え用の戦灰。武器固有戦技だけの項目ではありません。"
+        },
+        {
+          "label": "基本の付与属性",
+          "value": "重厚"
+        },
+        {
+          "label": "使用可能な装備",
+          "value": "近接武器（鞭を除く）"
+        },
+        {
+          "label": "派生の注意",
+          "value": "ここで記載する属性は戦灰の基本属性。全派生選択肢や砥石刃による拡張の一覧ではありません。"
+        }
+      ],
+      "evidence": [
+        {
+          "sourceId": "v20-ash-routes",
+          "scope": "名称・分類・記載した代表取得先と条件の資料確認。装備対応・属性・解放品は記載した範囲だけ。実機・全経路・周回条件は未検証。"
+        },
+        {
+          "sourceId": "v21-r-ash-cragblade",
+          "scope": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        }
+      ],
+      "caveats": [
+        "資料で確認した代表取得経路。英語名・全取り逃し条件・一周の数量・周回再取得・実機のパッチ版は未確認。",
+        "本編の限定収録です。資料確認済みとゲーム内再現確認済みは区別しています。",
+        "Ver.21資料再照合：戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+        "基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。",
+        "対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。",
+        "入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。"
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "level": "verified",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "subCategory": "戦灰：重厚",
+      "sourceIds": [
+        "v20-ash-routes",
+        "v21-r-ash-cragblade"
+      ],
+      "verificationScope": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "detailFacts": [
+        {
+          "label": "収集区分",
+          "value": "戦灰：属性未照合"
+        },
+        {
+          "label": "必要条件",
+          "value": "記載地点への到達が必要。"
+        },
+        {
+          "label": "周回・複数入手",
+          "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+        },
+        {
+          "label": "戦灰・固有戦技の区別",
+          "value": "付け替え用の戦灰。武器固有戦技だけの項目ではありません。"
+        },
+        {
+          "label": "基本の付与属性",
+          "value": "重厚"
+        },
+        {
+          "label": "使用可能な装備",
+          "value": "近接武器（鞭を除く）"
+        },
+        {
+          "label": "派生の注意",
+          "value": "ここで記載する属性は戦灰の基本属性。全派生選択肢や砥石刃による拡張の一覧ではありません。"
+        }
+      ],
+      "defaultAffinity": "重厚",
+      "compatibleWeapons": "近接武器（鞭を除く）",
+      "unknownFields": []
+    },
+    "sourceIds": [
+      "r-ash-cragblade"
+    ]
+  },
+  "v20-ash-slam": {
+    "reason": "戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+    "entryPatch": {
+      "facts": [
+        {
+          "label": "収集区分",
+          "value": "戦灰：属性未照合"
+        },
+        {
+          "label": "必要条件",
+          "value": "記載地点への到達が必要。"
+        },
+        {
+          "label": "周回・複数入手",
+          "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+        },
+        {
+          "label": "戦灰・固有戦技の区別",
+          "value": "付け替え用の戦灰。武器固有戦技だけの項目ではありません。"
+        },
+        {
+          "label": "基本の付与属性",
+          "value": "重厚"
+        },
+        {
+          "label": "使用可能な装備",
+          "value": "全ての近接武器"
+        },
+        {
+          "label": "派生の注意",
+          "value": "ここで記載する属性は戦灰の基本属性。全派生選択肢や砥石刃による拡張の一覧ではありません。"
+        }
+      ],
+      "evidence": [
+        {
+          "sourceId": "v20-ash-routes",
+          "scope": "名称・分類・記載した代表取得先と条件の資料確認。装備対応・属性・解放品は記載した範囲だけ。実機・全経路・周回条件は未検証。"
+        },
+        {
+          "sourceId": "v21-r-ash-slam",
+          "scope": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        }
+      ],
+      "caveats": [
+        "資料で確認した代表取得経路。英語名・全取り逃し条件・一周の数量・周回再取得・実機のパッチ版は未確認。",
+        "本編の限定収録です。資料確認済みとゲーム内再現確認済みは区別しています。",
+        "Ver.21資料再照合：戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+        "基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。",
+        "対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。",
+        "入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。"
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "level": "verified",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "subCategory": "戦灰：重厚",
+      "sourceIds": [
+        "v20-ash-routes",
+        "v21-r-ash-slam"
+      ],
+      "verificationScope": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "detailFacts": [
+        {
+          "label": "収集区分",
+          "value": "戦灰：属性未照合"
+        },
+        {
+          "label": "必要条件",
+          "value": "記載地点への到達が必要。"
+        },
+        {
+          "label": "周回・複数入手",
+          "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+        },
+        {
+          "label": "戦灰・固有戦技の区別",
+          "value": "付け替え用の戦灰。武器固有戦技だけの項目ではありません。"
+        },
+        {
+          "label": "基本の付与属性",
+          "value": "重厚"
+        },
+        {
+          "label": "使用可能な装備",
+          "value": "全ての近接武器"
+        },
+        {
+          "label": "派生の注意",
+          "value": "ここで記載する属性は戦灰の基本属性。全派生選択肢や砥石刃による拡張の一覧ではありません。"
+        }
+      ],
+      "defaultAffinity": "重厚",
+      "compatibleWeapons": "全ての近接武器",
+      "unknownFields": []
+    },
+    "sourceIds": [
+      "r-ash-slam"
+    ]
+  },
+  "v20-ash-barbaric": {
+    "reason": "戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+    "entryPatch": {
+      "facts": [
+        {
+          "label": "収集区分",
+          "value": "戦灰：属性未照合"
+        },
+        {
+          "label": "必要条件",
+          "value": "記載地点への到達が必要。"
+        },
+        {
+          "label": "周回・複数入手",
+          "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+        },
+        {
+          "label": "戦灰・固有戦技の区別",
+          "value": "付け替え用の戦灰。武器固有戦技だけの項目ではありません。"
+        },
+        {
+          "label": "基本の付与属性",
+          "value": "重厚"
+        },
+        {
+          "label": "使用可能な装備",
+          "value": "近接武器（短剣・刺剣・鞭を除く）"
+        },
+        {
+          "label": "派生の注意",
+          "value": "ここで記載する属性は戦灰の基本属性。全派生選択肢や砥石刃による拡張の一覧ではありません。"
+        }
+      ],
+      "evidence": [
+        {
+          "sourceId": "v20-ash-routes",
+          "scope": "名称・分類・記載した代表取得先と条件の資料確認。装備対応・属性・解放品は記載した範囲だけ。実機・全経路・周回条件は未検証。"
+        },
+        {
+          "sourceId": "v21-r-ash-barbaric",
+          "scope": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        }
+      ],
+      "caveats": [
+        "資料で確認した代表取得経路。英語名・全取り逃し条件・一周の数量・周回再取得・実機のパッチ版は未確認。",
+        "本編の限定収録です。資料確認済みとゲーム内再現確認済みは区別しています。",
+        "Ver.21資料再照合：戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+        "基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。",
+        "対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。",
+        "入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。"
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "level": "verified",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "subCategory": "戦灰：重厚",
+      "sourceIds": [
+        "v20-ash-routes",
+        "v21-r-ash-barbaric"
+      ],
+      "verificationScope": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "detailFacts": [
+        {
+          "label": "収集区分",
+          "value": "戦灰：属性未照合"
+        },
+        {
+          "label": "必要条件",
+          "value": "記載地点への到達が必要。"
+        },
+        {
+          "label": "周回・複数入手",
+          "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+        },
+        {
+          "label": "戦灰・固有戦技の区別",
+          "value": "付け替え用の戦灰。武器固有戦技だけの項目ではありません。"
+        },
+        {
+          "label": "基本の付与属性",
+          "value": "重厚"
+        },
+        {
+          "label": "使用可能な装備",
+          "value": "近接武器（短剣・刺剣・鞭を除く）"
+        },
+        {
+          "label": "派生の注意",
+          "value": "ここで記載する属性は戦灰の基本属性。全派生選択肢や砥石刃による拡張の一覧ではありません。"
+        }
+      ],
+      "defaultAffinity": "重厚",
+      "compatibleWeapons": "近接武器（短剣・刺剣・鞭を除く）",
+      "unknownFields": []
+    },
+    "sourceIds": [
+      "r-ash-barbaric"
+    ]
+  },
+  "v20-ash-repeating": {
+    "reason": "入手敵・夜限定条件・洞窟南の橋は2資料で一致。祝福からの正確な方角は資料差が残るため要再検証。",
+    "entryPatch": {
+      "location": "リムグレイブ、曇り川の洞窟より南の橋",
+      "summary": "夜に橋付近へ出現する夜の騎兵を倒す。",
+      "facts": [
+        {
+          "label": "収集区分",
+          "value": "戦灰：属性未照合"
+        },
+        {
+          "label": "必要条件",
+          "value": "夜に出現する対象の夜の騎兵を撃破。"
+        },
+        {
+          "label": "周回・複数入手",
+          "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+        },
+        {
+          "label": "戦灰・固有戦技の区別",
+          "value": "付け替え用の戦灰。武器固有戦技だけの項目ではありません。"
+        },
+        {
+          "label": "基本の付与属性",
+          "value": "鋭利"
+        },
+        {
+          "label": "使用可能な装備",
+          "value": "刺突可能な武器（特大を除く）"
+        },
+        {
+          "label": "派生の注意",
+          "value": "ここで記載する属性は戦灰の基本属性。全派生選択肢や砥石刃による拡張の一覧ではありません。"
+        }
+      ],
+      "steps": [
+        "夜に出現する対象の夜の騎兵を撃破。",
+        "夜に橋付近へ出現する夜の騎兵を倒す。"
+      ],
+      "evidence": [
+        {
+          "sourceId": "v20-ash-routes",
+          "scope": "名称・分類・記載した代表取得先と条件の資料確認。装備対応・属性・解放品は記載した範囲だけ。実機・全経路・周回条件は未検証。"
+        },
+        {
+          "sourceId": "v21-r-ash-repeating",
+          "scope": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons, acquisition, location（方角を限定しない範囲）。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        },
+        {
+          "sourceId": "v21-r-ash-repeating-gw",
+          "scope": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons, acquisition, location（方角を限定しない範囲）。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        }
+      ],
+      "caveats": [
+        "資料で確認した代表取得経路。英語名・全取り逃し条件・一周の数量・周回再取得・実機のパッチ版は未確認。",
+        "本編の限定収録です。資料確認済みとゲーム内再現確認済みは区別しています。",
+        "Ver.21資料再照合：入手敵・夜限定条件・洞窟南の橋は2資料で一致。祝福からの正確な方角は資料差が残るため要再検証。",
+        "基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。",
+        "対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。",
+        "入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。",
+        "資料差：Game8の同一ページ内に「曇り川の洞窟の南の橋」と「祝福アギール湖北から北西」の二つの案内がある。GameWithは曇り川の洞窟の南の橋とする。方角の矛盾を含むため、既存の祝福基準の東という表現も本監査では確定しない。"
+      ],
+      "verification": {
+        "status": "needs-review",
+        "level": "review",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons, acquisition, location（方角を限定しない範囲）。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "subCategory": "戦灰：鋭利",
+      "location": "リムグレイブ、曇り川の洞窟より南の橋",
+      "acquisition": "夜に橋付近へ出現する夜の騎兵を倒す。",
+      "conditions": "夜に出現する対象の夜の騎兵を撃破。",
+      "sourceIds": [
+        "v20-ash-routes",
+        "v21-r-ash-repeating",
+        "v21-r-ash-repeating-gw"
+      ],
+      "verification": "needs-review",
+      "verificationLevel": "review",
+      "verificationScope": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons, acquisition, location（方角を限定しない範囲）。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "sourceDifference": "Game8の同一ページ内に「曇り川の洞窟の南の橋」と「祝福アギール湖北から北西」の二つの案内がある。GameWithは曇り川の洞窟の南の橋とする。方角の矛盾を含むため、既存の祝福基準の東という表現も本監査では確定しない。",
+      "detailFacts": [
+        {
+          "label": "収集区分",
+          "value": "戦灰：属性未照合"
+        },
+        {
+          "label": "必要条件",
+          "value": "夜に出現する対象の夜の騎兵を撃破。"
+        },
+        {
+          "label": "周回・複数入手",
+          "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+        },
+        {
+          "label": "戦灰・固有戦技の区別",
+          "value": "付け替え用の戦灰。武器固有戦技だけの項目ではありません。"
+        },
+        {
+          "label": "基本の付与属性",
+          "value": "鋭利"
+        },
+        {
+          "label": "使用可能な装備",
+          "value": "刺突可能な武器（特大を除く）"
+        },
+        {
+          "label": "派生の注意",
+          "value": "ここで記載する属性は戦灰の基本属性。全派生選択肢や砥石刃による拡張の一覧ではありません。"
+        }
+      ],
+      "defaultAffinity": "鋭利",
+      "compatibleWeapons": "刺突可能な武器（特大を除く）",
+      "unknownFields": []
+    },
+    "sourceIds": [
+      "r-ash-repeating",
+      "r-ash-repeating-gw"
+    ]
+  },
+  "v20-ash-double": {
+    "reason": "戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+    "entryPatch": {
+      "facts": [
+        {
+          "label": "収集区分",
+          "value": "戦灰：属性未照合"
+        },
+        {
+          "label": "必要条件",
+          "value": "記載地点への到達が必要。"
+        },
+        {
+          "label": "周回・複数入手",
+          "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+        },
+        {
+          "label": "戦灰・固有戦技の区別",
+          "value": "付け替え用の戦灰。武器固有戦技だけの項目ではありません。"
+        },
+        {
+          "label": "基本の付与属性",
+          "value": "鋭利"
+        },
+        {
+          "label": "使用可能な装備",
+          "value": "斬撃可能な剣・長柄武器（特大を除く）"
+        },
+        {
+          "label": "派生の注意",
+          "value": "ここで記載する属性は戦灰の基本属性。全派生選択肢や砥石刃による拡張の一覧ではありません。"
+        }
+      ],
+      "evidence": [
+        {
+          "sourceId": "v20-ash-routes",
+          "scope": "名称・分類・記載した代表取得先と条件の資料確認。装備対応・属性・解放品は記載した範囲だけ。実機・全経路・周回条件は未検証。"
+        },
+        {
+          "sourceId": "v21-r-ash-double",
+          "scope": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        }
+      ],
+      "caveats": [
+        "資料で確認した代表取得経路。英語名・全取り逃し条件・一周の数量・周回再取得・実機のパッチ版は未確認。",
+        "本編の限定収録です。資料確認済みとゲーム内再現確認済みは区別しています。",
+        "Ver.21資料再照合：戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+        "基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。",
+        "対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。",
+        "入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。"
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "level": "verified",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "subCategory": "戦灰：鋭利",
+      "sourceIds": [
+        "v20-ash-routes",
+        "v21-r-ash-double"
+      ],
+      "verificationScope": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "detailFacts": [
+        {
+          "label": "収集区分",
+          "value": "戦灰：属性未照合"
+        },
+        {
+          "label": "必要条件",
+          "value": "記載地点への到達が必要。"
+        },
+        {
+          "label": "周回・複数入手",
+          "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+        },
+        {
+          "label": "戦灰・固有戦技の区別",
+          "value": "付け替え用の戦灰。武器固有戦技だけの項目ではありません。"
+        },
+        {
+          "label": "基本の付与属性",
+          "value": "鋭利"
+        },
+        {
+          "label": "使用可能な装備",
+          "value": "斬撃可能な剣・長柄武器（特大を除く）"
+        },
+        {
+          "label": "派生の注意",
+          "value": "ここで記載する属性は戦灰の基本属性。全派生選択肢や砥石刃による拡張の一覧ではありません。"
+        }
+      ],
+      "defaultAffinity": "鋭利",
+      "compatibleWeapons": "斬撃可能な剣・長柄武器（特大を除く）",
+      "unknownFields": []
+    },
+    "sourceIds": [
+      "r-ash-double"
+    ]
+  },
+  "v20-ash-dance": {
+    "reason": "戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+    "entryPatch": {
+      "facts": [
+        {
+          "label": "収集区分",
+          "value": "戦灰：属性未照合"
+        },
+        {
+          "label": "必要条件",
+          "value": "記載地点への到達が必要。"
+        },
+        {
+          "label": "周回・複数入手",
+          "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+        },
+        {
+          "label": "戦灰・固有戦技の区別",
+          "value": "付け替え用の戦灰。武器固有戦技だけの項目ではありません。"
+        },
+        {
+          "label": "基本の付与属性",
+          "value": "鋭利"
+        },
+        {
+          "label": "使用可能な装備",
+          "value": "斬撃可能な剣・斧・長柄武器（特大・大槌を除く）"
+        },
+        {
+          "label": "派生の注意",
+          "value": "ここで記載する属性は戦灰の基本属性。全派生選択肢や砥石刃による拡張の一覧ではありません。"
+        }
+      ],
+      "evidence": [
+        {
+          "sourceId": "v20-ash-routes",
+          "scope": "名称・分類・記載した代表取得先と条件の資料確認。装備対応・属性・解放品は記載した範囲だけ。実機・全経路・周回条件は未検証。"
+        },
+        {
+          "sourceId": "v21-r-ash-dance",
+          "scope": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        }
+      ],
+      "caveats": [
+        "資料で確認した代表取得経路。英語名・全取り逃し条件・一周の数量・周回再取得・実機のパッチ版は未確認。",
+        "本編の限定収録です。資料確認済みとゲーム内再現確認済みは区別しています。",
+        "Ver.21資料再照合：戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+        "基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。",
+        "対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。",
+        "入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。"
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "level": "verified",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "subCategory": "戦灰：鋭利",
+      "sourceIds": [
+        "v20-ash-routes",
+        "v21-r-ash-dance"
+      ],
+      "verificationScope": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "detailFacts": [
+        {
+          "label": "収集区分",
+          "value": "戦灰：属性未照合"
+        },
+        {
+          "label": "必要条件",
+          "value": "記載地点への到達が必要。"
+        },
+        {
+          "label": "周回・複数入手",
+          "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+        },
+        {
+          "label": "戦灰・固有戦技の区別",
+          "value": "付け替え用の戦灰。武器固有戦技だけの項目ではありません。"
+        },
+        {
+          "label": "基本の付与属性",
+          "value": "鋭利"
+        },
+        {
+          "label": "使用可能な装備",
+          "value": "斬撃可能な剣・斧・長柄武器（特大・大槌を除く）"
+        },
+        {
+          "label": "派生の注意",
+          "value": "ここで記載する属性は戦灰の基本属性。全派生選択肢や砥石刃による拡張の一覧ではありません。"
+        }
+      ],
+      "defaultAffinity": "鋭利",
+      "compatibleWeapons": "斬撃可能な剣・斧・長柄武器（特大・大槌を除く）",
+      "unknownFields": []
+    },
+    "sourceIds": [
+      "r-ash-dance"
+    ]
+  },
+  "v20-ash-square": {
+    "reason": "戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+    "entryPatch": {
+      "facts": [
+        {
+          "label": "収集区分",
+          "value": "戦灰：属性未照合"
+        },
+        {
+          "label": "必要条件",
+          "value": "記載地点への到達が必要。"
+        },
+        {
+          "label": "周回・複数入手",
+          "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+        },
+        {
+          "label": "戦灰・固有戦技の区別",
+          "value": "付け替え用の戦灰。武器固有戦技だけの項目ではありません。"
+        },
+        {
+          "label": "基本の付与属性",
+          "value": "上質"
+        },
+        {
+          "label": "使用可能な装備",
+          "value": "直剣"
+        },
+        {
+          "label": "派生の注意",
+          "value": "ここで記載する属性は戦灰の基本属性。全派生選択肢や砥石刃による拡張の一覧ではありません。"
+        }
+      ],
+      "evidence": [
+        {
+          "sourceId": "v20-ash-routes",
+          "scope": "名称・分類・記載した代表取得先と条件の資料確認。装備対応・属性・解放品は記載した範囲だけ。実機・全経路・周回条件は未検証。"
+        },
+        {
+          "sourceId": "v21-r-ash-square",
+          "scope": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        }
+      ],
+      "caveats": [
+        "資料で確認した代表取得経路。英語名・全取り逃し条件・一周の数量・周回再取得・実機のパッチ版は未確認。",
+        "本編の限定収録です。資料確認済みとゲーム内再現確認済みは区別しています。",
+        "Ver.21資料再照合：戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+        "基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。",
+        "対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。",
+        "入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。"
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "level": "verified",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "subCategory": "戦灰：上質",
+      "sourceIds": [
+        "v20-ash-routes",
+        "v21-r-ash-square"
+      ],
+      "verificationScope": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "detailFacts": [
+        {
+          "label": "収集区分",
+          "value": "戦灰：属性未照合"
+        },
+        {
+          "label": "必要条件",
+          "value": "記載地点への到達が必要。"
+        },
+        {
+          "label": "周回・複数入手",
+          "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+        },
+        {
+          "label": "戦灰・固有戦技の区別",
+          "value": "付け替え用の戦灰。武器固有戦技だけの項目ではありません。"
+        },
+        {
+          "label": "基本の付与属性",
+          "value": "上質"
+        },
+        {
+          "label": "使用可能な装備",
+          "value": "直剣"
+        },
+        {
+          "label": "派生の注意",
+          "value": "ここで記載する属性は戦灰の基本属性。全派生選択肢や砥石刃による拡張の一覧ではありません。"
+        }
+      ],
+      "defaultAffinity": "上質",
+      "compatibleWeapons": "直剣",
+      "unknownFields": []
+    },
+    "sourceIds": [
+      "r-ash-square"
+    ]
+  },
+  "v20-ash-charge": {
+    "reason": "戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+    "entryPatch": {
+      "facts": [
+        {
+          "label": "収集区分",
+          "value": "戦灰：属性未照合"
+        },
+        {
+          "label": "必要条件",
+          "value": "記載地点への到達が必要。"
+        },
+        {
+          "label": "周回・複数入手",
+          "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+        },
+        {
+          "label": "戦灰・固有戦技の区別",
+          "value": "付け替え用の戦灰。武器固有戦技だけの項目ではありません。"
+        },
+        {
+          "label": "基本の付与属性",
+          "value": "上質"
+        },
+        {
+          "label": "使用可能な装備",
+          "value": "刺突可能な長柄武器・重刺剣・両刃剣"
+        },
+        {
+          "label": "派生の注意",
+          "value": "ここで記載する属性は戦灰の基本属性。全派生選択肢や砥石刃による拡張の一覧ではありません。"
+        }
+      ],
+      "evidence": [
+        {
+          "sourceId": "v20-ash-routes",
+          "scope": "名称・分類・記載した代表取得先と条件の資料確認。装備対応・属性・解放品は記載した範囲だけ。実機・全経路・周回条件は未検証。"
+        },
+        {
+          "sourceId": "v21-r-ash-charge",
+          "scope": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        }
+      ],
+      "caveats": [
+        "資料で確認した代表取得経路。英語名・全取り逃し条件・一周の数量・周回再取得・実機のパッチ版は未確認。",
+        "本編の限定収録です。資料確認済みとゲーム内再現確認済みは区別しています。",
+        "Ver.21資料再照合：戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+        "基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。",
+        "対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。",
+        "入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。"
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "level": "verified",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "subCategory": "戦灰：上質",
+      "sourceIds": [
+        "v20-ash-routes",
+        "v21-r-ash-charge"
+      ],
+      "verificationScope": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "detailFacts": [
+        {
+          "label": "収集区分",
+          "value": "戦灰：属性未照合"
+        },
+        {
+          "label": "必要条件",
+          "value": "記載地点への到達が必要。"
+        },
+        {
+          "label": "周回・複数入手",
+          "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+        },
+        {
+          "label": "戦灰・固有戦技の区別",
+          "value": "付け替え用の戦灰。武器固有戦技だけの項目ではありません。"
+        },
+        {
+          "label": "基本の付与属性",
+          "value": "上質"
+        },
+        {
+          "label": "使用可能な装備",
+          "value": "刺突可能な長柄武器・重刺剣・両刃剣"
+        },
+        {
+          "label": "派生の注意",
+          "value": "ここで記載する属性は戦灰の基本属性。全派生選択肢や砥石刃による拡張の一覧ではありません。"
+        }
+      ],
+      "defaultAffinity": "上質",
+      "compatibleWeapons": "刺突可能な長柄武器・重刺剣・両刃剣",
+      "unknownFields": []
+    },
+    "sourceIds": [
+      "r-ash-charge"
+    ]
+  },
+  "v20-ash-raptors": {
+    "reason": "戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+    "entryPatch": {
+      "facts": [
+        {
+          "label": "収集区分",
+          "value": "戦灰：属性未照合"
+        },
+        {
+          "label": "必要条件",
+          "value": "ユラのイベントを学院正門前の共闘まで進める。学院へ入る方向と逆、北東の橋の赤サインから協力する。"
+        },
+        {
+          "label": "周回・複数入手",
+          "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+        },
+        {
+          "label": "戦灰・固有戦技の区別",
+          "value": "付け替え用の戦灰。武器固有戦技だけの項目ではありません。"
+        },
+        {
+          "label": "基本の付与属性",
+          "value": "鋭利"
+        },
+        {
+          "label": "使用可能な装備",
+          "value": "全ての近接武器"
+        },
+        {
+          "label": "派生の注意",
+          "value": "ここで記載する属性は戦灰の基本属性。全派生選択肢や砥石刃による拡張の一覧ではありません。"
+        }
+      ],
+      "evidence": [
+        {
+          "sourceId": "v20-ash-routes",
+          "scope": "名称・分類・記載した代表取得先と条件の資料確認。装備対応・属性・解放品は記載した範囲だけ。実機・全経路・周回条件は未検証。"
+        },
+        {
+          "sourceId": "v20-yura",
+          "scope": "名称・分類・記載した代表取得先と条件の資料確認。装備対応・属性・解放品は記載した範囲だけ。実機・全経路・周回条件は未検証。"
+        },
+        {
+          "sourceId": "v21-r-ash-raptors",
+          "scope": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        }
+      ],
+      "caveats": [
+        "資料で確認した代表取得経路。英語名・全取り逃し条件・一周の数量・周回再取得・実機のパッチ版は未確認。",
+        "本編の限定収録です。資料確認済みとゲーム内再現確認済みは区別しています。",
+        "取得前のユラの死亡・イベント終了に注意。資料では巨人たちの山嶺への到達でイベントが終了するため、先に学院正門前の共闘を終える。共闘中の霊体ユラの敗北と本人の死亡は区別する。",
+        "Ver.21資料再照合：戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+        "基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。",
+        "対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。",
+        "入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。"
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "level": "verified",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "subCategory": "戦灰：鋭利",
+      "sourceIds": [
+        "v20-ash-routes",
+        "v20-yura",
+        "v21-r-ash-raptors"
+      ],
+      "verificationScope": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "detailFacts": [
+        {
+          "label": "収集区分",
+          "value": "戦灰：属性未照合"
+        },
+        {
+          "label": "必要条件",
+          "value": "ユラのイベントを学院正門前の共闘まで進める。学院へ入る方向と逆、北東の橋の赤サインから協力する。"
+        },
+        {
+          "label": "周回・複数入手",
+          "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+        },
+        {
+          "label": "戦灰・固有戦技の区別",
+          "value": "付け替え用の戦灰。武器固有戦技だけの項目ではありません。"
+        },
+        {
+          "label": "基本の付与属性",
+          "value": "鋭利"
+        },
+        {
+          "label": "使用可能な装備",
+          "value": "全ての近接武器"
+        },
+        {
+          "label": "派生の注意",
+          "value": "ここで記載する属性は戦灰の基本属性。全派生選択肢や砥石刃による拡張の一覧ではありません。"
+        }
+      ],
+      "defaultAffinity": "鋭利",
+      "compatibleWeapons": "全ての近接武器",
+      "unknownFields": []
+    },
+    "sourceIds": [
+      "r-ash-raptors"
+    ]
+  },
+  "v20-ash-beast": {
+    "reason": "戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+    "entryPatch": {
+      "facts": [
+        {
+          "label": "収集区分",
+          "value": "戦灰：属性未照合"
+        },
+        {
+          "label": "必要条件",
+          "value": "記載地点への到達が必要。"
+        },
+        {
+          "label": "周回・複数入手",
+          "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+        },
+        {
+          "label": "戦灰・固有戦技の区別",
+          "value": "付け替え用の戦灰。武器固有戦技だけの項目ではありません。"
+        },
+        {
+          "label": "基本の付与属性",
+          "value": "鋭利"
+        },
+        {
+          "label": "使用可能な装備",
+          "value": "全ての近接武器"
+        },
+        {
+          "label": "派生の注意",
+          "value": "ここで記載する属性は戦灰の基本属性。全派生選択肢や砥石刃による拡張の一覧ではありません。"
+        }
+      ],
+      "evidence": [
+        {
+          "sourceId": "v20-ash-routes",
+          "scope": "名称・分類・記載した代表取得先と条件の資料確認。装備対応・属性・解放品は記載した範囲だけ。実機・全経路・周回条件は未検証。"
+        },
+        {
+          "sourceId": "v21-r-ash-beast",
+          "scope": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        }
+      ],
+      "caveats": [
+        "資料で確認した代表取得経路。英語名・全取り逃し条件・一周の数量・周回再取得・実機のパッチ版は未確認。",
+        "本編の限定収録です。資料確認済みとゲーム内再現確認済みは区別しています。",
+        "Ver.21資料再照合：戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+        "基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。",
+        "対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。",
+        "入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。"
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "level": "verified",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "subCategory": "戦灰：鋭利",
+      "sourceIds": [
+        "v20-ash-routes",
+        "v21-r-ash-beast"
+      ],
+      "verificationScope": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "detailFacts": [
+        {
+          "label": "収集区分",
+          "value": "戦灰：属性未照合"
+        },
+        {
+          "label": "必要条件",
+          "value": "記載地点への到達が必要。"
+        },
+        {
+          "label": "周回・複数入手",
+          "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+        },
+        {
+          "label": "戦灰・固有戦技の区別",
+          "value": "付け替え用の戦灰。武器固有戦技だけの項目ではありません。"
+        },
+        {
+          "label": "基本の付与属性",
+          "value": "鋭利"
+        },
+        {
+          "label": "使用可能な装備",
+          "value": "全ての近接武器"
+        },
+        {
+          "label": "派生の注意",
+          "value": "ここで記載する属性は戦灰の基本属性。全派生選択肢や砥石刃による拡張の一覧ではありません。"
+        }
+      ],
+      "defaultAffinity": "鋭利",
+      "compatibleWeapons": "全ての近接武器",
+      "unknownFields": []
+    },
+    "sourceIds": [
+      "r-ash-beast"
+    ]
+  },
+  "v20-ash-determination": {
+    "reason": "戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+    "entryPatch": {
+      "facts": [
+        {
+          "label": "収集区分",
+          "value": "戦灰：属性未照合"
+        },
+        {
+          "label": "必要条件",
+          "value": "記載地点へ到達する。"
+        },
+        {
+          "label": "周回・複数入手",
+          "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+        },
+        {
+          "label": "戦灰・固有戦技の区別",
+          "value": "付け替え用の戦灰。武器固有戦技だけの項目ではありません。"
+        },
+        {
+          "label": "基本の付与属性",
+          "value": "上質"
+        },
+        {
+          "label": "使用可能な装備",
+          "value": "全ての近接武器"
+        },
+        {
+          "label": "派生の注意",
+          "value": "ここで記載する属性は戦灰の基本属性。全派生選択肢や砥石刃による拡張の一覧ではありません。"
+        }
+      ],
+      "evidence": [
+        {
+          "sourceId": "v20-ash-list",
+          "scope": "名称・分類・記載した代表取得先と条件の資料確認。装備対応・属性・解放品は記載した範囲だけ。実機・全経路・周回条件は未検証。"
+        },
+        {
+          "sourceId": "v21-r-ash-determination",
+          "scope": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        }
+      ],
+      "caveats": [
+        "資料で確認した代表取得経路。英語名・全取り逃し条件・一周の数量・周回再取得・実機のパッチ版は未確認。",
+        "本編の限定収録です。資料確認済みとゲーム内再現確認済みは区別しています。",
+        "Ver.21資料再照合：戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+        "基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。",
+        "対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。",
+        "入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。"
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "level": "verified",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "subCategory": "戦灰：上質",
+      "sourceIds": [
+        "v20-ash-list",
+        "v21-r-ash-determination"
+      ],
+      "verificationScope": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "detailFacts": [
+        {
+          "label": "収集区分",
+          "value": "戦灰：属性未照合"
+        },
+        {
+          "label": "必要条件",
+          "value": "記載地点へ到達する。"
+        },
+        {
+          "label": "周回・複数入手",
+          "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+        },
+        {
+          "label": "戦灰・固有戦技の区別",
+          "value": "付け替え用の戦灰。武器固有戦技だけの項目ではありません。"
+        },
+        {
+          "label": "基本の付与属性",
+          "value": "上質"
+        },
+        {
+          "label": "使用可能な装備",
+          "value": "全ての近接武器"
+        },
+        {
+          "label": "派生の注意",
+          "value": "ここで記載する属性は戦灰の基本属性。全派生選択肢や砥石刃による拡張の一覧ではありません。"
+        }
+      ],
+      "defaultAffinity": "上質",
+      "compatibleWeapons": "全ての近接武器",
+      "unknownFields": []
+    },
+    "sourceIds": [
+      "r-ash-determination"
+    ]
+  },
+  "v20-ash-storm-stomp": {
+    "reason": "戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+    "entryPatch": {
+      "facts": [
+        {
+          "label": "収集区分",
+          "value": "戦灰：属性未照合"
+        },
+        {
+          "label": "必要条件",
+          "value": "記載地点へ到達する。"
+        },
+        {
+          "label": "周回・複数入手",
+          "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+        },
+        {
+          "label": "戦灰・固有戦技の区別",
+          "value": "付け替え用の戦灰。武器固有戦技だけの項目ではありません。"
+        },
+        {
+          "label": "基本の付与属性",
+          "value": "上質"
+        },
+        {
+          "label": "使用可能な装備",
+          "value": "全ての近接武器"
+        },
+        {
+          "label": "派生の注意",
+          "value": "ここで記載する属性は戦灰の基本属性。全派生選択肢や砥石刃による拡張の一覧ではありません。"
+        }
+      ],
+      "evidence": [
+        {
+          "sourceId": "v20-ash-list",
+          "scope": "名称・分類・記載した代表取得先と条件の資料確認。装備対応・属性・解放品は記載した範囲だけ。実機・全経路・周回条件は未検証。"
+        },
+        {
+          "sourceId": "v21-r-ash-storm-stomp",
+          "scope": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        }
+      ],
+      "caveats": [
+        "資料で確認した代表取得経路。英語名・全取り逃し条件・一周の数量・周回再取得・実機のパッチ版は未確認。",
+        "本編の限定収録です。資料確認済みとゲーム内再現確認済みは区別しています。",
+        "Ver.21資料再照合：戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+        "基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。",
+        "対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。",
+        "入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。"
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "level": "verified",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "subCategory": "戦灰：上質",
+      "sourceIds": [
+        "v20-ash-list",
+        "v21-r-ash-storm-stomp"
+      ],
+      "verificationScope": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "detailFacts": [
+        {
+          "label": "収集区分",
+          "value": "戦灰：属性未照合"
+        },
+        {
+          "label": "必要条件",
+          "value": "記載地点へ到達する。"
+        },
+        {
+          "label": "周回・複数入手",
+          "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+        },
+        {
+          "label": "戦灰・固有戦技の区別",
+          "value": "付け替え用の戦灰。武器固有戦技だけの項目ではありません。"
+        },
+        {
+          "label": "基本の付与属性",
+          "value": "上質"
+        },
+        {
+          "label": "使用可能な装備",
+          "value": "全ての近接武器"
+        },
+        {
+          "label": "派生の注意",
+          "value": "ここで記載する属性は戦灰の基本属性。全派生選択肢や砥石刃による拡張の一覧ではありません。"
+        }
+      ],
+      "defaultAffinity": "上質",
+      "compatibleWeapons": "全ての近接武器",
+      "unknownFields": []
+    },
+    "sourceIds": [
+      "r-ash-storm-stomp"
+    ]
+  },
+  "v20-ash-storm-assault": {
+    "reason": "戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+    "entryPatch": {
+      "facts": [
+        {
+          "label": "収集区分",
+          "value": "戦灰：属性未照合"
+        },
+        {
+          "label": "必要条件",
+          "value": "記載地点へ到達する。"
+        },
+        {
+          "label": "周回・複数入手",
+          "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+        },
+        {
+          "label": "戦灰・固有戦技の区別",
+          "value": "付け替え用の戦灰。武器固有戦技だけの項目ではありません。"
+        },
+        {
+          "label": "基本の付与属性",
+          "value": "上質"
+        },
+        {
+          "label": "使用可能な装備",
+          "value": "刺突可能な長柄武器・重刺剣・両刃剣"
+        },
+        {
+          "label": "派生の注意",
+          "value": "ここで記載する属性は戦灰の基本属性。全派生選択肢や砥石刃による拡張の一覧ではありません。"
+        }
+      ],
+      "evidence": [
+        {
+          "sourceId": "v20-ash-list",
+          "scope": "名称・分類・記載した代表取得先と条件の資料確認。装備対応・属性・解放品は記載した範囲だけ。実機・全経路・周回条件は未検証。"
+        },
+        {
+          "sourceId": "v21-r-ash-storm-assault",
+          "scope": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        }
+      ],
+      "caveats": [
+        "資料で確認した代表取得経路。英語名・全取り逃し条件・一周の数量・周回再取得・実機のパッチ版は未確認。",
+        "本編の限定収録です。資料確認済みとゲーム内再現確認済みは区別しています。",
+        "Ver.21資料再照合：戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+        "基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。",
+        "対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。",
+        "入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。"
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "level": "verified",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "subCategory": "戦灰：上質",
+      "sourceIds": [
+        "v20-ash-list",
+        "v21-r-ash-storm-assault"
+      ],
+      "verificationScope": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "detailFacts": [
+        {
+          "label": "収集区分",
+          "value": "戦灰：属性未照合"
+        },
+        {
+          "label": "必要条件",
+          "value": "記載地点へ到達する。"
+        },
+        {
+          "label": "周回・複数入手",
+          "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+        },
+        {
+          "label": "戦灰・固有戦技の区別",
+          "value": "付け替え用の戦灰。武器固有戦技だけの項目ではありません。"
+        },
+        {
+          "label": "基本の付与属性",
+          "value": "上質"
+        },
+        {
+          "label": "使用可能な装備",
+          "value": "刺突可能な長柄武器・重刺剣・両刃剣"
+        },
+        {
+          "label": "派生の注意",
+          "value": "ここで記載する属性は戦灰の基本属性。全派生選択肢や砥石刃による拡張の一覧ではありません。"
+        }
+      ],
+      "defaultAffinity": "上質",
+      "compatibleWeapons": "刺突可能な長柄武器・重刺剣・両刃剣",
+      "unknownFields": []
+    },
+    "sourceIds": [
+      "r-ash-storm-assault"
+    ]
+  },
+  "v20-ash-ice-spear": {
+    "reason": "戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+    "entryPatch": {
+      "facts": [
+        {
+          "label": "収集区分",
+          "value": "戦灰：属性未照合"
+        },
+        {
+          "label": "必要条件",
+          "value": "夜の騎兵は夜に訪問する。"
+        },
+        {
+          "label": "周回・複数入手",
+          "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+        },
+        {
+          "label": "戦灰・固有戦技の区別",
+          "value": "付け替え用の戦灰。武器固有戦技だけの項目ではありません。"
+        },
+        {
+          "label": "基本の付与属性",
+          "value": "冷気"
+        },
+        {
+          "label": "使用可能な装備",
+          "value": "刺突可能な長柄武器・両刃剣"
+        },
+        {
+          "label": "派生の注意",
+          "value": "ここで記載する属性は戦灰の基本属性。全派生選択肢や砥石刃による拡張の一覧ではありません。"
+        }
+      ],
+      "evidence": [
+        {
+          "sourceId": "v20-ash-list",
+          "scope": "名称・分類・記載した代表取得先と条件の資料確認。装備対応・属性・解放品は記載した範囲だけ。実機・全経路・周回条件は未検証。"
+        },
+        {
+          "sourceId": "v21-r-ash-ice-spear",
+          "scope": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。"
+        }
+      ],
+      "caveats": [
+        "資料で確認した代表取得経路。英語名・全取り逃し条件・一周の数量・周回再取得・実機のパッチ版は未確認。",
+        "本編の限定収録です。資料確認済みとゲーム内再現確認済みは区別しています。",
+        "Ver.21資料再照合：戦灰の個別資料の基本性能・使用可能装備欄を照合。検証範囲は指定したフィールドのみ。",
+        "基本付与属性を記録。砥石刃による全派生属性の選択肢は今回の検証対象外。",
+        "対応武器種は資料の分類。戦灰付替え不可の固有武器・全ての個別例外を検証した一覧ではない。",
+        "入手方法・全取得ルート・周回再入手・現行パッチ再現を一括して検証済みとするものではない。"
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "level": "verified",
+        "checkedAt": "2026-11-16",
+        "method": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+        "gameplayTested": false
+      }
+    },
+    "collectionPatch": {
+      "subCategory": "戦灰：冷気",
+      "sourceIds": [
+        "v20-ash-list",
+        "v21-r-ash-ice-spear"
+      ],
+      "verificationScope": "今回の資料再照合フィールド：defaultAffinity, compatibleWeapons。それ以外の全取得経路・個別例外・数量・周回・実機再現は未確認。",
+      "detailFacts": [
+        {
+          "label": "収集区分",
+          "value": "戦灰：属性未照合"
+        },
+        {
+          "label": "必要条件",
+          "value": "夜の騎兵は夜に訪問する。"
+        },
+        {
+          "label": "周回・複数入手",
+          "value": "未検証。累積の取得記録であり、現在の所持数や周回別の取得数ではありません。"
+        },
+        {
+          "label": "戦灰・固有戦技の区別",
+          "value": "付け替え用の戦灰。武器固有戦技だけの項目ではありません。"
+        },
+        {
+          "label": "基本の付与属性",
+          "value": "冷気"
+        },
+        {
+          "label": "使用可能な装備",
+          "value": "刺突可能な長柄武器・両刃剣"
+        },
+        {
+          "label": "派生の注意",
+          "value": "ここで記載する属性は戦灰の基本属性。全派生選択肢や砥石刃による拡張の一覧ではありません。"
+        }
+      ],
+      "defaultAffinity": "冷気",
+      "compatibleWeapons": "刺突可能な長柄武器・両刃剣",
+      "unknownFields": []
+    },
+    "sourceIds": [
+      "r-ash-ice-spear"
+    ]
+  },
+  "v20-armor-veteran": {
+    "reason": "シリーズ/部位の関連リンクと表示分類。取得チェックの推定・変更なし。",
+    "entryPatch": {
+      "related": [
+        "boss-fire-giant",
+        "v21-armor-veteran-head",
+        "v21-armor-veteran-chest",
+        "v21-armor-veteran-arms",
+        "v21-armor-veteran-legs",
+        "v21-armor-veteran-chest-altered"
+      ]
+    },
+    "collectionPatch": {
+      "relatedEntryIds": [
+        "boss-fire-giant",
+        "v21-armor-veteran-head",
+        "v21-armor-veteran-chest",
+        "v21-armor-veteran-arms",
+        "v21-armor-veteran-legs",
+        "v21-armor-veteran-chest-altered"
+      ],
+      "componentEntryIds": [
+        "v21-armor-veteran-head",
+        "v21-armor-veteran-chest",
+        "v21-armor-veteran-arms",
+        "v21-armor-veteran-legs"
+      ]
+    },
+    "sourceIds": []
+  },
+  "v20-armor-banished": {
+    "reason": "シリーズ/部位の関連リンクと表示分類。取得チェックの推定・変更なし。",
+    "entryPatch": {
+      "related": [
+        "area-stormveil",
+        "v21-armor-banished-head-altered",
+        "v21-armor-banished-head",
+        "v21-armor-banished-chest-altered",
+        "v21-armor-banished-chest",
+        "v21-armor-banished-arms",
+        "v21-armor-banished-legs"
+      ]
+    },
+    "collectionPatch": {
+      "relatedEntryIds": [
+        "area-stormveil",
+        "v21-armor-banished-head-altered",
+        "v21-armor-banished-head",
+        "v21-armor-banished-chest-altered",
+        "v21-armor-banished-chest",
+        "v21-armor-banished-arms",
+        "v21-armor-banished-legs"
+      ],
+      "componentEntryIds": [
+        "v21-armor-banished-head-altered",
+        "v21-armor-banished-chest-altered",
+        "v21-armor-banished-arms",
+        "v21-armor-banished-legs"
+      ]
+    },
+    "sourceIds": []
+  },
+  "v20-armor-blaidd": {
+    "reason": "シリーズ/部位の関連リンクと表示分類。取得チェックの推定・変更なし。",
+    "entryPatch": {
+      "related": [
+        "area-liurnia",
+        "v20-armor-wolfmask",
+        "npc-ranni-late",
+        "v21-armor-blaidd-chest",
+        "v21-armor-blaidd-arms",
+        "v21-armor-blaidd-legs",
+        "v21-armor-blaidd-chest-altered"
+      ]
+    },
+    "collectionPatch": {
+      "relatedEntryIds": [
+        "area-liurnia",
+        "v20-armor-wolfmask",
+        "npc-ranni-late",
+        "v21-armor-blaidd-chest",
+        "v21-armor-blaidd-arms",
+        "v21-armor-blaidd-legs",
+        "v21-armor-blaidd-chest-altered"
+      ],
+      "componentEntryIds": [
+        "v21-armor-blaidd-chest",
+        "v21-armor-blaidd-arms",
+        "v21-armor-blaidd-legs"
+      ]
+    },
+    "sourceIds": []
+  },
+  "v20-armor-wolfmask": {
+    "reason": "シリーズ/部位の関連リンクと表示分類。取得チェックの推定・変更なし。",
+    "entryPatch": {},
+    "collectionPatch": {
+      "armorSlot": "head",
+      "variant": "normal"
+    },
+    "sourceIds": []
+  }
+}

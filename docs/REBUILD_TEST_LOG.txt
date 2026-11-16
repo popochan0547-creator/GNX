@@ -1,0 +1,1 @@
+Rebuild deterministic: 618 source/data/page files byte-identical after full rebuild.
